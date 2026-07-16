@@ -3,6 +3,8 @@
 import Image from "next/image";
 import { useRef, useState } from "react";
 
+import { publicPath } from "@/lib/publicPath";
+
 export type SimulatorValues = {
   handlebarHeight: number;
   handlebarAngle: number;
@@ -287,15 +289,15 @@ export function ControlSidebar({ values, defaultValues, onChange, onBack, onSave
               onClick={() => scrollToSection(item.id)}
             >
               <span className="motomate-rail-label">{item.shortLabel}</span>
-              <Image className="motomate-rail-icon" src={item.icon} alt="" height={38} width={38} unoptimized />
+              <Image className="motomate-rail-icon" src={publicPath(item.icon)} alt="" height={38} width={38} unoptimized />
             </button>
           ))}
         </div>
         <button className="motomate-rail-save" type="button" aria-label="保存" title="保存" onClick={onSave}>
-          <Image src="/motomate/save.2ad46c25.png" alt="" height={32} width={32} unoptimized />
+          <Image src={publicPath("/motomate/save.2ad46c25.png")} alt="" height={32} width={32} unoptimized />
         </button>
         <button className="motomate-rail-back" type="button" aria-label="返回车型选择" title="返回" onClick={onBack}>
-          <Image src="/motomate/back.4a05c013.png" alt="" height={32} width={32} unoptimized />
+          <Image src={publicPath("/motomate/back.4a05c013.png")} alt="" height={32} width={32} unoptimized />
         </button>
       </nav>
 

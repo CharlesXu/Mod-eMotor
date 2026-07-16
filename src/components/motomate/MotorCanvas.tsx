@@ -5,6 +5,7 @@ import { useMemo, useState } from "react";
 
 import modelGeometryProfiles from "../../data/motomate-geometry-profiles.json";
 import modelLineAssets from "../../data/motomate-line-assets.json";
+import { publicPath } from "@/lib/publicPath";
 import type { SimulatorValues } from "./ControlSidebar";
 import DynamicVehicleLine from "./DynamicVehicleLine";
 import OriginalMechanicalLayer from "./OriginalMechanicalLayer";
@@ -57,7 +58,7 @@ function clamp(value: number, minimum: number, maximum: number): number {
 
 function localImageFor(model: MotorCanvasModel, imageSrc?: string): string | null {
   if (model.name.toLowerCase().replaceAll(" ", "") === "kz110") {
-    return "/motomate/Ninebot_Kz110.394b728e.png";
+    return publicPath("/motomate/Ninebot_Kz110.394b728e.png");
   }
 
   const source = imageSrc || model.image;
@@ -72,9 +73,9 @@ function localImageFor(model: MotorCanvasModel, imageSrc?: string): string | nul
       }
     })
     .join("/");
-  if (source.startsWith("/motomate/")) return encodeLocalPath(source);
+  if (source.startsWith("/motomate/")) return publicPath(encodeLocalPath(source));
   const assetName = source.split("/assets/").at(-1);
-  return assetName ? encodeLocalPath(`/motomate/${assetName}`) : source;
+  return assetName ? publicPath(encodeLocalPath(`/motomate/${assetName}`)) : source;
 }
 
 function signed(value: number, digits = 0): string {
@@ -97,7 +98,7 @@ export default function MotorCanvas({ brand, model, values, defaultValues, image
   const modelBaseline = useMemo(() => computeSimulationGeometry(defaultValues), [defaultValues]);
   const vehicleImage = useMemo(() => localImageFor(model, imageSrc), [imageSrc, model]);
   const modelKey = `${brand}/${model.name}`;
-  const bodyLineHref = MODEL_LINE_ASSETS[modelKey];
+  const bodyLineHref = MODEL_LINE_ASSETS[modelKey] ? publicPath(MODEL_LINE_ASSETS[modelKey]) : undefined;
   const geometryProfile = MODEL_GEOMETRY_PROFILES[modelKey];
   const geometry = useMemo(
     () => geometryProfile

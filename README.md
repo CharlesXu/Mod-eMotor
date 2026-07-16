@@ -4,6 +4,20 @@
 
 这是一个独立的网站源码仓库，不包含网站克隆技能、Agent 配置、抓取脚本或研究资料。运行时不需要激活码、账号、数据库或外部 API。
 
+在线版本：[https://charlesxu.github.io/Mod-eMotor/](https://charlesxu.github.io/Mod-eMotor/)
+
+## GitHub Pages 自动部署
+
+推送到 `main` 分支后，[Deploy GitHub Pages](.github/workflows/deploy-pages.yml) 会自动完成依赖安装、代码检查、静态构建和发布。
+
+部署地址：
+
+```text
+https://charlesxu.github.io/Mod-eMotor/
+```
+
+也可以在 GitHub 仓库的 **Actions → Deploy GitHub Pages → Run workflow** 手动重新部署。
+
 ## 环境要求
 
 - Git

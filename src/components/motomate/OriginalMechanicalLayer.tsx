@@ -1,6 +1,7 @@
 import Image from "next/image";
 
 import mechanicalProfileData from "../../data/motomate-mechanical-profiles.json";
+import { publicPath } from "@/lib/publicPath";
 import type { SimulatorValues } from "./ControlSidebar";
 import type { Point, SimulationGeometry } from "./simulationGeometry";
 import styles from "./OriginalMechanicalLayer.module.css";
@@ -36,14 +37,14 @@ type WheelGeometry = SimulationGeometry["frontWheel"];
 
 const PROFILES = mechanicalProfileData as Readonly<Record<string, MechanicalProfile>>;
 const PARTS_ROOT = "/motomate/original-parts";
-const DISC_SRC = `${PARTS_ROOT}/disc.bb55ca51.png`;
-const FRONT_FENDER_SRC = `${PARTS_ROOT}/fender_front.1e9857a9.png`;
-const REAR_FENDER_SRC = `${PARTS_ROOT}/fender_back.c84bddef.png`;
-const FRONT_BOTTLE_P1 = `${PARTS_ROOT}/bottle_F_z1.69bfdc7f.png`;
-const FRONT_BOTTLE_P2 = `${PARTS_ROOT}/bottle_F_z2.eb818b6c.png`;
-const REAR_BOTTLE_P1 = `${PARTS_ROOT}/bottle_B_z1.08e0a20c.png`;
-const REAR_BOTTLE_P2 = `${PARTS_ROOT}/bottle_B_z2.644343dc.png`;
-const REAR_BOTTLE_P3 = `${PARTS_ROOT}/bottle_B_z3.1980ac73.png`;
+const DISC_SRC = publicPath(`${PARTS_ROOT}/disc.bb55ca51.png`);
+const FRONT_FENDER_SRC = publicPath(`${PARTS_ROOT}/fender_front.1e9857a9.png`);
+const REAR_FENDER_SRC = publicPath(`${PARTS_ROOT}/fender_back.c84bddef.png`);
+const FRONT_BOTTLE_P1 = publicPath(`${PARTS_ROOT}/bottle_F_z1.69bfdc7f.png`);
+const FRONT_BOTTLE_P2 = publicPath(`${PARTS_ROOT}/bottle_F_z2.eb818b6c.png`);
+const REAR_BOTTLE_P1 = publicPath(`${PARTS_ROOT}/bottle_B_z1.08e0a20c.png`);
+const REAR_BOTTLE_P2 = publicPath(`${PARTS_ROOT}/bottle_B_z2.644343dc.png`);
+const REAR_BOTTLE_P3 = publicPath(`${PARTS_ROOT}/bottle_B_z3.1980ac73.png`);
 
 function finite(value: unknown, fallback = 0): number {
   return typeof value === "number" && Number.isFinite(value) ? value : fallback;

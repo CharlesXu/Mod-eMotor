@@ -6,6 +6,7 @@ import { useMemo, useState } from "react";
 import catalogData from "@/data/motomate-catalog.json";
 import lineAssetData from "@/data/motomate-line-assets.json";
 import thumbnailAssetData from "@/data/motomate-thumbnail-assets.json";
+import { publicPath } from "@/lib/publicPath";
 
 export type VehicleModel = Readonly<{
   index: number;
@@ -52,7 +53,7 @@ function VehicleArtwork({
   const modelKey = `${brand}/${model.name}`;
   const imagePath = model.image || thumbnailAssets[modelKey] || lineAssets[modelKey];
 
-  if (imagePath) return <Image alt={model.name} fill sizes={`${width}px`} src={imagePath} unoptimized />;
+  if (imagePath) return <Image alt={model.name} fill sizes={`${width}px`} src={publicPath(imagePath)} unoptimized />;
   return <span className="motomate-model-placeholder">NO IMAGE</span>;
 }
 
@@ -91,7 +92,7 @@ export default function VehicleSelector({ onLoad }: VehicleSelectorProps) {
             }}
             type="button"
           >
-            <Image alt="" height={36} src={brandIcons[brand.brand]} unoptimized width={36} />
+            <Image alt="" height={36} src={publicPath(brandIcons[brand.brand])} unoptimized width={36} />
             <span>{brand.brand}</span>
           </button>
         ))}
