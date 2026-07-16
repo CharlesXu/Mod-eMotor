@@ -186,6 +186,7 @@ button {
   left: 20px;
   width: 130px;
   height: 100px;
+  overflow: hidden;
 }
 
 .motomate-model-image-wrap img,
@@ -223,6 +224,7 @@ button {
   left: 20px;
   width: 120px;
   height: 100px;
+  overflow: hidden;
 }
 
 .motomate-start-button {

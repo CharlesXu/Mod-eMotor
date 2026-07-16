@@ -5,7 +5,7 @@ import { useMemo, useState } from "react";
 
 import catalogData from "@/data/motomate-catalog.json";
 import lineAssetData from "@/data/motomate-line-assets.json";
-import photoAssetData from "@/data/motomate-photo-assets.json";
+import thumbnailAssetData from "@/data/motomate-thumbnail-assets.json";
 
 export type VehicleModel = Readonly<{
   index: number;
@@ -25,7 +25,7 @@ type VehicleSelectorProps = Readonly<{
 
 const catalog: readonly VehicleBrand[] = catalogData;
 const lineAssets: Readonly<Record<string, string>> = lineAssetData;
-const photoAssets: Readonly<Record<string, string>> = photoAssetData;
+const thumbnailAssets: Readonly<Record<string, string>> = thumbnailAssetData;
 
 const brandIcons: Readonly<Record<string, string>> = {
   ZEEKU: "/motomate/ZEEKU.82855666.png",
@@ -44,9 +44,16 @@ const defaultBrand = catalog.find(({ brand }) => brand === "ninebot") ?? catalog
 const defaultModel =
   defaultBrand.models.find(({ name }) => name === "Kz110") ?? defaultBrand.models[0];
 
-function localImagePath(brand: string, model: VehicleModel): string | null {
+function VehicleArtwork({
+  brand,
+  model,
+  width,
+}: Readonly<{ brand: string; model: VehicleModel; width: number }>) {
   const modelKey = `${brand}/${model.name}`;
-  return model.image || photoAssets[modelKey] || lineAssets[modelKey] || null;
+  const imagePath = model.image || thumbnailAssets[modelKey] || lineAssets[modelKey];
+
+  if (imagePath) return <Image alt={model.name} fill sizes={`${width}px`} src={imagePath} unoptimized />;
+  return <span className="motomate-model-placeholder">NO IMAGE</span>;
 }
 
 export default function VehicleSelector({ onLoad }: VehicleSelectorProps) {
@@ -70,8 +77,6 @@ export default function VehicleSelector({ onLoad }: VehicleSelectorProps) {
       ),
     );
   }, [currentBrand]);
-
-  const promotedImage = localImagePath(selection.brand, selection.model);
 
   return (
     <main className="motomate-selector">
@@ -104,7 +109,6 @@ export default function VehicleSelector({ onLoad }: VehicleSelectorProps) {
               <h2>{category}</h2>
               <div className="motomate-model-list">
                 {models.map((model) => {
-                  const imagePath = localImagePath(currentBrand.brand, model);
                   const selected =
                     selection.brand === currentBrand.brand && selection.model.index === model.index;
                   return (
@@ -118,11 +122,7 @@ export default function VehicleSelector({ onLoad }: VehicleSelectorProps) {
                       type="button"
                     >
                       <span className="motomate-model-image-wrap">
-                        {imagePath ? (
-                          <Image alt={model.name} fill sizes="140px" src={imagePath} unoptimized />
-                        ) : (
-                          <span className="motomate-model-placeholder">NO IMAGE</span>
-                        )}
+                        <VehicleArtwork brand={currentBrand.brand} model={model} width={130} />
                       </span>
                       <span>{model.name}</span>
                     </button>
@@ -136,9 +136,7 @@ export default function VehicleSelector({ onLoad }: VehicleSelectorProps) {
 
       <aside className="motomate-promoted-card">
         <span className="motomate-promoted-image-wrap">
-          {promotedImage ? (
-            <Image alt={selection.model.name} fill sizes="120px" src={promotedImage} unoptimized />
-          ) : null}
+          <VehicleArtwork brand={selection.brand} model={selection.model} width={120} />
         </span>
         <span>{selection.model.name}</span>
       </aside>
