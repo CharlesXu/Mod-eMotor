@@ -32,6 +32,31 @@ nvm use
 
 Windows 用户可在 PowerShell 中直接执行相同的 `npm` 命令。
 
+### Linux 出现 `next.config.ts is not supported`
+
+本项目通过 `package-lock.json` 固定使用支持 TypeScript 配置文件的 Next.js 16。正常情况下应先运行 `npm ci`，不要跳过依赖初始化，也不需要每次强制升级到 `latest`。
+
+如果曾经使用过旧版依赖，请清理本地安装后重新初始化：
+
+```bash
+rm -rf node_modules .next
+npm ci
+npm run dev
+```
+
+确认项目实际使用的 Next.js 版本：
+
+```bash
+npx next --version
+```
+
+只有在你明确希望把项目升级到最新框架版本时，才执行下面的命令。它会修改本机的 `package-lock.json`：
+
+```bash
+npm install next@latest react@latest react-dom@latest eslint-config-next@latest
+npm run dev
+```
+
 ## 生产环境运行
 
 ```bash

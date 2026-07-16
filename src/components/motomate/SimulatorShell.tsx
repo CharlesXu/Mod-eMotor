@@ -4,6 +4,7 @@ import { useMemo, useState } from "react";
 
 import catalogData from "@/data/motomate-catalog.json";
 import mechanicalProfileData from "@/data/motomate-mechanical-profiles.json";
+import photoAssetData from "@/data/motomate-photo-assets.json";
 import { ControlSidebar, type SimulatorValues } from "./ControlSidebar";
 import MotorCanvas from "./MotorCanvas";
 import VehicleSelector, { type VehicleModel } from "./VehicleSelector";
@@ -15,6 +16,7 @@ const catalog = catalogData as readonly Readonly<{
 const mechanicalProfiles = mechanicalProfileData as Readonly<Record<string, Readonly<{
   defaults: Partial<SimulatorValues>;
 }>>>;
+const photoAssets: Readonly<Record<string, string>> = photoAssetData;
 const storageKeyPrefix = "mod-emotor:simulator:";
 
 const initialValues: SimulatorValues = {
@@ -187,7 +189,7 @@ export default function SimulatorShell() {
       <MotorCanvas
         brand={selection.brand}
         defaultValues={defaults}
-        imageSrc={model.image || undefined}
+        imageSrc={model.image || photoAssets[`${selection.brand}/${selection.model}`] || undefined}
         model={model}
         values={values}
       />

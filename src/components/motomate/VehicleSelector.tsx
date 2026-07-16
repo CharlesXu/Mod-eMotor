@@ -5,6 +5,7 @@ import { useMemo, useState } from "react";
 
 import catalogData from "@/data/motomate-catalog.json";
 import lineAssetData from "@/data/motomate-line-assets.json";
+import photoAssetData from "@/data/motomate-photo-assets.json";
 
 export type VehicleModel = Readonly<{
   index: number;
@@ -24,6 +25,7 @@ type VehicleSelectorProps = Readonly<{
 
 const catalog: readonly VehicleBrand[] = catalogData;
 const lineAssets: Readonly<Record<string, string>> = lineAssetData;
+const photoAssets: Readonly<Record<string, string>> = photoAssetData;
 
 const brandIcons: Readonly<Record<string, string>> = {
   ZEEKU: "/motomate/ZEEKU.82855666.png",
@@ -43,7 +45,8 @@ const defaultModel =
   defaultBrand.models.find(({ name }) => name === "Kz110") ?? defaultBrand.models[0];
 
 function localImagePath(brand: string, model: VehicleModel): string | null {
-  return model.image || lineAssets[`${brand}/${model.name}`] || null;
+  const modelKey = `${brand}/${model.name}`;
+  return model.image || photoAssets[modelKey] || lineAssets[modelKey] || null;
 }
 
 export default function VehicleSelector({ onLoad }: VehicleSelectorProps) {
