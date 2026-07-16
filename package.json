@@ -1,0 +1,32 @@
+{
+  "name": "mod-emotor",
+  "version": "1.0.0",
+  "private": true,
+  "description": "电改模拟工具 - 电动车姿态与改装参数模拟网站",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "typecheck": "tsc --noEmit",
+    "check": "npm run lint && npm run typecheck && npm run build"
+  },
+  "dependencies": {
+    "next": "16.2.10",
+    "react": "19.2.4",
+    "react-dom": "19.2.4"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.14",
+    "@types/node": "^24.10.0",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "eslint": "^9.39.1",
+    "eslint-config-next": "16.2.10",
+    "tailwindcss": "^4.1.14",
+    "typescript": "^5.9.3"
+  }
+}

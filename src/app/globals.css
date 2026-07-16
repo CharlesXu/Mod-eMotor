@@ -1,0 +1,560 @@
+@import "tailwindcss";
+
+:root {
+  --motomate-ink: #2c3e50;
+  --motomate-accent: #495c69;
+  --motomate-muted: rgba(65, 91, 117, 0.38);
+  --motomate-soft: #f5f7fa;
+  --motomate-line: #dcdfe6;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  min-height: 100%;
+  background: #fff;
+  color: var(--motomate-ink);
+  font-family: Avenir, Helvetica, Arial, "PingFang SC", "Microsoft YaHei", sans-serif;
+}
+
+button,
+input,
+textarea {
+  font: inherit;
+}
+
+button {
+  color: inherit;
+}
+
+.motomate-selector {
+  position: relative;
+  min-width: 1180px;
+  height: 100vh;
+  min-height: 760px;
+  overflow: hidden;
+  background: #fff;
+  color: var(--motomate-ink);
+}
+
+.motomate-brand-bar {
+  position: absolute;
+  z-index: 8;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 60px;
+  overflow: visible;
+}
+
+.motomate-brand-tab {
+  display: flex;
+  flex: 0 0 151px;
+  align-items: center;
+  height: 60px;
+  padding: 5px 18px;
+  border: 0;
+  border-right: 1px dashed rgba(65, 91, 117, 0.16);
+  border-bottom: 1px dashed rgba(65, 91, 117, 0.16);
+  background: #fff;
+  color: rgba(65, 91, 117, 0.38);
+  cursor: pointer;
+  gap: 11px;
+  transition: color 160ms ease, background 160ms ease;
+}
+
+.motomate-brand-tab img {
+  object-fit: contain;
+  filter: grayscale(1);
+  opacity: 0.55;
+}
+
+.motomate-brand-tab span {
+  font-size: 16px;
+  white-space: nowrap;
+}
+
+.motomate-brand-tab:hover,
+.motomate-brand-tab.is-active {
+  background: #f8fafb;
+  color: var(--motomate-accent);
+}
+
+.motomate-brand-tab:hover img,
+.motomate-brand-tab.is-active img {
+  filter: none;
+  opacity: 0.9;
+}
+
+.motomate-start-copy {
+  position: absolute;
+  z-index: 1;
+  top: 140px;
+  left: 400px;
+  width: 840px;
+  text-align: center;
+  color: rgba(73, 92, 105, 0.58);
+  font-family: "PingFang SC", sans-serif;
+}
+
+.motomate-start-copy h1 {
+  margin: 0;
+  font-size: 70px;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: 2px;
+}
+
+.motomate-start-copy h1 strong {
+  font-weight: 700;
+}
+
+.motomate-start-copy p {
+  margin: 22px 0 26px;
+  font-size: 18px;
+  text-align: right;
+  padding-right: 55px;
+}
+
+.motomate-start-copy code {
+  color: rgba(65, 91, 117, 0.28);
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-size: 18px;
+}
+
+.motomate-model-catalog {
+  position: absolute;
+  z-index: 4;
+  top: 60px;
+  right: 0;
+  left: 0;
+  height: 550px;
+  overflow: auto;
+  padding: 8px 20px 32px;
+  background: rgba(255, 255, 255, 0.98);
+  scrollbar-color: rgba(73, 92, 105, 0.28) transparent;
+}
+
+.motomate-model-group h2 {
+  height: 36px;
+  margin: 0 0 7px;
+  color: rgba(65, 91, 117, 0.57);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+}
+
+.motomate-model-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 20px;
+  margin-bottom: 18px;
+}
+
+.motomate-model-card,
+.motomate-promoted-card {
+  position: relative;
+  width: 170px;
+  height: 160px;
+  padding: 0;
+  border: 1px dashed rgba(65, 91, 117, 0.2);
+  border-radius: 0 0 20px;
+  background: #fff;
+  color: rgba(65, 91, 117, 0.57);
+  text-align: left;
+}
+
+.motomate-model-card {
+  cursor: pointer;
+}
+
+.motomate-model-card:hover,
+.motomate-model-card.is-selected {
+  border-color: rgba(73, 92, 105, 0.72);
+  color: var(--motomate-accent);
+}
+
+.motomate-model-image-wrap {
+  position: absolute;
+  top: 15px;
+  left: 20px;
+  width: 130px;
+  height: 100px;
+}
+
+.motomate-model-image-wrap img,
+.motomate-promoted-image-wrap img {
+  object-fit: contain;
+}
+
+.motomate-model-card > span:last-child,
+.motomate-promoted-card > span:last-child {
+  position: absolute;
+  bottom: 16px;
+  left: 16px;
+  font-size: 16px;
+}
+
+.motomate-model-placeholder {
+  display: grid;
+  width: 100%;
+  height: 100%;
+  place-items: center;
+  color: rgba(73, 92, 105, 0.28);
+  font-size: 10px;
+}
+
+.motomate-promoted-card {
+  position: absolute;
+  z-index: 5;
+  top: 505px;
+  left: 1070px;
+}
+
+.motomate-promoted-image-wrap {
+  position: absolute;
+  top: 15px;
+  left: 20px;
+  width: 120px;
+  height: 100px;
+}
+
+.motomate-start-button {
+  position: absolute;
+  z-index: 6;
+  top: 690px;
+  left: 925px;
+  display: flex;
+  align-items: center;
+  width: 320px;
+  height: 50px;
+  padding: 0 15px;
+  border: 3px solid var(--motomate-muted);
+  border-radius: 25px;
+  background: #fff;
+  color: var(--motomate-muted);
+  font-size: 18px;
+  cursor: default;
+  gap: 25px;
+}
+
+.motomate-start-button.is-ready {
+  border-color: var(--motomate-accent);
+  color: var(--motomate-accent);
+  cursor: pointer;
+}
+
+.motomate-start-icons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.motomate-start-icons b {
+  padding: 2px 4px;
+  background: currentColor;
+  color: #fff;
+  font-size: 14px;
+}
+
+.motomate-loading-rule {
+  position: absolute;
+  right: 60px;
+  bottom: 60px;
+  left: 60px;
+  height: 5px;
+  border-radius: 2px;
+  background: rgba(65, 91, 117, 0.38);
+}
+
+.motomate-missing-vehicle {
+  position: absolute;
+  inset: 18% 12%;
+  display: grid;
+  place-content: center;
+  gap: 8px;
+  border: 1px dashed #b8c3cc;
+  color: #8795a0;
+  text-align: center;
+}
+
+.motomate-missing-vehicle span {
+  font-size: 22px;
+}
+
+.motomate-missing-vehicle small {
+  font-size: 14px;
+}
+
+.motomate-editor-shell {
+  position: relative;
+  display: flex;
+  min-width: 1440px;
+  height: 100vh;
+  min-height: 760px;
+  overflow: hidden;
+  background: #fff;
+}
+
+.motomate-control-sidebar {
+  position: relative;
+  z-index: 10;
+  display: flex;
+  flex: 0 0 418px;
+  width: 418px;
+  height: 100vh;
+  background: #fff;
+}
+
+.motomate-icon-rail {
+  position: relative;
+  flex: 0 0 60px;
+  width: 60px;
+  height: 100vh;
+  border-right: 3px solid var(--motomate-ink);
+  background: #fff;
+}
+
+.motomate-rail-scroll {
+  height: calc(100vh - 70px);
+  overflow: hidden;
+}
+
+.motomate-rail-item {
+  position: relative;
+  display: grid;
+  width: 57px;
+  height: 82px;
+  padding: 9px 8px;
+  border: 0;
+  border-bottom: 1px dashed rgba(44, 62, 80, 0.5);
+  background: #fff;
+  place-items: center;
+  cursor: pointer;
+}
+
+.motomate-rail-icon {
+  width: 38px;
+  height: 38px;
+  object-fit: contain;
+  filter: grayscale(1);
+  opacity: 0.28;
+}
+
+.motomate-rail-label {
+  position: absolute;
+  top: 0;
+  left: 12px;
+  padding: 5px 7px;
+  border-radius: 3px;
+  background: var(--motomate-accent);
+  color: #fff;
+  font-size: 10px;
+  opacity: 0;
+}
+
+.motomate-rail-item:hover .motomate-rail-label,
+.motomate-rail-item-active .motomate-rail-label {
+  opacity: 1;
+}
+
+.motomate-rail-item:hover .motomate-rail-icon,
+.motomate-rail-item-active .motomate-rail-icon {
+  opacity: 0.8;
+}
+
+.motomate-rail-save,
+.motomate-rail-back {
+  position: absolute;
+  left: 8px;
+  width: 42px;
+  height: 42px;
+  padding: 5px;
+  border: 0;
+  background: #fff;
+  cursor: pointer;
+}
+
+.motomate-rail-save {
+  right: auto;
+  bottom: 7px;
+}
+
+.motomate-rail-back {
+  bottom: 58px;
+}
+
+.motomate-rail-save img,
+.motomate-rail-back img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  filter: grayscale(1);
+  opacity: 0.35;
+}
+
+.motomate-inspector {
+  flex: 0 0 358px;
+  width: 358px;
+  height: 100vh;
+  border-right: 3px solid var(--motomate-ink);
+  background: #fff;
+}
+
+.motomate-inspector-content {
+  height: calc(100vh - 40px);
+  margin: 20px 13px 20px 10px;
+  overflow-y: auto;
+  scrollbar-width: none;
+}
+
+.motomate-inspector-content::-webkit-scrollbar {
+  display: none;
+}
+
+.motomate-control-section {
+  min-height: 211px;
+  margin-bottom: 25px;
+  scroll-margin-top: 0;
+}
+
+.motomate-section-heading {
+  position: relative;
+  height: 40px;
+  border-top: 3px solid var(--motomate-ink);
+  border-bottom: 3px solid var(--motomate-ink);
+}
+
+.motomate-section-title {
+  margin: 0;
+  padding: 3px 15px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 31px;
+}
+
+.motomate-section-reset {
+  position: absolute;
+  top: 0;
+  right: 7px;
+  border: 0;
+  background: transparent;
+  color: rgba(73, 92, 105, 0.22);
+  font-size: 28px;
+}
+
+.motomate-section-body {
+  padding: 15px;
+}
+
+.motomate-number-row,
+.motomate-choice-row {
+  position: relative;
+  display: flex;
+  min-height: 32px;
+  margin-bottom: 10px;
+  align-items: center;
+}
+
+.motomate-number-label,
+.motomate-choice-label {
+  position: relative;
+  flex: 0 0 124px;
+  width: 124px;
+  color: var(--motomate-accent);
+  font-size: 14px;
+}
+
+.motomate-number-colon,
+.motomate-choice-colon {
+  position: absolute;
+  right: 3px;
+}
+
+.motomate-number-control {
+  display: grid;
+  width: 150px;
+  height: 32px;
+  grid-template-columns: 33px 1fr 33px;
+}
+
+.motomate-number-step,
+.motomate-number-input {
+  min-width: 0;
+  height: 32px;
+  border: 1px solid var(--motomate-line);
+  background: #fff;
+  color: #606266;
+  text-align: center;
+}
+
+.motomate-number-step {
+  background: var(--motomate-soft);
+  cursor: pointer;
+}
+
+.motomate-number-input {
+  border-right: 0;
+  border-left: 0;
+  outline: 0;
+  appearance: textfield;
+}
+
+.motomate-number-input::-webkit-inner-spin-button {
+  appearance: none;
+}
+
+.motomate-choice-group {
+  display: flex;
+  min-width: 0;
+}
+
+.motomate-choice {
+  min-width: 45px;
+  height: 32px;
+  padding: 0 10px;
+  border: 1px solid var(--motomate-line);
+  border-left: 0;
+  background: #fff;
+  color: #606266;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.motomate-choice:first-child {
+  border-left: 1px solid var(--motomate-line);
+}
+
+.motomate-choice-selected {
+  background: var(--motomate-accent);
+  color: #fff;
+}
+
+.motomate-save-toast {
+  position: fixed;
+  z-index: 50;
+  top: 24px;
+  right: 24px;
+  padding: 10px 18px;
+  border-radius: 4px;
+  background: var(--motomate-accent);
+  color: #fff;
+  font-size: 14px;
+}
+
+@media (max-width: 1179px) {
+  body {
+    overflow-x: auto;
+  }
+
+  .motomate-selector,
+  .motomate-editor-shell {
+    transform-origin: top left;
+  }
+}

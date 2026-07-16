@@ -1,0 +1,730 @@
+[
+  {
+    "brand": "ZEEKU",
+    "models": [
+      {
+        "index": 0,
+        "name": "EX85 pro",
+        "image": "/motomate/ZEEKU_EX80.9cfde741.png",
+        "category": "电动摩托车"
+      },
+      {
+        "index": 1,
+        "name": "ES85 pro",
+        "image": "/motomate/ZEEKU_ES85.e72159f8.png",
+        "category": "电动摩托车"
+      }
+    ]
+  },
+  {
+    "brand": "ZEEHO",
+    "models": [
+      {
+        "index": 0,
+        "name": "AE2",
+        "image": "/motomate/ZEEHO_AE2.bdd0724c.png",
+        "category": "电动自行车"
+      },
+      {
+        "index": 1,
+        "name": "AE4i",
+        "image": "/motomate/ZEEHO_AE4i.50db2b1c.png",
+        "category": "电动自行车"
+      },
+      {
+        "index": 2,
+        "name": "AE5i",
+        "image": "/motomate/ZEEHO_AE5i.cad4a130.png",
+        "category": "电动自行车"
+      },
+      {
+        "index": 3,
+        "name": "EZ3i",
+        "image": "/motomate/ZEEHO_EZ3i.9425b44d.png",
+        "category": "电动自行车"
+      },
+      {
+        "index": 4,
+        "name": "AE8 S+ my25",
+        "image": "/motomate/ZEEHO_AE8S+my25.51d23de4.png",
+        "category": "电动自行车"
+      },
+      {
+        "index": 5,
+        "name": "AE7",
+        "image": "/motomate/ZEEHO_AE7.5df981a9.png",
+        "category": "电动自行车"
+      },
+      {
+        "index": 6,
+        "name": "AE6+",
+        "image": "/motomate/ZEEHO_AE6+.a6b6a90c.png",
+        "category": "电动自行车"
+      },
+      {
+        "index": 7,
+        "name": "AE4 26",
+        "image": "/motomate/ZEEHO_AE4_26.4cba459f.png",
+        "category": "电动自行车"
+      },
+      {
+        "index": 8,
+        "name": "AE4 my25",
+        "image": "/motomate/ZEEHO_AE4.bc5c79b5.png",
+        "category": "电动自行车"
+      },
+      {
+        "index": 9,
+        "name": "AE3 pro",
+        "image": "/motomate/ZEEHO_AE3.035b40e2.png",
+        "category": "电动自行车"
+      },
+      {
+        "index": 10,
+        "name": "AE2 pro",
+        "image": "/motomate/ZEEHO_AE2pro.811c3fe1.png",
+        "category": "电动自行车"
+      },
+      {
+        "index": 11,
+        "name": "EZ4",
+        "image": "/motomate/ZEEHO_EZ4.12652405.png",
+        "category": "电动自行车"
+      }
+    ]
+  },
+  {
+    "brand": "ninebot",
+    "models": [
+      {
+        "index": 0,
+        "name": "Mz1",
+        "image": "/motomate/Ninebot_Mz1.6ecf2449.png",
+        "category": "新国标"
+      },
+      {
+        "index": 1,
+        "name": "Fz5 110",
+        "image": "/motomate/Ninebot_Fz5110.38daedb2.png",
+        "category": "新国标"
+      },
+      {
+        "index": 2,
+        "name": "Fz3 110",
+        "image": "/motomate/Ninebot_Fz3110.7406403a.png",
+        "category": "新国标"
+      },
+      {
+        "index": 3,
+        "name": "Dz110p MK2",
+        "image": "/motomate/Ninebot_Dz110pMK2.ba90af2c.png",
+        "category": "新国标"
+      },
+      {
+        "index": 4,
+        "name": "Dz110p",
+        "image": "/motomate/Ninebot_Dz110p.e44ca094.png",
+        "category": "新国标"
+      },
+      {
+        "index": 5,
+        "name": "Kz110",
+        "image": "/motomate/Ninebot_Kz110.394b728e.png",
+        "category": "新国标"
+      },
+      {
+        "index": 6,
+        "name": "Mmax2",
+        "image": "/motomate/Ninebot_Mmax2.1c13c991.png",
+        "category": "新国标"
+      },
+      {
+        "index": 7,
+        "name": "Mmax110 MK2",
+        "image": "/motomate/Ninebot_Mmax110MK2.28f4aaf7.png",
+        "category": "新国标"
+      },
+      {
+        "index": 8,
+        "name": "Mmax110",
+        "image": "/motomate/Ninebot_Mmax110p.16ad420a.png",
+        "category": "新国标"
+      },
+      {
+        "index": 9,
+        "name": "F2z110Max",
+        "image": "/motomate/Ninebot_F2z110Max.ab62587a.png",
+        "category": "新国标"
+      },
+      {
+        "index": 10,
+        "name": "F2z110",
+        "image": "/motomate/Ninebot_F2z110.9a639870.png",
+        "category": "新国标"
+      },
+      {
+        "index": 11,
+        "name": "F90",
+        "image": "/motomate/Ninebot_F90.dbf008a3.png",
+        "category": "新国标"
+      },
+      {
+        "index": 12,
+        "name": "Mzmax",
+        "image": "/motomate/Ninebot_Mzmix.be062dc6.png",
+        "category": "新国标"
+      },
+      {
+        "index": 13,
+        "name": "Mzmix",
+        "image": "/motomate/Ninebot_Mzmix.be062dc6.png",
+        "category": "新国标"
+      },
+      {
+        "index": 14,
+        "name": "Nzmix",
+        "image": "/motomate/Ninebot_Nzmix.2cbc992c.png",
+        "category": "新国标"
+      },
+      {
+        "index": 15,
+        "name": "Fzmix",
+        "image": "/motomate/Ninebot_Fzmix.bb052caf.png",
+        "category": "新国标"
+      },
+      {
+        "index": 16,
+        "name": "Qzmix",
+        "image": "/motomate/Ninebot_Qzmix.c66f05c4.png",
+        "category": "新国标"
+      },
+      {
+        "index": 17,
+        "name": "Vzmix",
+        "image": "",
+        "category": "新国标"
+      },
+      {
+        "index": 18,
+        "name": "C90",
+        "image": "",
+        "category": "新国标"
+      },
+      {
+        "index": 19,
+        "name": "Cz90",
+        "image": "",
+        "category": "新国标"
+      },
+      {
+        "index": 20,
+        "name": "Bmax90",
+        "image": "",
+        "category": "新国标"
+      },
+      {
+        "index": 21,
+        "name": "E300p MK2",
+        "image": "",
+        "category": "新国标"
+      },
+      {
+        "index": 22,
+        "name": "E200p MK2",
+        "image": "",
+        "category": "新国标"
+      },
+      {
+        "index": 23,
+        "name": "E150c MK2",
+        "image": "",
+        "category": "新国标"
+      },
+      {
+        "index": 24,
+        "name": "E100",
+        "image": "",
+        "category": "新国标"
+      },
+      {
+        "index": 25,
+        "name": "E80c MK2",
+        "image": "",
+        "category": "新国标"
+      },
+      {
+        "index": 26,
+        "name": "M5",
+        "image": "",
+        "category": "新国标"
+      },
+      {
+        "index": 27,
+        "name": "M3",
+        "image": "",
+        "category": "新国标"
+      },
+      {
+        "index": 28,
+        "name": "M3 95c Max",
+        "image": "",
+        "category": "新国标"
+      },
+      {
+        "index": 29,
+        "name": "M95c+",
+        "image": "",
+        "category": "新国标"
+      },
+      {
+        "index": 30,
+        "name": "N3 85c",
+        "image": "",
+        "category": "新国标"
+      },
+      {
+        "index": 31,
+        "name": "N85c",
+        "image": "",
+        "category": "新国标"
+      },
+      {
+        "index": 32,
+        "name": "Q3 85c",
+        "image": "",
+        "category": "新国标"
+      },
+      {
+        "index": 33,
+        "name": "Q85c",
+        "image": "",
+        "category": "新国标"
+      },
+      {
+        "index": 34,
+        "name": "C85c",
+        "image": "",
+        "category": "新国标"
+      }
+    ]
+  },
+  {
+    "brand": "NIU",
+    "models": [
+      {
+        "index": 0,
+        "name": "NXT 2",
+        "image": "/motomate/NIU_NXT2.4b0e7ddf.png",
+        "category": "新国标"
+      },
+      {
+        "index": 1,
+        "name": "U3",
+        "image": "/motomate/NIU_U3.33f0e396.png",
+        "category": "新国标"
+      },
+      {
+        "index": 2,
+        "name": "U1",
+        "image": "/motomate/NIU_U1.9469f2a9.png",
+        "category": "新国标"
+      },
+      {
+        "index": 3,
+        "name": "K",
+        "image": "/motomate/NIU_Kone.22d42490.png",
+        "category": "新国标"
+      },
+      {
+        "index": 4,
+        "name": "MT",
+        "image": "/motomate/NIU_MT.3566562a.png",
+        "category": "新国标"
+      },
+      {
+        "index": 5,
+        "name": "NXT 2025",
+        "image": "/motomate/NIU_NXT2025.29f5eb9d.png",
+        "category": "新国标"
+      },
+      {
+        "index": 6,
+        "name": "NXT 2024",
+        "image": "/motomate/NIU_NXT.70257392.png",
+        "category": "新国标"
+      },
+      {
+        "index": 7,
+        "name": "NLT",
+        "image": "/motomate/NIU_NLT.fc19c02e.png",
+        "category": "新国标"
+      },
+      {
+        "index": 8,
+        "name": "NST",
+        "image": "/motomate/NIU_NST.8d1b73a3.png",
+        "category": "新国标"
+      },
+      {
+        "index": 9,
+        "name": "NT",
+        "image": "/motomate/NIU_NT-play.69b72ee1.png",
+        "category": "新国标"
+      },
+      {
+        "index": 10,
+        "name": "Ms",
+        "image": "/motomate/NIU_Ms.f9d8c6e2.png",
+        "category": "新国标"
+      },
+      {
+        "index": 11,
+        "name": "MQI2s",
+        "image": "/motomate/NIU_MQI2.d2583035.png",
+        "category": "新国标"
+      },
+      {
+        "index": 12,
+        "name": "MQIL",
+        "image": "/motomate/NIU_MQIL.d511a5bc.png",
+        "category": "新国标"
+      },
+      {
+        "index": 13,
+        "name": "Mmt",
+        "image": "/motomate/NIU_Mmt.c94ea1c5.png",
+        "category": "新国标"
+      },
+      {
+        "index": 14,
+        "name": "Umax",
+        "image": "/motomate/NIU_Umax.a16ba08b.png",
+        "category": "新国标"
+      },
+      {
+        "index": 15,
+        "name": "UQI+ II",
+        "image": "/motomate/NIU_UQI+ II.43ede9ce.png",
+        "category": "新国标"
+      },
+      {
+        "index": 16,
+        "name": "U",
+        "image": "/motomate/NIU_U.70f319b4.png",
+        "category": "新国标"
+      },
+      {
+        "index": 17,
+        "name": "UQI+",
+        "image": "/motomate/NIU_UQI+.04eef896.png",
+        "category": "新国标"
+      },
+      {
+        "index": 18,
+        "name": "UQI+ U+A",
+        "image": "/motomate/NIU_UQI+ (U+A).35855365.png",
+        "category": "新国标"
+      },
+      {
+        "index": 19,
+        "name": "FXT",
+        "image": "",
+        "category": "新国标"
+      },
+      {
+        "index": 20,
+        "name": "FXT (北京)",
+        "image": "",
+        "category": "新国标"
+      },
+      {
+        "index": 21,
+        "name": "F400t",
+        "image": "",
+        "category": "新国标"
+      },
+      {
+        "index": 22,
+        "name": "F200",
+        "image": "",
+        "category": "新国标"
+      },
+      {
+        "index": 23,
+        "name": "G400t",
+        "image": "",
+        "category": "新国标"
+      },
+      {
+        "index": 24,
+        "name": "FX (风速版)",
+        "image": "",
+        "category": "新国标"
+      },
+      {
+        "index": 25,
+        "name": "NX (风速版)",
+        "image": "",
+        "category": "新国标"
+      },
+      {
+        "index": 26,
+        "name": "FS (风速版)",
+        "image": "",
+        "category": "新国标"
+      },
+      {
+        "index": 27,
+        "name": "NX Hyper",
+        "image": "",
+        "category": "新国标"
+      },
+      {
+        "index": 28,
+        "name": "NX",
+        "image": "",
+        "category": "新国标"
+      },
+      {
+        "index": 29,
+        "name": "NL",
+        "image": "",
+        "category": "新国标"
+      },
+      {
+        "index": 30,
+        "name": "NS",
+        "image": "",
+        "category": "新国标"
+      },
+      {
+        "index": 31,
+        "name": "Nplay",
+        "image": "",
+        "category": "新国标"
+      },
+      {
+        "index": 32,
+        "name": "N1S",
+        "image": "",
+        "category": "新国标"
+      },
+      {
+        "index": 33,
+        "name": "FX 2025",
+        "image": "",
+        "category": "新国标"
+      },
+      {
+        "index": 34,
+        "name": "FX 2024",
+        "image": "",
+        "category": "新国标"
+      },
+      {
+        "index": 35,
+        "name": "MQI+",
+        "image": "",
+        "category": "新国标"
+      },
+      {
+        "index": 36,
+        "name": "MQI",
+        "image": "",
+        "category": "新国标"
+      }
+    ]
+  },
+  {
+    "brand": "Honda",
+    "models": [
+      {
+        "index": 0,
+        "name": "Ub e 2025",
+        "image": "/motomate/Honda_Ub e 2025.a5cb4d24.png",
+        "category": "电动自行车"
+      },
+      {
+        "index": 1,
+        "name": "Ub e",
+        "image": "/motomate/Honda_Ub e.a17542eb.png",
+        "category": "电动自行车"
+      },
+      {
+        "index": 2,
+        "name": "Zoomer e",
+        "image": "/motomate/Honda_Zoomer e.59a0eec9.png",
+        "category": "电动自行车"
+      },
+      {
+        "index": 3,
+        "name": "S 07",
+        "image": "/motomate/Honda_S07.abb8304e.png",
+        "category": "电动自行车"
+      }
+    ]
+  },
+  {
+    "brand": "YADEA",
+    "models": [
+      {
+        "index": 0,
+        "name": "白鲨 I",
+        "image": "/motomate/YADEA_BS_2_DZ.4e576570.png",
+        "category": "电动自行车"
+      },
+      {
+        "index": 1,
+        "name": "DT6",
+        "image": "/motomate/YADEA_DT6.6fb6dbe8.png",
+        "category": "电动自行车"
+      },
+      {
+        "index": 2,
+        "name": "DE8",
+        "image": "/motomate/YADEA_DE8.08cdfae9.png",
+        "category": "电动自行车"
+      },
+      {
+        "index": 3,
+        "name": "X5",
+        "image": "/motomate/YADEA_X5.a06f4de5.png",
+        "category": "电动自行车"
+      },
+      {
+        "index": 4,
+        "name": "X7",
+        "image": "/motomate/YADEA_X7.4e5b85c2.png",
+        "category": "电动自行车"
+      },
+      {
+        "index": 5,
+        "name": "白鲨70s",
+        "image": "/motomate/YADEA_BS.4285c4b3.png",
+        "category": "电动自行车"
+      },
+      {
+        "index": 6,
+        "name": "E9",
+        "image": "/motomate/YADEA_E9.519c0f48.png",
+        "category": "电动自行车"
+      },
+      {
+        "index": 7,
+        "name": "E10",
+        "image": "/motomate/YADEA_E10.62b8db97.png",
+        "category": "电动自行车"
+      },
+      {
+        "index": 8,
+        "name": "极光 2.0",
+        "image": "/motomate/YADEA_JG3.0.fcaffc51.png",
+        "category": "电动自行车"
+      }
+    ]
+  },
+  {
+    "brand": "TAILG",
+    "models": [
+      {
+        "index": 0,
+        "name": "封神EB",
+        "image": "/motomate/TAILG_FengShen.77b22250.png",
+        "category": "电动自行车"
+      },
+      {
+        "index": 1,
+        "name": "苍穹EB",
+        "image": "/motomate/TAILG_CangQiong.a0e61e62.png",
+        "category": "电动自行车"
+      },
+      {
+        "index": 2,
+        "name": "F1",
+        "image": "/motomate/TAILG_F1.df2d5773.png",
+        "category": "电动自行车"
+      },
+      {
+        "index": 3,
+        "name": "苍穹",
+        "image": "/motomate/TAILG_CangQiong_m.9cc53bbe.png",
+        "category": "电动自行车"
+      },
+      {
+        "index": 4,
+        "name": "Y3",
+        "image": "/motomate/TAILG_Y3.223a4218.png",
+        "category": "电动自行车"
+      }
+    ]
+  },
+  {
+    "brand": "SYUAN",
+    "models": [
+      {
+        "index": 0,
+        "name": "GT1",
+        "image": "/motomate/SYUAN_GT1.5488586d.png",
+        "category": "电动自行车"
+      },
+      {
+        "index": 1,
+        "name": "535t",
+        "image": "/motomate/SYUAN_535t.5de8495a.png",
+        "category": "电动自行车"
+      },
+      {
+        "index": 2,
+        "name": "T300",
+        "image": "/motomate/SYUAN_T300.5a6f032e.png",
+        "category": "电动自行车"
+      }
+    ]
+  },
+  {
+    "brand": "skymotor",
+    "models": [
+      {
+        "index": 0,
+        "name": "Y3 95c",
+        "image": "/motomate/SKYMOTOR_Y395c.772f99e7.png",
+        "category": "电动摩托车"
+      }
+    ]
+  },
+  {
+    "brand": "OTHER",
+    "models": [
+      {
+        "index": 0,
+        "name": "YAMAHA Cygnus",
+        "image": "/motomate/YAMAHA_Cygnus.9a2168a0.png",
+        "category": "电动摩托车"
+      },
+      {
+        "index": 1,
+        "name": "YAMAHA RSZ",
+        "image": "/motomate/YAMAHA_RSZ.db21aa39.png",
+        "category": "电动摩托车"
+      },
+      {
+        "index": 2,
+        "name": "YAMAHA Vino-50",
+        "image": "/motomate/YAMAHA_Vino-50.0f23d438.png",
+        "category": "电动摩托车"
+      },
+      {
+        "index": 3,
+        "name": "YAMAHA Cuxi",
+        "image": "/motomate/YAMAHA_Cuxi.f5adbee2.png",
+        "category": "电动摩托车"
+      },
+      {
+        "index": 4,
+        "name": "SANYANG JET SL",
+        "image": "/motomate/SANYANG_JET SL.856180b4.png",
+        "category": "电动摩托车"
+      }
+    ]
+  }
+]

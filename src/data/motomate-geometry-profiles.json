@@ -1,0 +1,5991 @@
+{
+  "OTHER/YAMAHA Cygnus": {
+    "wheelbaseMm": 1295,
+    "pixelsPerMillimeter": 0.45852610441767067,
+    "forkAngleDegrees": 65,
+    "handlePivot": {
+      "x": 274.64,
+      "y": 121.17
+    },
+    "handle": {
+      "x": 287.08,
+      "y": 87.01
+    },
+    "forkTop": {
+      "x": 188.21,
+      "y": 282.72
+    },
+    "frontWheel": {
+      "x": 122.37,
+      "y": 399.08
+    },
+    "rearWheel": {
+      "x": 585.09,
+      "y": 401.41
+    },
+    "swingPivot": {
+      "x": 390.96,
+      "y": 416.01
+    },
+    "shockTop": {
+      "x": 569.48,
+      "y": 282.72
+    },
+    "shockBottom": {
+      "x": 612.07,
+      "y": 383.18
+    },
+    "seat": {
+      "x": 452.36,
+      "y": 193.87
+    },
+    "foot": {
+      "x": 282.72,
+      "y": 363.5
+    },
+    "chassis": {
+      "x": 351.38,
+      "y": 424.08
+    },
+    "frontWheelRadius": 83.2,
+    "rearWheelRadius": 84.82,
+    "frontDiscRadius": 40.79,
+    "rearDiscRadius": 36.67
+  },
+  "OTHER/YAMAHA RSZ": {
+    "wheelbaseMm": 1205,
+    "pixelsPerMillimeter": 0.45852610441767067,
+    "forkAngleDegrees": 58,
+    "handlePivot": {
+      "x": 274.64,
+      "y": 121.17
+    },
+    "handle": {
+      "x": 287.08,
+      "y": 87.01
+    },
+    "forkTop": {
+      "x": 187.4,
+      "y": 278.68
+    },
+    "frontWheel": {
+      "x": 118.83,
+      "y": 393
+    },
+    "rearWheel": {
+      "x": 573.07,
+      "y": 394.4
+    },
+    "swingPivot": {
+      "x": 387.73,
+      "y": 416.01
+    },
+    "shockTop": {
+      "x": 549.29,
+      "y": 282.72
+    },
+    "shockBottom": {
+      "x": 599.29,
+      "y": 375.08
+    },
+    "seat": {
+      "x": 492.74,
+      "y": 201.94
+    },
+    "foot": {
+      "x": 323.11,
+      "y": 355.42
+    },
+    "chassis": {
+      "x": 351.38,
+      "y": 424.08
+    },
+    "frontWheelRadius": 83.2,
+    "rearWheelRadius": 84.82,
+    "frontDiscRadius": 40.79,
+    "rearDiscRadius": 36.67
+  },
+  "OTHER/YAMAHA Vino-50": {
+    "wheelbaseMm": 1310,
+    "pixelsPerMillimeter": 0.5142927927927928,
+    "forkAngleDegrees": 55,
+    "handlePivot": {
+      "x": 258.49,
+      "y": 161.56
+    },
+    "handle": {
+      "x": 290.92,
+      "y": 115.24
+    },
+    "forkTop": {
+      "x": 189.83,
+      "y": 290.8
+    },
+    "frontWheel": {
+      "x": 124.63,
+      "y": 388.14
+    },
+    "rearWheel": {
+      "x": 586.04,
+      "y": 393.72
+    },
+    "swingPivot": {
+      "x": 459.63,
+      "y": 403.89
+    },
+    "shockTop": {
+      "x": 553.33,
+      "y": 282.72
+    },
+    "shockBottom": {
+      "x": 588.77,
+      "y": 377.29
+    },
+    "seat": {
+      "x": 500.82,
+      "y": 193.87
+    },
+    "foot": {
+      "x": 323.11,
+      "y": 347.34
+    },
+    "chassis": {
+      "x": 351.38,
+      "y": 428.12
+    },
+    "frontWheelRadius": 72.7,
+    "rearWheelRadius": 72.7,
+    "frontDiscRadius": 29,
+    "rearDiscRadius": 29
+  },
+  "OTHER/YAMAHA Cuxi": {
+    "wheelbaseMm": 1230,
+    "pixelsPerMillimeter": 0.45852610441767067,
+    "forkAngleDegrees": 58,
+    "handlePivot": {
+      "x": 274.64,
+      "y": 121.17
+    },
+    "handle": {
+      "x": 287.08,
+      "y": 87.01
+    },
+    "forkTop": {
+      "x": 187.4,
+      "y": 278.68
+    },
+    "frontWheel": {
+      "x": 118.83,
+      "y": 393
+    },
+    "rearWheel": {
+      "x": 486.28,
+      "y": 259.34
+    },
+    "swingPivot": {
+      "x": 391.77,
+      "y": 416.01
+    },
+    "shockTop": {
+      "x": 569.48,
+      "y": 282.72
+    },
+    "shockBottom": {
+      "x": 493.31,
+      "y": 216.41
+    },
+    "seat": {
+      "x": 492.74,
+      "y": 201.94
+    },
+    "foot": {
+      "x": 323.11,
+      "y": 355.42
+    },
+    "chassis": {
+      "x": 351.38,
+      "y": 424.08
+    },
+    "frontWheelRadius": 83.2,
+    "rearWheelRadius": 84.82,
+    "frontDiscRadius": 40.79,
+    "rearDiscRadius": 36.67
+  },
+  "OTHER/SANYANG JET SL": {
+    "wheelbaseMm": 1295,
+    "pixelsPerMillimeter": 0.45852610441767067,
+    "forkAngleDegrees": 65,
+    "handlePivot": {
+      "x": 274.64,
+      "y": 121.17
+    },
+    "handle": {
+      "x": 287.08,
+      "y": 87.01
+    },
+    "forkTop": {
+      "x": 173.67,
+      "y": 273.03
+    },
+    "frontWheel": {
+      "x": 119.54,
+      "y": 394.85
+    },
+    "rearWheel": {
+      "x": 581.19,
+      "y": 389.29
+    },
+    "swingPivot": {
+      "x": 374.81,
+      "y": 402.27
+    },
+    "shockTop": {
+      "x": 561.41,
+      "y": 273.03
+    },
+    "shockBottom": {
+      "x": 608.39,
+      "y": 371.39
+    },
+    "seat": {
+      "x": 452.36,
+      "y": 193.87
+    },
+    "foot": {
+      "x": 282.72,
+      "y": 363.5
+    },
+    "chassis": {
+      "x": 351.38,
+      "y": 424.08
+    },
+    "frontWheelRadius": 83.2,
+    "rearWheelRadius": 84.82,
+    "frontDiscRadius": 40.79,
+    "rearDiscRadius": 36.67
+  },
+  "ZEEKU/EX85 pro": {
+    "wheelbaseMm": 1280,
+    "pixelsPerMillimeter": 0.45,
+    "forkAngleDegrees": 65,
+    "handlePivot": {
+      "x": 230.22,
+      "y": 129.24
+    },
+    "handle": {
+      "x": 250.94,
+      "y": 72.31
+    },
+    "forkTop": {
+      "x": 151.05,
+      "y": 282.72
+    },
+    "frontWheel": {
+      "x": 86.92,
+      "y": 395.42
+    },
+    "rearWheel": {
+      "x": 559.08,
+      "y": 396.22
+    },
+    "swingPivot": {
+      "x": 449.12,
+      "y": 383.69
+    },
+    "shockTop": {
+      "x": 525.06,
+      "y": 298.88
+    },
+    "shockBottom": {
+      "x": 560.91,
+      "y": 380.17
+    },
+    "seat": {
+      "x": 468.51,
+      "y": 193.87
+    },
+    "foot": {
+      "x": 258.49,
+      "y": 347.34
+    },
+    "chassis": {
+      "x": 333.61,
+      "y": 415.2
+    },
+    "frontWheelRadius": 81.59,
+    "rearWheelRadius": 81.59,
+    "frontDiscRadius": 39.18,
+    "rearDiscRadius": 32.72
+  },
+  "ZEEKU/ES85 pro": {
+    "wheelbaseMm": 1380,
+    "pixelsPerMillimeter": 0.45,
+    "forkAngleDegrees": 65,
+    "handlePivot": {
+      "x": 238.29,
+      "y": 96.93
+    },
+    "handle": {
+      "x": 250.73,
+      "y": 62.78
+    },
+    "forkTop": {
+      "x": 151.05,
+      "y": 282.72
+    },
+    "frontWheel": {
+      "x": 86.92,
+      "y": 395.42
+    },
+    "rearWheel": {
+      "x": 600.98,
+      "y": 395.83
+    },
+    "swingPivot": {
+      "x": 492.74,
+      "y": 367.54
+    },
+    "shockTop": {
+      "x": 577.56,
+      "y": 285.15
+    },
+    "shockBottom": {
+      "x": 601.16,
+      "y": 379.18
+    },
+    "seat": {
+      "x": 468.51,
+      "y": 185.79
+    },
+    "foot": {
+      "x": 298.88,
+      "y": 347.34
+    },
+    "chassis": {
+      "x": 333.61,
+      "y": 415.2
+    },
+    "frontWheelRadius": 84.01,
+    "rearWheelRadius": 84.01,
+    "frontDiscRadius": 39.18,
+    "rearDiscRadius": 32.72
+  },
+  "SYUAN/GT1": {
+    "wheelbaseMm": 1245,
+    "pixelsPerMillimeter": 0.44213295291044025,
+    "forkAngleDegrees": 65,
+    "handlePivot": {
+      "x": 250.41,
+      "y": 127.63
+    },
+    "handle": {
+      "x": 260.93,
+      "y": 67.97
+    },
+    "forkTop": {
+      "x": 184.17,
+      "y": 284.34
+    },
+    "frontWheel": {
+      "x": 133.46,
+      "y": 398.84
+    },
+    "rearWheel": {
+      "x": 575.52,
+      "y": 406.15
+    },
+    "swingPivot": {
+      "x": 453.16,
+      "y": 383.69
+    },
+    "shockTop": {
+      "x": 525.06,
+      "y": 315.03
+    },
+    "shockBottom": {
+      "x": 554.6,
+      "y": 385.89
+    },
+    "seat": {
+      "x": 492.74,
+      "y": 201.94
+    },
+    "foot": {
+      "x": 323.11,
+      "y": 347.34
+    },
+    "chassis": {
+      "x": 351.38,
+      "y": 399.85
+    },
+    "frontWheelRadius": 76.74,
+    "rearWheelRadius": 76.74,
+    "frontDiscRadius": 35.3,
+    "rearDiscRadius": 28.92
+  },
+  "SYUAN/535t": {
+    "wheelbaseMm": 1298,
+    "pixelsPerMillimeter": 0.4618393574297189,
+    "forkAngleDegrees": 65,
+    "handlePivot": {
+      "x": 250.41,
+      "y": 121.17
+    },
+    "handle": {
+      "x": 271.13,
+      "y": 64.24
+    },
+    "forkTop": {
+      "x": 187.4,
+      "y": 278.68
+    },
+    "frontWheel": {
+      "x": 123.27,
+      "y": 391.38
+    },
+    "rearWheel": {
+      "x": 594.04,
+      "y": 393.98
+    },
+    "swingPivot": {
+      "x": 479.01,
+      "y": 379.66
+    },
+    "shockTop": {
+      "x": 529.09,
+      "y": 278.68
+    },
+    "shockBottom": {
+      "x": 592.03,
+      "y": 377.45
+    },
+    "seat": {
+      "x": 460.43,
+      "y": 189.83
+    },
+    "foot": {
+      "x": 306.96,
+      "y": 371.58
+    },
+    "chassis": {
+      "x": 351.38,
+      "y": 410.35
+    },
+    "frontWheelRadius": 82.39,
+    "rearWheelRadius": 82.39,
+    "frontDiscRadius": 30.29,
+    "rearDiscRadius": 26.01
+  },
+  "SYUAN/T300": {
+    "wheelbaseMm": 1300,
+    "pixelsPerMillimeter": 0.4618393574297189,
+    "forkAngleDegrees": 65,
+    "handlePivot": {
+      "x": 262.53,
+      "y": 121.17
+    },
+    "handle": {
+      "x": 274.96,
+      "y": 87.01
+    },
+    "forkTop": {
+      "x": 187.4,
+      "y": 278.68
+    },
+    "frontWheel": {
+      "x": 123.27,
+      "y": 391.38
+    },
+    "rearWheel": {
+      "x": 592.1,
+      "y": 391.77
+    },
+    "swingPivot": {
+      "x": 469.32,
+      "y": 391.77
+    },
+    "shockTop": {
+      "x": 525.06,
+      "y": 290.8
+    },
+    "shockBottom": {
+      "x": 571.91,
+      "y": 375.62
+    },
+    "seat": {
+      "x": 460.43,
+      "y": 197.91
+    },
+    "foot": {
+      "x": 306.96,
+      "y": 355.42
+    },
+    "chassis": {
+      "x": 351.38,
+      "y": 410.35
+    },
+    "frontWheelRadius": 82.39,
+    "rearWheelRadius": 82.39,
+    "frontDiscRadius": 30.29,
+    "rearDiscRadius": 26.01
+  },
+  "YADEA/白鲨 I": {
+    "wheelbaseMm": 1245,
+    "pixelsPerMillimeter": 0.45852610441767067,
+    "forkAngleDegrees": 65,
+    "handlePivot": {
+      "x": 262.53,
+      "y": 113.09
+    },
+    "handle": {
+      "x": 274.96,
+      "y": 78.93
+    },
+    "forkTop": {
+      "x": 184.98,
+      "y": 278.68
+    },
+    "frontWheel": {
+      "x": 119.14,
+      "y": 395.04
+    },
+    "rearWheel": {
+      "x": 579.15,
+      "y": 404.25
+    },
+    "swingPivot": {
+      "x": 451.55,
+      "y": 383.69
+    },
+    "shockTop": {
+      "x": 533.13,
+      "y": 282.72
+    },
+    "shockBottom": {
+      "x": 575.03,
+      "y": 379.04
+    },
+    "seat": {
+      "x": 492.74,
+      "y": 193.87
+    },
+    "foot": {
+      "x": 323.11,
+      "y": 339.27
+    },
+    "chassis": {
+      "x": 351.38,
+      "y": 420.04
+    },
+    "frontWheelRadius": 80.78,
+    "rearWheelRadius": 73.51,
+    "frontDiscRadius": 36.59,
+    "rearDiscRadius": 29.97
+  },
+  "YADEA/X5": {
+    "wheelbaseMm": 1195,
+    "pixelsPerMillimeter": 0.46149151172190783,
+    "forkAngleDegrees": 60,
+    "handlePivot": {
+      "x": 260.91,
+      "y": 143.78
+    },
+    "handle": {
+      "x": 277.49,
+      "y": 98.24
+    },
+    "forkTop": {
+      "x": 205.98,
+      "y": 252.03
+    },
+    "frontWheel": {
+      "x": 114.09,
+      "y": 390.19
+    },
+    "rearWheel": {
+      "x": 578.09,
+      "y": 401.26
+    },
+    "swingPivot": {
+      "x": 455.59,
+      "y": 379.66
+    },
+    "shockTop": {
+      "x": 527.48,
+      "y": 282.72
+    },
+    "shockBottom": {
+      "x": 553.06,
+      "y": 380.44
+    },
+    "seat": {
+      "x": 459.63,
+      "y": 205.98
+    },
+    "foot": {
+      "x": 282.72,
+      "y": 363.5
+    },
+    "chassis": {
+      "x": 351.38,
+      "y": 399.85
+    },
+    "frontWheelRadius": 84.01,
+    "rearWheelRadius": 79.16,
+    "frontDiscRadius": 30.13,
+    "rearDiscRadius": 26.01
+  },
+  "YADEA/X7": {
+    "wheelbaseMm": 1310,
+    "pixelsPerMillimeter": 0.46149151172190783,
+    "forkAngleDegrees": 62,
+    "handlePivot": {
+      "x": 260.91,
+      "y": 143.78
+    },
+    "handle": {
+      "x": 277.49,
+      "y": 98.24
+    },
+    "forkTop": {
+      "x": 201.94,
+      "y": 252.03
+    },
+    "frontWheel": {
+      "x": 114.93,
+      "y": 393.31
+    },
+    "rearWheel": {
+      "x": 566.62,
+      "y": 390.78
+    },
+    "swingPivot": {
+      "x": 432.16,
+      "y": 387.73
+    },
+    "shockTop": {
+      "x": 508.9,
+      "y": 286.76
+    },
+    "shockBottom": {
+      "x": 558.91,
+      "y": 374.45
+    },
+    "seat": {
+      "x": 459.63,
+      "y": 205.98
+    },
+    "foot": {
+      "x": 282.72,
+      "y": 355.42
+    },
+    "chassis": {
+      "x": 351.38,
+      "y": 428.12
+    },
+    "frontWheelRadius": 84.01,
+    "rearWheelRadius": 84.01,
+    "frontDiscRadius": 30.13,
+    "rearDiscRadius": 26.01
+  },
+  "YADEA/DT6": {
+    "wheelbaseMm": 1240,
+    "pixelsPerMillimeter": 0.4757208333333333,
+    "forkAngleDegrees": 65,
+    "handlePivot": {
+      "x": 242.33,
+      "y": 113.09
+    },
+    "handle": {
+      "x": 254.77,
+      "y": 78.93
+    },
+    "forkTop": {
+      "x": 189.02,
+      "y": 289.99
+    },
+    "frontWheel": {
+      "x": 124.88,
+      "y": 402.69
+    },
+    "rearWheel": {
+      "x": 597.06,
+      "y": 396.83
+    },
+    "swingPivot": {
+      "x": 456.39,
+      "y": 387.73
+    },
+    "shockTop": {
+      "x": 541.21,
+      "y": 282.72
+    },
+    "shockBottom": {
+      "x": 590.04,
+      "y": 380.19
+    },
+    "seat": {
+      "x": 444.28,
+      "y": 218.1
+    },
+    "foot": {
+      "x": 282.72,
+      "y": 379.66
+    },
+    "chassis": {
+      "x": 333.61,
+      "y": 415.2
+    },
+    "frontWheelRadius": 75.93,
+    "rearWheelRadius": 75.93,
+    "frontDiscRadius": 31.1,
+    "rearDiscRadius": 26.82
+  },
+  "YADEA/DE8": {
+    "wheelbaseMm": 1240,
+    "pixelsPerMillimeter": 0.4757208333333333,
+    "forkAngleDegrees": 65,
+    "handlePivot": {
+      "x": 242.33,
+      "y": 113.09
+    },
+    "handle": {
+      "x": 254.77,
+      "y": 78.93
+    },
+    "forkTop": {
+      "x": 189.02,
+      "y": 289.99
+    },
+    "frontWheel": {
+      "x": 124.88,
+      "y": 402.69
+    },
+    "rearWheel": {
+      "x": 597.06,
+      "y": 396.83
+    },
+    "swingPivot": {
+      "x": 456.39,
+      "y": 387.73
+    },
+    "shockTop": {
+      "x": 541.21,
+      "y": 282.72
+    },
+    "shockBottom": {
+      "x": 590.04,
+      "y": 380.19
+    },
+    "seat": {
+      "x": 444.28,
+      "y": 218.1
+    },
+    "foot": {
+      "x": 282.72,
+      "y": 379.66
+    },
+    "chassis": {
+      "x": 333.61,
+      "y": 415.2
+    },
+    "frontWheelRadius": 75.93,
+    "rearWheelRadius": 75.93,
+    "frontDiscRadius": 31.1,
+    "rearDiscRadius": 26.82
+  },
+  "YADEA/白鲨70s": {
+    "wheelbaseMm": 1250,
+    "pixelsPerMillimeter": 0.45852610441767067,
+    "forkAngleDegrees": 64,
+    "handlePivot": {
+      "x": 246.37,
+      "y": 84.82
+    },
+    "handle": {
+      "x": 258.8,
+      "y": 50.66
+    },
+    "forkTop": {
+      "x": 153.48,
+      "y": 278.68
+    },
+    "frontWheel": {
+      "x": 87.38,
+      "y": 390.24
+    },
+    "rearWheel": {
+      "x": 588.34,
+      "y": 399.37
+    },
+    "swingPivot": {
+      "x": 460.43,
+      "y": 387.73
+    },
+    "shockTop": {
+      "x": 541.21,
+      "y": 278.68
+    },
+    "shockBottom": {
+      "x": 581.76,
+      "y": 382.55
+    },
+    "seat": {
+      "x": 468.51,
+      "y": 177.71
+    },
+    "foot": {
+      "x": 282.72,
+      "y": 339.27
+    },
+    "chassis": {
+      "x": 333.61,
+      "y": 415.2
+    },
+    "frontWheelRadius": 84.82,
+    "rearWheelRadius": 76.74,
+    "frontDiscRadius": 36.67,
+    "rearDiscRadius": 30.05
+  },
+  "YADEA/E9": {
+    "wheelbaseMm": 1245,
+    "pixelsPerMillimeter": 0.45852610441767067,
+    "forkAngleDegrees": 62,
+    "handlePivot": {
+      "x": 286.76,
+      "y": 105.01
+    },
+    "handle": {
+      "x": 299.19,
+      "y": 70.85
+    },
+    "forkTop": {
+      "x": 199.52,
+      "y": 278.68
+    },
+    "frontWheel": {
+      "x": 129.57,
+      "y": 387.87
+    },
+    "rearWheel": {
+      "x": 587.21,
+      "y": 394.34
+    },
+    "swingPivot": {
+      "x": 461.24,
+      "y": 379.66
+    },
+    "shockTop": {
+      "x": 569.48,
+      "y": 278.68
+    },
+    "shockBottom": {
+      "x": 594.7,
+      "y": 378.95
+    },
+    "seat": {
+      "x": 468.51,
+      "y": 177.71
+    },
+    "foot": {
+      "x": 282.72,
+      "y": 339.27
+    },
+    "chassis": {
+      "x": 333.61,
+      "y": 415.2
+    },
+    "frontWheelRadius": 82.39,
+    "rearWheelRadius": 79.97,
+    "frontDiscRadius": 36.67,
+    "rearDiscRadius": 30.05
+  },
+  "YADEA/E10": {
+    "wheelbaseMm": 1245,
+    "pixelsPerMillimeter": 0.45852610441767067,
+    "forkAngleDegrees": 62,
+    "handlePivot": {
+      "x": 290.8,
+      "y": 113.09
+    },
+    "handle": {
+      "x": 303.23,
+      "y": 78.93
+    },
+    "forkTop": {
+      "x": 199.52,
+      "y": 278.68
+    },
+    "frontWheel": {
+      "x": 129.57,
+      "y": 387.87
+    },
+    "rearWheel": {
+      "x": 587.08,
+      "y": 395.44
+    },
+    "swingPivot": {
+      "x": 461.24,
+      "y": 379.66
+    },
+    "shockTop": {
+      "x": 569.48,
+      "y": 278.68
+    },
+    "shockBottom": {
+      "x": 601.61,
+      "y": 376.91
+    },
+    "seat": {
+      "x": 468.51,
+      "y": 177.71
+    },
+    "foot": {
+      "x": 282.72,
+      "y": 339.27
+    },
+    "chassis": {
+      "x": 333.61,
+      "y": 415.2
+    },
+    "frontWheelRadius": 82.39,
+    "rearWheelRadius": 79.97,
+    "frontDiscRadius": 36.67,
+    "rearDiscRadius": 30.05
+  },
+  "YADEA/极光 2.0": {
+    "wheelbaseMm": 1360,
+    "pixelsPerMillimeter": 0.45852610441767067,
+    "forkAngleDegrees": 64,
+    "handlePivot": {
+      "x": 266.57,
+      "y": 141.36
+    },
+    "handle": {
+      "x": 312.6,
+      "y": 46.98
+    },
+    "forkTop": {
+      "x": 193.87,
+      "y": 266.57
+    },
+    "frontWheel": {
+      "x": 124.23,
+      "y": 385.39
+    },
+    "rearWheel": {
+      "x": 615.28,
+      "y": 395.55
+    },
+    "swingPivot": {
+      "x": 492.74,
+      "y": 387.73
+    },
+    "shockTop": {
+      "x": 553.33,
+      "y": 288.38
+    },
+    "shockBottom": {
+      "x": 612.28,
+      "y": 379.17
+    },
+    "seat": {
+      "x": 492.74,
+      "y": 193.87
+    },
+    "foot": {
+      "x": 323.11,
+      "y": 347.34
+    },
+    "chassis": {
+      "x": 351.38,
+      "y": 424.08
+    },
+    "frontWheelRadius": 85.62,
+    "rearWheelRadius": 80.78,
+    "frontDiscRadius": 30.05,
+    "rearDiscRadius": 30.05
+  },
+  "TAILG/封神EB": {
+    "wheelbaseMm": 1245,
+    "pixelsPerMillimeter": 0.46149151172190783,
+    "forkAngleDegrees": 65,
+    "handlePivot": {
+      "x": 246.37,
+      "y": 125.21
+    },
+    "handle": {
+      "x": 257.87,
+      "y": 82.29
+    },
+    "forkTop": {
+      "x": 163.98,
+      "y": 290.8
+    },
+    "frontWheel": {
+      "x": 101.55,
+      "y": 399.84
+    },
+    "rearWheel": {
+      "x": 556.05,
+      "y": 404.25
+    },
+    "swingPivot": {
+      "x": 447.51,
+      "y": 390.16
+    },
+    "shockTop": {
+      "x": 516.98,
+      "y": 285.15
+    },
+    "shockBottom": {
+      "x": 554.13,
+      "y": 387.71
+    },
+    "seat": {
+      "x": 468.51,
+      "y": 201.94
+    },
+    "foot": {
+      "x": 323.11,
+      "y": 355.42
+    },
+    "chassis": {
+      "x": 351.38,
+      "y": 432.16
+    },
+    "frontWheelRadius": 77.55,
+    "rearWheelRadius": 72.7,
+    "frontDiscRadius": 30.21,
+    "rearDiscRadius": 26.01
+  },
+  "TAILG/苍穹EB": {
+    "wheelbaseMm": 1245,
+    "pixelsPerMillimeter": 0.46149151172190783,
+    "forkAngleDegrees": 65,
+    "handlePivot": {
+      "x": 246.37,
+      "y": 125.21
+    },
+    "handle": {
+      "x": 257.87,
+      "y": 82.29
+    },
+    "forkTop": {
+      "x": 163.98,
+      "y": 294.84
+    },
+    "frontWheel": {
+      "x": 101.55,
+      "y": 403.88
+    },
+    "rearWheel": {
+      "x": 550.12,
+      "y": 406.16
+    },
+    "swingPivot": {
+      "x": 443.07,
+      "y": 390.16
+    },
+    "shockTop": {
+      "x": 516.98,
+      "y": 285.15
+    },
+    "shockBottom": {
+      "x": 548.51,
+      "y": 389.58
+    },
+    "seat": {
+      "x": 468.51,
+      "y": 201.94
+    },
+    "foot": {
+      "x": 323.11,
+      "y": 355.42
+    },
+    "chassis": {
+      "x": 351.38,
+      "y": 432.16
+    },
+    "frontWheelRadius": 72.7,
+    "rearWheelRadius": 72.7,
+    "frontDiscRadius": 30.21,
+    "rearDiscRadius": 26.01
+  },
+  "TAILG/F1": {
+    "wheelbaseMm": 1375,
+    "pixelsPerMillimeter": 0.45852610441767067,
+    "forkAngleDegrees": 65,
+    "handlePivot": {
+      "x": 266.57,
+      "y": 105.01
+    },
+    "handle": {
+      "x": 279,
+      "y": 70.85
+    },
+    "forkTop": {
+      "x": 186.6,
+      "y": 284.34
+    },
+    "frontWheel": {
+      "x": 122.46,
+      "y": 397.04
+    },
+    "rearWheel": {
+      "x": 605.02,
+      "y": 397.41
+    },
+    "swingPivot": {
+      "x": 464.47,
+      "y": 395.81
+    },
+    "shockTop": {
+      "x": 577.56,
+      "y": 288.38
+    },
+    "shockBottom": {
+      "x": 605.2,
+      "y": 381.25
+    },
+    "seat": {
+      "x": 468.51,
+      "y": 201.94
+    },
+    "foot": {
+      "x": 282.72,
+      "y": 363.5
+    },
+    "chassis": {
+      "x": 333.61,
+      "y": 415.2
+    },
+    "frontWheelRadius": 83.2,
+    "rearWheelRadius": 84.01,
+    "frontDiscRadius": 36.67,
+    "rearDiscRadius": 30.05
+  },
+  "TAILG/苍穹": {
+    "wheelbaseMm": 1325,
+    "pixelsPerMillimeter": 0.46149151172190783,
+    "forkAngleDegrees": 65,
+    "handlePivot": {
+      "x": 246.37,
+      "y": 125.21
+    },
+    "handle": {
+      "x": 257.87,
+      "y": 82.29
+    },
+    "forkTop": {
+      "x": 163.98,
+      "y": 294.84
+    },
+    "frontWheel": {
+      "x": 101.55,
+      "y": 403.88
+    },
+    "rearWheel": {
+      "x": 578.39,
+      "y": 406.16
+    },
+    "swingPivot": {
+      "x": 471.34,
+      "y": 390.16
+    },
+    "shockTop": {
+      "x": 545.25,
+      "y": 285.15
+    },
+    "shockBottom": {
+      "x": 576.79,
+      "y": 389.58
+    },
+    "seat": {
+      "x": 468.51,
+      "y": 201.94
+    },
+    "foot": {
+      "x": 323.11,
+      "y": 355.42
+    },
+    "chassis": {
+      "x": 351.38,
+      "y": 432.16
+    },
+    "frontWheelRadius": 72.7,
+    "rearWheelRadius": 72.7,
+    "frontDiscRadius": 30.21,
+    "rearDiscRadius": 26.01
+  },
+  "TAILG/Y3": {
+    "wheelbaseMm": 1325,
+    "pixelsPerMillimeter": 0.46149151172190783,
+    "forkAngleDegrees": 65,
+    "handlePivot": {
+      "x": 254.45,
+      "y": 113.09
+    },
+    "handle": {
+      "x": 265.95,
+      "y": 70.17
+    },
+    "forkTop": {
+      "x": 179.33,
+      "y": 286.76
+    },
+    "frontWheel": {
+      "x": 116.9,
+      "y": 395.8
+    },
+    "rearWheel": {
+      "x": 603.72,
+      "y": 400.88
+    },
+    "swingPivot": {
+      "x": 483.46,
+      "y": 386.12
+    },
+    "shockTop": {
+      "x": 557.37,
+      "y": 278.68
+    },
+    "shockBottom": {
+      "x": 589.65,
+      "y": 382.88
+    },
+    "seat": {
+      "x": 468.51,
+      "y": 189.83
+    },
+    "foot": {
+      "x": 298.88,
+      "y": 347.34
+    },
+    "chassis": {
+      "x": 351.38,
+      "y": 416.01
+    },
+    "frontWheelRadius": 75.12,
+    "rearWheelRadius": 75.12,
+    "frontDiscRadius": 30.21,
+    "rearDiscRadius": 26.01
+  },
+  "Honda/Ub e 2025": {
+    "wheelbaseMm": 1220,
+    "pixelsPerMillimeter": 0.467922131147541,
+    "forkAngleDegrees": 65,
+    "handlePivot": {
+      "x": 246.37,
+      "y": 125.21
+    },
+    "handle": {
+      "x": 255.78,
+      "y": 90.09
+    },
+    "forkTop": {
+      "x": 184.17,
+      "y": 284.34
+    },
+    "frontWheel": {
+      "x": 121.74,
+      "y": 393.37
+    },
+    "rearWheel": {
+      "x": 568.43,
+      "y": 395.79
+    },
+    "swingPivot": {
+      "x": 445.09,
+      "y": 379.66
+    },
+    "shockTop": {
+      "x": 500.82,
+      "y": 282.72
+    },
+    "shockBottom": {
+      "x": 554.51,
+      "y": 377.67
+    },
+    "seat": {
+      "x": 452.36,
+      "y": 201.94
+    },
+    "foot": {
+      "x": 282.72,
+      "y": 363.5
+    },
+    "chassis": {
+      "x": 351.38,
+      "y": 416.01
+    },
+    "frontWheelRadius": 72.7,
+    "rearWheelRadius": 72.7,
+    "frontDiscRadius": 30.7,
+    "rearDiscRadius": 26.41
+  },
+  "Honda/Ub e": {
+    "wheelbaseMm": 1220,
+    "pixelsPerMillimeter": 0.467922131147541,
+    "forkAngleDegrees": 65,
+    "handlePivot": {
+      "x": 246.37,
+      "y": 149.44
+    },
+    "handle": {
+      "x": 262.05,
+      "y": 90.92
+    },
+    "forkTop": {
+      "x": 184.17,
+      "y": 284.34
+    },
+    "frontWheel": {
+      "x": 121.74,
+      "y": 393.37
+    },
+    "rearWheel": {
+      "x": 574.4,
+      "y": 393.31
+    },
+    "swingPivot": {
+      "x": 448.72,
+      "y": 379.66
+    },
+    "shockTop": {
+      "x": 516.98,
+      "y": 282.72
+    },
+    "shockBottom": {
+      "x": 572.13,
+      "y": 376.81
+    },
+    "seat": {
+      "x": 492.74,
+      "y": 201.94
+    },
+    "foot": {
+      "x": 323.11,
+      "y": 363.5
+    },
+    "chassis": {
+      "x": 351.38,
+      "y": 399.85
+    },
+    "frontWheelRadius": 72.7,
+    "rearWheelRadius": 72.7,
+    "frontDiscRadius": 30.7,
+    "rearDiscRadius": 26.41
+  },
+  "Honda/Zoomer e": {
+    "wheelbaseMm": 1220,
+    "pixelsPerMillimeter": 0.467922131147541,
+    "forkAngleDegrees": 65,
+    "handlePivot": {
+      "x": 243.95,
+      "y": 159.13
+    },
+    "handle": {
+      "x": 266.05,
+      "y": 98.41
+    },
+    "forkTop": {
+      "x": 185.79,
+      "y": 290.8
+    },
+    "frontWheel": {
+      "x": 123.36,
+      "y": 399.84
+    },
+    "rearWheel": {
+      "x": 572.08,
+      "y": 396.24
+    },
+    "swingPivot": {
+      "x": 447.51,
+      "y": 383.69
+    },
+    "shockTop": {
+      "x": 526.67,
+      "y": 302.92
+    },
+    "shockBottom": {
+      "x": 569.68,
+      "y": 379.76
+    },
+    "seat": {
+      "x": 492.74,
+      "y": 201.94
+    },
+    "foot": {
+      "x": 323.11,
+      "y": 363.5
+    },
+    "chassis": {
+      "x": 351.38,
+      "y": 407.93
+    },
+    "frontWheelRadius": 75.93,
+    "rearWheelRadius": 75.93,
+    "frontDiscRadius": 30.7,
+    "rearDiscRadius": 30.7
+  },
+  "Honda/S 07": {
+    "wheelbaseMm": 1225,
+    "pixelsPerMillimeter": 0.467922131147541,
+    "forkAngleDegrees": 62,
+    "handlePivot": {
+      "x": 254.45,
+      "y": 149.44
+    },
+    "handle": {
+      "x": 269.65,
+      "y": 107.69
+    },
+    "forkTop": {
+      "x": 188.21,
+      "y": 294.84
+    },
+    "frontWheel": {
+      "x": 123.95,
+      "y": 393.33
+    },
+    "rearWheel": {
+      "x": 552.92,
+      "y": 390.42
+    },
+    "swingPivot": {
+      "x": 453.16,
+      "y": 390.16
+    },
+    "shockTop": {
+      "x": 508.9,
+      "y": 282.72
+    },
+    "shockBottom": {
+      "x": 540.85,
+      "y": 374.23
+    },
+    "seat": {
+      "x": 492.74,
+      "y": 201.94
+    },
+    "foot": {
+      "x": 323.11,
+      "y": 363.5
+    },
+    "chassis": {
+      "x": 351.38,
+      "y": 399.85
+    },
+    "frontWheelRadius": 72.7,
+    "rearWheelRadius": 72.7,
+    "frontDiscRadius": 30.7,
+    "rearDiscRadius": 26.41
+  },
+  "ZEEHO/AE2": {
+    "wheelbaseMm": 1215,
+    "pixelsPerMillimeter": 0.45,
+    "forkAngleDegrees": 65,
+    "handlePivot": {
+      "x": 274.64,
+      "y": 96.93
+    },
+    "handle": {
+      "x": 287.08,
+      "y": 62.78
+    },
+    "forkTop": {
+      "x": 178.52,
+      "y": 298.88
+    },
+    "frontWheel": {
+      "x": 119.5,
+      "y": 400.59
+    },
+    "rearWheel": {
+      "x": 589.73,
+      "y": 400.74
+    },
+    "swingPivot": {
+      "x": 478.2,
+      "y": 387.73
+    },
+    "shockTop": {
+      "x": 530.71,
+      "y": 289.18
+    },
+    "shockBottom": {
+      "x": 581.97,
+      "y": 383.57
+    },
+    "seat": {
+      "x": 492.74,
+      "y": 185.79
+    },
+    "foot": {
+      "x": 323.11,
+      "y": 347.34
+    },
+    "chassis": {
+      "x": 351.38,
+      "y": 395.81
+    },
+    "frontWheelRadius": 74.32,
+    "rearWheelRadius": 74.32,
+    "frontDiscRadius": 29.48,
+    "rearDiscRadius": 25.36
+  },
+  "ZEEHO/AE4i": {
+    "wheelbaseMm": 1245,
+    "pixelsPerMillimeter": 0.45,
+    "forkAngleDegrees": 65,
+    "handlePivot": {
+      "x": 250.41,
+      "y": 129.24
+    },
+    "handle": {
+      "x": 262.84,
+      "y": 95.09
+    },
+    "forkTop": {
+      "x": 179.33,
+      "y": 290.8
+    },
+    "frontWheel": {
+      "x": 116.9,
+      "y": 399.84
+    },
+    "rearWheel": {
+      "x": 569.17,
+      "y": 399.98
+    },
+    "swingPivot": {
+      "x": 438.62,
+      "y": 390.96
+    },
+    "shockTop": {
+      "x": 496.78,
+      "y": 294.84
+    },
+    "shockBottom": {
+      "x": 554.17,
+      "y": 382.75
+    },
+    "seat": {
+      "x": 444.28,
+      "y": 205.98
+    },
+    "foot": {
+      "x": 282.72,
+      "y": 363.5
+    },
+    "chassis": {
+      "x": 351.38,
+      "y": 410.35
+    },
+    "frontWheelRadius": 79.97,
+    "rearWheelRadius": 79.97,
+    "frontDiscRadius": 35.95,
+    "rearDiscRadius": 29.4
+  },
+  "ZEEHO/AE5i": {
+    "wheelbaseMm": 1245,
+    "pixelsPerMillimeter": 0.45852610441767067,
+    "forkAngleDegrees": 65,
+    "handlePivot": {
+      "x": 282.72,
+      "y": 96.93
+    },
+    "handle": {
+      "x": 295.15,
+      "y": 62.78
+    },
+    "forkTop": {
+      "x": 184.98,
+      "y": 278.68
+    },
+    "frontWheel": {
+      "x": 119.14,
+      "y": 395.04
+    },
+    "rearWheel": {
+      "x": 575.22,
+      "y": 404.57
+    },
+    "swingPivot": {
+      "x": 463.66,
+      "y": 383.69
+    },
+    "shockTop": {
+      "x": 546.87,
+      "y": 290.8
+    },
+    "shockBottom": {
+      "x": 574.22,
+      "y": 387.95
+    },
+    "seat": {
+      "x": 492.74,
+      "y": 201.94
+    },
+    "foot": {
+      "x": 323.11,
+      "y": 363.5
+    },
+    "chassis": {
+      "x": 351.38,
+      "y": 436.2
+    },
+    "frontWheelRadius": 80.78,
+    "rearWheelRadius": 73.51,
+    "frontDiscRadius": 36.67,
+    "rearDiscRadius": 29.97
+  },
+  "ZEEHO/EZ3i": {
+    "wheelbaseMm": 1245,
+    "pixelsPerMillimeter": 0.45,
+    "forkAngleDegrees": 65,
+    "handlePivot": {
+      "x": 274.64,
+      "y": 96.93
+    },
+    "handle": {
+      "x": 287.08,
+      "y": 62.78
+    },
+    "forkTop": {
+      "x": 178.52,
+      "y": 290.8
+    },
+    "frontWheel": {
+      "x": 119.5,
+      "y": 392.52
+    },
+    "rearWheel": {
+      "x": 582.33,
+      "y": 394.71
+    },
+    "swingPivot": {
+      "x": 456.39,
+      "y": 383.69
+    },
+    "shockTop": {
+      "x": 553.33,
+      "y": 290.8
+    },
+    "shockBottom": {
+      "x": 583.74,
+      "y": 378.62
+    },
+    "seat": {
+      "x": 492.74,
+      "y": 185.79
+    },
+    "foot": {
+      "x": 323.11,
+      "y": 339.27
+    },
+    "chassis": {
+      "x": 351.38,
+      "y": 395.81
+    },
+    "frontWheelRadius": 76.74,
+    "rearWheelRadius": 76.74,
+    "frontDiscRadius": 29.48,
+    "rearDiscRadius": 25.36
+  },
+  "ZEEHO/AE8 S+ my25": {
+    "wheelbaseMm": 1380,
+    "pixelsPerMillimeter": 0.45,
+    "forkAngleDegrees": 65,
+    "handlePivot": {
+      "x": 226.18,
+      "y": 96.93
+    },
+    "handle": {
+      "x": 238.61,
+      "y": 62.78
+    },
+    "forkTop": {
+      "x": 153.48,
+      "y": 278.68
+    },
+    "frontWheel": {
+      "x": 89.34,
+      "y": 391.38
+    },
+    "rearWheel": {
+      "x": 608.58,
+      "y": 387.85
+    },
+    "swingPivot": {
+      "x": 450.74,
+      "y": 382.89
+    },
+    "shockTop": {
+      "x": 577.56,
+      "y": 278.68
+    },
+    "shockBottom": {
+      "x": 605.05,
+      "y": 371.57
+    },
+    "seat": {
+      "x": 452.36,
+      "y": 189.83
+    },
+    "foot": {
+      "x": 210.02,
+      "y": 331.19
+    },
+    "chassis": {
+      "x": 333.61,
+      "y": 415.2
+    },
+    "frontWheelRadius": 86.43,
+    "rearWheelRadius": 87.24,
+    "frontDiscRadius": 36.03,
+    "rearDiscRadius": 29.48
+  },
+  "ZEEHO/AE7": {
+    "wheelbaseMm": 1300,
+    "pixelsPerMillimeter": 0.45,
+    "forkAngleDegrees": 65,
+    "handlePivot": {
+      "x": 242.33,
+      "y": 96.93
+    },
+    "handle": {
+      "x": 254.77,
+      "y": 62.78
+    },
+    "forkTop": {
+      "x": 153.48,
+      "y": 278.68
+    },
+    "frontWheel": {
+      "x": 89.34,
+      "y": 391.38
+    },
+    "rearWheel": {
+      "x": 574.54,
+      "y": 395.77
+    },
+    "swingPivot": {
+      "x": 437.01,
+      "y": 382.89
+    },
+    "shockTop": {
+      "x": 545.25,
+      "y": 278.68
+    },
+    "shockBottom": {
+      "x": 573.15,
+      "y": 367.24
+    },
+    "seat": {
+      "x": 452.36,
+      "y": 189.83
+    },
+    "foot": {
+      "x": 290.8,
+      "y": 363.5
+    },
+    "chassis": {
+      "x": 333.61,
+      "y": 428.12
+    },
+    "frontWheelRadius": 86.43,
+    "rearWheelRadius": 84.82,
+    "frontDiscRadius": 36.03,
+    "rearDiscRadius": 29.48
+  },
+  "ZEEHO/AE6+": {
+    "wheelbaseMm": 1260,
+    "pixelsPerMillimeter": 0.45,
+    "forkAngleDegrees": 65,
+    "handlePivot": {
+      "x": 226.18,
+      "y": 113.09
+    },
+    "handle": {
+      "x": 238.61,
+      "y": 78.93
+    },
+    "forkTop": {
+      "x": 153.48,
+      "y": 278.68
+    },
+    "frontWheel": {
+      "x": 89.34,
+      "y": 391.38
+    },
+    "rearWheel": {
+      "x": 552.83,
+      "y": 398.3
+    },
+    "swingPivot": {
+      "x": 441.05,
+      "y": 387.73
+    },
+    "shockTop": {
+      "x": 533.13,
+      "y": 278.68
+    },
+    "shockBottom": {
+      "x": 551.47,
+      "y": 369.77
+    },
+    "seat": {
+      "x": 428.12,
+      "y": 189.83
+    },
+    "foot": {
+      "x": 258.49,
+      "y": 363.5
+    },
+    "chassis": {
+      "x": 333.61,
+      "y": 428.12
+    },
+    "frontWheelRadius": 86.43,
+    "rearWheelRadius": 79.16,
+    "frontDiscRadius": 36.03,
+    "rearDiscRadius": 29.48
+  },
+  "ZEEHO/AE4 26": {
+    "wheelbaseMm": 1340,
+    "pixelsPerMillimeter": 0.45,
+    "forkAngleDegrees": 65,
+    "handlePivot": {
+      "x": 258.49,
+      "y": 80.78
+    },
+    "handle": {
+      "x": 270.92,
+      "y": 46.62
+    },
+    "forkTop": {
+      "x": 151.05,
+      "y": 282.72
+    },
+    "frontWheel": {
+      "x": 86.92,
+      "y": 395.42
+    },
+    "rearWheel": {
+      "x": 596.56,
+      "y": 394.28
+    },
+    "swingPivot": {
+      "x": 452.36,
+      "y": 383.69
+    },
+    "shockTop": {
+      "x": 565.44,
+      "y": 285.15
+    },
+    "shockBottom": {
+      "x": 593.71,
+      "y": 377.88
+    },
+    "seat": {
+      "x": 468.51,
+      "y": 185.79
+    },
+    "foot": {
+      "x": 298.88,
+      "y": 347.34
+    },
+    "chassis": {
+      "x": 333.61,
+      "y": 415.2
+    },
+    "frontWheelRadius": 84.01,
+    "rearWheelRadius": 84.01,
+    "frontDiscRadius": 36.03,
+    "rearDiscRadius": 29.48
+  },
+  "ZEEHO/AE4 my25": {
+    "wheelbaseMm": 1340,
+    "pixelsPerMillimeter": 0.45,
+    "forkAngleDegrees": 65,
+    "handlePivot": {
+      "x": 258.49,
+      "y": 80.78
+    },
+    "handle": {
+      "x": 270.92,
+      "y": 46.62
+    },
+    "forkTop": {
+      "x": 151.05,
+      "y": 282.72
+    },
+    "frontWheel": {
+      "x": 86.92,
+      "y": 395.42
+    },
+    "rearWheel": {
+      "x": 596.56,
+      "y": 394.28
+    },
+    "swingPivot": {
+      "x": 452.36,
+      "y": 383.69
+    },
+    "shockTop": {
+      "x": 565.44,
+      "y": 285.15
+    },
+    "shockBottom": {
+      "x": 593.71,
+      "y": 377.88
+    },
+    "seat": {
+      "x": 468.51,
+      "y": 185.79
+    },
+    "foot": {
+      "x": 298.88,
+      "y": 347.34
+    },
+    "chassis": {
+      "x": 333.61,
+      "y": 415.2
+    },
+    "frontWheelRadius": 84.01,
+    "rearWheelRadius": 84.01,
+    "frontDiscRadius": 36.03,
+    "rearDiscRadius": 29.48
+  },
+  "ZEEHO/AE3 pro": {
+    "wheelbaseMm": 1274,
+    "pixelsPerMillimeter": 0.45852610441767067,
+    "forkAngleDegrees": 65,
+    "handlePivot": {
+      "x": 282.72,
+      "y": 105.01
+    },
+    "handle": {
+      "x": 295.15,
+      "y": 70.85
+    },
+    "forkTop": {
+      "x": 183.37,
+      "y": 278.68
+    },
+    "frontWheel": {
+      "x": 117.52,
+      "y": 395.04
+    },
+    "rearWheel": {
+      "x": 588.89,
+      "y": 405.58
+    },
+    "swingPivot": {
+      "x": 467.7,
+      "y": 391.77
+    },
+    "shockTop": {
+      "x": 569.48,
+      "y": 270.61
+    },
+    "shockBottom": {
+      "x": 591.64,
+      "y": 381.5
+    },
+    "seat": {
+      "x": 492.74,
+      "y": 201.94
+    },
+    "foot": {
+      "x": 306.96,
+      "y": 355.42
+    },
+    "chassis": {
+      "x": 351.38,
+      "y": 432.16
+    },
+    "frontWheelRadius": 80.78,
+    "rearWheelRadius": 73.51,
+    "frontDiscRadius": 36.59,
+    "rearDiscRadius": 29.97
+  },
+  "ZEEHO/AE2 pro": {
+    "wheelbaseMm": 1278,
+    "pixelsPerMillimeter": 0.45852610441767067,
+    "forkAngleDegrees": 65,
+    "handlePivot": {
+      "x": 282.72,
+      "y": 105.01
+    },
+    "handle": {
+      "x": 295.15,
+      "y": 70.85
+    },
+    "forkTop": {
+      "x": 183.37,
+      "y": 278.68
+    },
+    "frontWheel": {
+      "x": 117.52,
+      "y": 395.04
+    },
+    "rearWheel": {
+      "x": 594.21,
+      "y": 396.4
+    },
+    "swingPivot": {
+      "x": 473.36,
+      "y": 387.73
+    },
+    "shockTop": {
+      "x": 569.48,
+      "y": 270.61
+    },
+    "shockBottom": {
+      "x": 595.95,
+      "y": 372.23
+    },
+    "seat": {
+      "x": 492.74,
+      "y": 197.91
+    },
+    "foot": {
+      "x": 306.96,
+      "y": 355.42
+    },
+    "chassis": {
+      "x": 351.38,
+      "y": 428.12
+    },
+    "frontWheelRadius": 80.78,
+    "rearWheelRadius": 80.78,
+    "frontDiscRadius": 36.59,
+    "rearDiscRadius": 29.97
+  },
+  "ZEEHO/EZ4": {
+    "wheelbaseMm": 1335,
+    "pixelsPerMillimeter": 0.45852610441767067,
+    "forkAngleDegrees": 65,
+    "handlePivot": {
+      "x": 250.41,
+      "y": 105.01
+    },
+    "handle": {
+      "x": 262.84,
+      "y": 70.85
+    },
+    "forkTop": {
+      "x": 151.05,
+      "y": 276.26
+    },
+    "frontWheel": {
+      "x": 85.21,
+      "y": 392.62
+    },
+    "rearWheel": {
+      "x": 577.9,
+      "y": 404.91
+    },
+    "swingPivot": {
+      "x": 440.24,
+      "y": 389.35
+    },
+    "shockTop": {
+      "x": 548.48,
+      "y": 278.68
+    },
+    "shockBottom": {
+      "x": 575.7,
+      "y": 388.4
+    },
+    "seat": {
+      "x": 444.28,
+      "y": 193.87
+    },
+    "foot": {
+      "x": 258.49,
+      "y": 355.42
+    },
+    "chassis": {
+      "x": 351.38,
+      "y": 420.04
+    },
+    "frontWheelRadius": 80.78,
+    "rearWheelRadius": 73.51,
+    "frontDiscRadius": 36.59,
+    "rearDiscRadius": 29.97
+  },
+  "NIU/NXT 2": {
+    "wheelbaseMm": 1250,
+    "pixelsPerMillimeter": 0.45852610441767067,
+    "forkAngleDegrees": 65,
+    "handlePivot": {
+      "x": 266.57,
+      "y": 121.17
+    },
+    "handle": {
+      "x": 279,
+      "y": 87.01
+    },
+    "forkTop": {
+      "x": 188.21,
+      "y": 284.34
+    },
+    "frontWheel": {
+      "x": 124.07,
+      "y": 397.04
+    },
+    "rearWheel": {
+      "x": 571.68,
+      "y": 395.02
+    },
+    "swingPivot": {
+      "x": 458.01,
+      "y": 379.66
+    },
+    "shockTop": {
+      "x": 521.02,
+      "y": 282.72
+    },
+    "shockBottom": {
+      "x": 563.46,
+      "y": 365.38
+    },
+    "seat": {
+      "x": 468.51,
+      "y": 201.94
+    },
+    "foot": {
+      "x": 282.72,
+      "y": 355.42
+    },
+    "chassis": {
+      "x": 333.61,
+      "y": 427.31
+    },
+    "frontWheelRadius": 79.16,
+    "rearWheelRadius": 77.55,
+    "frontDiscRadius": 36.67,
+    "rearDiscRadius": 31.66
+  },
+  "NIU/U3": {
+    "wheelbaseMm": 1250,
+    "pixelsPerMillimeter": 0.45852610441767067,
+    "forkAngleDegrees": 65,
+    "handlePivot": {
+      "x": 250.41,
+      "y": 137.32
+    },
+    "handle": {
+      "x": 266.45,
+      "y": 97.63
+    },
+    "forkTop": {
+      "x": 180.94,
+      "y": 290.8
+    },
+    "frontWheel": {
+      "x": 118.51,
+      "y": 399.84
+    },
+    "rearWheel": {
+      "x": 568.09,
+      "y": 402.39
+    },
+    "swingPivot": {
+      "x": 441.05,
+      "y": 390.16
+    },
+    "shockTop": {
+      "x": 525.06,
+      "y": 306.96
+    },
+    "shockBottom": {
+      "x": 567.22,
+      "y": 386.08
+    },
+    "seat": {
+      "x": 492.74,
+      "y": 201.94
+    },
+    "foot": {
+      "x": 306.96,
+      "y": 363.5
+    },
+    "chassis": {
+      "x": 351.38,
+      "y": 399.85
+    },
+    "frontWheelRadius": 79.16,
+    "rearWheelRadius": 78.35,
+    "frontDiscRadius": 36.67,
+    "rearDiscRadius": 30.05
+  },
+  "NIU/U1": {
+    "wheelbaseMm": 1180,
+    "pixelsPerMillimeter": 0.4757208333333333,
+    "forkAngleDegrees": 64,
+    "handlePivot": {
+      "x": 246.37,
+      "y": 161.56
+    },
+    "handle": {
+      "x": 262.95,
+      "y": 116.01
+    },
+    "forkTop": {
+      "x": 188.21,
+      "y": 288.38
+    },
+    "frontWheel": {
+      "x": 124.95,
+      "y": 394.13
+    },
+    "rearWheel": {
+      "x": 549.01,
+      "y": 396.23
+    },
+    "swingPivot": {
+      "x": 434.58,
+      "y": 383.69
+    },
+    "shockTop": {
+      "x": 500.82,
+      "y": 302.92
+    },
+    "shockBottom": {
+      "x": 530.69,
+      "y": 377.97
+    },
+    "seat": {
+      "x": 444.28,
+      "y": 205.98
+    },
+    "foot": {
+      "x": 282.72,
+      "y": 379.66
+    },
+    "chassis": {
+      "x": 351.38,
+      "y": 411.97
+    },
+    "frontWheelRadius": 76.74,
+    "rearWheelRadius": 76.74,
+    "frontDiscRadius": 30.21,
+    "rearDiscRadius": 30.21
+  },
+  "NIU/K": {
+    "wheelbaseMm": 1245,
+    "pixelsPerMillimeter": 0.4757208333333333,
+    "forkAngleDegrees": 65,
+    "handlePivot": {
+      "x": 246.37,
+      "y": 141.36
+    },
+    "handle": {
+      "x": 258.8,
+      "y": 107.2
+    },
+    "forkTop": {
+      "x": 171.25,
+      "y": 315.03
+    },
+    "frontWheel": {
+      "x": 115.65,
+      "y": 409.43
+    },
+    "rearWheel": {
+      "x": 554.39,
+      "y": 407.1
+    },
+    "swingPivot": {
+      "x": 432.16,
+      "y": 391.77
+    },
+    "shockTop": {
+      "x": 521.02,
+      "y": 308.57
+    },
+    "shockBottom": {
+      "x": 548.89,
+      "y": 386.06
+    },
+    "seat": {
+      "x": 444.28,
+      "y": 226.18
+    },
+    "foot": {
+      "x": 282.72,
+      "y": 371.58
+    },
+    "chassis": {
+      "x": 333.61,
+      "y": 424.08
+    },
+    "frontWheelRadius": 72.7,
+    "rearWheelRadius": 72.7,
+    "frontDiscRadius": 31.1,
+    "rearDiscRadius": 29.32
+  },
+  "NIU/MT": {
+    "wheelbaseMm": 1245,
+    "pixelsPerMillimeter": 0.4757208333333333,
+    "forkAngleDegrees": 65,
+    "handlePivot": {
+      "x": 266.57,
+      "y": 121.17
+    },
+    "handle": {
+      "x": 279,
+      "y": 87.01
+    },
+    "forkTop": {
+      "x": 189.02,
+      "y": 289.99
+    },
+    "frontWheel": {
+      "x": 124.88,
+      "y": 402.69
+    },
+    "rearWheel": {
+      "x": 590.48,
+      "y": 398.65
+    },
+    "swingPivot": {
+      "x": 465.28,
+      "y": 399.85
+    },
+    "shockTop": {
+      "x": 537.17,
+      "y": 304.53
+    },
+    "shockBottom": {
+      "x": 574.17,
+      "y": 382.65
+    },
+    "seat": {
+      "x": 444.28,
+      "y": 218.1
+    },
+    "foot": {
+      "x": 282.72,
+      "y": 379.66
+    },
+    "chassis": {
+      "x": 333.61,
+      "y": 415.2
+    },
+    "frontWheelRadius": 75.93,
+    "rearWheelRadius": 75.93,
+    "frontDiscRadius": 31.1,
+    "rearDiscRadius": 29.32
+  },
+  "NIU/NXT 2025": {
+    "wheelbaseMm": 1290,
+    "pixelsPerMillimeter": 0.45852610441767067,
+    "forkAngleDegrees": 65,
+    "handlePivot": {
+      "x": 266.57,
+      "y": 121.17
+    },
+    "handle": {
+      "x": 279,
+      "y": 87.01
+    },
+    "forkTop": {
+      "x": 185.79,
+      "y": 281.11
+    },
+    "frontWheel": {
+      "x": 121.65,
+      "y": 393.8
+    },
+    "rearWheel": {
+      "x": 574.98,
+      "y": 399.44
+    },
+    "swingPivot": {
+      "x": 455.59,
+      "y": 393.39
+    },
+    "shockTop": {
+      "x": 512.94,
+      "y": 281.91
+    },
+    "shockBottom": {
+      "x": 555.63,
+      "y": 382.28
+    },
+    "seat": {
+      "x": 468.51,
+      "y": 201.94
+    },
+    "foot": {
+      "x": 282.72,
+      "y": 363.5
+    },
+    "chassis": {
+      "x": 333.61,
+      "y": 420.04
+    },
+    "frontWheelRadius": 79.16,
+    "rearWheelRadius": 79.16,
+    "frontDiscRadius": 36.67,
+    "rearDiscRadius": 31.66
+  },
+  "NIU/NXT 2024": {
+    "wheelbaseMm": 1245,
+    "pixelsPerMillimeter": 0.45852610441767067,
+    "forkAngleDegrees": 65,
+    "handlePivot": {
+      "x": 266.57,
+      "y": 121.17
+    },
+    "handle": {
+      "x": 279,
+      "y": 87.01
+    },
+    "forkTop": {
+      "x": 188.21,
+      "y": 284.34
+    },
+    "frontWheel": {
+      "x": 124.07,
+      "y": 397.04
+    },
+    "rearWheel": {
+      "x": 576.93,
+      "y": 399.64
+    },
+    "swingPivot": {
+      "x": 444.28,
+      "y": 393.39
+    },
+    "shockTop": {
+      "x": 529.09,
+      "y": 306.96
+    },
+    "shockBottom": {
+      "x": 557.52,
+      "y": 382.55
+    },
+    "seat": {
+      "x": 468.51,
+      "y": 201.94
+    },
+    "foot": {
+      "x": 282.72,
+      "y": 363.5
+    },
+    "chassis": {
+      "x": 333.61,
+      "y": 415.2
+    },
+    "frontWheelRadius": 76.74,
+    "rearWheelRadius": 76.74,
+    "frontDiscRadius": 36.67,
+    "rearDiscRadius": 31.66
+  },
+  "NIU/NLT": {
+    "wheelbaseMm": 1250,
+    "pixelsPerMillimeter": 0.45852610441767067,
+    "forkAngleDegrees": 65,
+    "handlePivot": {
+      "x": 266.57,
+      "y": 113.09
+    },
+    "handle": {
+      "x": 279,
+      "y": 78.93
+    },
+    "forkTop": {
+      "x": 184.17,
+      "y": 274.64
+    },
+    "frontWheel": {
+      "x": 118.33,
+      "y": 391
+    },
+    "rearWheel": {
+      "x": 573.85,
+      "y": 396.81
+    },
+    "swingPivot": {
+      "x": 460.43,
+      "y": 379.66
+    },
+    "shockTop": {
+      "x": 541.21,
+      "y": 290.8
+    },
+    "shockBottom": {
+      "x": 568.28,
+      "y": 379.63
+    },
+    "seat": {
+      "x": 468.51,
+      "y": 193.87
+    },
+    "foot": {
+      "x": 282.72,
+      "y": 347.34
+    },
+    "chassis": {
+      "x": 333.61,
+      "y": 407.93
+    },
+    "frontWheelRadius": 80.78,
+    "rearWheelRadius": 80.78,
+    "frontDiscRadius": 36.67,
+    "rearDiscRadius": 30.05
+  },
+  "NIU/NST": {
+    "wheelbaseMm": 1245,
+    "pixelsPerMillimeter": 0.45852610441767067,
+    "forkAngleDegrees": 65,
+    "handlePivot": {
+      "x": 258.49,
+      "y": 125.21
+    },
+    "handle": {
+      "x": 270.92,
+      "y": 91.05
+    },
+    "forkTop": {
+      "x": 181.75,
+      "y": 278.68
+    },
+    "frontWheel": {
+      "x": 117.61,
+      "y": 391.38
+    },
+    "rearWheel": {
+      "x": 572.61,
+      "y": 408.37
+    },
+    "swingPivot": {
+      "x": 449.93,
+      "y": 387.73
+    },
+    "shockTop": {
+      "x": 541.21,
+      "y": 282.72
+    },
+    "shockBottom": {
+      "x": 567.32,
+      "y": 391.1
+    },
+    "seat": {
+      "x": 468.51,
+      "y": 201.94
+    },
+    "foot": {
+      "x": 282.72,
+      "y": 355.42
+    },
+    "chassis": {
+      "x": 333.61,
+      "y": 415.2
+    },
+    "frontWheelRadius": 80.78,
+    "rearWheelRadius": 73.51,
+    "frontDiscRadius": 36.67,
+    "rearDiscRadius": 30.05
+  },
+  "NIU/NT": {
+    "wheelbaseMm": 1250,
+    "pixelsPerMillimeter": 0.45852610441767067,
+    "forkAngleDegrees": 65,
+    "handlePivot": {
+      "x": 266.57,
+      "y": 113.09
+    },
+    "handle": {
+      "x": 279,
+      "y": 78.93
+    },
+    "forkTop": {
+      "x": 184.17,
+      "y": 274.64
+    },
+    "frontWheel": {
+      "x": 120.04,
+      "y": 387.34
+    },
+    "rearWheel": {
+      "x": 577.83,
+      "y": 401.07
+    },
+    "swingPivot": {
+      "x": 458.82,
+      "y": 379.66
+    },
+    "shockTop": {
+      "x": 545.25,
+      "y": 290.8
+    },
+    "shockBottom": {
+      "x": 572.74,
+      "y": 383.74
+    },
+    "seat": {
+      "x": 468.51,
+      "y": 193.87
+    },
+    "foot": {
+      "x": 282.72,
+      "y": 347.34
+    },
+    "chassis": {
+      "x": 333.61,
+      "y": 415.2
+    },
+    "frontWheelRadius": 80.78,
+    "rearWheelRadius": 73.51,
+    "frontDiscRadius": 36.67,
+    "rearDiscRadius": 30.05
+  },
+  "NIU/Ms": {
+    "wheelbaseMm": 1200,
+    "pixelsPerMillimeter": 0.4757208333333333,
+    "forkAngleDegrees": 65,
+    "handlePivot": {
+      "x": 226.18,
+      "y": 129.24
+    },
+    "handle": {
+      "x": 238.61,
+      "y": 95.09
+    },
+    "forkTop": {
+      "x": 163.17,
+      "y": 302.92
+    },
+    "frontWheel": {
+      "x": 117.57,
+      "y": 406.43
+    },
+    "rearWheel": {
+      "x": 548.06,
+      "y": 402.07
+    },
+    "swingPivot": {
+      "x": 434.58,
+      "y": 385.31
+    },
+    "shockTop": {
+      "x": 484.67,
+      "y": 306.96
+    },
+    "shockBottom": {
+      "x": 530.44,
+      "y": 383.13
+    },
+    "seat": {
+      "x": 444.28,
+      "y": 218.1
+    },
+    "foot": {
+      "x": 282.72,
+      "y": 379.66
+    },
+    "chassis": {
+      "x": 333.61,
+      "y": 415.2
+    },
+    "frontWheelRadius": 76.74,
+    "rearWheelRadius": 76.74,
+    "frontDiscRadius": 31.1,
+    "rearDiscRadius": 26.74
+  },
+  "NIU/MQI2s": {
+    "wheelbaseMm": 1245,
+    "pixelsPerMillimeter": 0.4757208333333333,
+    "forkAngleDegrees": 65,
+    "handlePivot": {
+      "x": 226.18,
+      "y": 129.24
+    },
+    "handle": {
+      "x": 238.61,
+      "y": 95.09
+    },
+    "forkTop": {
+      "x": 165.59,
+      "y": 294.84
+    },
+    "frontWheel": {
+      "x": 116.58,
+      "y": 405.68
+    },
+    "rearWheel": {
+      "x": 568.76,
+      "y": 402.49
+    },
+    "swingPivot": {
+      "x": 453.97,
+      "y": 383.69
+    },
+    "shockTop": {
+      "x": 403.89,
+      "y": 355.42
+    },
+    "shockBottom": {
+      "x": 485.79,
+      "y": 364.35
+    },
+    "seat": {
+      "x": 444.28,
+      "y": 201.94
+    },
+    "foot": {
+      "x": 282.72,
+      "y": 371.58
+    },
+    "chassis": {
+      "x": 333.61,
+      "y": 423.28
+    },
+    "frontWheelRadius": 76.74,
+    "rearWheelRadius": 76.74,
+    "frontDiscRadius": 29.89,
+    "rearDiscRadius": 29.89
+  },
+  "NIU/MQIL": {
+    "wheelbaseMm": 1245,
+    "pixelsPerMillimeter": 0.4757208333333333,
+    "forkAngleDegrees": 65,
+    "handlePivot": {
+      "x": 266.57,
+      "y": 121.17
+    },
+    "handle": {
+      "x": 279,
+      "y": 87.01
+    },
+    "forkTop": {
+      "x": 189.02,
+      "y": 289.99
+    },
+    "frontWheel": {
+      "x": 124.88,
+      "y": 402.69
+    },
+    "rearWheel": {
+      "x": 590.48,
+      "y": 398.65
+    },
+    "swingPivot": {
+      "x": 465.28,
+      "y": 399.85
+    },
+    "shockTop": {
+      "x": 537.17,
+      "y": 304.53
+    },
+    "shockBottom": {
+      "x": 574.17,
+      "y": 382.65
+    },
+    "seat": {
+      "x": 444.28,
+      "y": 218.1
+    },
+    "foot": {
+      "x": 282.72,
+      "y": 379.66
+    },
+    "chassis": {
+      "x": 333.61,
+      "y": 415.2
+    },
+    "frontWheelRadius": 75.93,
+    "rearWheelRadius": 75.93,
+    "frontDiscRadius": 31.1,
+    "rearDiscRadius": 29.32
+  },
+  "NIU/Mmt": {
+    "wheelbaseMm": 1250,
+    "pixelsPerMillimeter": 0.4757208333333333,
+    "forkAngleDegrees": 65,
+    "handlePivot": {
+      "x": 242.33,
+      "y": 129.24
+    },
+    "handle": {
+      "x": 254.77,
+      "y": 95.09
+    },
+    "forkTop": {
+      "x": 171.25,
+      "y": 315.03
+    },
+    "frontWheel": {
+      "x": 115.65,
+      "y": 409.43
+    },
+    "rearWheel": {
+      "x": 554.03,
+      "y": 408.06
+    },
+    "swingPivot": {
+      "x": 472.55,
+      "y": 395.81
+    },
+    "shockTop": {
+      "x": 529.09,
+      "y": 298.88
+    },
+    "shockBottom": {
+      "x": 562.83,
+      "y": 376.71
+    },
+    "seat": {
+      "x": 444.28,
+      "y": 210.02
+    },
+    "foot": {
+      "x": 282.72,
+      "y": 371.58
+    },
+    "chassis": {
+      "x": 333.61,
+      "y": 415.2
+    },
+    "frontWheelRadius": 72.7,
+    "rearWheelRadius": 72.7,
+    "frontDiscRadius": 31.1,
+    "rearDiscRadius": 29.32
+  },
+  "NIU/Umax": {
+    "wheelbaseMm": 1245,
+    "pixelsPerMillimeter": 0.45852610441767067,
+    "forkAngleDegrees": 65,
+    "handlePivot": {
+      "x": 254.45,
+      "y": 127.63
+    },
+    "handle": {
+      "x": 272.54,
+      "y": 88.83
+    },
+    "forkTop": {
+      "x": 181.75,
+      "y": 290.8
+    },
+    "frontWheel": {
+      "x": 119.32,
+      "y": 399.84
+    },
+    "rearWheel": {
+      "x": 577.14,
+      "y": 402.03
+    },
+    "swingPivot": {
+      "x": 452.36,
+      "y": 391.77
+    },
+    "shockTop": {
+      "x": 533.13,
+      "y": 306.96
+    },
+    "shockBottom": {
+      "x": 574.44,
+      "y": 385.6
+    },
+    "seat": {
+      "x": 492.74,
+      "y": 201.94
+    },
+    "foot": {
+      "x": 306.96,
+      "y": 363.5
+    },
+    "chassis": {
+      "x": 351.38,
+      "y": 399.85
+    },
+    "frontWheelRadius": 77.55,
+    "rearWheelRadius": 77.55,
+    "frontDiscRadius": 36.67,
+    "rearDiscRadius": 30.05
+  },
+  "NIU/UQI+ II": {
+    "wheelbaseMm": 1245,
+    "pixelsPerMillimeter": 0.45852610441767067,
+    "forkAngleDegrees": 65,
+    "handlePivot": {
+      "x": 250.41,
+      "y": 127.63
+    },
+    "handle": {
+      "x": 268.5,
+      "y": 88.83
+    },
+    "forkTop": {
+      "x": 181.75,
+      "y": 290.8
+    },
+    "frontWheel": {
+      "x": 119.32,
+      "y": 399.84
+    },
+    "rearWheel": {
+      "x": 578.61,
+      "y": 403.68
+    },
+    "swingPivot": {
+      "x": 456.39,
+      "y": 385.31
+    },
+    "shockTop": {
+      "x": 533.13,
+      "y": 306.96
+    },
+    "shockBottom": {
+      "x": 557.05,
+      "y": 384.11
+    },
+    "seat": {
+      "x": 492.74,
+      "y": 201.94
+    },
+    "foot": {
+      "x": 306.96,
+      "y": 363.5
+    },
+    "chassis": {
+      "x": 351.38,
+      "y": 406.31
+    },
+    "frontWheelRadius": 77.55,
+    "rearWheelRadius": 77.55,
+    "frontDiscRadius": 30.01,
+    "rearDiscRadius": 25.85
+  },
+  "NIU/U": {
+    "wheelbaseMm": 1150,
+    "pixelsPerMillimeter": 0.46149151172190783,
+    "forkAngleDegrees": 64,
+    "handlePivot": {
+      "x": 218.1,
+      "y": 169.63
+    },
+    "handle": {
+      "x": 238.82,
+      "y": 112.7
+    },
+    "forkTop": {
+      "x": 173.67,
+      "y": 290.8
+    },
+    "frontWheel": {
+      "x": 122.03,
+      "y": 402.22
+    },
+    "rearWheel": {
+      "x": 556.93,
+      "y": 396.36
+    },
+    "swingPivot": {
+      "x": 436.2,
+      "y": 386.12
+    },
+    "shockTop": {
+      "x": 504.86,
+      "y": 302.92
+    },
+    "shockBottom": {
+      "x": 534.15,
+      "y": 378.22
+    },
+    "seat": {
+      "x": 459.63,
+      "y": 205.98
+    },
+    "foot": {
+      "x": 282.72,
+      "y": 379.66
+    },
+    "chassis": {
+      "x": 351.38,
+      "y": 399.85
+    },
+    "frontWheelRadius": 76.74,
+    "rearWheelRadius": 76.74,
+    "frontDiscRadius": 30.21,
+    "rearDiscRadius": 30.21
+  },
+  "NIU/UQI+": {
+    "wheelbaseMm": 1245,
+    "pixelsPerMillimeter": 0.46149151172190783,
+    "forkAngleDegrees": 65,
+    "handlePivot": {
+      "x": 236.68,
+      "y": 127.63
+    },
+    "handle": {
+      "x": 253.26,
+      "y": 82.09
+    },
+    "forkTop": {
+      "x": 165.59,
+      "y": 284.34
+    },
+    "frontWheel": {
+      "x": 114.88,
+      "y": 398.84
+    },
+    "rearWheel": {
+      "x": 579.82,
+      "y": 403.32
+    },
+    "swingPivot": {
+      "x": 455.59,
+      "y": 387.73
+    },
+    "shockTop": {
+      "x": 511.32,
+      "y": 315.03
+    },
+    "shockBottom": {
+      "x": 565.8,
+      "y": 385.28
+    },
+    "seat": {
+      "x": 459.63,
+      "y": 205.98
+    },
+    "foot": {
+      "x": 282.72,
+      "y": 363.5
+    },
+    "chassis": {
+      "x": 351.38,
+      "y": 399.85
+    },
+    "frontWheelRadius": 78.35,
+    "rearWheelRadius": 78.35,
+    "frontDiscRadius": 30.13,
+    "rearDiscRadius": 26.01
+  },
+  "NIU/UQI+ U+A": {
+    "wheelbaseMm": 1245,
+    "pixelsPerMillimeter": 0.46149151172190783,
+    "forkAngleDegrees": 65,
+    "handlePivot": {
+      "x": 236.68,
+      "y": 127.63
+    },
+    "handle": {
+      "x": 250.49,
+      "y": 89.68
+    },
+    "forkTop": {
+      "x": 165.59,
+      "y": 284.34
+    },
+    "frontWheel": {
+      "x": 114.88,
+      "y": 398.84
+    },
+    "rearWheel": {
+      "x": 580.02,
+      "y": 401.58
+    },
+    "swingPivot": {
+      "x": 455.59,
+      "y": 387.73
+    },
+    "shockTop": {
+      "x": 537.17,
+      "y": 282.72
+    },
+    "shockBottom": {
+      "x": 565.75,
+      "y": 383.74
+    },
+    "seat": {
+      "x": 459.63,
+      "y": 205.98
+    },
+    "foot": {
+      "x": 282.72,
+      "y": 363.5
+    },
+    "chassis": {
+      "x": 351.38,
+      "y": 399.85
+    },
+    "frontWheelRadius": 78.35,
+    "rearWheelRadius": 78.35,
+    "frontDiscRadius": 30.13,
+    "rearDiscRadius": 26.01
+  },
+  "NIU/FXT": {
+    "wheelbaseMm": 1300,
+    "pixelsPerMillimeter": 0.45852610441767067,
+    "forkAngleDegrees": 65,
+    "handlePivot": {
+      "x": 266.57,
+      "y": 113.09
+    },
+    "handle": {
+      "x": 279,
+      "y": 78.93
+    },
+    "forkTop": {
+      "x": 185.79,
+      "y": 286.76
+    },
+    "frontWheel": {
+      "x": 128.48,
+      "y": 384.82
+    },
+    "rearWheel": {
+      "x": 590.06,
+      "y": 381.9
+    },
+    "swingPivot": {
+      "x": 478.2,
+      "y": 379.66
+    },
+    "shockTop": {
+      "x": 557.37,
+      "y": 274.64
+    },
+    "shockBottom": {
+      "x": 590.38,
+      "y": 365.75
+    },
+    "seat": {
+      "x": 468.51,
+      "y": 185.79
+    },
+    "foot": {
+      "x": 298.88,
+      "y": 343.31
+    },
+    "chassis": {
+      "x": 333.61,
+      "y": 411.97
+    },
+    "frontWheelRadius": 83.2,
+    "rearWheelRadius": 83.2,
+    "frontDiscRadius": 36.67,
+    "rearDiscRadius": 31.66
+  },
+  "NIU/FXT (北京)": {
+    "wheelbaseMm": 1300,
+    "pixelsPerMillimeter": 0.45852610441767067,
+    "forkAngleDegrees": 65,
+    "handlePivot": {
+      "x": 266.57,
+      "y": 113.09
+    },
+    "handle": {
+      "x": 279,
+      "y": 78.93
+    },
+    "forkTop": {
+      "x": 185.79,
+      "y": 286.76
+    },
+    "frontWheel": {
+      "x": 128.48,
+      "y": 384.82
+    },
+    "rearWheel": {
+      "x": 590.06,
+      "y": 381.9
+    },
+    "swingPivot": {
+      "x": 478.2,
+      "y": 379.66
+    },
+    "shockTop": {
+      "x": 557.37,
+      "y": 274.64
+    },
+    "shockBottom": {
+      "x": 590.38,
+      "y": 365.75
+    },
+    "seat": {
+      "x": 468.51,
+      "y": 185.79
+    },
+    "foot": {
+      "x": 298.88,
+      "y": 343.31
+    },
+    "chassis": {
+      "x": 333.61,
+      "y": 411.97
+    },
+    "frontWheelRadius": 83.2,
+    "rearWheelRadius": 83.2,
+    "frontDiscRadius": 36.67,
+    "rearDiscRadius": 31.66
+  },
+  "NIU/F400t": {
+    "wheelbaseMm": 1240,
+    "pixelsPerMillimeter": 0.4757208333333333,
+    "forkAngleDegrees": 65,
+    "handlePivot": {
+      "x": 260.1,
+      "y": 133.28
+    },
+    "handle": {
+      "x": 273.92,
+      "y": 95.33
+    },
+    "forkTop": {
+      "x": 183.37,
+      "y": 290.8
+    },
+    "frontWheel": {
+      "x": 120.93,
+      "y": 399.84
+    },
+    "rearWheel": {
+      "x": 575.88,
+      "y": 403.1
+    },
+    "swingPivot": {
+      "x": 441.05,
+      "y": 387.73
+    },
+    "shockTop": {
+      "x": 508.9,
+      "y": 306.96
+    },
+    "shockBottom": {
+      "x": 545.61,
+      "y": 383.39
+    },
+    "seat": {
+      "x": 468.51,
+      "y": 201.94
+    },
+    "foot": {
+      "x": 315.03,
+      "y": 363.5
+    },
+    "chassis": {
+      "x": 333.61,
+      "y": 415.2
+    },
+    "frontWheelRadius": 79.16,
+    "rearWheelRadius": 79.16,
+    "frontDiscRadius": 37.97,
+    "rearDiscRadius": 29.32
+  },
+  "NIU/F200": {
+    "wheelbaseMm": 1220,
+    "pixelsPerMillimeter": 0.4757208333333333,
+    "forkAngleDegrees": 65,
+    "handlePivot": {
+      "x": 254.45,
+      "y": 129.24
+    },
+    "handle": {
+      "x": 268.26,
+      "y": 91.29
+    },
+    "forkTop": {
+      "x": 177.71,
+      "y": 298.88
+    },
+    "frontWheel": {
+      "x": 120.4,
+      "y": 396.93
+    },
+    "rearWheel": {
+      "x": 568.1,
+      "y": 402.87
+    },
+    "swingPivot": {
+      "x": 451.55,
+      "y": 387.73
+    },
+    "shockTop": {
+      "x": 516.98,
+      "y": 315.03
+    },
+    "shockBottom": {
+      "x": 550.16,
+      "y": 384.25
+    },
+    "seat": {
+      "x": 468.51,
+      "y": 201.94
+    },
+    "foot": {
+      "x": 315.03,
+      "y": 363.5
+    },
+    "chassis": {
+      "x": 333.61,
+      "y": 415.2
+    },
+    "frontWheelRadius": 79.97,
+    "rearWheelRadius": 79.97,
+    "frontDiscRadius": 31.1,
+    "rearDiscRadius": 31.1
+  },
+  "NIU/G400t": {
+    "wheelbaseMm": 1220,
+    "pixelsPerMillimeter": 0.4757208333333333,
+    "forkAngleDegrees": 65,
+    "handlePivot": {
+      "x": 258.49,
+      "y": 133.28
+    },
+    "handle": {
+      "x": 270.92,
+      "y": 99.13
+    },
+    "forkTop": {
+      "x": 189.02,
+      "y": 289.99
+    },
+    "frontWheel": {
+      "x": 124.88,
+      "y": 402.69
+    },
+    "rearWheel": {
+      "x": 568.9,
+      "y": 399.64
+    },
+    "swingPivot": {
+      "x": 447.51,
+      "y": 387.73
+    },
+    "shockTop": {
+      "x": 512.94,
+      "y": 298.88
+    },
+    "shockBottom": {
+      "x": 554.4,
+      "y": 381.98
+    },
+    "seat": {
+      "x": 444.28,
+      "y": 218.1
+    },
+    "foot": {
+      "x": 282.72,
+      "y": 379.66
+    },
+    "chassis": {
+      "x": 333.61,
+      "y": 428.12
+    },
+    "frontWheelRadius": 75.93,
+    "rearWheelRadius": 75.93,
+    "frontDiscRadius": 31.1,
+    "rearDiscRadius": 26.82
+  },
+  "NIU/FX (风速版)": {
+    "wheelbaseMm": 1350,
+    "pixelsPerMillimeter": 0.45852610441767067,
+    "forkAngleDegrees": 65,
+    "handlePivot": {
+      "x": 266.57,
+      "y": 113.09
+    },
+    "handle": {
+      "x": 279,
+      "y": 78.93
+    },
+    "forkTop": {
+      "x": 186.6,
+      "y": 284.34
+    },
+    "frontWheel": {
+      "x": 122.46,
+      "y": 397.04
+    },
+    "rearWheel": {
+      "x": 618.83,
+      "y": 397.66
+    },
+    "swingPivot": {
+      "x": 487.09,
+      "y": 383.69
+    },
+    "shockTop": {
+      "x": 583.22,
+      "y": 288.38
+    },
+    "shockBottom": {
+      "x": 612.5,
+      "y": 380.74
+    },
+    "seat": {
+      "x": 468.51,
+      "y": 201.94
+    },
+    "foot": {
+      "x": 282.72,
+      "y": 363.5
+    },
+    "chassis": {
+      "x": 333.61,
+      "y": 415.2
+    },
+    "frontWheelRadius": 83.2,
+    "rearWheelRadius": 84.01,
+    "frontDiscRadius": 36.67,
+    "rearDiscRadius": 30.05
+  },
+  "NIU/NX (风速版)": {
+    "wheelbaseMm": 1390,
+    "pixelsPerMillimeter": 0.45852610441767067,
+    "forkAngleDegrees": 65,
+    "handlePivot": {
+      "x": 266.57,
+      "y": 113.09
+    },
+    "handle": {
+      "x": 279,
+      "y": 78.93
+    },
+    "forkTop": {
+      "x": 186.6,
+      "y": 284.34
+    },
+    "frontWheel": {
+      "x": 122.46,
+      "y": 397.04
+    },
+    "rearWheel": {
+      "x": 627.03,
+      "y": 399.79
+    },
+    "swingPivot": {
+      "x": 476.59,
+      "y": 391.77
+    },
+    "shockTop": {
+      "x": 565.44,
+      "y": 288.38
+    },
+    "shockBottom": {
+      "x": 591.59,
+      "y": 381.72
+    },
+    "seat": {
+      "x": 468.51,
+      "y": 201.94
+    },
+    "foot": {
+      "x": 282.72,
+      "y": 363.5
+    },
+    "chassis": {
+      "x": 333.61,
+      "y": 415.2
+    },
+    "frontWheelRadius": 83.2,
+    "rearWheelRadius": 84.01,
+    "frontDiscRadius": 36.67,
+    "rearDiscRadius": 33.32
+  },
+  "NIU/FS (风速版)": {
+    "wheelbaseMm": 1320,
+    "pixelsPerMillimeter": 0.45852610441767067,
+    "forkAngleDegrees": 65,
+    "handlePivot": {
+      "x": 274.64,
+      "y": 113.09
+    },
+    "handle": {
+      "x": 287.08,
+      "y": 78.93
+    },
+    "forkTop": {
+      "x": 189.83,
+      "y": 286.76
+    },
+    "frontWheel": {
+      "x": 125.69,
+      "y": 399.46
+    },
+    "rearWheel": {
+      "x": 602.17,
+      "y": 404.86
+    },
+    "swingPivot": {
+      "x": 500.01,
+      "y": 391.77
+    },
+    "shockTop": {
+      "x": 565.44,
+      "y": 290.8
+    },
+    "shockBottom": {
+      "x": 596.21,
+      "y": 387.81
+    },
+    "seat": {
+      "x": 492.74,
+      "y": 210.02
+    },
+    "foot": {
+      "x": 323.11,
+      "y": 355.42
+    },
+    "chassis": {
+      "x": 351.38,
+      "y": 432.16
+    },
+    "frontWheelRadius": 82.39,
+    "rearWheelRadius": 75.12,
+    "frontDiscRadius": 36.59,
+    "rearDiscRadius": 30.05
+  },
+  "NIU/NX Hyper": {
+    "wheelbaseMm": 1300,
+    "pixelsPerMillimeter": 0.45852610441767067,
+    "forkAngleDegrees": 65,
+    "handlePivot": {
+      "x": 266.57,
+      "y": 113.09
+    },
+    "handle": {
+      "x": 279,
+      "y": 78.93
+    },
+    "forkTop": {
+      "x": 186.6,
+      "y": 284.34
+    },
+    "frontWheel": {
+      "x": 122.46,
+      "y": 397.04
+    },
+    "rearWheel": {
+      "x": 609.69,
+      "y": 399.29
+    },
+    "swingPivot": {
+      "x": 487.09,
+      "y": 383.69
+    },
+    "shockTop": {
+      "x": 565.44,
+      "y": 288.38
+    },
+    "shockBottom": {
+      "x": 594.1,
+      "y": 381.02
+    },
+    "seat": {
+      "x": 468.51,
+      "y": 201.94
+    },
+    "foot": {
+      "x": 282.72,
+      "y": 363.5
+    },
+    "chassis": {
+      "x": 333.61,
+      "y": 415.2
+    },
+    "frontWheelRadius": 83.2,
+    "rearWheelRadius": 88.05,
+    "frontDiscRadius": 36.67,
+    "rearDiscRadius": 30.05
+  },
+  "NIU/NX": {
+    "wheelbaseMm": 1300,
+    "pixelsPerMillimeter": 0.45852610441767067,
+    "forkAngleDegrees": 65,
+    "handlePivot": {
+      "x": 266.57,
+      "y": 113.09
+    },
+    "handle": {
+      "x": 279,
+      "y": 78.93
+    },
+    "forkTop": {
+      "x": 186.6,
+      "y": 284.34
+    },
+    "frontWheel": {
+      "x": 122.46,
+      "y": 397.04
+    },
+    "rearWheel": {
+      "x": 609.69,
+      "y": 399.29
+    },
+    "swingPivot": {
+      "x": 487.09,
+      "y": 383.69
+    },
+    "shockTop": {
+      "x": 565.44,
+      "y": 288.38
+    },
+    "shockBottom": {
+      "x": 594.1,
+      "y": 381.02
+    },
+    "seat": {
+      "x": 468.51,
+      "y": 201.94
+    },
+    "foot": {
+      "x": 282.72,
+      "y": 363.5
+    },
+    "chassis": {
+      "x": 333.61,
+      "y": 415.2
+    },
+    "frontWheelRadius": 83.2,
+    "rearWheelRadius": 84.01,
+    "frontDiscRadius": 36.67,
+    "rearDiscRadius": 30.05
+  },
+  "NIU/NL": {
+    "wheelbaseMm": 1265,
+    "pixelsPerMillimeter": 0.45852610441767067,
+    "forkAngleDegrees": 65,
+    "handlePivot": {
+      "x": 260.91,
+      "y": 113.09
+    },
+    "handle": {
+      "x": 276.11,
+      "y": 71.34
+    },
+    "forkTop": {
+      "x": 182.56,
+      "y": 278.68
+    },
+    "frontWheel": {
+      "x": 118.42,
+      "y": 391.38
+    },
+    "rearWheel": {
+      "x": 577.66,
+      "y": 395.56
+    },
+    "swingPivot": {
+      "x": 464.47,
+      "y": 379.66
+    },
+    "shockTop": {
+      "x": 541.21,
+      "y": 290.8
+    },
+    "shockBottom": {
+      "x": 571.91,
+      "y": 378.44
+    },
+    "seat": {
+      "x": 468.51,
+      "y": 193.87
+    },
+    "foot": {
+      "x": 282.72,
+      "y": 347.34
+    },
+    "chassis": {
+      "x": 333.61,
+      "y": 407.93
+    },
+    "frontWheelRadius": 83.2,
+    "rearWheelRadius": 83.2,
+    "frontDiscRadius": 36.67,
+    "rearDiscRadius": 30.05
+  },
+  "NIU/NS": {
+    "wheelbaseMm": 1245,
+    "pixelsPerMillimeter": 0.45852610441767067,
+    "forkAngleDegrees": 65,
+    "handlePivot": {
+      "x": 258.49,
+      "y": 125.21
+    },
+    "handle": {
+      "x": 270.92,
+      "y": 91.05
+    },
+    "forkTop": {
+      "x": 181.75,
+      "y": 278.68
+    },
+    "frontWheel": {
+      "x": 117.61,
+      "y": 391.38
+    },
+    "rearWheel": {
+      "x": 573.25,
+      "y": 404.08
+    },
+    "swingPivot": {
+      "x": 449.93,
+      "y": 387.73
+    },
+    "shockTop": {
+      "x": 541.21,
+      "y": 278.68
+    },
+    "shockBottom": {
+      "x": 567.37,
+      "y": 387
+    },
+    "seat": {
+      "x": 468.51,
+      "y": 201.94
+    },
+    "foot": {
+      "x": 282.72,
+      "y": 355.42
+    },
+    "chassis": {
+      "x": 333.61,
+      "y": 415.2
+    },
+    "frontWheelRadius": 80.78,
+    "rearWheelRadius": 73.51,
+    "frontDiscRadius": 36.67,
+    "rearDiscRadius": 30.05
+  },
+  "NIU/Nplay": {
+    "wheelbaseMm": 1275,
+    "pixelsPerMillimeter": 0.45852610441767067,
+    "forkAngleDegrees": 65,
+    "handlePivot": {
+      "x": 266.57,
+      "y": 113.09
+    },
+    "handle": {
+      "x": 279,
+      "y": 78.93
+    },
+    "forkTop": {
+      "x": 177.71,
+      "y": 282.72
+    },
+    "frontWheel": {
+      "x": 125.29,
+      "y": 400.88
+    },
+    "rearWheel": {
+      "x": 585.9,
+      "y": 394.97
+    },
+    "swingPivot": {
+      "x": 470.93,
+      "y": 383.69
+    },
+    "shockTop": {
+      "x": 542.83,
+      "y": 288.38
+    },
+    "shockBottom": {
+      "x": 579.43,
+      "y": 378.1
+    },
+    "seat": {
+      "x": 468.51,
+      "y": 201.94
+    },
+    "foot": {
+      "x": 282.72,
+      "y": 355.42
+    },
+    "chassis": {
+      "x": 333.61,
+      "y": 415.2
+    },
+    "frontWheelRadius": 83.2,
+    "rearWheelRadius": 83.2,
+    "frontDiscRadius": 36.67,
+    "rearDiscRadius": 30.05
+  },
+  "NIU/N1S": {
+    "wheelbaseMm": 1280,
+    "pixelsPerMillimeter": 0.45852610441767067,
+    "forkAngleDegrees": 65,
+    "handlePivot": {
+      "x": 266.57,
+      "y": 113.09
+    },
+    "handle": {
+      "x": 279,
+      "y": 78.93
+    },
+    "forkTop": {
+      "x": 177.71,
+      "y": 282.72
+    },
+    "frontWheel": {
+      "x": 125.29,
+      "y": 400.88
+    },
+    "rearWheel": {
+      "x": 585.47,
+      "y": 395.13
+    },
+    "swingPivot": {
+      "x": 470.93,
+      "y": 383.69
+    },
+    "shockTop": {
+      "x": 542.83,
+      "y": 288.38
+    },
+    "shockBottom": {
+      "x": 579.04,
+      "y": 378.25
+    },
+    "seat": {
+      "x": 468.51,
+      "y": 201.94
+    },
+    "foot": {
+      "x": 282.72,
+      "y": 355.42
+    },
+    "chassis": {
+      "x": 333.61,
+      "y": 415.2
+    },
+    "frontWheelRadius": 83.2,
+    "rearWheelRadius": 84.01,
+    "frontDiscRadius": 36.67,
+    "rearDiscRadius": 30.05
+  },
+  "NIU/FX 2025": {
+    "wheelbaseMm": 1350,
+    "pixelsPerMillimeter": 0.45852610441767067,
+    "forkAngleDegrees": 65,
+    "handlePivot": {
+      "x": 266.57,
+      "y": 113.09
+    },
+    "handle": {
+      "x": 279,
+      "y": 78.93
+    },
+    "forkTop": {
+      "x": 186.6,
+      "y": 284.34
+    },
+    "frontWheel": {
+      "x": 122.46,
+      "y": 397.04
+    },
+    "rearWheel": {
+      "x": 618.83,
+      "y": 397.66
+    },
+    "swingPivot": {
+      "x": 487.09,
+      "y": 383.69
+    },
+    "shockTop": {
+      "x": 583.22,
+      "y": 288.38
+    },
+    "shockBottom": {
+      "x": 612.5,
+      "y": 380.74
+    },
+    "seat": {
+      "x": 468.51,
+      "y": 201.94
+    },
+    "foot": {
+      "x": 282.72,
+      "y": 363.5
+    },
+    "chassis": {
+      "x": 333.61,
+      "y": 415.2
+    },
+    "frontWheelRadius": 83.2,
+    "rearWheelRadius": 84.01,
+    "frontDiscRadius": 36.67,
+    "rearDiscRadius": 30.05
+  },
+  "NIU/FX 2024": {
+    "wheelbaseMm": 1360,
+    "pixelsPerMillimeter": 0.45852610441767067,
+    "forkAngleDegrees": 65,
+    "handlePivot": {
+      "x": 266.57,
+      "y": 113.09
+    },
+    "handle": {
+      "x": 279,
+      "y": 78.93
+    },
+    "forkTop": {
+      "x": 186.6,
+      "y": 284.34
+    },
+    "frontWheel": {
+      "x": 122.46,
+      "y": 397.04
+    },
+    "rearWheel": {
+      "x": 620.36,
+      "y": 397.08
+    },
+    "swingPivot": {
+      "x": 511.32,
+      "y": 383.69
+    },
+    "shockTop": {
+      "x": 585.64,
+      "y": 304.53
+    },
+    "shockBottom": {
+      "x": 614.31,
+      "y": 380.06
+    },
+    "seat": {
+      "x": 468.51,
+      "y": 201.94
+    },
+    "foot": {
+      "x": 282.72,
+      "y": 363.5
+    },
+    "chassis": {
+      "x": 333.61,
+      "y": 415.2
+    },
+    "frontWheelRadius": 83.2,
+    "rearWheelRadius": 84.01,
+    "frontDiscRadius": 36.67,
+    "rearDiscRadius": 30.05
+  },
+  "NIU/MQI+": {
+    "wheelbaseMm": 1300,
+    "pixelsPerMillimeter": 0.4757208333333333,
+    "forkAngleDegrees": 66,
+    "handlePivot": {
+      "x": 242.33,
+      "y": 121.17
+    },
+    "handle": {
+      "x": 254.77,
+      "y": 87.01
+    },
+    "forkTop": {
+      "x": 169.63,
+      "y": 293.22
+    },
+    "frontWheel": {
+      "x": 122.56,
+      "y": 404.9
+    },
+    "rearWheel": {
+      "x": 573.35,
+      "y": 403.73
+    },
+    "swingPivot": {
+      "x": 456.39,
+      "y": 388.54
+    },
+    "shockTop": {
+      "x": 537.17,
+      "y": 302.92
+    },
+    "shockBottom": {
+      "x": 563.41,
+      "y": 386.15
+    },
+    "seat": {
+      "x": 492.74,
+      "y": 201.94
+    },
+    "foot": {
+      "x": 323.11,
+      "y": 347.34
+    },
+    "chassis": {
+      "x": 333.61,
+      "y": 415.2
+    },
+    "frontWheelRadius": 74.32,
+    "rearWheelRadius": 74.32,
+    "frontDiscRadius": 31.1,
+    "rearDiscRadius": 31.1
+  },
+  "NIU/MQI": {
+    "wheelbaseMm": 1150,
+    "pixelsPerMillimeter": 0.4757208333333333,
+    "forkAngleDegrees": 66,
+    "handlePivot": {
+      "x": 242.33,
+      "y": 121.17
+    },
+    "handle": {
+      "x": 254.77,
+      "y": 87.01
+    },
+    "forkTop": {
+      "x": 173.67,
+      "y": 293.22
+    },
+    "frontWheel": {
+      "x": 126.6,
+      "y": 404.9
+    },
+    "rearWheel": {
+      "x": 558.62,
+      "y": 402.21
+    },
+    "swingPivot": {
+      "x": 448.32,
+      "y": 386.12
+    },
+    "shockTop": {
+      "x": 347.34,
+      "y": 383.69
+    },
+    "shockBottom": {
+      "x": 404.59,
+      "y": 338.92
+    },
+    "seat": {
+      "x": 492.74,
+      "y": 201.94
+    },
+    "foot": {
+      "x": 323.11,
+      "y": 347.34
+    },
+    "chassis": {
+      "x": 333.61,
+      "y": 415.2
+    },
+    "frontWheelRadius": 75.93,
+    "rearWheelRadius": 75.93,
+    "frontDiscRadius": 31.1,
+    "rearDiscRadius": 31.1
+  },
+  "ninebot/Mz1": {
+    "wheelbaseMm": 1245,
+    "pixelsPerMillimeter": 0.45852610441767067,
+    "forkAngleDegrees": 65,
+    "handlePivot": {
+      "x": 266.57,
+      "y": 117.13
+    },
+    "handle": {
+      "x": 279,
+      "y": 82.97
+    },
+    "forkTop": {
+      "x": 199.52,
+      "y": 282.72
+    },
+    "frontWheel": {
+      "x": 133.68,
+      "y": 399.08
+    },
+    "rearWheel": {
+      "x": 588.17,
+      "y": 403.37
+    },
+    "swingPivot": {
+      "x": 487.9,
+      "y": 383.69
+    },
+    "shockTop": {
+      "x": 555.75,
+      "y": 290.8
+    },
+    "shockBottom": {
+      "x": 587.32,
+      "y": 386.74
+    },
+    "seat": {
+      "x": 492.74,
+      "y": 193.87
+    },
+    "foot": {
+      "x": 323.11,
+      "y": 347.34
+    },
+    "chassis": {
+      "x": 351.38,
+      "y": 411.97
+    },
+    "frontWheelRadius": 73.51,
+    "rearWheelRadius": 73.51,
+    "frontDiscRadius": 29.97,
+    "rearDiscRadius": 29.97
+  },
+  "ninebot/Fz5 110": {
+    "wheelbaseMm": 1250,
+    "pixelsPerMillimeter": 0.45852610441767067,
+    "forkAngleDegrees": 65,
+    "handlePivot": {
+      "x": 250.41,
+      "y": 113.09
+    },
+    "handle": {
+      "x": 262.84,
+      "y": 78.93
+    },
+    "forkTop": {
+      "x": 184.17,
+      "y": 270.61
+    },
+    "frontWheel": {
+      "x": 114.91,
+      "y": 394.28
+    },
+    "rearWheel": {
+      "x": 573.03,
+      "y": 393.01
+    },
+    "swingPivot": {
+      "x": 465.28,
+      "y": 371.58
+    },
+    "shockTop": {
+      "x": 521.02,
+      "y": 298.88
+    },
+    "shockBottom": {
+      "x": 572.22,
+      "y": 376.38
+    },
+    "seat": {
+      "x": 468.51,
+      "y": 185.79
+    },
+    "foot": {
+      "x": 315.03,
+      "y": 347.34
+    },
+    "chassis": {
+      "x": 351.38,
+      "y": 399.85
+    },
+    "frontWheelRadius": 84.01,
+    "rearWheelRadius": 84.01,
+    "frontDiscRadius": 36.59,
+    "rearDiscRadius": 25.85
+  },
+  "ninebot/Fz3 110": {
+    "wheelbaseMm": 1240,
+    "pixelsPerMillimeter": 0.45852610441767067,
+    "forkAngleDegrees": 65,
+    "handlePivot": {
+      "x": 250.41,
+      "y": 113.09
+    },
+    "handle": {
+      "x": 262.84,
+      "y": 78.93
+    },
+    "forkTop": {
+      "x": 176.1,
+      "y": 286.76
+    },
+    "frontWheel": {
+      "x": 114.69,
+      "y": 393.6
+    },
+    "rearWheel": {
+      "x": 580.55,
+      "y": 400.4
+    },
+    "swingPivot": {
+      "x": 448.32,
+      "y": 383.69
+    },
+    "shockTop": {
+      "x": 516.98,
+      "y": 282.72
+    },
+    "shockBottom": {
+      "x": 562.54,
+      "y": 381.84
+    },
+    "seat": {
+      "x": 468.51,
+      "y": 193.87
+    },
+    "foot": {
+      "x": 315.03,
+      "y": 379.66
+    },
+    "chassis": {
+      "x": 351.38,
+      "y": 411.97
+    },
+    "frontWheelRadius": 81.59,
+    "rearWheelRadius": 75.93,
+    "frontDiscRadius": 36.59,
+    "rearDiscRadius": 25.85
+  },
+  "ninebot/Dz110p MK2": {
+    "wheelbaseMm": 1235,
+    "pixelsPerMillimeter": 0.4667506072874494,
+    "forkAngleDegrees": 65,
+    "handlePivot": {
+      "x": 250.41,
+      "y": 127.63
+    },
+    "handle": {
+      "x": 256.72,
+      "y": 91.83
+    },
+    "forkTop": {
+      "x": 179.33,
+      "y": 290.8
+    },
+    "frontWheel": {
+      "x": 116.9,
+      "y": 399.84
+    },
+    "rearWheel": {
+      "x": 579.46,
+      "y": 400.93
+    },
+    "swingPivot": {
+      "x": 470.93,
+      "y": 395.81
+    },
+    "shockTop": {
+      "x": 519.4,
+      "y": 286.76
+    },
+    "shockBottom": {
+      "x": 576.19,
+      "y": 384.6
+    },
+    "seat": {
+      "x": 468.51,
+      "y": 201.94
+    },
+    "foot": {
+      "x": 306.96,
+      "y": 367.54
+    },
+    "chassis": {
+      "x": 323.11,
+      "y": 420.04
+    },
+    "frontWheelRadius": 80.37,
+    "rearWheelRadius": 80.37,
+    "frontDiscRadius": 37.4,
+    "rearDiscRadius": 30.61
+  },
+  "ninebot/Dz110p": {
+    "wheelbaseMm": 1235,
+    "pixelsPerMillimeter": 0.4667506072874494,
+    "forkAngleDegrees": 65,
+    "handlePivot": {
+      "x": 250.41,
+      "y": 127.63
+    },
+    "handle": {
+      "x": 256.72,
+      "y": 91.83
+    },
+    "forkTop": {
+      "x": 179.33,
+      "y": 290.8
+    },
+    "frontWheel": {
+      "x": 116.9,
+      "y": 399.84
+    },
+    "rearWheel": {
+      "x": 579.46,
+      "y": 400.93
+    },
+    "swingPivot": {
+      "x": 470.93,
+      "y": 395.81
+    },
+    "shockTop": {
+      "x": 519.4,
+      "y": 286.76
+    },
+    "shockBottom": {
+      "x": 576.19,
+      "y": 384.6
+    },
+    "seat": {
+      "x": 468.51,
+      "y": 201.94
+    },
+    "foot": {
+      "x": 306.96,
+      "y": 367.54
+    },
+    "chassis": {
+      "x": 323.11,
+      "y": 420.04
+    },
+    "frontWheelRadius": 80.37,
+    "rearWheelRadius": 80.37,
+    "frontDiscRadius": 37.4,
+    "rearDiscRadius": 30.61
+  },
+  "ninebot/Kz110": {
+    "wheelbaseMm": 1245,
+    "pixelsPerMillimeter": 0.46265060240963857,
+    "forkAngleDegrees": 65,
+    "handlePivot": {
+      "x": 266.57,
+      "y": 105.01
+    },
+    "handle": {
+      "x": 281.93,
+      "y": 72.07
+    },
+    "forkTop": {
+      "x": 193.87,
+      "y": 248.8
+    },
+    "frontWheel": {
+      "x": 120.17,
+      "y": 381.99
+    },
+    "rearWheel": {
+      "x": 577.33,
+      "y": 384.21
+    },
+    "swingPivot": {
+      "x": 416.01,
+      "y": 375.62
+    },
+    "shockTop": {
+      "x": 441.85,
+      "y": 258.49
+    },
+    "shockBottom": {
+      "x": 467.74,
+      "y": 346.02
+    },
+    "seat": {
+      "x": 476.59,
+      "y": 193.87
+    },
+    "foot": {
+      "x": 323.11,
+      "y": 363.5
+    },
+    "chassis": {
+      "x": 351.38,
+      "y": 420.04
+    },
+    "frontWheelRadius": 92.09,
+    "rearWheelRadius": 94.51,
+    "frontDiscRadius": 37,
+    "rearDiscRadius": 30.29
+  },
+  "ninebot/Mmax2": {
+    "wheelbaseMm": 1245,
+    "pixelsPerMillimeter": 0.46265060240963857,
+    "forkAngleDegrees": 65,
+    "handlePivot": {
+      "x": 258.49,
+      "y": 121.17
+    },
+    "handle": {
+      "x": 270.92,
+      "y": 87.01
+    },
+    "forkTop": {
+      "x": 179.33,
+      "y": 289.18
+    },
+    "frontWheel": {
+      "x": 116.9,
+      "y": 398.22
+    },
+    "rearWheel": {
+      "x": 571.42,
+      "y": 398.54
+    },
+    "swingPivot": {
+      "x": 432.97,
+      "y": 391.77
+    },
+    "shockTop": {
+      "x": 533.13,
+      "y": 274.64
+    },
+    "shockBottom": {
+      "x": 568.17,
+      "y": 382.21
+    },
+    "seat": {
+      "x": 476.59,
+      "y": 193.87
+    },
+    "foot": {
+      "x": 323.11,
+      "y": 363.5
+    },
+    "chassis": {
+      "x": 351.38,
+      "y": 426.1
+    },
+    "frontWheelRadius": 82.39,
+    "rearWheelRadius": 82.39,
+    "frontDiscRadius": 37,
+    "rearDiscRadius": 30.29
+  },
+  "ninebot/Mmax110 MK2": {
+    "wheelbaseMm": 1245,
+    "pixelsPerMillimeter": 0.4618393574297189,
+    "forkAngleDegrees": 65,
+    "handlePivot": {
+      "x": 242.33,
+      "y": 121.17
+    },
+    "handle": {
+      "x": 254.77,
+      "y": 87.01
+    },
+    "forkTop": {
+      "x": 180.13,
+      "y": 290.8
+    },
+    "frontWheel": {
+      "x": 117.7,
+      "y": 399.84
+    },
+    "rearWheel": {
+      "x": 566.96,
+      "y": 394.31
+    },
+    "swingPivot": {
+      "x": 474.17,
+      "y": 381.27
+    },
+    "shockTop": {
+      "x": 516.98,
+      "y": 282.72
+    },
+    "shockBottom": {
+      "x": 561.77,
+      "y": 373.19
+    },
+    "seat": {
+      "x": 460.43,
+      "y": 201.94
+    },
+    "foot": {
+      "x": 306.96,
+      "y": 371.58
+    },
+    "chassis": {
+      "x": 351.38,
+      "y": 410.35
+    },
+    "frontWheelRadius": 80.78,
+    "rearWheelRadius": 80.78,
+    "frontDiscRadius": 36.92,
+    "rearDiscRadius": 30.29
+  },
+  "ninebot/Mmax110": {
+    "wheelbaseMm": 1245,
+    "pixelsPerMillimeter": 0.4618393574297189,
+    "forkAngleDegrees": 65,
+    "handlePivot": {
+      "x": 242.33,
+      "y": 121.17
+    },
+    "handle": {
+      "x": 254.77,
+      "y": 87.01
+    },
+    "forkTop": {
+      "x": 179.33,
+      "y": 290.8
+    },
+    "frontWheel": {
+      "x": 116.9,
+      "y": 399.84
+    },
+    "rearWheel": {
+      "x": 577.78,
+      "y": 402.58
+    },
+    "swingPivot": {
+      "x": 471.74,
+      "y": 385.31
+    },
+    "shockTop": {
+      "x": 527.48,
+      "y": 286.76
+    },
+    "shockBottom": {
+      "x": 573.05,
+      "y": 381.35
+    },
+    "seat": {
+      "x": 460.43,
+      "y": 201.94
+    },
+    "foot": {
+      "x": 306.96,
+      "y": 371.58
+    },
+    "chassis": {
+      "x": 351.38,
+      "y": 410.35
+    },
+    "frontWheelRadius": 79.97,
+    "rearWheelRadius": 79.97,
+    "frontDiscRadius": 30.29,
+    "rearDiscRadius": 26.01
+  },
+  "ninebot/F2z110Max": {
+    "wheelbaseMm": 1245,
+    "pixelsPerMillimeter": 0.45852610441767067,
+    "forkAngleDegrees": 65,
+    "handlePivot": {
+      "x": 250.41,
+      "y": 113.09
+    },
+    "handle": {
+      "x": 262.84,
+      "y": 78.93
+    },
+    "forkTop": {
+      "x": 173.67,
+      "y": 294.84
+    },
+    "frontWheel": {
+      "x": 114.65,
+      "y": 396.55
+    },
+    "rearWheel": {
+      "x": 582.79,
+      "y": 404.98
+    },
+    "swingPivot": {
+      "x": 478.2,
+      "y": 391.77
+    },
+    "shockTop": {
+      "x": 533.13,
+      "y": 294.84
+    },
+    "shockBottom": {
+      "x": 580.81,
+      "y": 388.45
+    },
+    "seat": {
+      "x": 468.51,
+      "y": 201.94
+    },
+    "foot": {
+      "x": 315.03,
+      "y": 379.66
+    },
+    "chassis": {
+      "x": 351.38,
+      "y": 416.01
+    },
+    "frontWheelRadius": 81.59,
+    "rearWheelRadius": 74.32,
+    "frontDiscRadius": 36.59,
+    "rearDiscRadius": 25.85
+  },
+  "ninebot/F2z110": {
+    "wheelbaseMm": 1245,
+    "pixelsPerMillimeter": 0.45852610441767067,
+    "forkAngleDegrees": 65,
+    "handlePivot": {
+      "x": 250.41,
+      "y": 113.09
+    },
+    "handle": {
+      "x": 262.84,
+      "y": 78.93
+    },
+    "forkTop": {
+      "x": 176.1,
+      "y": 298.88
+    },
+    "frontWheel": {
+      "x": 117.08,
+      "y": 400.59
+    },
+    "rearWheel": {
+      "x": 583.51,
+      "y": 404.34
+    },
+    "swingPivot": {
+      "x": 479.82,
+      "y": 387.73
+    },
+    "shockTop": {
+      "x": 533.13,
+      "y": 294.84
+    },
+    "shockBottom": {
+      "x": 582.08,
+      "y": 387.75
+    },
+    "seat": {
+      "x": 468.51,
+      "y": 201.94
+    },
+    "foot": {
+      "x": 315.03,
+      "y": 379.66
+    },
+    "chassis": {
+      "x": 351.38,
+      "y": 416.01
+    },
+    "frontWheelRadius": 74.32,
+    "rearWheelRadius": 74.32,
+    "frontDiscRadius": 29.97,
+    "rearDiscRadius": 25.85
+  },
+  "ninebot/F90": {
+    "wheelbaseMm": 1245,
+    "pixelsPerMillimeter": 0.45852610441767067,
+    "forkAngleDegrees": 65,
+    "handlePivot": {
+      "x": 250.41,
+      "y": 113.09
+    },
+    "handle": {
+      "x": 262.84,
+      "y": 78.93
+    },
+    "forkTop": {
+      "x": 177.71,
+      "y": 290.8
+    },
+    "frontWheel": {
+      "x": 118.69,
+      "y": 392.52
+    },
+    "rearWheel": {
+      "x": 578.29,
+      "y": 399.94
+    },
+    "swingPivot": {
+      "x": 476.59,
+      "y": 381.27
+    },
+    "shockTop": {
+      "x": 529.09,
+      "y": 282.72
+    },
+    "shockBottom": {
+      "x": 557.37,
+      "y": 379.67
+    },
+    "seat": {
+      "x": 476.59,
+      "y": 193.87
+    },
+    "foot": {
+      "x": 323.11,
+      "y": 363.5
+    },
+    "chassis": {
+      "x": 351.38,
+      "y": 404.7
+    },
+    "frontWheelRadius": 71.08,
+    "rearWheelRadius": 71.08,
+    "frontDiscRadius": 30.05,
+    "rearDiscRadius": 25.85
+  },
+  "ninebot/Mzmax": {
+    "wheelbaseMm": 1245,
+    "pixelsPerMillimeter": 0.45852610441767067,
+    "forkAngleDegrees": 65,
+    "handlePivot": {
+      "x": 242.33,
+      "y": 121.17
+    },
+    "handle": {
+      "x": 254.77,
+      "y": 87.01
+    },
+    "forkTop": {
+      "x": 184.98,
+      "y": 278.68
+    },
+    "frontWheel": {
+      "x": 119.14,
+      "y": 395.04
+    },
+    "rearWheel": {
+      "x": 578.88,
+      "y": 409.53
+    },
+    "swingPivot": {
+      "x": 474.97,
+      "y": 391.77
+    },
+    "shockTop": {
+      "x": 548.48,
+      "y": 282.72
+    },
+    "shockBottom": {
+      "x": 575,
+      "y": 384.29
+    },
+    "seat": {
+      "x": 492.74,
+      "y": 201.94
+    },
+    "foot": {
+      "x": 323.11,
+      "y": 347.34
+    },
+    "chassis": {
+      "x": 351.38,
+      "y": 420.04
+    },
+    "frontWheelRadius": 80.78,
+    "rearWheelRadius": 73.51,
+    "frontDiscRadius": 39.99,
+    "rearDiscRadius": 33.28
+  },
+  "ninebot/Mzmix": {
+    "wheelbaseMm": 1245,
+    "pixelsPerMillimeter": 0.45852610441767067,
+    "forkAngleDegrees": 65,
+    "handlePivot": {
+      "x": 242.33,
+      "y": 121.17
+    },
+    "handle": {
+      "x": 254.77,
+      "y": 87.01
+    },
+    "forkTop": {
+      "x": 184.98,
+      "y": 278.68
+    },
+    "frontWheel": {
+      "x": 119.14,
+      "y": 395.04
+    },
+    "rearWheel": {
+      "x": 578.88,
+      "y": 409.53
+    },
+    "swingPivot": {
+      "x": 474.97,
+      "y": 391.77
+    },
+    "shockTop": {
+      "x": 548.48,
+      "y": 282.72
+    },
+    "shockBottom": {
+      "x": 575,
+      "y": 384.29
+    },
+    "seat": {
+      "x": 492.74,
+      "y": 201.94
+    },
+    "foot": {
+      "x": 323.11,
+      "y": 347.34
+    },
+    "chassis": {
+      "x": 351.38,
+      "y": 420.04
+    },
+    "frontWheelRadius": 80.78,
+    "rearWheelRadius": 73.51,
+    "frontDiscRadius": 36.59,
+    "rearDiscRadius": 29.97
+  },
+  "ninebot/Nzmix": {
+    "wheelbaseMm": 1245,
+    "pixelsPerMillimeter": 0.45852610441767067,
+    "forkAngleDegrees": 65,
+    "handlePivot": {
+      "x": 242.33,
+      "y": 121.17
+    },
+    "handle": {
+      "x": 254.77,
+      "y": 87.01
+    },
+    "forkTop": {
+      "x": 184.98,
+      "y": 278.68
+    },
+    "frontWheel": {
+      "x": 119.14,
+      "y": 395.04
+    },
+    "rearWheel": {
+      "x": 579.64,
+      "y": 404.35
+    },
+    "swingPivot": {
+      "x": 474.97,
+      "y": 391.77
+    },
+    "shockTop": {
+      "x": 548.48,
+      "y": 282.72
+    },
+    "shockBottom": {
+      "x": 577.55,
+      "y": 387.82
+    },
+    "seat": {
+      "x": 492.74,
+      "y": 201.94
+    },
+    "foot": {
+      "x": 323.11,
+      "y": 347.34
+    },
+    "chassis": {
+      "x": 351.38,
+      "y": 420.04
+    },
+    "frontWheelRadius": 80.78,
+    "rearWheelRadius": 73.51,
+    "frontDiscRadius": 29.97,
+    "rearDiscRadius": 25.85
+  },
+  "ninebot/Fzmix": {
+    "wheelbaseMm": 1245,
+    "pixelsPerMillimeter": 0.45969156626506025,
+    "forkAngleDegrees": 65,
+    "handlePivot": {
+      "x": 250.41,
+      "y": 113.09
+    },
+    "handle": {
+      "x": 262.84,
+      "y": 78.93
+    },
+    "forkTop": {
+      "x": 177.71,
+      "y": 295.65
+    },
+    "frontWheel": {
+      "x": 118.69,
+      "y": 397.36
+    },
+    "rearWheel": {
+      "x": 582.02,
+      "y": 396.72
+    },
+    "swingPivot": {
+      "x": 478.2,
+      "y": 387.73
+    },
+    "shockTop": {
+      "x": 545.25,
+      "y": 282.72
+    },
+    "shockBottom": {
+      "x": 579.39,
+      "y": 380.28
+    },
+    "seat": {
+      "x": 492.74,
+      "y": 193.87
+    },
+    "foot": {
+      "x": 323.11,
+      "y": 343.31
+    },
+    "chassis": {
+      "x": 351.38,
+      "y": 404.7
+    },
+    "frontWheelRadius": 74.32,
+    "rearWheelRadius": 74.32,
+    "frontDiscRadius": 30.13,
+    "rearDiscRadius": 25.85
+  },
+  "ninebot/Qzmix": {
+    "wheelbaseMm": 1140,
+    "pixelsPerMillimeter": 0.5142927927927928,
+    "forkAngleDegrees": 65,
+    "handlePivot": {
+      "x": 286.76,
+      "y": 125.21
+    },
+    "handle": {
+      "x": 299.19,
+      "y": 91.05
+    },
+    "forkTop": {
+      "x": 212.45,
+      "y": 310.99
+    },
+    "frontWheel": {
+      "x": 158.55,
+      "y": 401.73
+    },
+    "rearWheel": {
+      "x": 578.85,
+      "y": 397.14
+    },
+    "swingPivot": {
+      "x": 442.66,
+      "y": 387.73
+    },
+    "shockTop": {
+      "x": 523.44,
+      "y": 286.76
+    },
+    "shockBottom": {
+      "x": 576.49,
+      "y": 372.68
+    },
+    "seat": {
+      "x": 500.82,
+      "y": 193.87
+    },
+    "foot": {
+      "x": 323.11,
+      "y": 347.34
+    },
+    "chassis": {
+      "x": 351.38,
+      "y": 428.12
+    },
+    "frontWheelRadius": 67.85,
+    "rearWheelRadius": 72.7,
+    "frontDiscRadius": 29,
+    "rearDiscRadius": 29
+  },
+  "ninebot/Vzmix": {
+    "wheelbaseMm": 1115,
+    "pixelsPerMillimeter": 0.45852610441767067,
+    "forkAngleDegrees": 68,
+    "handlePivot": {
+      "x": 306.96,
+      "y": 113.09
+    },
+    "handle": {
+      "x": 319.39,
+      "y": 78.93
+    },
+    "forkTop": {
+      "x": 226.99,
+      "y": 301.3
+    },
+    "frontWheel": {
+      "x": 174.89,
+      "y": 402.22
+    },
+    "rearWheel": {
+      "x": 584.04,
+      "y": 395.18
+    },
+    "swingPivot": {
+      "x": 476.59,
+      "y": 382.08
+    },
+    "shockTop": {
+      "x": 501.63,
+      "y": 252.03
+    },
+    "shockBottom": {
+      "x": 532.89,
+      "y": 314.08
+    },
+    "seat": {
+      "x": 492.74,
+      "y": 185.79
+    },
+    "foot": {
+      "x": 323.11,
+      "y": 347.34
+    },
+    "chassis": {
+      "x": 351.38,
+      "y": 428.12
+    },
+    "frontWheelRadius": 68.66,
+    "rearWheelRadius": 73.51,
+    "frontDiscRadius": 29,
+    "rearDiscRadius": 29
+  },
+  "ninebot/C90": {
+    "wheelbaseMm": 1230,
+    "pixelsPerMillimeter": 0.45852610441767067,
+    "forkAngleDegrees": 70,
+    "handlePivot": {
+      "x": 236.68,
+      "y": 135.71
+    },
+    "handle": {
+      "x": 247.73,
+      "y": 105.34
+    },
+    "forkTop": {
+      "x": 165.59,
+      "y": 284.34
+    },
+    "frontWheel": {
+      "x": 112.9,
+      "y": 398.4
+    },
+    "rearWheel": {
+      "x": 559.99,
+      "y": 407.3
+    },
+    "swingPivot": {
+      "x": 451.55,
+      "y": 395.81
+    },
+    "shockTop": {
+      "x": 492.74,
+      "y": 306.96
+    },
+    "shockBottom": {
+      "x": 529.56,
+      "y": 387.83
+    },
+    "seat": {
+      "x": 444.28,
+      "y": 201.94
+    },
+    "foot": {
+      "x": 298.88,
+      "y": 379.66
+    },
+    "chassis": {
+      "x": 351.38,
+      "y": 424.08
+    },
+    "frontWheelRadius": 76.74,
+    "rearWheelRadius": 76.74,
+    "frontDiscRadius": 30.29,
+    "rearDiscRadius": 30.29
+  },
+  "ninebot/Cz90": {
+    "wheelbaseMm": 1245,
+    "pixelsPerMillimeter": 0.45969156626506025,
+    "forkAngleDegrees": 65,
+    "handlePivot": {
+      "x": 242.33,
+      "y": 113.09
+    },
+    "handle": {
+      "x": 254.77,
+      "y": 78.93
+    },
+    "forkTop": {
+      "x": 165.59,
+      "y": 288.38
+    },
+    "frontWheel": {
+      "x": 118.29,
+      "y": 395.55
+    },
+    "rearWheel": {
+      "x": 564.15,
+      "y": 399.05
+    },
+    "swingPivot": {
+      "x": 432.16,
+      "y": 387.73
+    },
+    "shockTop": {
+      "x": 521.02,
+      "y": 286.76
+    },
+    "shockBottom": {
+      "x": 562.2,
+      "y": 374.56
+    },
+    "seat": {
+      "x": 468.51,
+      "y": 193.87
+    },
+    "foot": {
+      "x": 282.72,
+      "y": 363.5
+    },
+    "chassis": {
+      "x": 351.38,
+      "y": 404.7
+    },
+    "frontWheelRadius": 74.32,
+    "rearWheelRadius": 74.32,
+    "frontDiscRadius": 30.13,
+    "rearDiscRadius": 25.85
+  },
+  "ninebot/Bmax90": {
+    "wheelbaseMm": 1215,
+    "pixelsPerMillimeter": 0.45852610441767067,
+    "forkAngleDegrees": 65,
+    "handlePivot": {
+      "x": 266.57,
+      "y": 129.24
+    },
+    "handle": {
+      "x": 279,
+      "y": 95.09
+    },
+    "forkTop": {
+      "x": 191.44,
+      "y": 294.84
+    },
+    "frontWheel": {
+      "x": 132.43,
+      "y": 396.55
+    },
+    "rearWheel": {
+      "x": 575.65,
+      "y": 396.75
+    },
+    "swingPivot": {
+      "x": 484.67,
+      "y": 389.35
+    },
+    "shockTop": {
+      "x": 529.09,
+      "y": 294.84
+    },
+    "shockBottom": {
+      "x": 564.88,
+      "y": 379.66
+    },
+    "seat": {
+      "x": 476.59,
+      "y": 210.02
+    },
+    "foot": {
+      "x": 323.11,
+      "y": 371.58
+    },
+    "chassis": {
+      "x": 351.38,
+      "y": 404.7
+    },
+    "frontWheelRadius": 71.08,
+    "rearWheelRadius": 71.08,
+    "frontDiscRadius": 30.05,
+    "rearDiscRadius": 25.85
+  },
+  "ninebot/E300p MK2": {
+    "wheelbaseMm": 1360,
+    "pixelsPerMillimeter": 0.45931235059760955,
+    "forkAngleDegrees": 65,
+    "handlePivot": {
+      "x": 274.64,
+      "y": 113.09
+    },
+    "handle": {
+      "x": 287.08,
+      "y": 78.93
+    },
+    "forkTop": {
+      "x": 184.98,
+      "y": 282.72
+    },
+    "frontWheel": {
+      "x": 119.14,
+      "y": 399.08
+    },
+    "rearWheel": {
+      "x": 613.72,
+      "y": 397.08
+    },
+    "swingPivot": {
+      "x": 510.52,
+      "y": 375.62
+    },
+    "shockTop": {
+      "x": 565.44,
+      "y": 294.84
+    },
+    "shockBottom": {
+      "x": 605.15,
+      "y": 378.8
+    },
+    "seat": {
+      "x": 492.74,
+      "y": 201.94
+    },
+    "foot": {
+      "x": 323.11,
+      "y": 347.34
+    },
+    "chassis": {
+      "x": 351.38,
+      "y": 420.04
+    },
+    "frontWheelRadius": 80.78,
+    "rearWheelRadius": 84.82,
+    "frontDiscRadius": 40.87,
+    "rearDiscRadius": 33.44
+  },
+  "ninebot/E200p MK2": {
+    "wheelbaseMm": 1245,
+    "pixelsPerMillimeter": 0.45931235059760955,
+    "forkAngleDegrees": 65,
+    "handlePivot": {
+      "x": 274.64,
+      "y": 113.09
+    },
+    "handle": {
+      "x": 280.96,
+      "y": 77.29
+    },
+    "forkTop": {
+      "x": 187.4,
+      "y": 284.34
+    },
+    "frontWheel": {
+      "x": 121.56,
+      "y": 400.7
+    },
+    "rearWheel": {
+      "x": 586.3,
+      "y": 399.04
+    },
+    "swingPivot": {
+      "x": 480.63,
+      "y": 375.62
+    },
+    "shockTop": {
+      "x": 535.56,
+      "y": 294.84
+    },
+    "shockBottom": {
+      "x": 585.86,
+      "y": 382.4
+    },
+    "seat": {
+      "x": 468.51,
+      "y": 201.94
+    },
+    "foot": {
+      "x": 306.96,
+      "y": 367.54
+    },
+    "chassis": {
+      "x": 323.11,
+      "y": 420.04
+    },
+    "frontWheelRadius": 80.78,
+    "rearWheelRadius": 84.82,
+    "frontDiscRadius": 36.75,
+    "rearDiscRadius": 33.44
+  },
+  "ninebot/E150c MK2": {
+    "wheelbaseMm": 1255,
+    "pixelsPerMillimeter": 0.45931235059760955,
+    "forkAngleDegrees": 62,
+    "handlePivot": {
+      "x": 274.64,
+      "y": 113.09
+    },
+    "handle": {
+      "x": 280.96,
+      "y": 77.29
+    },
+    "forkTop": {
+      "x": 189.83,
+      "y": 286.76
+    },
+    "frontWheel": {
+      "x": 117.98,
+      "y": 399.51
+    },
+    "rearWheel": {
+      "x": 579.65,
+      "y": 396.19
+    },
+    "swingPivot": {
+      "x": 473.36,
+      "y": 387.73
+    },
+    "shockTop": {
+      "x": 529.09,
+      "y": 290.8
+    },
+    "shockBottom": {
+      "x": 576.9,
+      "y": 379.77
+    },
+    "seat": {
+      "x": 468.51,
+      "y": 201.94
+    },
+    "foot": {
+      "x": 306.96,
+      "y": 367.54
+    },
+    "chassis": {
+      "x": 323.11,
+      "y": 420.04
+    },
+    "frontWheelRadius": 79.16,
+    "rearWheelRadius": 84.01,
+    "frontDiscRadius": 36.75,
+    "rearDiscRadius": 33.44
+  },
+  "ninebot/E100": {
+    "wheelbaseMm": 1235,
+    "pixelsPerMillimeter": 0.4686479674796748,
+    "forkAngleDegrees": 60,
+    "handlePivot": {
+      "x": 274.64,
+      "y": 113.09
+    },
+    "handle": {
+      "x": 280.96,
+      "y": 77.29
+    },
+    "forkTop": {
+      "x": 197.91,
+      "y": 286.76
+    },
+    "frontWheel": {
+      "x": 122.17,
+      "y": 396.94
+    },
+    "rearWheel": {
+      "x": 577.88,
+      "y": 397.82
+    },
+    "swingPivot": {
+      "x": 474.97,
+      "y": 387.73
+    },
+    "shockTop": {
+      "x": 530.71,
+      "y": 290.8
+    },
+    "shockBottom": {
+      "x": 575.43,
+      "y": 381.35
+    },
+    "seat": {
+      "x": 468.51,
+      "y": 201.94
+    },
+    "foot": {
+      "x": 306.96,
+      "y": 367.54
+    },
+    "chassis": {
+      "x": 323.11,
+      "y": 420.04
+    },
+    "frontWheelRadius": 80.37,
+    "rearWheelRadius": 77.55,
+    "frontDiscRadius": 37.4,
+    "rearDiscRadius": 30.61
+  },
+  "ninebot/E80c MK2": {
+    "wheelbaseMm": 1230,
+    "pixelsPerMillimeter": 0.4686479674796748,
+    "forkAngleDegrees": 60,
+    "handlePivot": {
+      "x": 274.64,
+      "y": 113.09
+    },
+    "handle": {
+      "x": 280.96,
+      "y": 77.29
+    },
+    "forkTop": {
+      "x": 197.91,
+      "y": 286.76
+    },
+    "frontWheel": {
+      "x": 122.17,
+      "y": 396.94
+    },
+    "rearWheel": {
+      "x": 576.26,
+      "y": 397.82
+    },
+    "swingPivot": {
+      "x": 473.36,
+      "y": 387.73
+    },
+    "shockTop": {
+      "x": 529.09,
+      "y": 290.8
+    },
+    "shockBottom": {
+      "x": 573.82,
+      "y": 381.35
+    },
+    "seat": {
+      "x": 468.51,
+      "y": 201.94
+    },
+    "foot": {
+      "x": 306.96,
+      "y": 367.54
+    },
+    "chassis": {
+      "x": 323.11,
+      "y": 420.04
+    },
+    "frontWheelRadius": 80.37,
+    "rearWheelRadius": 77.55,
+    "frontDiscRadius": 37.4,
+    "rearDiscRadius": 30.61
+  },
+  "ninebot/M5": {
+    "wheelbaseMm": 1395,
+    "pixelsPerMillimeter": 0.45852610441767067,
+    "forkAngleDegrees": 66,
+    "handlePivot": {
+      "x": 274.64,
+      "y": 113.09
+    },
+    "handle": {
+      "x": 287.08,
+      "y": 78.93
+    },
+    "forkTop": {
+      "x": 181.75,
+      "y": 270.61
+    },
+    "frontWheel": {
+      "x": 113.02,
+      "y": 399.16
+    },
+    "rearWheel": {
+      "x": 615.69,
+      "y": 401.37
+    },
+    "swingPivot": {
+      "x": 508.9,
+      "y": 383.69
+    },
+    "shockTop": {
+      "x": 575.95,
+      "y": 296.45
+    },
+    "shockBottom": {
+      "x": 618.33,
+      "y": 385.43
+    },
+    "seat": {
+      "x": 492.74,
+      "y": 201.94
+    },
+    "foot": {
+      "x": 323.11,
+      "y": 363.5
+    },
+    "chassis": {
+      "x": 351.38,
+      "y": 424.08
+    },
+    "frontWheelRadius": 82.39,
+    "rearWheelRadius": 81.59,
+    "frontDiscRadius": 39.99,
+    "rearDiscRadius": 33.28
+  },
+  "ninebot/M3": {
+    "wheelbaseMm": 1370,
+    "pixelsPerMillimeter": 0.45852610441767067,
+    "forkAngleDegrees": 66,
+    "handlePivot": {
+      "x": 274.64,
+      "y": 113.09
+    },
+    "handle": {
+      "x": 287.08,
+      "y": 78.93
+    },
+    "forkTop": {
+      "x": 185.79,
+      "y": 270.61
+    },
+    "frontWheel": {
+      "x": 117.06,
+      "y": 399.16
+    },
+    "rearWheel": {
+      "x": 609.12,
+      "y": 399.45
+    },
+    "swingPivot": {
+      "x": 502.44,
+      "y": 383.69
+    },
+    "shockTop": {
+      "x": 575.95,
+      "y": 280.3
+    },
+    "shockBottom": {
+      "x": 613.25,
+      "y": 371.48
+    },
+    "seat": {
+      "x": 492.74,
+      "y": 193.87
+    },
+    "foot": {
+      "x": 323.11,
+      "y": 355.42
+    },
+    "chassis": {
+      "x": 351.38,
+      "y": 432.16
+    },
+    "frontWheelRadius": 82.39,
+    "rearWheelRadius": 81.59,
+    "frontDiscRadius": 39.99,
+    "rearDiscRadius": 33.28
+  },
+  "ninebot/M3 95c Max": {
+    "wheelbaseMm": 1360,
+    "pixelsPerMillimeter": 0.45852610441767067,
+    "forkAngleDegrees": 65,
+    "handlePivot": {
+      "x": 274.64,
+      "y": 113.09
+    },
+    "handle": {
+      "x": 287.08,
+      "y": 78.93
+    },
+    "forkTop": {
+      "x": 185.79,
+      "y": 282.72
+    },
+    "frontWheel": {
+      "x": 120.63,
+      "y": 397.62
+    },
+    "rearWheel": {
+      "x": 616.85,
+      "y": 403.7
+    },
+    "swingPivot": {
+      "x": 512.94,
+      "y": 383.69
+    },
+    "shockTop": {
+      "x": 571.91,
+      "y": 298.88
+    },
+    "shockBottom": {
+      "x": 615.94,
+      "y": 387.08
+    },
+    "seat": {
+      "x": 492.74,
+      "y": 193.87
+    },
+    "foot": {
+      "x": 323.11,
+      "y": 347.34
+    },
+    "chassis": {
+      "x": 351.38,
+      "y": 424.08
+    },
+    "frontWheelRadius": 83.2,
+    "rearWheelRadius": 81.59,
+    "frontDiscRadius": 36.67,
+    "rearDiscRadius": 30.05
+  },
+  "ninebot/M95c+": {
+    "wheelbaseMm": 1360,
+    "pixelsPerMillimeter": 0.45852610441767067,
+    "forkAngleDegrees": 65,
+    "handlePivot": {
+      "x": 274.64,
+      "y": 113.09
+    },
+    "handle": {
+      "x": 287.08,
+      "y": 78.93
+    },
+    "forkTop": {
+      "x": 184.98,
+      "y": 282.72
+    },
+    "frontWheel": {
+      "x": 119.14,
+      "y": 399.08
+    },
+    "rearWheel": {
+      "x": 622.8,
+      "y": 404.03
+    },
+    "swingPivot": {
+      "x": 521.02,
+      "y": 383.69
+    },
+    "shockTop": {
+      "x": 581.6,
+      "y": 294.84
+    },
+    "shockBottom": {
+      "x": 622.01,
+      "y": 387.4
+    },
+    "seat": {
+      "x": 492.74,
+      "y": 193.87
+    },
+    "foot": {
+      "x": 323.11,
+      "y": 347.34
+    },
+    "chassis": {
+      "x": 351.38,
+      "y": 424.08
+    },
+    "frontWheelRadius": 80.78,
+    "rearWheelRadius": 77.55,
+    "frontDiscRadius": 36.67,
+    "rearDiscRadius": 30.05
+  },
+  "ninebot/N3 85c": {
+    "wheelbaseMm": 1350,
+    "pixelsPerMillimeter": 0.45852610441767067,
+    "forkAngleDegrees": 65,
+    "handlePivot": {
+      "x": 274.64,
+      "y": 113.09
+    },
+    "handle": {
+      "x": 287.08,
+      "y": 78.93
+    },
+    "forkTop": {
+      "x": 182.56,
+      "y": 274.64
+    },
+    "frontWheel": {
+      "x": 116.71,
+      "y": 391
+    },
+    "rearWheel": {
+      "x": 617.2,
+      "y": 399.73
+    },
+    "swingPivot": {
+      "x": 515.36,
+      "y": 379.66
+    },
+    "shockTop": {
+      "x": 579.18,
+      "y": 288.38
+    },
+    "shockBottom": {
+      "x": 616.36,
+      "y": 383.1
+    },
+    "seat": {
+      "x": 492.74,
+      "y": 193.87
+    },
+    "foot": {
+      "x": 323.11,
+      "y": 347.34
+    },
+    "chassis": {
+      "x": 351.38,
+      "y": 424.08
+    },
+    "frontWheelRadius": 85.62,
+    "rearWheelRadius": 80.78,
+    "frontDiscRadius": 30.05,
+    "rearDiscRadius": 30.05
+  },
+  "ninebot/N85c": {
+    "wheelbaseMm": 1350,
+    "pixelsPerMillimeter": 0.45852610441767067,
+    "forkAngleDegrees": 65,
+    "handlePivot": {
+      "x": 274.64,
+      "y": 113.09
+    },
+    "handle": {
+      "x": 287.08,
+      "y": 78.93
+    },
+    "forkTop": {
+      "x": 184.98,
+      "y": 282.72
+    },
+    "frontWheel": {
+      "x": 119.14,
+      "y": 399.08
+    },
+    "rearWheel": {
+      "x": 616.9,
+      "y": 407.04
+    },
+    "swingPivot": {
+      "x": 516.17,
+      "y": 383.69
+    },
+    "shockTop": {
+      "x": 581.6,
+      "y": 294.84
+    },
+    "shockBottom": {
+      "x": 616.61,
+      "y": 390.39
+    },
+    "seat": {
+      "x": 492.74,
+      "y": 193.87
+    },
+    "foot": {
+      "x": 323.11,
+      "y": 347.34
+    },
+    "chassis": {
+      "x": 351.38,
+      "y": 424.08
+    },
+    "frontWheelRadius": 82.39,
+    "rearWheelRadius": 79.16,
+    "frontDiscRadius": 30.05,
+    "rearDiscRadius": 30.05
+  },
+  "ninebot/Q3 85c": {
+    "wheelbaseMm": 1110,
+    "pixelsPerMillimeter": 0.5142927927927928,
+    "forkAngleDegrees": 65,
+    "handlePivot": {
+      "x": 290.8,
+      "y": 105.01
+    },
+    "handle": {
+      "x": 303.23,
+      "y": 70.85
+    },
+    "forkTop": {
+      "x": 216.48,
+      "y": 298.88
+    },
+    "frontWheel": {
+      "x": 159.17,
+      "y": 396.93
+    },
+    "rearWheel": {
+      "x": 576.69,
+      "y": 399.77
+    },
+    "swingPivot": {
+      "x": 450.74,
+      "y": 395.81
+    },
+    "shockTop": {
+      "x": 553.33,
+      "y": 286.76
+    },
+    "shockBottom": {
+      "x": 581.24,
+      "y": 383.75
+    },
+    "seat": {
+      "x": 500.82,
+      "y": 193.87
+    },
+    "foot": {
+      "x": 323.11,
+      "y": 347.34
+    },
+    "chassis": {
+      "x": 351.38,
+      "y": 428.12
+    },
+    "frontWheelRadius": 72.7,
+    "rearWheelRadius": 72.7,
+    "frontDiscRadius": 29,
+    "rearDiscRadius": 29
+  },
+  "ninebot/Q85c": {
+    "wheelbaseMm": 1110,
+    "pixelsPerMillimeter": 0.5142927927927928,
+    "forkAngleDegrees": 65,
+    "handlePivot": {
+      "x": 290.8,
+      "y": 105.01
+    },
+    "handle": {
+      "x": 303.23,
+      "y": 70.85
+    },
+    "forkTop": {
+      "x": 230.22,
+      "y": 276.26
+    },
+    "frontWheel": {
+      "x": 159.25,
+      "y": 403.6
+    },
+    "rearWheel": {
+      "x": 576.97,
+      "y": 399.04
+    },
+    "swingPivot": {
+      "x": 468.51,
+      "y": 387.73
+    },
+    "shockTop": {
+      "x": 553.33,
+      "y": 286.76
+    },
+    "shockBottom": {
+      "x": 582.67,
+      "y": 383.39
+    },
+    "seat": {
+      "x": 500.82,
+      "y": 193.87
+    },
+    "foot": {
+      "x": 323.11,
+      "y": 347.34
+    },
+    "chassis": {
+      "x": 351.38,
+      "y": 428.12
+    },
+    "frontWheelRadius": 67.85,
+    "rearWheelRadius": 72.7,
+    "frontDiscRadius": 29,
+    "rearDiscRadius": 29
+  },
+  "ninebot/C85c": {
+    "wheelbaseMm": 1245,
+    "pixelsPerMillimeter": 0.45969156626506025,
+    "forkAngleDegrees": 65,
+    "handlePivot": {
+      "x": 242.33,
+      "y": 113.09
+    },
+    "handle": {
+      "x": 254.77,
+      "y": 78.93
+    },
+    "forkTop": {
+      "x": 176.1,
+      "y": 295.65
+    },
+    "frontWheel": {
+      "x": 117.08,
+      "y": 397.36
+    },
+    "rearWheel": {
+      "x": 583.93,
+      "y": 398.52
+    },
+    "swingPivot": {
+      "x": 480.63,
+      "y": 379.66
+    },
+    "shockTop": {
+      "x": 553.33,
+      "y": 281.11
+    },
+    "shockBottom": {
+      "x": 582.86,
+      "y": 381.9
+    },
+    "seat": {
+      "x": 444.28,
+      "y": 193.87
+    },
+    "foot": {
+      "x": 282.72,
+      "y": 343.31
+    },
+    "chassis": {
+      "x": 351.38,
+      "y": 404.7
+    },
+    "frontWheelRadius": 74.32,
+    "rearWheelRadius": 74.32,
+    "frontDiscRadius": 30.13,
+    "rearDiscRadius": 25.85
+  },
+  "skymotor/Y3 95c": {
+    "wheelbaseMm": 1405,
+    "pixelsPerMillimeter": 0.45,
+    "forkAngleDegrees": 65,
+    "handlePivot": {
+      "x": 270.61,
+      "y": 117.13
+    },
+    "handle": {
+      "x": 283.04,
+      "y": 82.97
+    },
+    "forkTop": {
+      "x": 183.37,
+      "y": 282.72
+    },
+    "frontWheel": {
+      "x": 117.52,
+      "y": 399.08
+    },
+    "rearWheel": {
+      "x": 619.2,
+      "y": 400.74
+    },
+    "swingPivot": {
+      "x": 508.9,
+      "y": 391.77
+    },
+    "shockTop": {
+      "x": 573.52,
+      "y": 290.8
+    },
+    "shockBottom": {
+      "x": 612.46,
+      "y": 383.99
+    },
+    "seat": {
+      "x": 492.74,
+      "y": 193.87
+    },
+    "foot": {
+      "x": 323.11,
+      "y": 347.34
+    },
+    "chassis": {
+      "x": 351.38,
+      "y": 424.08
+    },
+    "frontWheelRadius": 80.78,
+    "rearWheelRadius": 77.55,
+    "frontDiscRadius": 36.67,
+    "rearDiscRadius": 30.05
+  }
+}

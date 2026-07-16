@@ -1,0 +1,6895 @@
+{
+  "OTHER/YAMAHA Cygnus": {
+    "sourceScale": 0.8077777777777778,
+    "pixelsPerMillimeter": 0.45852610441767067,
+    "handle": {
+      "height": 45,
+      "angle": 200
+    },
+    "frontFork": {
+      "height": 165,
+      "angle": 25,
+      "wheelOffset": -13
+    },
+    "frontWheel": {
+      "radius": 103,
+      "hubRadius": 72,
+      "discRadius": 50.5
+    },
+    "swingarm": {
+      "height": 241,
+      "angle": -94.29999999999693,
+      "shockMountLeft": 20,
+      "shockMountBottom": -35
+    },
+    "rearShock": {
+      "height": 135,
+      "angle": -22.97458685176194
+    },
+    "rearWheel": {
+      "radius": 105,
+      "hubRadius": 72,
+      "discRadius": 45.4
+    },
+    "defaults": {
+      "handlebarHeight": 100,
+      "handlebarAngle": 0,
+      "tripleClampAngle": 0,
+      "tripleClampDrop": 0,
+      "frontForkTravel": 385,
+      "frontWheelPosition": "中位",
+      "frontForkStyle": "正常",
+      "frontForkAirbag": "无",
+      "frontTireWidth": 100,
+      "frontTireRatio": 90,
+      "frontWheelDiameter": 12,
+      "frontWheelOffset": 0,
+      "frontBrakeDiscDiameter": 245,
+      "frontCaliperPosition": "前置",
+      "frontFender": "长",
+      "swingarmLength": 545,
+      "rearShockTravel": 335,
+      "rearShockAngle": 0,
+      "rearShockAirbag": "无",
+      "rearTireWidth": 80,
+      "rearTireRatio": 120,
+      "rearWheelDiameter": 12,
+      "rearWheelOffset": 0,
+      "rearBrakeDiscDiameter": 220,
+      "rearCaliperPosition": "后置",
+      "rearFender": "长"
+    }
+  },
+  "OTHER/YAMAHA RSZ": {
+    "sourceScale": 0.8077777777777778,
+    "pixelsPerMillimeter": 0.45852610441767067,
+    "handle": {
+      "height": 45,
+      "angle": 200
+    },
+    "frontFork": {
+      "height": 165,
+      "angle": 32,
+      "wheelOffset": 3
+    },
+    "frontWheel": {
+      "radius": 103,
+      "hubRadius": 72,
+      "discRadius": 50.5
+    },
+    "swingarm": {
+      "height": 231,
+      "angle": -96.6499999999968,
+      "shockMountLeft": 20,
+      "shockMountBottom": -35
+    },
+    "rearShock": {
+      "height": 130,
+      "angle": -28.429430630236183
+    },
+    "rearWheel": {
+      "radius": 105,
+      "hubRadius": 72,
+      "discRadius": 45.4
+    },
+    "defaults": {
+      "handlebarHeight": 100,
+      "handlebarAngle": 0,
+      "tripleClampAngle": 0,
+      "tripleClampDrop": 0,
+      "frontForkTravel": 360,
+      "frontWheelPosition": "中位",
+      "frontForkStyle": "正常",
+      "frontForkAirbag": "无",
+      "frontTireWidth": 95,
+      "frontTireRatio": 100,
+      "frontWheelDiameter": 10,
+      "frontWheelOffset": 0,
+      "frontBrakeDiscDiameter": 245,
+      "frontCaliperPosition": "前置",
+      "frontFender": "长",
+      "swingarmLength": 495,
+      "rearShockTravel": 330,
+      "rearShockAngle": 0,
+      "rearShockAirbag": "无",
+      "rearTireWidth": 95,
+      "rearTireRatio": 100,
+      "rearWheelDiameter": 10,
+      "rearWheelOffset": 0,
+      "rearBrakeDiscDiameter": 220,
+      "rearCaliperPosition": "后置",
+      "rearFender": "长"
+    }
+  },
+  "OTHER/YAMAHA Vino-50": {
+    "sourceScale": 0.8077777777777778,
+    "pixelsPerMillimeter": 0.5142927927927928,
+    "handle": {
+      "height": 70,
+      "angle": 215
+    },
+    "frontFork": {
+      "height": 145,
+      "angle": 35,
+      "wheelOffset": 3
+    },
+    "frontWheel": {
+      "radius": 90,
+      "hubRadius": 65,
+      "discRadius": 35.9
+    },
+    "swingarm": {
+      "height": 157,
+      "angle": -94.59999999999691,
+      "shockMountLeft": 20,
+      "shockMountBottom": -5
+    },
+    "rearShock": {
+      "height": 125,
+      "angle": -20.544084473900156
+    },
+    "rearWheel": {
+      "radius": 90,
+      "hubRadius": 65,
+      "discRadius": 35.9
+    },
+    "defaults": {
+      "handlebarHeight": 100,
+      "handlebarAngle": 0,
+      "tripleClampAngle": 0,
+      "tripleClampDrop": 0,
+      "frontForkTravel": 360,
+      "frontWheelPosition": "中位",
+      "frontForkStyle": "正常",
+      "frontForkAirbag": "无",
+      "frontTireWidth": 80,
+      "frontTireRatio": 100,
+      "frontWheelDiameter": 10,
+      "frontWheelOffset": 0,
+      "frontBrakeDiscDiameter": 220,
+      "frontCaliperPosition": "前置",
+      "frontFender": "长",
+      "swingarmLength": 360,
+      "rearShockTravel": 270,
+      "rearShockAngle": 0,
+      "rearShockAirbag": "无",
+      "rearTireWidth": 80,
+      "rearTireRatio": 100,
+      "rearWheelDiameter": 10,
+      "rearWheelOffset": 0,
+      "rearBrakeDiscDiameter": 220,
+      "rearCaliperPosition": "后置",
+      "rearFender": "长"
+    }
+  },
+  "OTHER/YAMAHA Cuxi": {
+    "sourceScale": 0.8077777777777778,
+    "pixelsPerMillimeter": 0.45852610441767067,
+    "handle": {
+      "height": 45,
+      "angle": 200
+    },
+    "frontFork": {
+      "height": 165,
+      "angle": 32,
+      "wheelOffset": 3
+    },
+    "frontWheel": {
+      "radius": 103,
+      "hubRadius": 72,
+      "discRadius": 50.5
+    },
+    "swingarm": {
+      "height": 226.5,
+      "angle": -148.89999999999975,
+      "shockMountLeft": 20,
+      "shockMountBottom": -50
+    },
+    "rearShock": {
+      "height": 125,
+      "angle": -228.96146908111012
+    },
+    "rearWheel": {
+      "radius": 105,
+      "hubRadius": 72,
+      "discRadius": 45.4
+    },
+    "defaults": {
+      "handlebarHeight": 100,
+      "handlebarAngle": 0,
+      "tripleClampAngle": 0,
+      "tripleClampDrop": 0,
+      "frontForkTravel": 340,
+      "frontWheelPosition": "中位",
+      "frontForkStyle": "正常",
+      "frontForkAirbag": "无",
+      "frontTireWidth": 95,
+      "frontTireRatio": 100,
+      "frontWheelDiameter": 10,
+      "frontWheelOffset": 0,
+      "frontBrakeDiscDiameter": 245,
+      "frontCaliperPosition": "前置",
+      "frontFender": "长",
+      "swingarmLength": 495,
+      "rearShockTravel": 290,
+      "rearShockAngle": 0,
+      "rearShockAirbag": "无",
+      "rearTireWidth": 95,
+      "rearTireRatio": 100,
+      "rearWheelDiameter": 10,
+      "rearWheelOffset": 0,
+      "rearBrakeDiscDiameter": 220,
+      "rearCaliperPosition": "后置",
+      "rearFender": "长"
+    }
+  },
+  "OTHER/SANYANG JET SL": {
+    "sourceScale": 0.8077777777777778,
+    "pixelsPerMillimeter": 0.45852610441767067,
+    "handle": {
+      "height": 45,
+      "angle": 200
+    },
+    "frontFork": {
+      "height": 165,
+      "angle": 25,
+      "wheelOffset": 3
+    },
+    "frontWheel": {
+      "radius": 103,
+      "hubRadius": 72,
+      "discRadius": 50.5
+    },
+    "swingarm": {
+      "height": 256,
+      "angle": -93.59999999999697,
+      "shockMountLeft": 20,
+      "shockMountBottom": -35
+    },
+    "rearShock": {
+      "height": 135,
+      "angle": -25.534445557394548
+    },
+    "rearWheel": {
+      "radius": 105,
+      "hubRadius": 72,
+      "discRadius": 45.4
+    },
+    "defaults": {
+      "handlebarHeight": 100,
+      "handlebarAngle": 0,
+      "tripleClampAngle": 0,
+      "tripleClampDrop": 0,
+      "frontForkTravel": 400,
+      "frontWheelPosition": "中位",
+      "frontForkStyle": "正常",
+      "frontForkAirbag": "无",
+      "frontTireWidth": 110,
+      "frontTireRatio": 70,
+      "frontWheelDiameter": 12,
+      "frontWheelOffset": 0,
+      "frontBrakeDiscDiameter": 245,
+      "frontCaliperPosition": "前置",
+      "frontFender": "长",
+      "swingarmLength": 545,
+      "rearShockTravel": 325,
+      "rearShockAngle": 0,
+      "rearShockAirbag": "无",
+      "rearTireWidth": 70,
+      "rearTireRatio": 120,
+      "rearWheelDiameter": 12,
+      "rearWheelOffset": 0,
+      "rearBrakeDiscDiameter": 220,
+      "rearCaliperPosition": "后置",
+      "rearFender": "长"
+    }
+  },
+  "ZEEKU/EX85 pro": {
+    "sourceScale": 0.8077777777777778,
+    "pixelsPerMillimeter": 0.45,
+    "handle": {
+      "height": 75,
+      "angle": 200
+    },
+    "frontFork": {
+      "height": 160,
+      "angle": 25,
+      "wheelOffset": -13
+    },
+    "frontWheel": {
+      "radius": 101,
+      "hubRadius": 72,
+      "discRadius": 48.5
+    },
+    "swingarm": {
+      "height": 137,
+      "angle": -83.49999999999754,
+      "shockMountLeft": 20,
+      "shockMountBottom": 0
+    },
+    "rearShock": {
+      "height": 110,
+      "angle": -23.798582067026288
+    },
+    "rearWheel": {
+      "radius": 101,
+      "hubRadius": 72,
+      "discRadius": 40.5
+    },
+    "defaults": {
+      "handlebarHeight": 100,
+      "handlebarAngle": 0,
+      "tripleClampAngle": 0,
+      "tripleClampDrop": 0,
+      "frontForkTravel": 410,
+      "frontWheelPosition": "中位",
+      "frontForkStyle": "正常",
+      "frontForkAirbag": "无",
+      "frontTireWidth": 80,
+      "frontTireRatio": 90,
+      "frontWheelDiameter": 12,
+      "frontWheelOffset": 0,
+      "frontBrakeDiscDiameter": 220,
+      "frontCaliperPosition": "前置",
+      "frontFender": "长",
+      "swingarmLength": 300,
+      "rearShockTravel": 290,
+      "rearShockAngle": 0,
+      "rearShockAirbag": "无",
+      "rearTireWidth": 100,
+      "rearTireRatio": 70,
+      "rearWheelDiameter": 12,
+      "rearWheelOffset": 0,
+      "rearBrakeDiscDiameter": 200,
+      "rearCaliperPosition": "后置",
+      "rearFender": "长"
+    }
+  },
+  "ZEEKU/ES85 pro": {
+    "sourceScale": 0.8077777777777778,
+    "pixelsPerMillimeter": 0.45,
+    "handle": {
+      "height": 45,
+      "angle": 200
+    },
+    "frontFork": {
+      "height": 160,
+      "angle": 25,
+      "wheelOffset": -13
+    },
+    "frontWheel": {
+      "radius": 104,
+      "hubRadius": 72,
+      "discRadius": 48.5
+    },
+    "swingarm": {
+      "height": 138.5,
+      "angle": -75.349999999998,
+      "shockMountLeft": 20,
+      "shockMountBottom": 5
+    },
+    "rearShock": {
+      "height": 120,
+      "angle": -14.089261392563742
+    },
+    "rearWheel": {
+      "radius": 104,
+      "hubRadius": 72,
+      "discRadius": 40.5
+    },
+    "defaults": {
+      "handlebarHeight": 100,
+      "handlebarAngle": 0,
+      "tripleClampAngle": 0,
+      "tripleClampDrop": 0,
+      "frontForkTravel": 430,
+      "frontWheelPosition": "中位",
+      "frontForkStyle": "正常",
+      "frontForkAirbag": "无",
+      "frontTireWidth": 110,
+      "frontTireRatio": 70,
+      "frontWheelDiameter": 12,
+      "frontWheelOffset": 0,
+      "frontBrakeDiscDiameter": 240,
+      "frontCaliperPosition": "前置",
+      "frontFender": "长",
+      "swingarmLength": 300,
+      "rearShockTravel": 310,
+      "rearShockAngle": 0,
+      "rearShockAirbag": "无",
+      "rearTireWidth": 110,
+      "rearTireRatio": 70,
+      "rearWheelDiameter": 12,
+      "rearWheelOffset": 0,
+      "rearBrakeDiscDiameter": 200,
+      "rearCaliperPosition": "后置",
+      "rearFender": "长"
+    }
+  },
+  "SYUAN/GT1": {
+    "sourceScale": 0.8077777777777778,
+    "pixelsPerMillimeter": 0.44213295291044025,
+    "handle": {
+      "height": 75,
+      "angle": 190
+    },
+    "frontFork": {
+      "height": 155,
+      "angle": 25,
+      "wheelOffset": 3
+    },
+    "frontWheel": {
+      "radius": 95,
+      "hubRadius": 65,
+      "discRadius": 43.7
+    },
+    "swingarm": {
+      "height": 154,
+      "angle": -79.59999999999776,
+      "shockMountLeft": 20,
+      "shockMountBottom": 30
+    },
+    "rearShock": {
+      "height": 95,
+      "angle": -22.63443771102375
+    },
+    "rearWheel": {
+      "radius": 95,
+      "hubRadius": 65,
+      "discRadius": 35.8
+    },
+    "defaults": {
+      "handlebarHeight": 100,
+      "handlebarAngle": 0,
+      "tripleClampAngle": 0,
+      "tripleClampDrop": 0,
+      "frontForkTravel": 360,
+      "frontWheelPosition": "中位",
+      "frontForkStyle": "正常",
+      "frontForkAirbag": "无",
+      "frontTireWidth": 90,
+      "frontTireRatio": 80,
+      "frontWheelDiameter": 12,
+      "frontWheelOffset": 0,
+      "frontBrakeDiscDiameter": 220,
+      "frontCaliperPosition": "前置",
+      "frontFender": "长",
+      "swingarmLength": 350,
+      "rearShockTravel": 260,
+      "rearShockAngle": 0,
+      "rearShockAirbag": "无",
+      "rearTireWidth": 90,
+      "rearTireRatio": 80,
+      "rearWheelDiameter": 12,
+      "rearWheelOffset": 0,
+      "rearBrakeDiscDiameter": 180,
+      "rearCaliperPosition": "后置",
+      "rearFender": "长"
+    }
+  },
+  "SYUAN/535t": {
+    "sourceScale": 0.8077777777777778,
+    "pixelsPerMillimeter": 0.4618393574297189,
+    "handle": {
+      "height": 75,
+      "angle": 200
+    },
+    "frontFork": {
+      "height": 160,
+      "angle": 25,
+      "wheelOffset": -13
+    },
+    "frontWheel": {
+      "radius": 102,
+      "hubRadius": 72,
+      "discRadius": 37.5
+    },
+    "swingarm": {
+      "height": 143.5,
+      "angle": -82.89999999999758,
+      "shockMountLeft": 20,
+      "shockMountBottom": 5
+    },
+    "rearShock": {
+      "height": 145,
+      "angle": -32.50468028164644
+    },
+    "rearWheel": {
+      "radius": 102,
+      "hubRadius": 72,
+      "discRadius": 32.2
+    },
+    "defaults": {
+      "handlebarHeight": 100,
+      "handlebarAngle": 0,
+      "tripleClampAngle": 0,
+      "tripleClampDrop": 0,
+      "frontForkTravel": 380,
+      "frontWheelPosition": "中位",
+      "frontForkStyle": "正常",
+      "frontForkAirbag": "无",
+      "frontTireWidth": 90,
+      "frontTireRatio": 90,
+      "frontWheelDiameter": 12,
+      "frontWheelOffset": 0,
+      "frontBrakeDiscDiameter": 180,
+      "frontCaliperPosition": "前置",
+      "frontFender": "长",
+      "swingarmLength": 320,
+      "rearShockTravel": 310,
+      "rearShockAngle": 0,
+      "rearShockAirbag": "无",
+      "rearTireWidth": 90,
+      "rearTireRatio": 90,
+      "rearWheelDiameter": 12,
+      "rearWheelOffset": 0,
+      "rearBrakeDiscDiameter": 155,
+      "rearCaliperPosition": "后置",
+      "rearFender": "长"
+    }
+  },
+  "SYUAN/T300": {
+    "sourceScale": 0.8077777777777778,
+    "pixelsPerMillimeter": 0.4618393574297189,
+    "handle": {
+      "height": 45,
+      "angle": 200
+    },
+    "frontFork": {
+      "height": 160,
+      "angle": 25,
+      "wheelOffset": -13
+    },
+    "frontWheel": {
+      "radius": 102,
+      "hubRadius": 72,
+      "discRadius": 37.5
+    },
+    "swingarm": {
+      "height": 152,
+      "angle": -89.99999999999717,
+      "shockMountLeft": 20,
+      "shockMountBottom": 25
+    },
+    "rearShock": {
+      "height": 120,
+      "angle": -28.915424341625688
+    },
+    "rearWheel": {
+      "radius": 102,
+      "hubRadius": 72,
+      "discRadius": 32.2
+    },
+    "defaults": {
+      "handlebarHeight": 100,
+      "handlebarAngle": 0,
+      "tripleClampAngle": 0,
+      "tripleClampDrop": 0,
+      "frontForkTravel": 410,
+      "frontWheelPosition": "中位",
+      "frontForkStyle": "正常",
+      "frontForkAirbag": "无",
+      "frontTireWidth": 110,
+      "frontTireRatio": 70,
+      "frontWheelDiameter": 12,
+      "frontWheelOffset": 0,
+      "frontBrakeDiscDiameter": 180,
+      "frontCaliperPosition": "前置",
+      "frontFender": "长",
+      "swingarmLength": 320,
+      "rearShockTravel": 285,
+      "rearShockAngle": 0,
+      "rearShockAirbag": "无",
+      "rearTireWidth": 110,
+      "rearTireRatio": 70,
+      "rearWheelDiameter": 12,
+      "rearWheelOffset": 0,
+      "rearBrakeDiscDiameter": 155,
+      "rearCaliperPosition": "后置",
+      "rearFender": "长"
+    }
+  },
+  "YADEA/白鲨 I": {
+    "sourceScale": 0.8077777777777778,
+    "pixelsPerMillimeter": 0.45852610441767067,
+    "handle": {
+      "height": 45,
+      "angle": 200
+    },
+    "frontFork": {
+      "height": 165,
+      "angle": 25,
+      "wheelOffset": -13
+    },
+    "frontWheel": {
+      "radius": 100,
+      "hubRadius": 72,
+      "discRadius": 45.3
+    },
+    "swingarm": {
+      "height": 160,
+      "angle": -80.84999999999769,
+      "shockMountLeft": 30,
+      "shockMountBottom": 10
+    },
+    "rearShock": {
+      "height": 130,
+      "angle": -23.506943837297285
+    },
+    "rearWheel": {
+      "radius": 91,
+      "hubRadius": 60,
+      "discRadius": 37.1
+    },
+    "defaults": {
+      "handlebarHeight": 100,
+      "handlebarAngle": 0,
+      "tripleClampAngle": 0,
+      "tripleClampDrop": 0,
+      "frontForkTravel": 390,
+      "frontWheelPosition": "中位",
+      "frontForkStyle": "正常",
+      "frontForkAirbag": "无",
+      "frontTireWidth": 80,
+      "frontTireRatio": 90,
+      "frontWheelDiameter": 12,
+      "frontWheelOffset": 0,
+      "frontBrakeDiscDiameter": 220,
+      "frontCaliperPosition": "前置",
+      "frontFender": "长",
+      "swingarmLength": 350,
+      "rearShockTravel": 290,
+      "rearShockAngle": 0,
+      "rearShockAirbag": "无",
+      "rearTireWidth": 80,
+      "rearTireRatio": 100,
+      "rearWheelDiameter": 10,
+      "rearWheelOffset": 0,
+      "rearBrakeDiscDiameter": 180,
+      "rearCaliperPosition": "后置",
+      "rearFender": "长"
+    }
+  },
+  "YADEA/X5": {
+    "sourceScale": 0.8077777777777778,
+    "pixelsPerMillimeter": 0.46149151172190783,
+    "handle": {
+      "height": 60,
+      "angle": 200
+    },
+    "frontFork": {
+      "height": 205,
+      "angle": 30,
+      "wheelOffset": -13
+    },
+    "frontWheel": {
+      "radius": 104,
+      "hubRadius": 69,
+      "discRadius": 37.3
+    },
+    "swingarm": {
+      "height": 154,
+      "angle": -79.99999999999774,
+      "shockMountLeft": 20,
+      "shockMountBottom": 35
+    },
+    "rearShock": {
+      "height": 125,
+      "angle": -14.668856310722376
+    },
+    "rearWheel": {
+      "radius": 98,
+      "hubRadius": 57,
+      "discRadius": 32.2
+    },
+    "defaults": {
+      "handlebarHeight": 100,
+      "handlebarAngle": 0,
+      "tripleClampAngle": 0,
+      "tripleClampDrop": 0,
+      "frontForkTravel": 400,
+      "frontWheelPosition": "中位",
+      "frontForkStyle": "正常",
+      "frontForkAirbag": "无",
+      "frontTireWidth": 90,
+      "frontTireRatio": 90,
+      "frontWheelDiameter": 12,
+      "frontWheelOffset": 0,
+      "frontBrakeDiscDiameter": 180,
+      "frontCaliperPosition": "前置",
+      "frontFender": "长",
+      "swingarmLength": 320,
+      "rearShockTravel": 280,
+      "rearShockAngle": 0,
+      "rearShockAirbag": "无",
+      "rearTireWidth": 95,
+      "rearTireRatio": 100,
+      "rearWheelDiameter": 10,
+      "rearWheelOffset": 0,
+      "rearBrakeDiscDiameter": 155,
+      "rearCaliperPosition": "后置",
+      "rearFender": "长"
+    }
+  },
+  "YADEA/X7": {
+    "sourceScale": 0.8077777777777778,
+    "pixelsPerMillimeter": 0.46149151172190783,
+    "handle": {
+      "height": 60,
+      "angle": 200
+    },
+    "frontFork": {
+      "height": 205,
+      "angle": 28,
+      "wheelOffset": -13
+    },
+    "frontWheel": {
+      "radius": 104,
+      "hubRadius": 69,
+      "discRadius": 37.3
+    },
+    "swingarm": {
+      "height": 166.5,
+      "angle": -88.69999999999725,
+      "shockMountLeft": 20,
+      "shockMountBottom": 10
+    },
+    "rearShock": {
+      "height": 125,
+      "angle": -29.697761100409423
+    },
+    "rearWheel": {
+      "radius": 104,
+      "hubRadius": 69,
+      "discRadius": 32.2
+    },
+    "defaults": {
+      "handlebarHeight": 100,
+      "handlebarAngle": 0,
+      "tripleClampAngle": 0,
+      "tripleClampDrop": 0,
+      "frontForkTravel": 400,
+      "frontWheelPosition": "中位",
+      "frontForkStyle": "正常",
+      "frontForkAirbag": "无",
+      "frontTireWidth": 90,
+      "frontTireRatio": 90,
+      "frontWheelDiameter": 12,
+      "frontWheelOffset": 0,
+      "frontBrakeDiscDiameter": 180,
+      "frontCaliperPosition": "前置",
+      "frontFender": "长",
+      "swingarmLength": 320,
+      "rearShockTravel": 280,
+      "rearShockAngle": 0,
+      "rearShockAirbag": "无",
+      "rearTireWidth": 90,
+      "rearTireRatio": 90,
+      "rearWheelDiameter": 12,
+      "rearWheelOffset": 0,
+      "rearBrakeDiscDiameter": 155,
+      "rearCaliperPosition": "后置",
+      "rearFender": "长"
+    }
+  },
+  "YADEA/DT6": {
+    "sourceScale": 0.8077777777777778,
+    "pixelsPerMillimeter": 0.4757208333333333,
+    "handle": {
+      "height": 45,
+      "angle": 200
+    },
+    "frontFork": {
+      "height": 160,
+      "angle": 25,
+      "wheelOffset": -13
+    },
+    "frontWheel": {
+      "radius": 94,
+      "hubRadius": 63,
+      "discRadius": 38.5
+    },
+    "swingarm": {
+      "height": 174.5,
+      "angle": -86.29999999999738,
+      "shockMountLeft": 20,
+      "shockMountBottom": 10
+    },
+    "rearShock": {
+      "height": 135,
+      "angle": -26.610293227384716
+    },
+    "rearWheel": {
+      "radius": 94,
+      "hubRadius": 63,
+      "discRadius": 33.2
+    },
+    "defaults": {
+      "handlebarHeight": 100,
+      "handlebarAngle": 0,
+      "tripleClampAngle": 0,
+      "tripleClampDrop": 0,
+      "frontForkTravel": 355,
+      "frontWheelPosition": "中位",
+      "frontForkStyle": "正常",
+      "frontForkAirbag": "无",
+      "frontTireWidth": 80,
+      "frontTireRatio": 100,
+      "frontWheelDiameter": 10,
+      "frontWheelOffset": 0,
+      "frontBrakeDiscDiameter": 180,
+      "frontCaliperPosition": "前置",
+      "frontFender": "长",
+      "swingarmLength": 370,
+      "rearShockTravel": 265,
+      "rearShockAngle": 0,
+      "rearShockAirbag": "无",
+      "rearTireWidth": 80,
+      "rearTireRatio": 100,
+      "rearWheelDiameter": 10,
+      "rearWheelOffset": 0,
+      "rearBrakeDiscDiameter": 155,
+      "rearCaliperPosition": "后置",
+      "rearFender": "长"
+    }
+  },
+  "YADEA/DE8": {
+    "sourceScale": 0.8077777777777778,
+    "pixelsPerMillimeter": 0.4757208333333333,
+    "handle": {
+      "height": 45,
+      "angle": 200
+    },
+    "frontFork": {
+      "height": 160,
+      "angle": 25,
+      "wheelOffset": -13
+    },
+    "frontWheel": {
+      "radius": 94,
+      "hubRadius": 63,
+      "discRadius": 38.5
+    },
+    "swingarm": {
+      "height": 174.5,
+      "angle": -86.29999999999738,
+      "shockMountLeft": 20,
+      "shockMountBottom": 10
+    },
+    "rearShock": {
+      "height": 135,
+      "angle": -26.610293227384716
+    },
+    "rearWheel": {
+      "radius": 94,
+      "hubRadius": 63,
+      "discRadius": 33.2
+    },
+    "defaults": {
+      "handlebarHeight": 100,
+      "handlebarAngle": 0,
+      "tripleClampAngle": 0,
+      "tripleClampDrop": 0,
+      "frontForkTravel": 355,
+      "frontWheelPosition": "中位",
+      "frontForkStyle": "正常",
+      "frontForkAirbag": "无",
+      "frontTireWidth": 80,
+      "frontTireRatio": 100,
+      "frontWheelDiameter": 10,
+      "frontWheelOffset": 0,
+      "frontBrakeDiscDiameter": 180,
+      "frontCaliperPosition": "前置",
+      "frontFender": "长",
+      "swingarmLength": 370,
+      "rearShockTravel": 265,
+      "rearShockAngle": 0,
+      "rearShockAirbag": "无",
+      "rearTireWidth": 80,
+      "rearTireRatio": 100,
+      "rearWheelDiameter": 10,
+      "rearWheelOffset": 0,
+      "rearBrakeDiscDiameter": 155,
+      "rearCaliperPosition": "后置",
+      "rearFender": "长"
+    }
+  },
+  "YADEA/白鲨70s": {
+    "sourceScale": 0.8077777777777778,
+    "pixelsPerMillimeter": 0.45852610441767067,
+    "handle": {
+      "height": 45,
+      "angle": 200
+    },
+    "frontFork": {
+      "height": 160,
+      "angle": 26,
+      "wheelOffset": -13
+    },
+    "frontWheel": {
+      "radius": 105,
+      "hubRadius": 75,
+      "discRadius": 45.4
+    },
+    "swingarm": {
+      "height": 159,
+      "angle": -84.79999999999747,
+      "shockMountLeft": 20,
+      "shockMountBottom": 10
+    },
+    "rearShock": {
+      "height": 138,
+      "angle": -21.325376401744805
+    },
+    "rearWheel": {
+      "radius": 95,
+      "hubRadius": 62,
+      "discRadius": 37.2
+    },
+    "defaults": {
+      "handlebarHeight": 100,
+      "handlebarAngle": 0,
+      "tripleClampAngle": 0,
+      "tripleClampDrop": 0,
+      "frontForkTravel": 385,
+      "frontWheelPosition": "中位",
+      "frontForkStyle": "正常",
+      "frontForkAirbag": "无",
+      "frontTireWidth": 90,
+      "frontTireRatio": 80,
+      "frontWheelDiameter": 12,
+      "frontWheelOffset": 0,
+      "frontBrakeDiscDiameter": 220,
+      "frontCaliperPosition": "前置",
+      "frontFender": "长",
+      "swingarmLength": 320,
+      "rearShockTravel": 280,
+      "rearShockAngle": 0,
+      "rearShockAirbag": "无",
+      "rearTireWidth": 80,
+      "rearTireRatio": 100,
+      "rearWheelDiameter": 10,
+      "rearWheelOffset": 0,
+      "rearBrakeDiscDiameter": 180,
+      "rearCaliperPosition": "后置",
+      "rearFender": "长"
+    }
+  },
+  "YADEA/E9": {
+    "sourceScale": 0.8077777777777778,
+    "pixelsPerMillimeter": 0.45852610441767067,
+    "handle": {
+      "height": 45,
+      "angle": 200
+    },
+    "frontFork": {
+      "height": 160,
+      "angle": 28,
+      "wheelOffset": -13
+    },
+    "frontWheel": {
+      "radius": 102,
+      "hubRadius": 75,
+      "discRadius": 45.4
+    },
+    "swingarm": {
+      "height": 157,
+      "angle": -83.34999999999755,
+      "shockMountLeft": 20,
+      "shockMountBottom": -7
+    },
+    "rearShock": {
+      "height": 128,
+      "angle": -14.114892903333754
+    },
+    "rearWheel": {
+      "radius": 99,
+      "hubRadius": 75,
+      "discRadius": 37.2
+    },
+    "defaults": {
+      "handlebarHeight": 100,
+      "handlebarAngle": 0,
+      "tripleClampAngle": 0,
+      "tripleClampDrop": 0,
+      "frontForkTravel": 330,
+      "frontWheelPosition": "中位",
+      "frontForkStyle": "正常",
+      "frontForkAirbag": "无",
+      "frontTireWidth": 90,
+      "frontTireRatio": 90,
+      "frontWheelDiameter": 12,
+      "frontWheelOffset": 0,
+      "frontBrakeDiscDiameter": 220,
+      "frontCaliperPosition": "前置",
+      "frontFender": "长",
+      "swingarmLength": 345,
+      "rearShockTravel": 290,
+      "rearShockAngle": 0,
+      "rearShockAirbag": "无",
+      "rearTireWidth": 90,
+      "rearTireRatio": 80,
+      "rearWheelDiameter": 12,
+      "rearWheelOffset": 0,
+      "rearBrakeDiscDiameter": 180,
+      "rearCaliperPosition": "后置",
+      "rearFender": "长"
+    }
+  },
+  "YADEA/E10": {
+    "sourceScale": 0.8077777777777778,
+    "pixelsPerMillimeter": 0.45852610441767067,
+    "handle": {
+      "height": 45,
+      "angle": 200
+    },
+    "frontFork": {
+      "height": 160,
+      "angle": 28,
+      "wheelOffset": -13
+    },
+    "frontWheel": {
+      "radius": 102,
+      "hubRadius": 75,
+      "discRadius": 45.4
+    },
+    "swingarm": {
+      "height": 157,
+      "angle": -82.84999999999758,
+      "shockMountLeft": 25,
+      "shockMountBottom": -15
+    },
+    "rearShock": {
+      "height": 128,
+      "angle": -18.11202042399431
+    },
+    "rearWheel": {
+      "radius": 99,
+      "hubRadius": 75,
+      "discRadius": 37.2
+    },
+    "defaults": {
+      "handlebarHeight": 100,
+      "handlebarAngle": 0,
+      "tripleClampAngle": 0,
+      "tripleClampDrop": 0,
+      "frontForkTravel": 390,
+      "frontWheelPosition": "中位",
+      "frontForkStyle": "正常",
+      "frontForkAirbag": "无",
+      "frontTireWidth": 90,
+      "frontTireRatio": 90,
+      "frontWheelDiameter": 12,
+      "frontWheelOffset": 0,
+      "frontBrakeDiscDiameter": 220,
+      "frontCaliperPosition": "前置",
+      "frontFender": "长",
+      "swingarmLength": 345,
+      "rearShockTravel": 320,
+      "rearShockAngle": 0,
+      "rearShockAirbag": "无",
+      "rearTireWidth": 90,
+      "rearTireRatio": 80,
+      "rearWheelDiameter": 12,
+      "rearWheelOffset": 0,
+      "rearBrakeDiscDiameter": 180,
+      "rearCaliperPosition": "后置",
+      "rearFender": "长"
+    }
+  },
+  "YADEA/极光 2.0": {
+    "sourceScale": 0.8077777777777778,
+    "pixelsPerMillimeter": 0.45852610441767067,
+    "handle": {
+      "height": 130,
+      "angle": 206
+    },
+    "frontFork": {
+      "height": 170,
+      "angle": 26,
+      "wheelOffset": -13
+    },
+    "frontWheel": {
+      "radius": 106,
+      "hubRadius": 77,
+      "discRadius": 37.2
+    },
+    "swingarm": {
+      "height": 152,
+      "angle": -86.34999999999738,
+      "shockMountLeft": 20,
+      "shockMountBottom": 5
+    },
+    "rearShock": {
+      "height": 134,
+      "angle": -32.99369370914934
+    },
+    "rearWheel": {
+      "radius": 100,
+      "hubRadius": 64,
+      "discRadius": 37.2
+    },
+    "defaults": {
+      "handlebarHeight": 100,
+      "handlebarAngle": 0,
+      "tripleClampAngle": 0,
+      "tripleClampDrop": 0,
+      "frontForkTravel": 355,
+      "frontWheelPosition": "中位",
+      "frontForkStyle": "正常",
+      "frontForkAirbag": "无",
+      "frontTireWidth": 80,
+      "frontTireRatio": 90,
+      "frontWheelDiameter": 12,
+      "frontWheelOffset": 0,
+      "frontBrakeDiscDiameter": 220,
+      "frontCaliperPosition": "前置",
+      "frontFender": "长",
+      "swingarmLength": 340,
+      "rearShockTravel": 340,
+      "rearShockAngle": 0,
+      "rearShockAirbag": "无",
+      "rearTireWidth": 90,
+      "rearTireRatio": 100,
+      "rearWheelDiameter": 10,
+      "rearWheelOffset": 0,
+      "rearBrakeDiscDiameter": 180,
+      "rearCaliperPosition": "后置",
+      "rearFender": "长"
+    }
+  },
+  "TAILG/封神EB": {
+    "sourceScale": 0.8077777777777778,
+    "pixelsPerMillimeter": 0.46149151172190783,
+    "handle": {
+      "height": 55,
+      "angle": 195
+    },
+    "frontFork": {
+      "height": 155,
+      "angle": 25,
+      "wheelOffset": -13
+    },
+    "frontWheel": {
+      "radius": 96,
+      "hubRadius": 66,
+      "discRadius": 37.4
+    },
+    "swingarm": {
+      "height": 135.5,
+      "angle": -82.59999999999759,
+      "shockMountLeft": 20,
+      "shockMountBottom": 5
+    },
+    "rearShock": {
+      "height": 135,
+      "angle": -19.909936141524085
+    },
+    "rearWheel": {
+      "radius": 90,
+      "hubRadius": 60,
+      "discRadius": 32.2
+    },
+    "defaults": {
+      "handlebarHeight": 100,
+      "handlebarAngle": 0,
+      "tripleClampAngle": 0,
+      "tripleClampDrop": 0,
+      "frontForkTravel": 380,
+      "frontWheelPosition": "中位",
+      "frontForkStyle": "正常",
+      "frontForkAirbag": "无",
+      "frontTireWidth": 90,
+      "frontTireRatio": 90,
+      "frontWheelDiameter": 11,
+      "frontWheelOffset": 0,
+      "frontBrakeDiscDiameter": 180,
+      "frontCaliperPosition": "前置",
+      "frontFender": "长",
+      "swingarmLength": 300,
+      "rearShockTravel": 270,
+      "rearShockAngle": 0,
+      "rearShockAirbag": "无",
+      "rearTireWidth": 90,
+      "rearTireRatio": 90,
+      "rearWheelDiameter": 10,
+      "rearWheelOffset": 0,
+      "rearBrakeDiscDiameter": 155,
+      "rearCaliperPosition": "后置",
+      "rearFender": "长"
+    }
+  },
+  "TAILG/苍穹EB": {
+    "sourceScale": 0.8077777777777778,
+    "pixelsPerMillimeter": 0.46149151172190783,
+    "handle": {
+      "height": 55,
+      "angle": 195
+    },
+    "frontFork": {
+      "height": 155,
+      "angle": 25,
+      "wheelOffset": -13
+    },
+    "frontWheel": {
+      "radius": 90,
+      "hubRadius": 60,
+      "discRadius": 37.4
+    },
+    "swingarm": {
+      "height": 134,
+      "angle": -81.49999999999766,
+      "shockMountLeft": 20,
+      "shockMountBottom": 5
+    },
+    "rearShock": {
+      "height": 135,
+      "angle": -16.802095167512007
+    },
+    "rearWheel": {
+      "radius": 90,
+      "hubRadius": 60,
+      "discRadius": 32.2
+    },
+    "defaults": {
+      "handlebarHeight": 100,
+      "handlebarAngle": 0,
+      "tripleClampAngle": 0,
+      "tripleClampDrop": 0,
+      "frontForkTravel": 370,
+      "frontWheelPosition": "中位",
+      "frontForkStyle": "正常",
+      "frontForkAirbag": "无",
+      "frontTireWidth": 80,
+      "frontTireRatio": 100,
+      "frontWheelDiameter": 10,
+      "frontWheelOffset": 0,
+      "frontBrakeDiscDiameter": 180,
+      "frontCaliperPosition": "前置",
+      "frontFender": "长",
+      "swingarmLength": 300,
+      "rearShockTravel": 270,
+      "rearShockAngle": 0,
+      "rearShockAirbag": "无",
+      "rearTireWidth": 80,
+      "rearTireRatio": 100,
+      "rearWheelDiameter": 10,
+      "rearWheelOffset": 0,
+      "rearBrakeDiscDiameter": 155,
+      "rearCaliperPosition": "后置",
+      "rearFender": "长"
+    }
+  },
+  "TAILG/F1": {
+    "sourceScale": 0.8077777777777778,
+    "pixelsPerMillimeter": 0.45852610441767067,
+    "handle": {
+      "height": 45,
+      "angle": 200
+    },
+    "frontFork": {
+      "height": 160,
+      "angle": 25,
+      "wheelOffset": -13
+    },
+    "frontWheel": {
+      "radius": 103,
+      "hubRadius": 72,
+      "discRadius": 45.4
+    },
+    "swingarm": {
+      "height": 174,
+      "angle": -89.34999999999721,
+      "shockMountLeft": 20,
+      "shockMountBottom": 0
+    },
+    "rearShock": {
+      "height": 120,
+      "angle": -16.572578537723146
+    },
+    "rearWheel": {
+      "radius": 104,
+      "hubRadius": 72,
+      "discRadius": 37.2
+    },
+    "defaults": {
+      "handlebarHeight": 100,
+      "handlebarAngle": 0,
+      "tripleClampAngle": 0,
+      "tripleClampDrop": 0,
+      "frontForkTravel": 400,
+      "frontWheelPosition": "中位",
+      "frontForkStyle": "正常",
+      "frontForkAirbag": "无",
+      "frontTireWidth": 100,
+      "frontTireRatio": 80,
+      "frontWheelDiameter": 12,
+      "frontWheelOffset": 0,
+      "frontBrakeDiscDiameter": 240,
+      "frontCaliperPosition": "前置",
+      "frontFender": "长",
+      "swingarmLength": 400,
+      "rearShockTravel": 320,
+      "rearShockAngle": 0,
+      "rearShockAirbag": "无",
+      "rearTireWidth": 120,
+      "rearTireRatio": 70,
+      "rearWheelDiameter": 12,
+      "rearWheelOffset": 0,
+      "rearBrakeDiscDiameter": 200,
+      "rearCaliperPosition": "后置",
+      "rearFender": "长"
+    }
+  },
+  "TAILG/苍穹": {
+    "sourceScale": 0.8077777777777778,
+    "pixelsPerMillimeter": 0.46149151172190783,
+    "handle": {
+      "height": 55,
+      "angle": 195
+    },
+    "frontFork": {
+      "height": 155,
+      "angle": 25,
+      "wheelOffset": -13
+    },
+    "frontWheel": {
+      "radius": 90,
+      "hubRadius": 60,
+      "discRadius": 37.4
+    },
+    "swingarm": {
+      "height": 134,
+      "angle": -81.49999999999766,
+      "shockMountLeft": 20,
+      "shockMountBottom": 5
+    },
+    "rearShock": {
+      "height": 135,
+      "angle": -16.802095167512007
+    },
+    "rearWheel": {
+      "radius": 90,
+      "hubRadius": 60,
+      "discRadius": 32.2
+    },
+    "defaults": {
+      "handlebarHeight": 100,
+      "handlebarAngle": 0,
+      "tripleClampAngle": 0,
+      "tripleClampDrop": 0,
+      "frontForkTravel": 380,
+      "frontWheelPosition": "中位",
+      "frontForkStyle": "正常",
+      "frontForkAirbag": "无",
+      "frontTireWidth": 90,
+      "frontTireRatio": 80,
+      "frontWheelDiameter": 11,
+      "frontWheelOffset": 0,
+      "frontBrakeDiscDiameter": 180,
+      "frontCaliperPosition": "前置",
+      "frontFender": "长",
+      "swingarmLength": 300,
+      "rearShockTravel": 290,
+      "rearShockAngle": 0,
+      "rearShockAirbag": "无",
+      "rearTireWidth": 90,
+      "rearTireRatio": 80,
+      "rearWheelDiameter": 11,
+      "rearWheelOffset": 0,
+      "rearBrakeDiscDiameter": 155,
+      "rearCaliperPosition": "后置",
+      "rearFender": "长"
+    }
+  },
+  "TAILG/Y3": {
+    "sourceScale": 0.8077777777777778,
+    "pixelsPerMillimeter": 0.46149151172190783,
+    "handle": {
+      "height": 55,
+      "angle": 195
+    },
+    "frontFork": {
+      "height": 155,
+      "angle": 25,
+      "wheelOffset": -13
+    },
+    "frontWheel": {
+      "radius": 93,
+      "hubRadius": 63,
+      "discRadius": 37.4
+    },
+    "swingarm": {
+      "height": 150,
+      "angle": -82.99999999999757,
+      "shockMountLeft": 20,
+      "shockMountBottom": 20
+    },
+    "rearShock": {
+      "height": 135,
+      "angle": -17.215670782486328
+    },
+    "rearWheel": {
+      "radius": 93,
+      "hubRadius": 63,
+      "discRadius": 32.2
+    },
+    "defaults": {
+      "handlebarHeight": 100,
+      "handlebarAngle": 0,
+      "tripleClampAngle": 0,
+      "tripleClampDrop": 0,
+      "frontForkTravel": 380,
+      "frontWheelPosition": "中位",
+      "frontForkStyle": "正常",
+      "frontForkAirbag": "无",
+      "frontTireWidth": 90,
+      "frontTireRatio": 80,
+      "frontWheelDiameter": 11,
+      "frontWheelOffset": 0,
+      "frontBrakeDiscDiameter": 180,
+      "frontCaliperPosition": "前置",
+      "frontFender": "长",
+      "swingarmLength": 300,
+      "rearShockTravel": 290,
+      "rearShockAngle": 0,
+      "rearShockAirbag": "无",
+      "rearTireWidth": 90,
+      "rearTireRatio": 80,
+      "rearWheelDiameter": 11,
+      "rearWheelOffset": 0,
+      "rearBrakeDiscDiameter": 155,
+      "rearCaliperPosition": "后置",
+      "rearFender": "长"
+    }
+  },
+  "Honda/Ub e 2025": {
+    "sourceScale": 0.8077777777777778,
+    "pixelsPerMillimeter": 0.467922131147541,
+    "handle": {
+      "height": 45,
+      "angle": 195
+    },
+    "frontFork": {
+      "height": 155,
+      "angle": 25,
+      "wheelOffset": -13
+    },
+    "frontWheel": {
+      "radius": 90,
+      "hubRadius": 60,
+      "discRadius": 38
+    },
+    "swingarm": {
+      "height": 154,
+      "angle": -82.5499999999976,
+      "shockMountLeft": 20,
+      "shockMountBottom": 20
+    },
+    "rearShock": {
+      "height": 135,
+      "angle": -29.484927953793374
+    },
+    "rearWheel": {
+      "radius": 90,
+      "hubRadius": 60,
+      "discRadius": 32.7
+    },
+    "defaults": {
+      "handlebarHeight": 100,
+      "handlebarAngle": 0,
+      "tripleClampAngle": 0,
+      "tripleClampDrop": 0,
+      "frontForkTravel": 355,
+      "frontWheelPosition": "中位",
+      "frontForkStyle": "正常",
+      "frontForkAirbag": "无",
+      "frontTireWidth": 80,
+      "frontTireRatio": 100,
+      "frontWheelDiameter": 10,
+      "frontWheelOffset": 0,
+      "frontBrakeDiscDiameter": 180,
+      "frontCaliperPosition": "前置",
+      "frontFender": "长",
+      "swingarmLength": 340,
+      "rearShockTravel": 290,
+      "rearShockAngle": 0,
+      "rearShockAirbag": "无",
+      "rearTireWidth": 80,
+      "rearTireRatio": 100,
+      "rearWheelDiameter": 10,
+      "rearWheelOffset": 0,
+      "rearBrakeDiscDiameter": 0,
+      "rearCaliperPosition": "后置",
+      "rearFender": "长"
+    }
+  },
+  "Honda/Ub e": {
+    "sourceScale": 0.8077777777777778,
+    "pixelsPerMillimeter": 0.467922131147541,
+    "handle": {
+      "height": 75,
+      "angle": 195
+    },
+    "frontFork": {
+      "height": 155,
+      "angle": 25,
+      "wheelOffset": -13
+    },
+    "frontWheel": {
+      "radius": 90,
+      "hubRadius": 60,
+      "discRadius": 38
+    },
+    "swingarm": {
+      "height": 156.5,
+      "angle": -83.79999999999752,
+      "shockMountLeft": 20,
+      "shockMountBottom": 5
+    },
+    "rearShock": {
+      "height": 135,
+      "angle": -30.376612187250558
+    },
+    "rearWheel": {
+      "radius": 90,
+      "hubRadius": 60,
+      "discRadius": 32.7
+    },
+    "defaults": {
+      "handlebarHeight": 100,
+      "handlebarAngle": 0,
+      "tripleClampAngle": 0,
+      "tripleClampDrop": 0,
+      "frontForkTravel": 350,
+      "frontWheelPosition": "中位",
+      "frontForkStyle": "正常",
+      "frontForkAirbag": "无",
+      "frontTireWidth": 80,
+      "frontTireRatio": 100,
+      "frontWheelDiameter": 10,
+      "frontWheelOffset": 0,
+      "frontBrakeDiscDiameter": 180,
+      "frontCaliperPosition": "前置",
+      "frontFender": "长",
+      "swingarmLength": 340,
+      "rearShockTravel": 285,
+      "rearShockAngle": 0,
+      "rearShockAirbag": "无",
+      "rearTireWidth": 80,
+      "rearTireRatio": 100,
+      "rearWheelDiameter": 10,
+      "rearWheelOffset": 0,
+      "rearBrakeDiscDiameter": 0,
+      "rearCaliperPosition": "后置",
+      "rearFender": "长"
+    }
+  },
+  "Honda/Zoomer e": {
+    "sourceScale": 0.8077777777777778,
+    "pixelsPerMillimeter": 0.467922131147541,
+    "handle": {
+      "height": 80,
+      "angle": 200
+    },
+    "frontFork": {
+      "height": 155,
+      "angle": 25,
+      "wheelOffset": -13
+    },
+    "frontWheel": {
+      "radius": 94,
+      "hubRadius": 64,
+      "discRadius": 38
+    },
+    "swingarm": {
+      "height": 155,
+      "angle": -84.2499999999975,
+      "shockMountLeft": 20,
+      "shockMountBottom": 5
+    },
+    "rearShock": {
+      "height": 109,
+      "angle": -29.238228742635222
+    },
+    "rearWheel": {
+      "radius": 94,
+      "hubRadius": 64,
+      "discRadius": 38
+    },
+    "defaults": {
+      "handlebarHeight": 100,
+      "handlebarAngle": 0,
+      "tripleClampAngle": 0,
+      "tripleClampDrop": 0,
+      "frontForkTravel": 340,
+      "frontWheelPosition": "中位",
+      "frontForkStyle": "正常",
+      "frontForkAirbag": "无",
+      "frontTireWidth": 90,
+      "frontTireRatio": 90,
+      "frontWheelDiameter": 10,
+      "frontWheelOffset": 0,
+      "frontBrakeDiscDiameter": 180,
+      "frontCaliperPosition": "前置",
+      "frontFender": "长",
+      "swingarmLength": 340,
+      "rearShockTravel": 270,
+      "rearShockAngle": 0,
+      "rearShockAirbag": "无",
+      "rearTireWidth": 90,
+      "rearTireRatio": 90,
+      "rearWheelDiameter": 10,
+      "rearWheelOffset": 0,
+      "rearBrakeDiscDiameter": 180,
+      "rearCaliperPosition": "后置",
+      "rearFender": "长"
+    }
+  },
+  "Honda/S 07": {
+    "sourceScale": 0.8077777777777778,
+    "pixelsPerMillimeter": 0.467922131147541,
+    "handle": {
+      "height": 55,
+      "angle": 200
+    },
+    "frontFork": {
+      "height": 145,
+      "angle": 28,
+      "wheelOffset": -13
+    },
+    "frontWheel": {
+      "radius": 90,
+      "hubRadius": 60,
+      "discRadius": 38
+    },
+    "swingarm": {
+      "height": 123.5,
+      "angle": -89.84999999999718,
+      "shockMountLeft": 20,
+      "shockMountBottom": 15
+    },
+    "rearShock": {
+      "height": 120,
+      "angle": -19.246124005447555
+    },
+    "rearWheel": {
+      "radius": 90,
+      "hubRadius": 60,
+      "discRadius": 32.7
+    },
+    "defaults": {
+      "handlebarHeight": 100,
+      "handlebarAngle": 0,
+      "tripleClampAngle": 0,
+      "tripleClampDrop": 0,
+      "frontForkTravel": 350,
+      "frontWheelPosition": "中位",
+      "frontForkStyle": "正常",
+      "frontForkAirbag": "无",
+      "frontTireWidth": 80,
+      "frontTireRatio": 100,
+      "frontWheelDiameter": 10,
+      "frontWheelOffset": 0,
+      "frontBrakeDiscDiameter": 180,
+      "frontCaliperPosition": "前置",
+      "frontFender": "长",
+      "swingarmLength": 285,
+      "rearShockTravel": 285,
+      "rearShockAngle": 0,
+      "rearShockAirbag": "无",
+      "rearTireWidth": 80,
+      "rearTireRatio": 100,
+      "rearWheelDiameter": 10,
+      "rearWheelOffset": 0,
+      "rearBrakeDiscDiameter": 0,
+      "rearCaliperPosition": "后置",
+      "rearFender": "长"
+    }
+  },
+  "ZEEHO/AE2": {
+    "sourceScale": 0.8077777777777778,
+    "pixelsPerMillimeter": 0.45,
+    "handle": {
+      "height": 45,
+      "angle": 200
+    },
+    "frontFork": {
+      "height": 145,
+      "angle": 25,
+      "wheelOffset": -13
+    },
+    "frontWheel": {
+      "radius": 92,
+      "hubRadius": 64,
+      "discRadius": 36.5
+    },
+    "swingarm": {
+      "height": 139,
+      "angle": -83.34999999999755,
+      "shockMountLeft": 20,
+      "shockMountBottom": 12
+    },
+    "rearShock": {
+      "height": 133,
+      "angle": -28.508250529854244
+    },
+    "rearWheel": {
+      "radius": 92,
+      "hubRadius": 64,
+      "discRadius": 31.4
+    },
+    "defaults": {
+      "handlebarHeight": 100,
+      "handlebarAngle": 0,
+      "tripleClampAngle": 0,
+      "tripleClampDrop": 0,
+      "frontForkTravel": 320,
+      "frontWheelPosition": "中位",
+      "frontForkStyle": "正常",
+      "frontForkAirbag": "无",
+      "frontTireWidth": 80,
+      "frontTireRatio": 90,
+      "frontWheelDiameter": 10,
+      "frontWheelOffset": 0,
+      "frontBrakeDiscDiameter": 180,
+      "frontCaliperPosition": "前置",
+      "frontFender": "长",
+      "swingarmLength": 290,
+      "rearShockTravel": 280,
+      "rearShockAngle": 0,
+      "rearShockAirbag": "无",
+      "rearTireWidth": 80,
+      "rearTireRatio": 90,
+      "rearWheelDiameter": 10,
+      "rearWheelOffset": 0,
+      "rearBrakeDiscDiameter": 155,
+      "rearCaliperPosition": "后置",
+      "rearFender": "长"
+    }
+  },
+  "ZEEHO/AE4i": {
+    "sourceScale": 0.8077777777777778,
+    "pixelsPerMillimeter": 0.45,
+    "handle": {
+      "height": 45,
+      "angle": 200
+    },
+    "frontFork": {
+      "height": 155,
+      "angle": 25,
+      "wheelOffset": -13
+    },
+    "frontWheel": {
+      "radius": 99,
+      "hubRadius": 72,
+      "discRadius": 44.5
+    },
+    "swingarm": {
+      "height": 162,
+      "angle": -86.0499999999974,
+      "shockMountLeft": 20,
+      "shockMountBottom": 20
+    },
+    "rearShock": {
+      "height": 130,
+      "angle": -33.13525868171481
+    },
+    "rearWheel": {
+      "radius": 99,
+      "hubRadius": 72,
+      "discRadius": 36.4
+    },
+    "defaults": {
+      "handlebarHeight": 100,
+      "handlebarAngle": 0,
+      "tripleClampAngle": 0,
+      "tripleClampDrop": 0,
+      "frontForkTravel": 355,
+      "frontWheelPosition": "中位",
+      "frontForkStyle": "正常",
+      "frontForkAirbag": "无",
+      "frontTireWidth": 80,
+      "frontTireRatio": 80,
+      "frontWheelDiameter": 12,
+      "frontWheelOffset": 0,
+      "frontBrakeDiscDiameter": 180,
+      "frontCaliperPosition": "前置",
+      "frontFender": "长",
+      "swingarmLength": 360,
+      "rearShockTravel": 290,
+      "rearShockAngle": 0,
+      "rearShockAirbag": "无",
+      "rearTireWidth": 80,
+      "rearTireRatio": 80,
+      "rearWheelDiameter": 12,
+      "rearWheelOffset": 0,
+      "rearBrakeDiscDiameter": 155,
+      "rearCaliperPosition": "后置",
+      "rearFender": "长"
+    }
+  },
+  "ZEEHO/AE5i": {
+    "sourceScale": 0.8077777777777778,
+    "pixelsPerMillimeter": 0.45852610441767067,
+    "handle": {
+      "height": 45,
+      "angle": 200
+    },
+    "frontFork": {
+      "height": 165,
+      "angle": 25,
+      "wheelOffset": -13
+    },
+    "frontWheel": {
+      "radius": 100,
+      "hubRadius": 72,
+      "discRadius": 45.4
+    },
+    "swingarm": {
+      "height": 140.5,
+      "angle": -79.39999999999777,
+      "shockMountLeft": 20,
+      "shockMountBottom": 5
+    },
+    "rearShock": {
+      "height": 125,
+      "angle": -15.727071275367251
+    },
+    "rearWheel": {
+      "radius": 91,
+      "hubRadius": 60,
+      "discRadius": 37.1
+    },
+    "defaults": {
+      "handlebarHeight": 100,
+      "handlebarAngle": 0,
+      "tripleClampAngle": 0,
+      "tripleClampDrop": 0,
+      "frontForkTravel": 410,
+      "frontWheelPosition": "中位",
+      "frontForkStyle": "正常",
+      "frontForkAirbag": "无",
+      "frontTireWidth": 80,
+      "frontTireRatio": 90,
+      "frontWheelDiameter": 12,
+      "frontWheelOffset": 0,
+      "frontBrakeDiscDiameter": 220,
+      "frontCaliperPosition": "前置",
+      "frontFender": "长",
+      "swingarmLength": 300,
+      "rearShockTravel": 285,
+      "rearShockAngle": 0,
+      "rearShockAirbag": "无",
+      "rearTireWidth": 80,
+      "rearTireRatio": 100,
+      "rearWheelDiameter": 10,
+      "rearWheelOffset": 0,
+      "rearBrakeDiscDiameter": 180,
+      "rearCaliperPosition": "后置",
+      "rearFender": "长"
+    }
+  },
+  "ZEEHO/EZ3i": {
+    "sourceScale": 0.8077777777777778,
+    "pixelsPerMillimeter": 0.45,
+    "handle": {
+      "height": 45,
+      "angle": 200
+    },
+    "frontFork": {
+      "height": 145,
+      "angle": 25,
+      "wheelOffset": -13
+    },
+    "frontWheel": {
+      "radius": 95,
+      "hubRadius": 64,
+      "discRadius": 36.5
+    },
+    "swingarm": {
+      "height": 156.5,
+      "angle": -84.99999999999746,
+      "shockMountLeft": 20,
+      "shockMountBottom": 0
+    },
+    "rearShock": {
+      "height": 115,
+      "angle": -19.100612600689544
+    },
+    "rearWheel": {
+      "radius": 95,
+      "hubRadius": 64,
+      "discRadius": 31.4
+    },
+    "defaults": {
+      "handlebarHeight": 100,
+      "handlebarAngle": 0,
+      "tripleClampAngle": 0,
+      "tripleClampDrop": 0,
+      "frontForkTravel": 355,
+      "frontWheelPosition": "中位",
+      "frontForkStyle": "正常",
+      "frontForkAirbag": "无",
+      "frontTireWidth": 80,
+      "frontTireRatio": 100,
+      "frontWheelDiameter": 10,
+      "frontWheelOffset": 0,
+      "frontBrakeDiscDiameter": 180,
+      "frontCaliperPosition": "前置",
+      "frontFender": "长",
+      "swingarmLength": 340,
+      "rearShockTravel": 270,
+      "rearShockAngle": 0,
+      "rearShockAirbag": "无",
+      "rearTireWidth": 80,
+      "rearTireRatio": 100,
+      "rearWheelDiameter": 10,
+      "rearWheelOffset": 0,
+      "rearBrakeDiscDiameter": 155,
+      "rearCaliperPosition": "后置",
+      "rearFender": "长"
+    }
+  },
+  "ZEEHO/AE8 S+ my25": {
+    "sourceScale": 0.8077777777777778,
+    "pixelsPerMillimeter": 0.45,
+    "handle": {
+      "height": 45,
+      "angle": 200
+    },
+    "frontFork": {
+      "height": 160,
+      "angle": 25,
+      "wheelOffset": -13
+    },
+    "frontWheel": {
+      "radius": 107,
+      "hubRadius": 75,
+      "discRadius": 44.6
+    },
+    "swingarm": {
+      "height": 195.5,
+      "angle": -88.19999999999727,
+      "shockMountLeft": 20,
+      "shockMountBottom": 5
+    },
+    "rearShock": {
+      "height": 120,
+      "angle": -16.486968825992733
+    },
+    "rearWheel": {
+      "radius": 108,
+      "hubRadius": 75,
+      "discRadius": 36.5
+    },
+    "defaults": {
+      "handlebarHeight": 100,
+      "handlebarAngle": 0,
+      "tripleClampAngle": 0,
+      "tripleClampDrop": 0,
+      "frontForkTravel": 400,
+      "frontWheelPosition": "中位",
+      "frontForkStyle": "正常",
+      "frontForkAirbag": "无",
+      "frontTireWidth": 100,
+      "frontTireRatio": 80,
+      "frontWheelDiameter": 12,
+      "frontWheelOffset": 0,
+      "frontBrakeDiscDiameter": 220,
+      "frontCaliperPosition": "前置",
+      "frontFender": "长",
+      "swingarmLength": 420,
+      "rearShockTravel": 360,
+      "rearShockAngle": 0,
+      "rearShockAirbag": "无",
+      "rearTireWidth": 120,
+      "rearTireRatio": 70,
+      "rearWheelDiameter": 12,
+      "rearWheelOffset": 0,
+      "rearBrakeDiscDiameter": 190,
+      "rearCaliperPosition": "后置",
+      "rearFender": "长"
+    }
+  },
+  "ZEEHO/AE7": {
+    "sourceScale": 0.8077777777777778,
+    "pixelsPerMillimeter": 0.45,
+    "handle": {
+      "height": 45,
+      "angle": 200
+    },
+    "frontFork": {
+      "height": 160,
+      "angle": 25,
+      "wheelOffset": -13
+    },
+    "frontWheel": {
+      "radius": 107,
+      "hubRadius": 75,
+      "discRadius": 44.6
+    },
+    "swingarm": {
+      "height": 171,
+      "angle": -84.64999999999748,
+      "shockMountLeft": 35,
+      "shockMountBottom": 5
+    },
+    "rearShock": {
+      "height": 115,
+      "angle": -17.4876209385379
+    },
+    "rearWheel": {
+      "radius": 105,
+      "hubRadius": 75,
+      "discRadius": 36.5
+    },
+    "defaults": {
+      "handlebarHeight": 100,
+      "handlebarAngle": 0,
+      "tripleClampAngle": 0,
+      "tripleClampDrop": 0,
+      "frontForkTravel": 420,
+      "frontWheelPosition": "中位",
+      "frontForkStyle": "正常",
+      "frontForkAirbag": "无",
+      "frontTireWidth": 90,
+      "frontTireRatio": 90,
+      "frontWheelDiameter": 12,
+      "frontWheelOffset": 0,
+      "frontBrakeDiscDiameter": 220,
+      "frontCaliperPosition": "前置",
+      "frontFender": "长",
+      "swingarmLength": 370,
+      "rearShockTravel": 310,
+      "rearShockAngle": 0,
+      "rearShockAirbag": "无",
+      "rearTireWidth": 110,
+      "rearTireRatio": 70,
+      "rearWheelDiameter": 12,
+      "rearWheelOffset": 0,
+      "rearBrakeDiscDiameter": 190,
+      "rearCaliperPosition": "后置",
+      "rearFender": "长"
+    }
+  },
+  "ZEEHO/AE6+": {
+    "sourceScale": 0.8077777777777778,
+    "pixelsPerMillimeter": 0.45,
+    "handle": {
+      "height": 45,
+      "angle": 200
+    },
+    "frontFork": {
+      "height": 160,
+      "angle": 25,
+      "wheelOffset": -13
+    },
+    "frontWheel": {
+      "radius": 107,
+      "hubRadius": 75,
+      "discRadius": 44.6
+    },
+    "swingarm": {
+      "height": 139,
+      "angle": -84.59999999999748,
+      "shockMountLeft": 35,
+      "shockMountBottom": 5
+    },
+    "rearShock": {
+      "height": 115,
+      "angle": -11.38120688853256
+    },
+    "rearWheel": {
+      "radius": 98,
+      "hubRadius": 68,
+      "discRadius": 36.5
+    },
+    "defaults": {
+      "handlebarHeight": 100,
+      "handlebarAngle": 0,
+      "tripleClampAngle": 0,
+      "tripleClampDrop": 0,
+      "frontForkTravel": 400,
+      "frontWheelPosition": "中位",
+      "frontForkStyle": "正常",
+      "frontForkAirbag": "无",
+      "frontTireWidth": 90,
+      "frontTireRatio": 90,
+      "frontWheelDiameter": 12,
+      "frontWheelOffset": 0,
+      "frontBrakeDiscDiameter": 220,
+      "frontCaliperPosition": "前置",
+      "frontFender": "长",
+      "swingarmLength": 305,
+      "rearShockTravel": 275,
+      "rearShockAngle": 0,
+      "rearShockAirbag": "无",
+      "rearTireWidth": 110,
+      "rearTireRatio": 70,
+      "rearWheelDiameter": 11,
+      "rearWheelOffset": 0,
+      "rearBrakeDiscDiameter": 190,
+      "rearCaliperPosition": "后置",
+      "rearFender": "长"
+    }
+  },
+  "ZEEHO/AE4 26": {
+    "sourceScale": 0.8077777777777778,
+    "pixelsPerMillimeter": 0.45,
+    "handle": {
+      "height": 45,
+      "angle": 200
+    },
+    "frontFork": {
+      "height": 160,
+      "angle": 25,
+      "wheelOffset": -13
+    },
+    "frontWheel": {
+      "radius": 104,
+      "hubRadius": 72,
+      "discRadius": 44.6
+    },
+    "swingarm": {
+      "height": 179,
+      "angle": -85.79999999999741,
+      "shockMountLeft": 20,
+      "shockMountBottom": 5
+    },
+    "rearShock": {
+      "height": 120,
+      "angle": -16.954559482384454
+    },
+    "rearWheel": {
+      "radius": 104,
+      "hubRadius": 72,
+      "discRadius": 36.5
+    },
+    "defaults": {
+      "handlebarHeight": 100,
+      "handlebarAngle": 0,
+      "tripleClampAngle": 0,
+      "tripleClampDrop": 0,
+      "frontForkTravel": 405,
+      "frontWheelPosition": "中位",
+      "frontForkStyle": "正常",
+      "frontForkAirbag": "无",
+      "frontTireWidth": 90,
+      "frontTireRatio": 90,
+      "frontWheelDiameter": 12,
+      "frontWheelOffset": 0,
+      "frontBrakeDiscDiameter": 220,
+      "frontCaliperPosition": "前置",
+      "frontFender": "长",
+      "swingarmLength": 380,
+      "rearShockTravel": 335,
+      "rearShockAngle": 0,
+      "rearShockAirbag": "无",
+      "rearTireWidth": 100,
+      "rearTireRatio": 80,
+      "rearWheelDiameter": 12,
+      "rearWheelOffset": 0,
+      "rearBrakeDiscDiameter": 180,
+      "rearCaliperPosition": "后置",
+      "rearFender": "长"
+    }
+  },
+  "ZEEHO/AE4 my25": {
+    "sourceScale": 0.8077777777777778,
+    "pixelsPerMillimeter": 0.45,
+    "handle": {
+      "height": 45,
+      "angle": 200
+    },
+    "frontFork": {
+      "height": 160,
+      "angle": 25,
+      "wheelOffset": -13
+    },
+    "frontWheel": {
+      "radius": 104,
+      "hubRadius": 72,
+      "discRadius": 44.6
+    },
+    "swingarm": {
+      "height": 179,
+      "angle": -85.79999999999741,
+      "shockMountLeft": 20,
+      "shockMountBottom": 5
+    },
+    "rearShock": {
+      "height": 120,
+      "angle": -16.954559482384454
+    },
+    "rearWheel": {
+      "radius": 104,
+      "hubRadius": 72,
+      "discRadius": 36.5
+    },
+    "defaults": {
+      "handlebarHeight": 100,
+      "handlebarAngle": 0,
+      "tripleClampAngle": 0,
+      "tripleClampDrop": 0,
+      "frontForkTravel": 405,
+      "frontWheelPosition": "中位",
+      "frontForkStyle": "正常",
+      "frontForkAirbag": "无",
+      "frontTireWidth": 90,
+      "frontTireRatio": 90,
+      "frontWheelDiameter": 12,
+      "frontWheelOffset": 0,
+      "frontBrakeDiscDiameter": 220,
+      "frontCaliperPosition": "前置",
+      "frontFender": "长",
+      "swingarmLength": 380,
+      "rearShockTravel": 335,
+      "rearShockAngle": 0,
+      "rearShockAirbag": "无",
+      "rearTireWidth": 100,
+      "rearTireRatio": 80,
+      "rearWheelDiameter": 12,
+      "rearWheelOffset": 0,
+      "rearBrakeDiscDiameter": 180,
+      "rearCaliperPosition": "后置",
+      "rearFender": "长"
+    }
+  },
+  "ZEEHO/AE3 pro": {
+    "sourceScale": 0.8077777777777778,
+    "pixelsPerMillimeter": 0.45852610441767067,
+    "handle": {
+      "height": 45,
+      "angle": 200
+    },
+    "frontFork": {
+      "height": 165,
+      "angle": 25,
+      "wheelOffset": -13
+    },
+    "frontWheel": {
+      "radius": 100,
+      "hubRadius": 72,
+      "discRadius": 45.3
+    },
+    "swingarm": {
+      "height": 151,
+      "angle": -83.49999999999754,
+      "shockMountLeft": 30,
+      "shockMountBottom": 0
+    },
+    "rearShock": {
+      "height": 140,
+      "angle": -11.297146995370767
+    },
+    "rearWheel": {
+      "radius": 91,
+      "hubRadius": 60,
+      "discRadius": 37.1
+    },
+    "defaults": {
+      "handlebarHeight": 100,
+      "handlebarAngle": 0,
+      "tripleClampAngle": 0,
+      "tripleClampDrop": 0,
+      "frontForkTravel": 400,
+      "frontWheelPosition": "中位",
+      "frontForkStyle": "正常",
+      "frontForkAirbag": "无",
+      "frontTireWidth": 80,
+      "frontTireRatio": 90,
+      "frontWheelDiameter": 12,
+      "frontWheelOffset": 0,
+      "frontBrakeDiscDiameter": 220,
+      "frontCaliperPosition": "前置",
+      "frontFender": "长",
+      "swingarmLength": 330,
+      "rearShockTravel": 320,
+      "rearShockAngle": 0,
+      "rearShockAirbag": "无",
+      "rearTireWidth": 80,
+      "rearTireRatio": 100,
+      "rearWheelDiameter": 10,
+      "rearWheelOffset": 0,
+      "rearBrakeDiscDiameter": 180,
+      "rearCaliperPosition": "后置",
+      "rearFender": "长"
+    }
+  },
+  "ZEEHO/AE2 pro": {
+    "sourceScale": 0.8077777777777778,
+    "pixelsPerMillimeter": 0.45852610441767067,
+    "handle": {
+      "height": 45,
+      "angle": 200
+    },
+    "frontFork": {
+      "height": 165,
+      "angle": 25,
+      "wheelOffset": -13
+    },
+    "frontWheel": {
+      "radius": 100,
+      "hubRadius": 72,
+      "discRadius": 45.3
+    },
+    "swingarm": {
+      "height": 150,
+      "angle": -85.8999999999974,
+      "shockMountLeft": 30,
+      "shockMountBottom": 0
+    },
+    "rearShock": {
+      "height": 130,
+      "angle": -14.596686975526595
+    },
+    "rearWheel": {
+      "radius": 100,
+      "hubRadius": 72,
+      "discRadius": 37.1
+    },
+    "defaults": {
+      "handlebarHeight": 100,
+      "handlebarAngle": 0,
+      "tripleClampAngle": 0,
+      "tripleClampDrop": 0,
+      "frontForkTravel": 400,
+      "frontWheelPosition": "中位",
+      "frontForkStyle": "正常",
+      "frontForkAirbag": "无",
+      "frontTireWidth": 80,
+      "frontTireRatio": 90,
+      "frontWheelDiameter": 12,
+      "frontWheelOffset": 0,
+      "frontBrakeDiscDiameter": 220,
+      "frontCaliperPosition": "前置",
+      "frontFender": "长",
+      "swingarmLength": 325,
+      "rearShockTravel": 310,
+      "rearShockAngle": 0,
+      "rearShockAirbag": "无",
+      "rearTireWidth": 80,
+      "rearTireRatio": 90,
+      "rearWheelDiameter": 12,
+      "rearWheelOffset": 0,
+      "rearBrakeDiscDiameter": 180,
+      "rearCaliperPosition": "后置",
+      "rearFender": "长"
+    }
+  },
+  "ZEEHO/EZ4": {
+    "sourceScale": 0.8077777777777778,
+    "pixelsPerMillimeter": 0.45852610441767067,
+    "handle": {
+      "height": 45,
+      "angle": 200
+    },
+    "frontFork": {
+      "height": 165,
+      "angle": 25,
+      "wheelOffset": -13
+    },
+    "frontWheel": {
+      "radius": 100,
+      "hubRadius": 72,
+      "discRadius": 45.3
+    },
+    "swingarm": {
+      "height": 171.5,
+      "angle": -83.54999999999754,
+      "shockMountLeft": 20,
+      "shockMountBottom": 5
+    },
+    "rearShock": {
+      "height": 140,
+      "angle": -13.931061239916033
+    },
+    "rearWheel": {
+      "radius": 91,
+      "hubRadius": 60,
+      "discRadius": 37.1
+    },
+    "defaults": {
+      "handlebarHeight": 100,
+      "handlebarAngle": 0,
+      "tripleClampAngle": 0,
+      "tripleClampDrop": 0,
+      "frontForkTravel": 400,
+      "frontWheelPosition": "中位",
+      "frontForkStyle": "正常",
+      "frontForkAirbag": "无",
+      "frontTireWidth": 80,
+      "frontTireRatio": 90,
+      "frontWheelDiameter": 12,
+      "frontWheelOffset": 0,
+      "frontBrakeDiscDiameter": 220,
+      "frontCaliperPosition": "前置",
+      "frontFender": "长",
+      "swingarmLength": 375,
+      "rearShockTravel": 350,
+      "rearShockAngle": 0,
+      "rearShockAirbag": "无",
+      "rearTireWidth": 80,
+      "rearTireRatio": 100,
+      "rearWheelDiameter": 10,
+      "rearWheelOffset": 0,
+      "rearBrakeDiscDiameter": 180,
+      "rearCaliperPosition": "后置",
+      "rearFender": "长"
+    }
+  },
+  "NIU/NXT 2": {
+    "sourceScale": 0.8077777777777778,
+    "pixelsPerMillimeter": 0.45852610441767067,
+    "handle": {
+      "height": 45,
+      "angle": 200
+    },
+    "frontFork": {
+      "height": 160,
+      "angle": 25,
+      "wheelOffset": -13
+    },
+    "frontWheel": {
+      "radius": 98,
+      "hubRadius": 69,
+      "discRadius": 45.4
+    },
+    "swingarm": {
+      "height": 142,
+      "angle": -82.29999999999761,
+      "shockMountLeft": 35,
+      "shockMountBottom": 15
+    },
+    "rearShock": {
+      "height": 115,
+      "angle": -27.17916308993434
+    },
+    "rearWheel": {
+      "radius": 96,
+      "hubRadius": 69,
+      "discRadius": 39.2
+    },
+    "defaults": {
+      "handlebarHeight": 100,
+      "handlebarAngle": 0,
+      "tripleClampAngle": 0,
+      "tripleClampDrop": 0,
+      "frontForkTravel": 380,
+      "frontWheelPosition": "中位",
+      "frontForkStyle": "正常",
+      "frontForkAirbag": "无",
+      "frontTireWidth": 90,
+      "frontTireRatio": 90,
+      "frontWheelDiameter": 12,
+      "frontWheelOffset": 0,
+      "frontBrakeDiscDiameter": 220,
+      "frontCaliperPosition": "前置",
+      "frontFender": "长",
+      "swingarmLength": 320,
+      "rearShockTravel": 295,
+      "rearShockAngle": 0,
+      "rearShockAirbag": "无",
+      "rearTireWidth": 110,
+      "rearTireRatio": 70,
+      "rearWheelDiameter": 12,
+      "rearWheelOffset": 0,
+      "rearBrakeDiscDiameter": 190,
+      "rearCaliperPosition": "后置",
+      "rearFender": "长"
+    }
+  },
+  "NIU/U3": {
+    "sourceScale": 0.8077777777777778,
+    "pixelsPerMillimeter": 0.45852610441767067,
+    "handle": {
+      "height": 53,
+      "angle": 202
+    },
+    "frontFork": {
+      "height": 155,
+      "angle": 25,
+      "wheelOffset": -13
+    },
+    "frontWheel": {
+      "radius": 98,
+      "hubRadius": 69,
+      "discRadius": 45.4
+    },
+    "swingarm": {
+      "height": 158,
+      "angle": -84.49999999999748,
+      "shockMountLeft": 20,
+      "shockMountBottom": 3
+    },
+    "rearShock": {
+      "height": 111,
+      "angle": -28.056227406887793
+    },
+    "rearWheel": {
+      "radius": 97,
+      "hubRadius": 69,
+      "discRadius": 37.2
+    },
+    "defaults": {
+      "handlebarHeight": 100,
+      "handlebarAngle": 0,
+      "tripleClampAngle": 0,
+      "tripleClampDrop": 0,
+      "frontForkTravel": 385,
+      "frontWheelPosition": "中位",
+      "frontForkStyle": "正常",
+      "frontForkAirbag": "无",
+      "frontTireWidth": 90,
+      "frontTireRatio": 80,
+      "frontWheelDiameter": 12,
+      "frontWheelOffset": 0,
+      "frontBrakeDiscDiameter": 220,
+      "frontCaliperPosition": "前置",
+      "frontFender": "长",
+      "swingarmLength": 355,
+      "rearShockTravel": 270,
+      "rearShockAngle": 0,
+      "rearShockAirbag": "无",
+      "rearTireWidth": 100,
+      "rearTireRatio": 70,
+      "rearWheelDiameter": 12,
+      "rearWheelOffset": 0,
+      "rearBrakeDiscDiameter": 180,
+      "rearCaliperPosition": "后置",
+      "rearFender": "长"
+    }
+  },
+  "NIU/U1": {
+    "sourceScale": 0.8077777777777778,
+    "pixelsPerMillimeter": 0.4757208333333333,
+    "handle": {
+      "height": 60,
+      "angle": 200
+    },
+    "frontFork": {
+      "height": 152,
+      "angle": 26,
+      "wheelOffset": -13
+    },
+    "frontWheel": {
+      "radius": 95,
+      "hubRadius": 69,
+      "discRadius": 37.4
+    },
+    "swingarm": {
+      "height": 142.5,
+      "angle": -83.74999999999753,
+      "shockMountLeft": 20,
+      "shockMountBottom": 25
+    },
+    "rearShock": {
+      "height": 100,
+      "angle": -21.70281445711919
+    },
+    "rearWheel": {
+      "radius": 95,
+      "hubRadius": 69,
+      "discRadius": 37.4
+    },
+    "defaults": {
+      "handlebarHeight": 100,
+      "handlebarAngle": 0,
+      "tripleClampAngle": 0,
+      "tripleClampDrop": 0,
+      "frontForkTravel": 365,
+      "frontWheelPosition": "中位",
+      "frontForkStyle": "正常",
+      "frontForkAirbag": "无",
+      "frontTireWidth": 75,
+      "frontTireRatio": 85,
+      "frontWheelDiameter": 12,
+      "frontWheelOffset": 0,
+      "frontBrakeDiscDiameter": 180,
+      "frontCaliperPosition": "前置",
+      "frontFender": "长",
+      "swingarmLength": 350,
+      "rearShockTravel": 235,
+      "rearShockAngle": 0,
+      "rearShockAirbag": "无",
+      "rearTireWidth": 75,
+      "rearTireRatio": 85,
+      "rearWheelDiameter": 12,
+      "rearWheelOffset": 0,
+      "rearBrakeDiscDiameter": 180,
+      "rearCaliperPosition": "后置",
+      "rearFender": "长"
+    }
+  },
+  "NIU/K": {
+    "sourceScale": 0.8077777777777778,
+    "pixelsPerMillimeter": 0.4757208333333333,
+    "handle": {
+      "height": 45,
+      "angle": 200
+    },
+    "frontFork": {
+      "height": 135,
+      "angle": 25,
+      "wheelOffset": -13
+    },
+    "frontWheel": {
+      "radius": 90,
+      "hubRadius": 61,
+      "discRadius": 38.5
+    },
+    "swingarm": {
+      "height": 152.5,
+      "angle": -82.84999999999758,
+      "shockMountLeft": 25,
+      "shockMountBottom": 10
+    },
+    "rearShock": {
+      "height": 102,
+      "angle": -19.782165204102
+    },
+    "rearWheel": {
+      "radius": 90,
+      "hubRadius": 61,
+      "discRadius": 36.3
+    },
+    "defaults": {
+      "handlebarHeight": 100,
+      "handlebarAngle": 0,
+      "tripleClampAngle": 0,
+      "tripleClampDrop": 0,
+      "frontForkTravel": 320,
+      "frontWheelPosition": "中位",
+      "frontForkStyle": "正常",
+      "frontForkAirbag": "无",
+      "frontTireWidth": 80,
+      "frontTireRatio": 100,
+      "frontWheelDiameter": 10,
+      "frontWheelOffset": 0,
+      "frontBrakeDiscDiameter": 180,
+      "frontCaliperPosition": "前置",
+      "frontFender": "长",
+      "swingarmLength": 350,
+      "rearShockTravel": 250,
+      "rearShockAngle": 0,
+      "rearShockAirbag": "无",
+      "rearTireWidth": 80,
+      "rearTireRatio": 100,
+      "rearWheelDiameter": 10,
+      "rearWheelOffset": 0,
+      "rearBrakeDiscDiameter": 180,
+      "rearCaliperPosition": "后置",
+      "rearFender": "长"
+    }
+  },
+  "NIU/MT": {
+    "sourceScale": 0.8077777777777778,
+    "pixelsPerMillimeter": 0.4757208333333333,
+    "handle": {
+      "height": 45,
+      "angle": 200
+    },
+    "frontFork": {
+      "height": 160,
+      "angle": 25,
+      "wheelOffset": -13
+    },
+    "frontWheel": {
+      "radius": 94,
+      "hubRadius": 63,
+      "discRadius": 38.5
+    },
+    "swingarm": {
+      "height": 155,
+      "angle": -90.54999999999714,
+      "shockMountLeft": 20,
+      "shockMountBottom": 20
+    },
+    "rearShock": {
+      "height": 107,
+      "angle": -25.343344558671262
+    },
+    "rearWheel": {
+      "radius": 94,
+      "hubRadius": 63,
+      "discRadius": 36.3
+    },
+    "defaults": {
+      "handlebarHeight": 100,
+      "handlebarAngle": 0,
+      "tripleClampAngle": 0,
+      "tripleClampDrop": 0,
+      "frontForkTravel": 350,
+      "frontWheelPosition": "中位",
+      "frontForkStyle": "正常",
+      "frontForkAirbag": "无",
+      "frontTireWidth": 80,
+      "frontTireRatio": 100,
+      "frontWheelDiameter": 10,
+      "frontWheelOffset": 0,
+      "frontBrakeDiscDiameter": 180,
+      "frontCaliperPosition": "前置",
+      "frontFender": "长",
+      "swingarmLength": 335,
+      "rearShockTravel": 250,
+      "rearShockAngle": 0,
+      "rearShockAirbag": "无",
+      "rearTireWidth": 80,
+      "rearTireRatio": 100,
+      "rearWheelDiameter": 10,
+      "rearWheelOffset": 0,
+      "rearBrakeDiscDiameter": 170,
+      "rearCaliperPosition": "后置",
+      "rearFender": "长"
+    }
+  },
+  "NIU/NXT 2025": {
+    "sourceScale": 0.8077777777777778,
+    "pixelsPerMillimeter": 0.45852610441767067,
+    "handle": {
+      "height": 45,
+      "angle": 200
+    },
+    "frontFork": {
+      "height": 160,
+      "angle": 25,
+      "wheelOffset": -13
+    },
+    "frontWheel": {
+      "radius": 98,
+      "hubRadius": 69,
+      "discRadius": 45.4
+    },
+    "swingarm": {
+      "height": 148,
+      "angle": -87.09999999999734,
+      "shockMountLeft": 20,
+      "shockMountBottom": 25
+    },
+    "rearShock": {
+      "height": 135,
+      "angle": -23.044514231870295
+    },
+    "rearWheel": {
+      "radius": 98,
+      "hubRadius": 69,
+      "discRadius": 39.2
+    },
+    "defaults": {
+      "handlebarHeight": 100,
+      "handlebarAngle": 0,
+      "tripleClampAngle": 0,
+      "tripleClampDrop": 0,
+      "frontForkTravel": 395,
+      "frontWheelPosition": "中位",
+      "frontForkStyle": "正常",
+      "frontForkAirbag": "无",
+      "frontTireWidth": 90,
+      "frontTireRatio": 80,
+      "frontWheelDiameter": 12,
+      "frontWheelOffset": 0,
+      "frontBrakeDiscDiameter": 220,
+      "frontCaliperPosition": "前置",
+      "frontFender": "长",
+      "swingarmLength": 340,
+      "rearShockTravel": 300,
+      "rearShockAngle": 0,
+      "rearShockAirbag": "无",
+      "rearTireWidth": 90,
+      "rearTireRatio": 80,
+      "rearWheelDiameter": 12,
+      "rearWheelOffset": 0,
+      "rearBrakeDiscDiameter": 190,
+      "rearCaliperPosition": "后置",
+      "rearFender": "长"
+    }
+  },
+  "NIU/NXT 2024": {
+    "sourceScale": 0.8077777777777778,
+    "pixelsPerMillimeter": 0.45852610441767067,
+    "handle": {
+      "height": 45,
+      "angle": 200
+    },
+    "frontFork": {
+      "height": 160,
+      "angle": 25,
+      "wheelOffset": -13
+    },
+    "frontWheel": {
+      "radius": 95,
+      "hubRadius": 69,
+      "discRadius": 45.4
+    },
+    "swingarm": {
+      "height": 164.4,
+      "angle": -87.29999999999733,
+      "shockMountLeft": 20,
+      "shockMountBottom": 25
+    },
+    "rearShock": {
+      "height": 100,
+      "angle": -20.60517342087674
+    },
+    "rearWheel": {
+      "radius": 95,
+      "hubRadius": 69,
+      "discRadius": 39.2
+    },
+    "defaults": {
+      "handlebarHeight": 100,
+      "handlebarAngle": 0,
+      "tripleClampAngle": 0,
+      "tripleClampDrop": 0,
+      "frontForkTravel": 375,
+      "frontWheelPosition": "中位",
+      "frontForkStyle": "正常",
+      "frontForkAirbag": "无",
+      "frontTireWidth": 90,
+      "frontTireRatio": 80,
+      "frontWheelDiameter": 12,
+      "frontWheelOffset": 0,
+      "frontBrakeDiscDiameter": 220,
+      "frontCaliperPosition": "前置",
+      "frontFender": "长",
+      "swingarmLength": 365,
+      "rearShockTravel": 265,
+      "rearShockAngle": 0,
+      "rearShockAirbag": "无",
+      "rearTireWidth": 90,
+      "rearTireRatio": 80,
+      "rearWheelDiameter": 12,
+      "rearWheelOffset": 0,
+      "rearBrakeDiscDiameter": 190,
+      "rearCaliperPosition": "后置",
+      "rearFender": "长"
+    }
+  },
+  "NIU/NLT": {
+    "sourceScale": 0.8077777777777778,
+    "pixelsPerMillimeter": 0.45852610441767067,
+    "handle": {
+      "height": 45,
+      "angle": 200
+    },
+    "frontFork": {
+      "height": 165,
+      "angle": 25,
+      "wheelOffset": -13
+    },
+    "frontWheel": {
+      "radius": 100,
+      "hubRadius": 72,
+      "discRadius": 45.4
+    },
+    "swingarm": {
+      "height": 142,
+      "angle": -81.39999999999766,
+      "shockMountLeft": 20,
+      "shockMountBottom": 10
+    },
+    "rearShock": {
+      "height": 115,
+      "angle": -16.946293036598135
+    },
+    "rearWheel": {
+      "radius": 100,
+      "hubRadius": 72,
+      "discRadius": 37.2
+    },
+    "defaults": {
+      "handlebarHeight": 100,
+      "handlebarAngle": 0,
+      "tripleClampAngle": 0,
+      "tripleClampDrop": 0,
+      "frontForkTravel": 365,
+      "frontWheelPosition": "中位",
+      "frontForkStyle": "正常",
+      "frontForkAirbag": "无",
+      "frontTireWidth": 80,
+      "frontTireRatio": 90,
+      "frontWheelDiameter": 12,
+      "frontWheelOffset": 0,
+      "frontBrakeDiscDiameter": 220,
+      "frontCaliperPosition": "前置",
+      "frontFender": "长",
+      "swingarmLength": 315,
+      "rearShockTravel": 285,
+      "rearShockAngle": 0,
+      "rearShockAirbag": "无",
+      "rearTireWidth": 80,
+      "rearTireRatio": 90,
+      "rearWheelDiameter": 12,
+      "rearWheelOffset": 0,
+      "rearBrakeDiscDiameter": 180,
+      "rearCaliperPosition": "后置",
+      "rearFender": "长"
+    }
+  },
+  "NIU/NST": {
+    "sourceScale": 0.8077777777777778,
+    "pixelsPerMillimeter": 0.45852610441767067,
+    "handle": {
+      "height": 45,
+      "angle": 200
+    },
+    "frontFork": {
+      "height": 160,
+      "angle": 25,
+      "wheelOffset": -13
+    },
+    "frontWheel": {
+      "radius": 100,
+      "hubRadius": 72,
+      "discRadius": 45.4
+    },
+    "swingarm": {
+      "height": 154,
+      "angle": -80.44999999999771,
+      "shockMountLeft": 20,
+      "shockMountBottom": 10
+    },
+    "rearShock": {
+      "height": 138,
+      "angle": -13.545060123806863
+    },
+    "rearWheel": {
+      "radius": 91,
+      "hubRadius": 60,
+      "discRadius": 37.2
+    },
+    "defaults": {
+      "handlebarHeight": 100,
+      "handlebarAngle": 0,
+      "tripleClampAngle": 0,
+      "tripleClampDrop": 0,
+      "frontForkTravel": 405,
+      "frontWheelPosition": "中位",
+      "frontForkStyle": "正常",
+      "frontForkAirbag": "无",
+      "frontTireWidth": 80,
+      "frontTireRatio": 90,
+      "frontWheelDiameter": 12,
+      "frontWheelOffset": 0,
+      "frontBrakeDiscDiameter": 220,
+      "frontCaliperPosition": "前置",
+      "frontFender": "长",
+      "swingarmLength": 340,
+      "rearShockTravel": 310,
+      "rearShockAngle": 0,
+      "rearShockAirbag": "无",
+      "rearTireWidth": 80,
+      "rearTireRatio": 100,
+      "rearWheelDiameter": 10,
+      "rearWheelOffset": 0,
+      "rearBrakeDiscDiameter": 180,
+      "rearCaliperPosition": "后置",
+      "rearFender": "长"
+    }
+  },
+  "NIU/NT": {
+    "sourceScale": 0.8077777777777778,
+    "pixelsPerMillimeter": 0.45852610441767067,
+    "handle": {
+      "height": 45,
+      "angle": 200
+    },
+    "frontFork": {
+      "height": 160,
+      "angle": 25,
+      "wheelOffset": -13
+    },
+    "frontWheel": {
+      "radius": 100,
+      "hubRadius": 72,
+      "discRadius": 45.4
+    },
+    "swingarm": {
+      "height": 149.7,
+      "angle": -79.79999999999775,
+      "shockMountLeft": 20,
+      "shockMountBottom": 10
+    },
+    "rearShock": {
+      "height": 120,
+      "angle": -16.4784935428045
+    },
+    "rearWheel": {
+      "radius": 91,
+      "hubRadius": 60,
+      "discRadius": 37.2
+    },
+    "defaults": {
+      "handlebarHeight": 100,
+      "handlebarAngle": 0,
+      "tripleClampAngle": 0,
+      "tripleClampDrop": 0,
+      "frontForkTravel": 365,
+      "frontWheelPosition": "中位",
+      "frontForkStyle": "正常",
+      "frontForkAirbag": "无",
+      "frontTireWidth": 80,
+      "frontTireRatio": 90,
+      "frontWheelDiameter": 12,
+      "frontWheelOffset": 0,
+      "frontBrakeDiscDiameter": 220,
+      "frontCaliperPosition": "前置",
+      "frontFender": "长",
+      "swingarmLength": 330,
+      "rearShockTravel": 290,
+      "rearShockAngle": 0,
+      "rearShockAirbag": "无",
+      "rearTireWidth": 80,
+      "rearTireRatio": 100,
+      "rearWheelDiameter": 10,
+      "rearWheelOffset": 0,
+      "rearBrakeDiscDiameter": 180,
+      "rearCaliperPosition": "后置",
+      "rearFender": "长"
+    }
+  },
+  "NIU/Ms": {
+    "sourceScale": 0.8077777777777778,
+    "pixelsPerMillimeter": 0.4757208333333333,
+    "handle": {
+      "height": 45,
+      "angle": 200
+    },
+    "frontFork": {
+      "height": 140,
+      "angle": 25,
+      "wheelOffset": 3
+    },
+    "frontWheel": {
+      "radius": 95,
+      "hubRadius": 69,
+      "discRadius": 38.5
+    },
+    "swingarm": {
+      "height": 142,
+      "angle": -81.59999999999765,
+      "shockMountLeft": 20,
+      "shockMountBottom": 25
+    },
+    "rearShock": {
+      "height": 110,
+      "angle": -31.000714730031994
+    },
+    "rearWheel": {
+      "radius": 95,
+      "hubRadius": 69,
+      "discRadius": 33.1
+    },
+    "defaults": {
+      "handlebarHeight": 100,
+      "handlebarAngle": 0,
+      "tripleClampAngle": 0,
+      "tripleClampDrop": 0,
+      "frontForkTravel": 320,
+      "frontWheelPosition": "中位",
+      "frontForkStyle": "正常",
+      "frontForkAirbag": "无",
+      "frontTireWidth": 80,
+      "frontTireRatio": 90,
+      "frontWheelDiameter": 12,
+      "frontWheelOffset": 0,
+      "frontBrakeDiscDiameter": 180,
+      "frontCaliperPosition": "前置",
+      "frontFender": "长",
+      "swingarmLength": 320,
+      "rearShockTravel": 250,
+      "rearShockAngle": 0,
+      "rearShockAirbag": "无",
+      "rearTireWidth": 80,
+      "rearTireRatio": 90,
+      "rearWheelDiameter": 12,
+      "rearWheelOffset": 0,
+      "rearBrakeDiscDiameter": 155,
+      "rearCaliperPosition": "后置",
+      "rearFender": "长"
+    }
+  },
+  "NIU/MQI2s": {
+    "sourceScale": 0.8077777777777778,
+    "pixelsPerMillimeter": 0.4757208333333333,
+    "handle": {
+      "height": 45,
+      "angle": 200
+    },
+    "frontFork": {
+      "height": 150,
+      "angle": 25,
+      "wheelOffset": 3
+    },
+    "frontWheel": {
+      "radius": 95,
+      "hubRadius": 69,
+      "discRadius": 37
+    },
+    "swingarm": {
+      "height": 144,
+      "angle": -80.6999999999977,
+      "shockMountLeft": 30,
+      "shockMountBottom": 109
+    },
+    "rearShock": {
+      "height": 102,
+      "angle": -83.77978577319804
+    },
+    "rearWheel": {
+      "radius": 95,
+      "hubRadius": 69,
+      "discRadius": 37
+    },
+    "defaults": {
+      "handlebarHeight": 100,
+      "handlebarAngle": 0,
+      "tripleClampAngle": 0,
+      "tripleClampDrop": 0,
+      "frontForkTravel": 335,
+      "frontWheelPosition": "中位",
+      "frontForkStyle": "正常",
+      "frontForkAirbag": "无",
+      "frontTireWidth": 75,
+      "frontTireRatio": 100,
+      "frontWheelDiameter": 12,
+      "frontWheelOffset": 0,
+      "frontBrakeDiscDiameter": 180,
+      "frontCaliperPosition": "前置",
+      "frontFender": "长",
+      "swingarmLength": 320,
+      "rearShockTravel": 235,
+      "rearShockAngle": 0,
+      "rearShockAirbag": "无",
+      "rearTireWidth": 75,
+      "rearTireRatio": 100,
+      "rearWheelDiameter": 12,
+      "rearWheelOffset": 0,
+      "rearBrakeDiscDiameter": 155,
+      "rearCaliperPosition": "后置",
+      "rearFender": "长"
+    }
+  },
+  "NIU/MQIL": {
+    "sourceScale": 0.8077777777777778,
+    "pixelsPerMillimeter": 0.4757208333333333,
+    "handle": {
+      "height": 45,
+      "angle": 200
+    },
+    "frontFork": {
+      "height": 160,
+      "angle": 25,
+      "wheelOffset": -13
+    },
+    "frontWheel": {
+      "radius": 94,
+      "hubRadius": 63,
+      "discRadius": 38.5
+    },
+    "swingarm": {
+      "height": 155,
+      "angle": -90.54999999999714,
+      "shockMountLeft": 20,
+      "shockMountBottom": 20
+    },
+    "rearShock": {
+      "height": 107,
+      "angle": -25.343344558671262
+    },
+    "rearWheel": {
+      "radius": 94,
+      "hubRadius": 63,
+      "discRadius": 36.3
+    },
+    "defaults": {
+      "handlebarHeight": 100,
+      "handlebarAngle": 0,
+      "tripleClampAngle": 0,
+      "tripleClampDrop": 0,
+      "frontForkTravel": 350,
+      "frontWheelPosition": "中位",
+      "frontForkStyle": "正常",
+      "frontForkAirbag": "无",
+      "frontTireWidth": 80,
+      "frontTireRatio": 100,
+      "frontWheelDiameter": 10,
+      "frontWheelOffset": 0,
+      "frontBrakeDiscDiameter": 180,
+      "frontCaliperPosition": "前置",
+      "frontFender": "长",
+      "swingarmLength": 335,
+      "rearShockTravel": 250,
+      "rearShockAngle": 0,
+      "rearShockAirbag": "无",
+      "rearTireWidth": 80,
+      "rearTireRatio": 100,
+      "rearWheelDiameter": 10,
+      "rearWheelOffset": 0,
+      "rearBrakeDiscDiameter": 170,
+      "rearCaliperPosition": "后置",
+      "rearFender": "长"
+    }
+  },
+  "NIU/Mmt": {
+    "sourceScale": 0.8077777777777778,
+    "pixelsPerMillimeter": 0.4757208333333333,
+    "handle": {
+      "height": 45,
+      "angle": 200
+    },
+    "frontFork": {
+      "height": 135,
+      "angle": 25,
+      "wheelOffset": -13
+    },
+    "frontWheel": {
+      "radius": 90,
+      "hubRadius": 63,
+      "discRadius": 38.5
+    },
+    "swingarm": {
+      "height": 102,
+      "angle": -81.44999999999766,
+      "shockMountLeft": 40,
+      "shockMountBottom": -5
+    },
+    "rearShock": {
+      "height": 105,
+      "angle": -23.431199383569748
+    },
+    "rearWheel": {
+      "radius": 90,
+      "hubRadius": 63,
+      "discRadius": 36.3
+    },
+    "defaults": {
+      "handlebarHeight": 100,
+      "handlebarAngle": 0,
+      "tripleClampAngle": 0,
+      "tripleClampDrop": 0,
+      "frontForkTravel": 320,
+      "frontWheelPosition": "中位",
+      "frontForkStyle": "正常",
+      "frontForkAirbag": "无",
+      "frontTireWidth": 70,
+      "frontTireRatio": 100,
+      "frontWheelDiameter": 10,
+      "frontWheelOffset": 0,
+      "frontBrakeDiscDiameter": 180,
+      "frontCaliperPosition": "前置",
+      "frontFender": "长",
+      "swingarmLength": 235,
+      "rearShockTravel": 250,
+      "rearShockAngle": 0,
+      "rearShockAirbag": "无",
+      "rearTireWidth": 70,
+      "rearTireRatio": 100,
+      "rearWheelDiameter": 10,
+      "rearWheelOffset": 0,
+      "rearBrakeDiscDiameter": 170,
+      "rearCaliperPosition": "后置",
+      "rearFender": "长"
+    }
+  },
+  "NIU/Umax": {
+    "sourceScale": 0.8077777777777778,
+    "pixelsPerMillimeter": 0.45852610441767067,
+    "handle": {
+      "height": 53,
+      "angle": 205
+    },
+    "frontFork": {
+      "height": 155,
+      "angle": 25,
+      "wheelOffset": -13
+    },
+    "frontWheel": {
+      "radius": 96,
+      "hubRadius": 69,
+      "discRadius": 45.4
+    },
+    "swingarm": {
+      "height": 155,
+      "angle": -85.29999999999744,
+      "shockMountLeft": 20,
+      "shockMountBottom": 5
+    },
+    "rearShock": {
+      "height": 110,
+      "angle": -27.709350833573296
+    },
+    "rearWheel": {
+      "radius": 96,
+      "hubRadius": 69,
+      "discRadius": 37.2
+    },
+    "defaults": {
+      "handlebarHeight": 100,
+      "handlebarAngle": 0,
+      "tripleClampAngle": 0,
+      "tripleClampDrop": 0,
+      "frontForkTravel": 360,
+      "frontWheelPosition": "中位",
+      "frontForkStyle": "正常",
+      "frontForkAirbag": "无",
+      "frontTireWidth": 75,
+      "frontTireRatio": 85,
+      "frontWheelDiameter": 12,
+      "frontWheelOffset": 0,
+      "frontBrakeDiscDiameter": 220,
+      "frontCaliperPosition": "前置",
+      "frontFender": "长",
+      "swingarmLength": 340,
+      "rearShockTravel": 265,
+      "rearShockAngle": 0,
+      "rearShockAirbag": "无",
+      "rearTireWidth": 75,
+      "rearTireRatio": 85,
+      "rearWheelDiameter": 12,
+      "rearWheelOffset": 0,
+      "rearBrakeDiscDiameter": 180,
+      "rearCaliperPosition": "后置",
+      "rearFender": "长"
+    }
+  },
+  "NIU/UQI+ II": {
+    "sourceScale": 0.8077777777777778,
+    "pixelsPerMillimeter": 0.45852610441767067,
+    "handle": {
+      "height": 53,
+      "angle": 205
+    },
+    "frontFork": {
+      "height": 155,
+      "angle": 25,
+      "wheelOffset": -13
+    },
+    "frontWheel": {
+      "radius": 96,
+      "hubRadius": 69,
+      "discRadius": 37.15
+    },
+    "swingarm": {
+      "height": 153,
+      "angle": -81.44999999999766,
+      "shockMountLeft": 20,
+      "shockMountBottom": 30
+    },
+    "rearShock": {
+      "height": 100,
+      "angle": -17.222727108105943
+    },
+    "rearWheel": {
+      "radius": 96,
+      "hubRadius": 69,
+      "discRadius": 32
+    },
+    "defaults": {
+      "handlebarHeight": 100,
+      "handlebarAngle": 0,
+      "tripleClampAngle": 0,
+      "tripleClampDrop": 0,
+      "frontForkTravel": 350,
+      "frontWheelPosition": "中位",
+      "frontForkStyle": "正常",
+      "frontForkAirbag": "无",
+      "frontTireWidth": 75,
+      "frontTireRatio": 85,
+      "frontWheelDiameter": 12,
+      "frontWheelOffset": 0,
+      "frontBrakeDiscDiameter": 180,
+      "frontCaliperPosition": "前置",
+      "frontFender": "长",
+      "swingarmLength": 335,
+      "rearShockTravel": 250,
+      "rearShockAngle": 0,
+      "rearShockAirbag": "无",
+      "rearTireWidth": 75,
+      "rearTireRatio": 85,
+      "rearWheelDiameter": 12,
+      "rearWheelOffset": 0,
+      "rearBrakeDiscDiameter": 155,
+      "rearCaliperPosition": "后置",
+      "rearFender": "长"
+    }
+  },
+  "NIU/U": {
+    "sourceScale": 0.8077777777777778,
+    "pixelsPerMillimeter": 0.46149151172190783,
+    "handle": {
+      "height": 75,
+      "angle": 200
+    },
+    "frontFork": {
+      "height": 152,
+      "angle": 26,
+      "wheelOffset": 3
+    },
+    "frontWheel": {
+      "radius": 95,
+      "hubRadius": 69,
+      "discRadius": 37.4
+    },
+    "swingarm": {
+      "height": 150,
+      "angle": -85.14999999999745,
+      "shockMountLeft": 20,
+      "shockMountBottom": 30
+    },
+    "rearShock": {
+      "height": 100,
+      "angle": -21.255903423406977
+    },
+    "rearWheel": {
+      "radius": 95,
+      "hubRadius": 69,
+      "discRadius": 37.4
+    },
+    "defaults": {
+      "handlebarHeight": 100,
+      "handlebarAngle": 0,
+      "tripleClampAngle": 0,
+      "tripleClampDrop": 0,
+      "frontForkTravel": 335,
+      "frontWheelPosition": "中位",
+      "frontForkStyle": "正常",
+      "frontForkAirbag": "无",
+      "frontTireWidth": 75,
+      "frontTireRatio": 85,
+      "frontWheelDiameter": 12,
+      "frontWheelOffset": 0,
+      "frontBrakeDiscDiameter": 180,
+      "frontCaliperPosition": "前置",
+      "frontFender": "长",
+      "swingarmLength": 320,
+      "rearShockTravel": 235,
+      "rearShockAngle": 0,
+      "rearShockAirbag": "无",
+      "rearTireWidth": 75,
+      "rearTireRatio": 85,
+      "rearWheelDiameter": 12,
+      "rearWheelOffset": 0,
+      "rearBrakeDiscDiameter": 155,
+      "rearCaliperPosition": "后置",
+      "rearFender": "长"
+    }
+  },
+  "NIU/UQI+": {
+    "sourceScale": 0.8077777777777778,
+    "pixelsPerMillimeter": 0.46149151172190783,
+    "handle": {
+      "height": 60,
+      "angle": 200
+    },
+    "frontFork": {
+      "height": 155,
+      "angle": 25,
+      "wheelOffset": 3
+    },
+    "frontWheel": {
+      "radius": 97,
+      "hubRadius": 69,
+      "discRadius": 37.3
+    },
+    "swingarm": {
+      "height": 155,
+      "angle": -82.84999999999758,
+      "shockMountLeft": 20,
+      "shockMountBottom": 20
+    },
+    "rearShock": {
+      "height": 110,
+      "angle": -37.79486702800622
+    },
+    "rearWheel": {
+      "radius": 97,
+      "hubRadius": 69,
+      "discRadius": 32.2
+    },
+    "defaults": {
+      "handlebarHeight": 100,
+      "handlebarAngle": 0,
+      "tripleClampAngle": 0,
+      "tripleClampDrop": 0,
+      "frontForkTravel": 350,
+      "frontWheelPosition": "中位",
+      "frontForkStyle": "正常",
+      "frontForkAirbag": "无",
+      "frontTireWidth": 75,
+      "frontTireRatio": 85,
+      "frontWheelDiameter": 12,
+      "frontWheelOffset": 0,
+      "frontBrakeDiscDiameter": 180,
+      "frontCaliperPosition": "前置",
+      "frontFender": "长",
+      "swingarmLength": 335,
+      "rearShockTravel": 250,
+      "rearShockAngle": 0,
+      "rearShockAirbag": "无",
+      "rearTireWidth": 75,
+      "rearTireRatio": 85,
+      "rearWheelDiameter": 12,
+      "rearWheelOffset": 0,
+      "rearBrakeDiscDiameter": 155,
+      "rearCaliperPosition": "后置",
+      "rearFender": "长"
+    }
+  },
+  "NIU/UQI+ U+A": {
+    "sourceScale": 0.8077777777777778,
+    "pixelsPerMillimeter": 0.46149151172190783,
+    "handle": {
+      "height": 50,
+      "angle": 200
+    },
+    "frontFork": {
+      "height": 155,
+      "angle": 25,
+      "wheelOffset": 3
+    },
+    "frontWheel": {
+      "radius": 97,
+      "hubRadius": 69,
+      "discRadius": 37.3
+    },
+    "swingarm": {
+      "height": 155,
+      "angle": -83.64999999999753,
+      "shockMountLeft": 20,
+      "shockMountBottom": 20
+    },
+    "rearShock": {
+      "height": 130,
+      "angle": -15.798764963132982
+    },
+    "rearWheel": {
+      "radius": 97,
+      "hubRadius": 69,
+      "discRadius": 32.2
+    },
+    "defaults": {
+      "handlebarHeight": 100,
+      "handlebarAngle": 0,
+      "tripleClampAngle": 0,
+      "tripleClampDrop": 0,
+      "frontForkTravel": 350,
+      "frontWheelPosition": "中位",
+      "frontForkStyle": "正常",
+      "frontForkAirbag": "无",
+      "frontTireWidth": 75,
+      "frontTireRatio": 85,
+      "frontWheelDiameter": 12,
+      "frontWheelOffset": 0,
+      "frontBrakeDiscDiameter": 180,
+      "frontCaliperPosition": "前置",
+      "frontFender": "长",
+      "swingarmLength": 335,
+      "rearShockTravel": 290,
+      "rearShockAngle": 0,
+      "rearShockAirbag": "无",
+      "rearTireWidth": 75,
+      "rearTireRatio": 85,
+      "rearWheelDiameter": 12,
+      "rearWheelOffset": 0,
+      "rearBrakeDiscDiameter": 155,
+      "rearCaliperPosition": "后置",
+      "rearFender": "长"
+    }
+  },
+  "NIU/FXT": {
+    "sourceScale": 0.8077777777777778,
+    "pixelsPerMillimeter": 0.45852610441767067,
+    "handle": {
+      "height": 45,
+      "angle": 200
+    },
+    "frontFork": {
+      "height": 140,
+      "angle": 25,
+      "wheelOffset": -13
+    },
+    "frontWheel": {
+      "radius": 103,
+      "hubRadius": 72,
+      "discRadius": 45.4
+    },
+    "swingarm": {
+      "height": 138.5,
+      "angle": -88.84999999999724,
+      "shockMountLeft": 20,
+      "shockMountBottom": 0
+    },
+    "rearShock": {
+      "height": 120,
+      "angle": -19.920823337919344
+    },
+    "rearWheel": {
+      "radius": 103,
+      "hubRadius": 72,
+      "discRadius": 39.2
+    },
+    "defaults": {
+      "handlebarHeight": 100,
+      "handlebarAngle": 0,
+      "tripleClampAngle": 0,
+      "tripleClampDrop": 0,
+      "frontForkTravel": 440,
+      "frontWheelPosition": "中位",
+      "frontForkStyle": "正常",
+      "frontForkAirbag": "无",
+      "frontTireWidth": 90,
+      "frontTireRatio": 90,
+      "frontWheelDiameter": 12,
+      "frontWheelOffset": 0,
+      "frontBrakeDiscDiameter": 220,
+      "frontCaliperPosition": "前置",
+      "frontFender": "长",
+      "swingarmLength": 315,
+      "rearShockTravel": 290,
+      "rearShockAngle": 0,
+      "rearShockAirbag": "无",
+      "rearTireWidth": 90,
+      "rearTireRatio": 90,
+      "rearWheelDiameter": 12,
+      "rearWheelOffset": 0,
+      "rearBrakeDiscDiameter": 190,
+      "rearCaliperPosition": "后置",
+      "rearFender": "长"
+    }
+  },
+  "NIU/FXT (北京)": {
+    "sourceScale": 0.8077777777777778,
+    "pixelsPerMillimeter": 0.45852610441767067,
+    "handle": {
+      "height": 45,
+      "angle": 200
+    },
+    "frontFork": {
+      "height": 140,
+      "angle": 25,
+      "wheelOffset": -13
+    },
+    "frontWheel": {
+      "radius": 103,
+      "hubRadius": 72,
+      "discRadius": 45.4
+    },
+    "swingarm": {
+      "height": 138.5,
+      "angle": -88.84999999999724,
+      "shockMountLeft": 20,
+      "shockMountBottom": 0
+    },
+    "rearShock": {
+      "height": 120,
+      "angle": -19.920823337919344
+    },
+    "rearWheel": {
+      "radius": 103,
+      "hubRadius": 72,
+      "discRadius": 39.2
+    },
+    "defaults": {
+      "handlebarHeight": 100,
+      "handlebarAngle": 0,
+      "tripleClampAngle": 0,
+      "tripleClampDrop": 0,
+      "frontForkTravel": 440,
+      "frontWheelPosition": "中位",
+      "frontForkStyle": "正常",
+      "frontForkAirbag": "无",
+      "frontTireWidth": 90,
+      "frontTireRatio": 90,
+      "frontWheelDiameter": 12,
+      "frontWheelOffset": 0,
+      "frontBrakeDiscDiameter": 220,
+      "frontCaliperPosition": "前置",
+      "frontFender": "长",
+      "swingarmLength": 315,
+      "rearShockTravel": 290,
+      "rearShockAngle": 0,
+      "rearShockAirbag": "无",
+      "rearTireWidth": 90,
+      "rearTireRatio": 90,
+      "rearWheelDiameter": 12,
+      "rearWheelOffset": 0,
+      "rearBrakeDiscDiameter": 190,
+      "rearCaliperPosition": "后置",
+      "rearFender": "长"
+    }
+  },
+  "NIU/F400t": {
+    "sourceScale": 0.8077777777777778,
+    "pixelsPerMillimeter": 0.4757208333333333,
+    "handle": {
+      "height": 50,
+      "angle": 200
+    },
+    "frontFork": {
+      "height": 155,
+      "angle": 25,
+      "wheelOffset": -13
+    },
+    "frontWheel": {
+      "radius": 98,
+      "hubRadius": 69,
+      "discRadius": 47
+    },
+    "swingarm": {
+      "height": 168,
+      "angle": -83.49999999999754,
+      "shockMountLeft": 20,
+      "shockMountBottom": 40
+    },
+    "rearShock": {
+      "height": 105,
+      "angle": -25.652986652181852
+    },
+    "rearWheel": {
+      "radius": 98,
+      "hubRadius": 69,
+      "discRadius": 36.3
+    },
+    "defaults": {
+      "handlebarHeight": 100,
+      "handlebarAngle": 0,
+      "tripleClampAngle": 0,
+      "tripleClampDrop": 0,
+      "frontForkTravel": 360,
+      "frontWheelPosition": "中位",
+      "frontForkStyle": "正常",
+      "frontForkAirbag": "无",
+      "frontTireWidth": 75,
+      "frontTireRatio": 85,
+      "frontWheelDiameter": 12,
+      "frontWheelOffset": 0,
+      "frontBrakeDiscDiameter": 220,
+      "frontCaliperPosition": "前置",
+      "frontFender": "长",
+      "swingarmLength": 370,
+      "rearShockTravel": 290,
+      "rearShockAngle": 0,
+      "rearShockAirbag": "无",
+      "rearTireWidth": 75,
+      "rearTireRatio": 85,
+      "rearWheelDiameter": 12,
+      "rearWheelOffset": 0,
+      "rearBrakeDiscDiameter": 170,
+      "rearCaliperPosition": "后置",
+      "rearFender": "长"
+    }
+  },
+  "NIU/F200": {
+    "sourceScale": 0.8077777777777778,
+    "pixelsPerMillimeter": 0.4757208333333333,
+    "handle": {
+      "height": 50,
+      "angle": 200
+    },
+    "frontFork": {
+      "height": 140,
+      "angle": 25,
+      "wheelOffset": -13
+    },
+    "frontWheel": {
+      "radius": 99,
+      "hubRadius": 69,
+      "discRadius": 38.5
+    },
+    "swingarm": {
+      "height": 145.5,
+      "angle": -82.59999999999759,
+      "shockMountLeft": 20,
+      "shockMountBottom": 25
+    },
+    "rearShock": {
+      "height": 95,
+      "angle": -25.60990817468347
+    },
+    "rearWheel": {
+      "radius": 99,
+      "hubRadius": 69,
+      "discRadius": 38.5
+    },
+    "defaults": {
+      "handlebarHeight": 100,
+      "handlebarAngle": 0,
+      "tripleClampAngle": 0,
+      "tripleClampDrop": 0,
+      "frontForkTravel": 350,
+      "frontWheelPosition": "中位",
+      "frontForkStyle": "正常",
+      "frontForkAirbag": "无",
+      "frontTireWidth": 75,
+      "frontTireRatio": 85,
+      "frontWheelDiameter": 12,
+      "frontWheelOffset": 0,
+      "frontBrakeDiscDiameter": 180,
+      "frontCaliperPosition": "前置",
+      "frontFender": "长",
+      "swingarmLength": 320,
+      "rearShockTravel": 220,
+      "rearShockAngle": 0,
+      "rearShockAirbag": "无",
+      "rearTireWidth": 75,
+      "rearTireRatio": 85,
+      "rearWheelDiameter": 12,
+      "rearWheelOffset": 0,
+      "rearBrakeDiscDiameter": 0,
+      "rearCaliperPosition": "后置",
+      "rearFender": "长"
+    }
+  },
+  "NIU/G400t": {
+    "sourceScale": 0.8077777777777778,
+    "pixelsPerMillimeter": 0.4757208333333333,
+    "handle": {
+      "height": 45,
+      "angle": 200
+    },
+    "frontFork": {
+      "height": 160,
+      "angle": 25,
+      "wheelOffset": -13
+    },
+    "frontWheel": {
+      "radius": 94,
+      "hubRadius": 63,
+      "discRadius": 38.5
+    },
+    "swingarm": {
+      "height": 151,
+      "angle": -84.39999999999749,
+      "shockMountLeft": 20,
+      "shockMountBottom": 20
+    },
+    "rearShock": {
+      "height": 115,
+      "angle": -26.51470153075779
+    },
+    "rearWheel": {
+      "radius": 94,
+      "hubRadius": 63,
+      "discRadius": 33.2
+    },
+    "defaults": {
+      "handlebarHeight": 100,
+      "handlebarAngle": 0,
+      "tripleClampAngle": 0,
+      "tripleClampDrop": 0,
+      "frontForkTravel": 370,
+      "frontWheelPosition": "中位",
+      "frontForkStyle": "正常",
+      "frontForkAirbag": "无",
+      "frontTireWidth": 80,
+      "frontTireRatio": 100,
+      "frontWheelDiameter": 10,
+      "frontWheelOffset": 0,
+      "frontBrakeDiscDiameter": 180,
+      "frontCaliperPosition": "前置",
+      "frontFender": "长",
+      "swingarmLength": 335,
+      "rearShockTravel": 300,
+      "rearShockAngle": 0,
+      "rearShockAirbag": "无",
+      "rearTireWidth": 80,
+      "rearTireRatio": 100,
+      "rearWheelDiameter": 10,
+      "rearWheelOffset": 0,
+      "rearBrakeDiscDiameter": 155,
+      "rearCaliperPosition": "后置",
+      "rearFender": "长"
+    }
+  },
+  "NIU/FX (风速版)": {
+    "sourceScale": 0.8077777777777778,
+    "pixelsPerMillimeter": 0.45852610441767067,
+    "handle": {
+      "height": 45,
+      "angle": 200
+    },
+    "frontFork": {
+      "height": 160,
+      "angle": 25,
+      "wheelOffset": -13
+    },
+    "frontWheel": {
+      "radius": 103,
+      "hubRadius": 72,
+      "discRadius": 45.4
+    },
+    "swingarm": {
+      "height": 164,
+      "angle": -83.94999999999752,
+      "shockMountLeft": 20,
+      "shockMountBottom": 10
+    },
+    "rearShock": {
+      "height": 120,
+      "angle": -17.590273968749614
+    },
+    "rearWheel": {
+      "radius": 104,
+      "hubRadius": 72,
+      "discRadius": 37.2
+    },
+    "defaults": {
+      "handlebarHeight": 100,
+      "handlebarAngle": 0,
+      "tripleClampAngle": 0,
+      "tripleClampDrop": 0,
+      "frontForkTravel": 440,
+      "frontWheelPosition": "中位",
+      "frontForkStyle": "正常",
+      "frontForkAirbag": "无",
+      "frontTireWidth": 90,
+      "frontTireRatio": 90,
+      "frontWheelDiameter": 12,
+      "frontWheelOffset": 0,
+      "frontBrakeDiscDiameter": 240,
+      "frontCaliperPosition": "前置",
+      "frontFender": "长",
+      "swingarmLength": 360,
+      "rearShockTravel": 310,
+      "rearShockAngle": 0,
+      "rearShockAirbag": "无",
+      "rearTireWidth": 120,
+      "rearTireRatio": 70,
+      "rearWheelDiameter": 12,
+      "rearWheelOffset": 0,
+      "rearBrakeDiscDiameter": 200,
+      "rearCaliperPosition": "后置",
+      "rearFender": "长"
+    }
+  },
+  "NIU/NX (风速版)": {
+    "sourceScale": 0.8077777777777778,
+    "pixelsPerMillimeter": 0.45852610441767067,
+    "handle": {
+      "height": 45,
+      "angle": 200
+    },
+    "frontFork": {
+      "height": 160,
+      "angle": 25,
+      "wheelOffset": -13
+    },
+    "frontWheel": {
+      "radius": 103,
+      "hubRadius": 72,
+      "discRadius": 45.4
+    },
+    "swingarm": {
+      "height": 186.5,
+      "angle": -86.94999999999735,
+      "shockMountLeft": 20,
+      "shockMountBottom": 45
+    },
+    "rearShock": {
+      "height": 120,
+      "angle": -15.645787141891276
+    },
+    "rearWheel": {
+      "radius": 104,
+      "hubRadius": 72,
+      "discRadius": 41.25
+    },
+    "defaults": {
+      "handlebarHeight": 100,
+      "handlebarAngle": 0,
+      "tripleClampAngle": 0,
+      "tripleClampDrop": 0,
+      "frontForkTravel": 440,
+      "frontWheelPosition": "中位",
+      "frontForkStyle": "正常",
+      "frontForkAirbag": "无",
+      "frontTireWidth": 90,
+      "frontTireRatio": 90,
+      "frontWheelDiameter": 12,
+      "frontWheelOffset": 0,
+      "frontBrakeDiscDiameter": 240,
+      "frontCaliperPosition": "前置",
+      "frontFender": "长",
+      "swingarmLength": 380,
+      "rearShockTravel": 330,
+      "rearShockAngle": 0,
+      "rearShockAirbag": "无",
+      "rearTireWidth": 120,
+      "rearTireRatio": 70,
+      "rearWheelDiameter": 12,
+      "rearWheelOffset": 0,
+      "rearBrakeDiscDiameter": 200,
+      "rearCaliperPosition": "后置",
+      "rearFender": "长"
+    }
+  },
+  "NIU/FS (风速版)": {
+    "sourceScale": 0.8077777777777778,
+    "pixelsPerMillimeter": 0.45852610441767067,
+    "handle": {
+      "height": 45,
+      "angle": 200
+    },
+    "frontFork": {
+      "height": 160,
+      "angle": 25,
+      "wheelOffset": -13
+    },
+    "frontWheel": {
+      "radius": 102,
+      "hubRadius": 72,
+      "discRadius": 45.3
+    },
+    "swingarm": {
+      "height": 127.5,
+      "angle": -82.69999999999759,
+      "shockMountLeft": 20,
+      "shockMountBottom": 10
+    },
+    "rearShock": {
+      "height": 126,
+      "angle": -17.597138347397703
+    },
+    "rearWheel": {
+      "radius": 93,
+      "hubRadius": 60,
+      "discRadius": 37.2
+    },
+    "defaults": {
+      "handlebarHeight": 100,
+      "handlebarAngle": 0,
+      "tripleClampAngle": 0,
+      "tripleClampDrop": 0,
+      "frontForkTravel": 400,
+      "frontWheelPosition": "中位",
+      "frontForkStyle": "正常",
+      "frontForkAirbag": "无",
+      "frontTireWidth": 80,
+      "frontTireRatio": 90,
+      "frontWheelDiameter": 12,
+      "frontWheelOffset": 0,
+      "frontBrakeDiscDiameter": 220,
+      "frontCaliperPosition": "前置",
+      "frontFender": "长",
+      "swingarmLength": 285,
+      "rearShockTravel": 330,
+      "rearShockAngle": 0,
+      "rearShockAirbag": "无",
+      "rearTireWidth": 80,
+      "rearTireRatio": 100,
+      "rearWheelDiameter": 10,
+      "rearWheelOffset": 0,
+      "rearBrakeDiscDiameter": 180,
+      "rearCaliperPosition": "后置",
+      "rearFender": "长"
+    }
+  },
+  "NIU/NX Hyper": {
+    "sourceScale": 0.8077777777777778,
+    "pixelsPerMillimeter": 0.45852610441767067,
+    "handle": {
+      "height": 45,
+      "angle": 200
+    },
+    "frontFork": {
+      "height": 160,
+      "angle": 25,
+      "wheelOffset": -13
+    },
+    "frontWheel": {
+      "radius": 103,
+      "hubRadius": 72,
+      "discRadius": 45.4
+    },
+    "swingarm": {
+      "height": 153,
+      "angle": -82.74999999999758,
+      "shockMountLeft": 20,
+      "shockMountBottom": 22
+    },
+    "rearShock": {
+      "height": 120,
+      "angle": -17.187933767355247
+    },
+    "rearWheel": {
+      "radius": 109,
+      "hubRadius": 72,
+      "discRadius": 37.2
+    },
+    "defaults": {
+      "handlebarHeight": 100,
+      "handlebarAngle": 0,
+      "tripleClampAngle": 0,
+      "tripleClampDrop": 0,
+      "frontForkTravel": 440,
+      "frontWheelPosition": "中位",
+      "frontForkStyle": "正常",
+      "frontForkAirbag": "无",
+      "frontTireWidth": 100,
+      "frontTireRatio": 70,
+      "frontWheelDiameter": 12,
+      "frontWheelOffset": 0,
+      "frontBrakeDiscDiameter": 240,
+      "frontCaliperPosition": "前置",
+      "frontFender": "长",
+      "swingarmLength": 330,
+      "rearShockTravel": 330,
+      "rearShockAngle": 0,
+      "rearShockAirbag": "无",
+      "rearTireWidth": 120,
+      "rearTireRatio": 70,
+      "rearWheelDiameter": 12,
+      "rearWheelOffset": 0,
+      "rearBrakeDiscDiameter": 200,
+      "rearCaliperPosition": "后置",
+      "rearFender": "长"
+    }
+  },
+  "NIU/NX": {
+    "sourceScale": 0.8077777777777778,
+    "pixelsPerMillimeter": 0.45852610441767067,
+    "handle": {
+      "height": 45,
+      "angle": 200
+    },
+    "frontFork": {
+      "height": 160,
+      "angle": 25,
+      "wheelOffset": -13
+    },
+    "frontWheel": {
+      "radius": 103,
+      "hubRadius": 72,
+      "discRadius": 45.4
+    },
+    "swingarm": {
+      "height": 153,
+      "angle": -82.74999999999758,
+      "shockMountLeft": 20,
+      "shockMountBottom": 22
+    },
+    "rearShock": {
+      "height": 120,
+      "angle": -17.187933767355247
+    },
+    "rearWheel": {
+      "radius": 104,
+      "hubRadius": 72,
+      "discRadius": 37.2
+    },
+    "defaults": {
+      "handlebarHeight": 100,
+      "handlebarAngle": 0,
+      "tripleClampAngle": 0,
+      "tripleClampDrop": 0,
+      "frontForkTravel": 440,
+      "frontWheelPosition": "中位",
+      "frontForkStyle": "正常",
+      "frontForkAirbag": "无",
+      "frontTireWidth": 90,
+      "frontTireRatio": 90,
+      "frontWheelDiameter": 12,
+      "frontWheelOffset": 0,
+      "frontBrakeDiscDiameter": 240,
+      "frontCaliperPosition": "前置",
+      "frontFender": "长",
+      "swingarmLength": 330,
+      "rearShockTravel": 330,
+      "rearShockAngle": 0,
+      "rearShockAirbag": "无",
+      "rearTireWidth": 120,
+      "rearTireRatio": 70,
+      "rearWheelDiameter": 12,
+      "rearWheelOffset": 0,
+      "rearBrakeDiscDiameter": 200,
+      "rearCaliperPosition": "后置",
+      "rearFender": "长"
+    }
+  },
+  "NIU/NL": {
+    "sourceScale": 0.8077777777777778,
+    "pixelsPerMillimeter": 0.45852610441767067,
+    "handle": {
+      "height": 55,
+      "angle": 200
+    },
+    "frontFork": {
+      "height": 160,
+      "angle": 25,
+      "wheelOffset": -13
+    },
+    "frontWheel": {
+      "radius": 103,
+      "hubRadius": 72,
+      "discRadius": 45.4
+    },
+    "swingarm": {
+      "height": 141.5,
+      "angle": -81.99999999999763,
+      "shockMountLeft": 20,
+      "shockMountBottom": 10
+    },
+    "rearShock": {
+      "height": 115,
+      "angle": -19.304228223147135
+    },
+    "rearWheel": {
+      "radius": 103,
+      "hubRadius": 72,
+      "discRadius": 37.2
+    },
+    "defaults": {
+      "handlebarHeight": 100,
+      "handlebarAngle": 0,
+      "tripleClampAngle": 0,
+      "tripleClampDrop": 0,
+      "frontForkTravel": 365,
+      "frontWheelPosition": "中位",
+      "frontForkStyle": "正常",
+      "frontForkAirbag": "无",
+      "frontTireWidth": 90,
+      "frontTireRatio": 90,
+      "frontWheelDiameter": 12,
+      "frontWheelOffset": 0,
+      "frontBrakeDiscDiameter": 220,
+      "frontCaliperPosition": "前置",
+      "frontFender": "长",
+      "swingarmLength": 315,
+      "rearShockTravel": 285,
+      "rearShockAngle": 0,
+      "rearShockAirbag": "无",
+      "rearTireWidth": 90,
+      "rearTireRatio": 90,
+      "rearWheelDiameter": 12,
+      "rearWheelOffset": 0,
+      "rearBrakeDiscDiameter": 180,
+      "rearCaliperPosition": "后置",
+      "rearFender": "长"
+    }
+  },
+  "NIU/NS": {
+    "sourceScale": 0.8077777777777778,
+    "pixelsPerMillimeter": 0.45852610441767067,
+    "handle": {
+      "height": 45,
+      "angle": 200
+    },
+    "frontFork": {
+      "height": 160,
+      "angle": 25,
+      "wheelOffset": -13
+    },
+    "frontWheel": {
+      "radius": 100,
+      "hubRadius": 72,
+      "discRadius": 45.4
+    },
+    "swingarm": {
+      "height": 154,
+      "angle": -82.4499999999976,
+      "shockMountLeft": 20,
+      "shockMountBottom": 10
+    },
+    "rearShock": {
+      "height": 138,
+      "angle": -13.575269372054848
+    },
+    "rearWheel": {
+      "radius": 91,
+      "hubRadius": 60,
+      "discRadius": 37.2
+    },
+    "defaults": {
+      "handlebarHeight": 100,
+      "handlebarAngle": 0,
+      "tripleClampAngle": 0,
+      "tripleClampDrop": 0,
+      "frontForkTravel": 405,
+      "frontWheelPosition": "中位",
+      "frontForkStyle": "正常",
+      "frontForkAirbag": "无",
+      "frontTireWidth": 80,
+      "frontTireRatio": 90,
+      "frontWheelDiameter": 12,
+      "frontWheelOffset": 0,
+      "frontBrakeDiscDiameter": 220,
+      "frontCaliperPosition": "前置",
+      "frontFender": "长",
+      "swingarmLength": 340,
+      "rearShockTravel": 310,
+      "rearShockAngle": 0,
+      "rearShockAirbag": "无",
+      "rearTireWidth": 80,
+      "rearTireRatio": 100,
+      "rearWheelDiameter": 10,
+      "rearWheelOffset": 0,
+      "rearBrakeDiscDiameter": 180,
+      "rearCaliperPosition": "后置",
+      "rearFender": "长"
+    }
+  },
+  "NIU/Nplay": {
+    "sourceScale": 0.8077777777777778,
+    "pixelsPerMillimeter": 0.45852610441767067,
+    "handle": {
+      "height": 45,
+      "angle": 200
+    },
+    "frontFork": {
+      "height": 160,
+      "angle": 25,
+      "wheelOffset": 3
+    },
+    "frontWheel": {
+      "radius": 103,
+      "hubRadius": 72,
+      "discRadius": 45.4
+    },
+    "swingarm": {
+      "height": 143,
+      "angle": -84.39999999999749,
+      "shockMountLeft": 20,
+      "shockMountBottom": 10
+    },
+    "rearShock": {
+      "height": 120,
+      "angle": -22.194893176281425
+    },
+    "rearWheel": {
+      "radius": 103,
+      "hubRadius": 72,
+      "discRadius": 37.2
+    },
+    "defaults": {
+      "handlebarHeight": 100,
+      "handlebarAngle": 0,
+      "tripleClampAngle": 0,
+      "tripleClampDrop": 0,
+      "frontForkTravel": 400,
+      "frontWheelPosition": "中位",
+      "frontForkStyle": "正常",
+      "frontForkAirbag": "无",
+      "frontTireWidth": 90,
+      "frontTireRatio": 90,
+      "frontWheelDiameter": 12,
+      "frontWheelOffset": 0,
+      "frontBrakeDiscDiameter": 220,
+      "frontCaliperPosition": "前置",
+      "frontFender": "长",
+      "swingarmLength": 320,
+      "rearShockTravel": 335,
+      "rearShockAngle": 0,
+      "rearShockAirbag": "无",
+      "rearTireWidth": 90,
+      "rearTireRatio": 90,
+      "rearWheelDiameter": 12,
+      "rearWheelOffset": 0,
+      "rearBrakeDiscDiameter": 180,
+      "rearCaliperPosition": "后置",
+      "rearFender": "长"
+    }
+  },
+  "NIU/N1S": {
+    "sourceScale": 0.8077777777777778,
+    "pixelsPerMillimeter": 0.45852610441767067,
+    "handle": {
+      "height": 45,
+      "angle": 200
+    },
+    "frontFork": {
+      "height": 160,
+      "angle": 25,
+      "wheelOffset": 3
+    },
+    "frontWheel": {
+      "radius": 103,
+      "hubRadius": 72,
+      "discRadius": 45.4
+    },
+    "swingarm": {
+      "height": 142.5,
+      "angle": -84.2999999999975,
+      "shockMountLeft": 20,
+      "shockMountBottom": 10
+    },
+    "rearShock": {
+      "height": 120,
+      "angle": -21.946767509305403
+    },
+    "rearWheel": {
+      "radius": 104,
+      "hubRadius": 72,
+      "discRadius": 37.2
+    },
+    "defaults": {
+      "handlebarHeight": 100,
+      "handlebarAngle": 0,
+      "tripleClampAngle": 0,
+      "tripleClampDrop": 0,
+      "frontForkTravel": 375,
+      "frontWheelPosition": "中位",
+      "frontForkStyle": "正常",
+      "frontForkAirbag": "无",
+      "frontTireWidth": 90,
+      "frontTireRatio": 90,
+      "frontWheelDiameter": 12,
+      "frontWheelOffset": 0,
+      "frontBrakeDiscDiameter": 220,
+      "frontCaliperPosition": "前置",
+      "frontFender": "长",
+      "swingarmLength": 320,
+      "rearShockTravel": 320,
+      "rearShockAngle": 0,
+      "rearShockAirbag": "无",
+      "rearTireWidth": 120,
+      "rearTireRatio": 70,
+      "rearWheelDiameter": 12,
+      "rearWheelOffset": 0,
+      "rearBrakeDiscDiameter": 180,
+      "rearCaliperPosition": "后置",
+      "rearFender": "长"
+    }
+  },
+  "NIU/FX 2025": {
+    "sourceScale": 0.8077777777777778,
+    "pixelsPerMillimeter": 0.45852610441767067,
+    "handle": {
+      "height": 45,
+      "angle": 200
+    },
+    "frontFork": {
+      "height": 160,
+      "angle": 25,
+      "wheelOffset": -13
+    },
+    "frontWheel": {
+      "radius": 103,
+      "hubRadius": 72,
+      "discRadius": 45.4
+    },
+    "swingarm": {
+      "height": 164,
+      "angle": -83.94999999999752,
+      "shockMountLeft": 20,
+      "shockMountBottom": 10
+    },
+    "rearShock": {
+      "height": 120,
+      "angle": -17.590273968749614
+    },
+    "rearWheel": {
+      "radius": 104,
+      "hubRadius": 72,
+      "discRadius": 37.2
+    },
+    "defaults": {
+      "handlebarHeight": 100,
+      "handlebarAngle": 0,
+      "tripleClampAngle": 0,
+      "tripleClampDrop": 0,
+      "frontForkTravel": 440,
+      "frontWheelPosition": "中位",
+      "frontForkStyle": "正常",
+      "frontForkAirbag": "无",
+      "frontTireWidth": 90,
+      "frontTireRatio": 90,
+      "frontWheelDiameter": 12,
+      "frontWheelOffset": 0,
+      "frontBrakeDiscDiameter": 240,
+      "frontCaliperPosition": "前置",
+      "frontFender": "长",
+      "swingarmLength": 360,
+      "rearShockTravel": 310,
+      "rearShockAngle": 0,
+      "rearShockAirbag": "无",
+      "rearTireWidth": 120,
+      "rearTireRatio": 70,
+      "rearWheelDiameter": 12,
+      "rearWheelOffset": 0,
+      "rearBrakeDiscDiameter": 200,
+      "rearCaliperPosition": "后置",
+      "rearFender": "长"
+    }
+  },
+  "NIU/FX 2024": {
+    "sourceScale": 0.8077777777777778,
+    "pixelsPerMillimeter": 0.45852610441767067,
+    "handle": {
+      "height": 45,
+      "angle": 200
+    },
+    "frontFork": {
+      "height": 160,
+      "angle": 25,
+      "wheelOffset": -13
+    },
+    "frontWheel": {
+      "radius": 103,
+      "hubRadius": 72,
+      "discRadius": 45.4
+    },
+    "swingarm": {
+      "height": 136,
+      "angle": -82.99999999999757,
+      "shockMountLeft": 20,
+      "shockMountBottom": 10
+    },
+    "rearShock": {
+      "height": 100,
+      "angle": -20.78882405390189
+    },
+    "rearWheel": {
+      "radius": 104,
+      "hubRadius": 72,
+      "discRadius": 37.2
+    },
+    "defaults": {
+      "handlebarHeight": 100,
+      "handlebarAngle": 0,
+      "tripleClampAngle": 0,
+      "tripleClampDrop": 0,
+      "frontForkTravel": 440,
+      "frontWheelPosition": "中位",
+      "frontForkStyle": "正常",
+      "frontForkAirbag": "无",
+      "frontTireWidth": 90,
+      "frontTireRatio": 90,
+      "frontWheelDiameter": 12,
+      "frontWheelOffset": 0,
+      "frontBrakeDiscDiameter": 240,
+      "frontCaliperPosition": "前置",
+      "frontFender": "长",
+      "swingarmLength": 300,
+      "rearShockTravel": 310,
+      "rearShockAngle": 0,
+      "rearShockAirbag": "无",
+      "rearTireWidth": 120,
+      "rearTireRatio": 70,
+      "rearWheelDiameter": 12,
+      "rearWheelOffset": 0,
+      "rearBrakeDiscDiameter": 200,
+      "rearCaliperPosition": "后置",
+      "rearFender": "长"
+    }
+  },
+  "NIU/MQI+": {
+    "sourceScale": 0.8077777777777778,
+    "pixelsPerMillimeter": 0.4757208333333333,
+    "handle": {
+      "height": 45,
+      "angle": 200
+    },
+    "frontFork": {
+      "height": 150,
+      "angle": 24,
+      "wheelOffset": 3
+    },
+    "frontWheel": {
+      "radius": 92,
+      "hubRadius": 63,
+      "discRadius": 38.5
+    },
+    "swingarm": {
+      "height": 146,
+      "angle": -82.59999999999759,
+      "shockMountLeft": 20,
+      "shockMountBottom": 15
+    },
+    "rearShock": {
+      "height": 108,
+      "angle": -17.498394332765045
+    },
+    "rearWheel": {
+      "radius": 92,
+      "hubRadius": 63,
+      "discRadius": 38.5
+    },
+    "defaults": {
+      "handlebarHeight": 100,
+      "handlebarAngle": 0,
+      "tripleClampAngle": 0,
+      "tripleClampDrop": 0,
+      "frontForkTravel": 360,
+      "frontWheelPosition": "中位",
+      "frontForkStyle": "正常",
+      "frontForkAirbag": "无",
+      "frontTireWidth": 80,
+      "frontTireRatio": 100,
+      "frontWheelDiameter": 10,
+      "frontWheelOffset": 0,
+      "frontBrakeDiscDiameter": 180,
+      "frontCaliperPosition": "前置",
+      "frontFender": "长",
+      "swingarmLength": 340,
+      "rearShockTravel": 335,
+      "rearShockAngle": 0,
+      "rearShockAirbag": "无",
+      "rearTireWidth": 80,
+      "rearTireRatio": 100,
+      "rearWheelDiameter": 10,
+      "rearWheelOffset": 0,
+      "rearBrakeDiscDiameter": 180,
+      "rearCaliperPosition": "后置",
+      "rearFender": "长"
+    }
+  },
+  "NIU/MQI": {
+    "sourceScale": 0.8077777777777778,
+    "pixelsPerMillimeter": 0.4757208333333333,
+    "handle": {
+      "height": 45,
+      "angle": 200
+    },
+    "frontFork": {
+      "height": 150,
+      "angle": 24,
+      "wheelOffset": 3
+    },
+    "frontWheel": {
+      "radius": 94,
+      "hubRadius": 64,
+      "discRadius": 38.5
+    },
+    "swingarm": {
+      "height": 138,
+      "angle": -81.69999999999764,
+      "shockMountLeft": 50,
+      "shockMountBottom": 200
+    },
+    "rearShock": {
+      "height": 90,
+      "angle": -128.02952859437121
+    },
+    "rearWheel": {
+      "radius": 94,
+      "hubRadius": 64,
+      "discRadius": 38.5
+    },
+    "defaults": {
+      "handlebarHeight": 100,
+      "handlebarAngle": 0,
+      "tripleClampAngle": 0,
+      "tripleClampDrop": 0,
+      "frontForkTravel": 340,
+      "frontWheelPosition": "中位",
+      "frontForkStyle": "正常",
+      "frontForkAirbag": "无",
+      "frontTireWidth": 80,
+      "frontTireRatio": 100,
+      "frontWheelDiameter": 10,
+      "frontWheelOffset": 0,
+      "frontBrakeDiscDiameter": 180,
+      "frontCaliperPosition": "前置",
+      "frontFender": "长",
+      "swingarmLength": 295,
+      "rearShockTravel": 230,
+      "rearShockAngle": 0,
+      "rearShockAirbag": "无",
+      "rearTireWidth": 80,
+      "rearTireRatio": 100,
+      "rearWheelDiameter": 10,
+      "rearWheelOffset": 0,
+      "rearBrakeDiscDiameter": 180,
+      "rearCaliperPosition": "后置",
+      "rearFender": "长"
+    }
+  },
+  "ninebot/Mz1": {
+    "sourceScale": 0.8077777777777778,
+    "pixelsPerMillimeter": 0.45852610441767067,
+    "handle": {
+      "height": 45,
+      "angle": 200
+    },
+    "frontFork": {
+      "height": 165,
+      "angle": 25,
+      "wheelOffset": -13
+    },
+    "frontWheel": {
+      "radius": 91,
+      "hubRadius": 60,
+      "discRadius": 37.1
+    },
+    "swingarm": {
+      "height": 126.5,
+      "angle": -78.8999999999978,
+      "shockMountLeft": 20,
+      "shockMountBottom": 5
+    },
+    "rearShock": {
+      "height": 125,
+      "angle": -18.212784363649703
+    },
+    "rearWheel": {
+      "radius": 91,
+      "hubRadius": 60,
+      "discRadius": 37.1
+    },
+    "defaults": {
+      "handlebarHeight": 100,
+      "handlebarAngle": 0,
+      "tripleClampAngle": 0,
+      "tripleClampDrop": 0,
+      "frontForkTravel": 385,
+      "frontWheelPosition": "中位",
+      "frontForkStyle": "正常",
+      "frontForkAirbag": "无",
+      "frontTireWidth": 80,
+      "frontTireRatio": 100,
+      "frontWheelDiameter": 10,
+      "frontWheelOffset": 0,
+      "frontBrakeDiscDiameter": 220,
+      "frontCaliperPosition": "前置",
+      "frontFender": "长",
+      "swingarmLength": 280,
+      "rearShockTravel": 280,
+      "rearShockAngle": 0,
+      "rearShockAirbag": "无",
+      "rearTireWidth": 80,
+      "rearTireRatio": 100,
+      "rearWheelDiameter": 10,
+      "rearWheelOffset": 0,
+      "rearBrakeDiscDiameter": 180,
+      "rearCaliperPosition": "后置",
+      "rearFender": "长"
+    }
+  },
+  "ninebot/Fz5 110": {
+    "sourceScale": 0.8077777777777778,
+    "pixelsPerMillimeter": 0.45852610441767067,
+    "handle": {
+      "height": 45,
+      "angle": 200
+    },
+    "frontFork": {
+      "height": 175,
+      "angle": 25,
+      "wheelOffset": -13
+    },
+    "frontWheel": {
+      "radius": 104,
+      "hubRadius": 75,
+      "discRadius": 45.3
+    },
+    "swingarm": {
+      "height": 136,
+      "angle": -78.74999999999781,
+      "shockMountLeft": 20,
+      "shockMountBottom": 5
+    },
+    "rearShock": {
+      "height": 115,
+      "angle": -33.45123299852483
+    },
+    "rearWheel": {
+      "radius": 104,
+      "hubRadius": 75,
+      "discRadius": 32
+    },
+    "defaults": {
+      "handlebarHeight": 100,
+      "handlebarAngle": 0,
+      "tripleClampAngle": 0,
+      "tripleClampDrop": 0,
+      "frontForkTravel": 410,
+      "frontWheelPosition": "中位",
+      "frontForkStyle": "正常",
+      "frontForkAirbag": "无",
+      "frontTireWidth": 80,
+      "frontTireRatio": 90,
+      "frontWheelDiameter": 12,
+      "frontWheelOffset": 0,
+      "frontBrakeDiscDiameter": 180,
+      "frontCaliperPosition": "前置",
+      "frontFender": "长",
+      "swingarmLength": 300,
+      "rearShockTravel": 270,
+      "rearShockAngle": 0,
+      "rearShockAirbag": "无",
+      "rearTireWidth": 90,
+      "rearTireRatio": 80,
+      "rearWheelDiameter": 12,
+      "rearWheelOffset": 0,
+      "rearBrakeDiscDiameter": 155,
+      "rearCaliperPosition": "后置",
+      "rearFender": "长"
+    }
+  },
+  "ninebot/Fz3 110": {
+    "sourceScale": 0.8077777777777778,
+    "pixelsPerMillimeter": 0.45852610441767067,
+    "handle": {
+      "height": 45,
+      "angle": 200
+    },
+    "frontFork": {
+      "height": 152,
+      "angle": 25,
+      "wheelOffset": -13
+    },
+    "frontWheel": {
+      "radius": 101,
+      "hubRadius": 75,
+      "discRadius": 45.3
+    },
+    "swingarm": {
+      "height": 165,
+      "angle": -82.79999999999758,
+      "shockMountLeft": 20,
+      "shockMountBottom": 25
+    },
+    "rearShock": {
+      "height": 135,
+      "angle": -24.686518366477486
+    },
+    "rearWheel": {
+      "radius": 94,
+      "hubRadius": 63,
+      "discRadius": 32
+    },
+    "defaults": {
+      "handlebarHeight": 100,
+      "handlebarAngle": 0,
+      "tripleClampAngle": 0,
+      "tripleClampDrop": 0,
+      "frontForkTravel": 340,
+      "frontWheelPosition": "中位",
+      "frontForkStyle": "正常",
+      "frontForkAirbag": "无",
+      "frontTireWidth": 80,
+      "frontTireRatio": 80,
+      "frontWheelDiameter": 12,
+      "frontWheelOffset": 0,
+      "frontBrakeDiscDiameter": 180,
+      "frontCaliperPosition": "前置",
+      "frontFender": "长",
+      "swingarmLength": 355,
+      "rearShockTravel": 295,
+      "rearShockAngle": 0,
+      "rearShockAirbag": "无",
+      "rearTireWidth": 80,
+      "rearTireRatio": 100,
+      "rearWheelDiameter": 10,
+      "rearWheelOffset": 0,
+      "rearBrakeDiscDiameter": 155,
+      "rearCaliperPosition": "后置",
+      "rearFender": "长"
+    }
+  },
+  "ninebot/Dz110p MK2": {
+    "sourceScale": 0.8077777777777778,
+    "pixelsPerMillimeter": 0.4667506072874494,
+    "handle": {
+      "height": 45,
+      "angle": 190
+    },
+    "frontFork": {
+      "height": 155,
+      "angle": 25,
+      "wheelOffset": -13
+    },
+    "frontWheel": {
+      "radius": 99.5,
+      "hubRadius": 71,
+      "discRadius": 46.3
+    },
+    "swingarm": {
+      "height": 134.5,
+      "angle": -87.29999999999733,
+      "shockMountLeft": 20,
+      "shockMountBottom": 5
+    },
+    "rearShock": {
+      "height": 140,
+      "angle": -30.13048169490154
+    },
+    "rearWheel": {
+      "radius": 99.5,
+      "hubRadius": 71,
+      "discRadius": 37.9
+    },
+    "defaults": {
+      "handlebarHeight": 100,
+      "handlebarAngle": 0,
+      "tripleClampAngle": 0,
+      "tripleClampDrop": 0,
+      "frontForkTravel": 340,
+      "frontWheelPosition": "中位",
+      "frontForkStyle": "正常",
+      "frontForkAirbag": "无",
+      "frontTireWidth": 80,
+      "frontTireRatio": 90,
+      "frontWheelDiameter": 12,
+      "frontWheelOffset": 0,
+      "frontBrakeDiscDiameter": 220,
+      "frontCaliperPosition": "前置",
+      "frontFender": "长",
+      "swingarmLength": 290,
+      "rearShockTravel": 310,
+      "rearShockAngle": 0,
+      "rearShockAirbag": "无",
+      "rearTireWidth": 90,
+      "rearTireRatio": 80,
+      "rearWheelDiameter": 12,
+      "rearWheelOffset": 0,
+      "rearBrakeDiscDiameter": 180,
+      "rearCaliperPosition": "后置",
+      "rearFender": "长"
+    }
+  },
+  "ninebot/Dz110p": {
+    "sourceScale": 0.8077777777777778,
+    "pixelsPerMillimeter": 0.4667506072874494,
+    "handle": {
+      "height": 45,
+      "angle": 190
+    },
+    "frontFork": {
+      "height": 155,
+      "angle": 25,
+      "wheelOffset": -13
+    },
+    "frontWheel": {
+      "radius": 99.5,
+      "hubRadius": 71,
+      "discRadius": 46.3
+    },
+    "swingarm": {
+      "height": 134.5,
+      "angle": -87.29999999999733,
+      "shockMountLeft": 20,
+      "shockMountBottom": 5
+    },
+    "rearShock": {
+      "height": 140,
+      "angle": -30.13048169490154
+    },
+    "rearWheel": {
+      "radius": 99.5,
+      "hubRadius": 71,
+      "discRadius": 37.9
+    },
+    "defaults": {
+      "handlebarHeight": 100,
+      "handlebarAngle": 0,
+      "tripleClampAngle": 0,
+      "tripleClampDrop": 0,
+      "frontForkTravel": 340,
+      "frontWheelPosition": "中位",
+      "frontForkStyle": "正常",
+      "frontForkAirbag": "无",
+      "frontTireWidth": 80,
+      "frontTireRatio": 90,
+      "frontWheelDiameter": 12,
+      "frontWheelOffset": 0,
+      "frontBrakeDiscDiameter": 220,
+      "frontCaliperPosition": "前置",
+      "frontFender": "长",
+      "swingarmLength": 290,
+      "rearShockTravel": 310,
+      "rearShockAngle": 0,
+      "rearShockAirbag": "无",
+      "rearTireWidth": 90,
+      "rearTireRatio": 80,
+      "rearWheelDiameter": 12,
+      "rearWheelOffset": 0,
+      "rearBrakeDiscDiameter": 180,
+      "rearCaliperPosition": "后置",
+      "rearFender": "长"
+    }
+  },
+  "ninebot/Kz110": {
+    "sourceScale": 0.8077777777777778,
+    "pixelsPerMillimeter": 0.46265060240963857,
+    "handle": {
+      "height": 45,
+      "angle": 205
+    },
+    "frontFork": {
+      "height": 188,
+      "angle": 25,
+      "wheelOffset": -13
+    },
+    "frontWheel": {
+      "radius": 114,
+      "hubRadius": 84,
+      "discRadius": 45.8
+    },
+    "swingarm": {
+      "height": 200,
+      "angle": -86.94999999999735,
+      "shockMountLeft": 40,
+      "shockMountBottom": 138
+    },
+    "rearShock": {
+      "height": 113,
+      "angle": -16.472824336750207
+    },
+    "rearWheel": {
+      "radius": 117,
+      "hubRadius": 84,
+      "discRadius": 37.5
+    },
+    "defaults": {
+      "handlebarHeight": 100,
+      "handlebarAngle": 0,
+      "tripleClampAngle": 0,
+      "tripleClampDrop": 0,
+      "frontForkTravel": 425,
+      "frontWheelPosition": "中位",
+      "frontForkStyle": "正常",
+      "frontForkAirbag": "无",
+      "frontTireWidth": 90,
+      "frontTireRatio": 80,
+      "frontWheelDiameter": 14,
+      "frontWheelOffset": 0,
+      "frontBrakeDiscDiameter": 220,
+      "frontCaliperPosition": "前置",
+      "frontFender": "长",
+      "swingarmLength": 440,
+      "rearShockTravel": 260,
+      "rearShockAngle": 0,
+      "rearShockAirbag": "无",
+      "rearTireWidth": 90,
+      "rearTireRatio": 90,
+      "rearWheelDiameter": 14,
+      "rearWheelOffset": 0,
+      "rearBrakeDiscDiameter": 180,
+      "rearCaliperPosition": "后置",
+      "rearFender": "长"
+    }
+  },
+  "ninebot/Mmax2": {
+    "sourceScale": 0.8077777777777778,
+    "pixelsPerMillimeter": 0.46265060240963857,
+    "handle": {
+      "height": 45,
+      "angle": 200
+    },
+    "frontFork": {
+      "height": 155,
+      "angle": 25,
+      "wheelOffset": -13
+    },
+    "frontWheel": {
+      "radius": 102,
+      "hubRadius": 72,
+      "discRadius": 45.8
+    },
+    "swingarm": {
+      "height": 171.6,
+      "angle": -87.19999999999733,
+      "shockMountLeft": 20,
+      "shockMountBottom": 5
+    },
+    "rearShock": {
+      "height": 140,
+      "angle": -18.043212255093465
+    },
+    "rearWheel": {
+      "radius": 102,
+      "hubRadius": 72,
+      "discRadius": 37.5
+    },
+    "defaults": {
+      "handlebarHeight": 100,
+      "handlebarAngle": 0,
+      "tripleClampAngle": 0,
+      "tripleClampDrop": 0,
+      "frontForkTravel": 370,
+      "frontWheelPosition": "中位",
+      "frontForkStyle": "正常",
+      "frontForkAirbag": "无",
+      "frontTireWidth": 80,
+      "frontTireRatio": 90,
+      "frontWheelDiameter": 12,
+      "frontWheelOffset": 0,
+      "frontBrakeDiscDiameter": 220,
+      "frontCaliperPosition": "前置",
+      "frontFender": "长",
+      "swingarmLength": 380,
+      "rearShockTravel": 310,
+      "rearShockAngle": 0,
+      "rearShockAirbag": "无",
+      "rearTireWidth": 90,
+      "rearTireRatio": 80,
+      "rearWheelDiameter": 12,
+      "rearWheelOffset": 0,
+      "rearBrakeDiscDiameter": 180,
+      "rearCaliperPosition": "后置",
+      "rearFender": "长"
+    }
+  },
+  "ninebot/Mmax110 MK2": {
+    "sourceScale": 0.8077777777777778,
+    "pixelsPerMillimeter": 0.4618393574297189,
+    "handle": {
+      "height": 45,
+      "angle": 200
+    },
+    "frontFork": {
+      "height": 155,
+      "angle": 25,
+      "wheelOffset": -13
+    },
+    "frontWheel": {
+      "radius": 100,
+      "hubRadius": 72,
+      "discRadius": 45.7
+    },
+    "swingarm": {
+      "height": 116,
+      "angle": -81.99999999999763,
+      "shockMountLeft": 25,
+      "shockMountBottom": 10
+    },
+    "rearShock": {
+      "height": 125,
+      "angle": -26.33947683401948
+    },
+    "rearWheel": {
+      "radius": 100,
+      "hubRadius": 72,
+      "discRadius": 37.5
+    },
+    "defaults": {
+      "handlebarHeight": 100,
+      "handlebarAngle": 0,
+      "tripleClampAngle": 0,
+      "tripleClampDrop": 0,
+      "frontForkTravel": 360,
+      "frontWheelPosition": "中位",
+      "frontForkStyle": "正常",
+      "frontForkAirbag": "无",
+      "frontTireWidth": 80,
+      "frontTireRatio": 90,
+      "frontWheelDiameter": 12,
+      "frontWheelOffset": 0,
+      "frontBrakeDiscDiameter": 220,
+      "frontCaliperPosition": "前置",
+      "frontFender": "长",
+      "swingarmLength": 260,
+      "rearShockTravel": 290,
+      "rearShockAngle": 0,
+      "rearShockAirbag": "无",
+      "rearTireWidth": 90,
+      "rearTireRatio": 80,
+      "rearWheelDiameter": 12,
+      "rearWheelOffset": 0,
+      "rearBrakeDiscDiameter": 180,
+      "rearCaliperPosition": "后置",
+      "rearFender": "长"
+    }
+  },
+  "ninebot/Mmax110": {
+    "sourceScale": 0.8077777777777778,
+    "pixelsPerMillimeter": 0.4618393574297189,
+    "handle": {
+      "height": 45,
+      "angle": 200
+    },
+    "frontFork": {
+      "height": 155,
+      "angle": 25,
+      "wheelOffset": -13
+    },
+    "frontWheel": {
+      "radius": 99,
+      "hubRadius": 72,
+      "discRadius": 37.5
+    },
+    "swingarm": {
+      "height": 133,
+      "angle": -80.7499999999977,
+      "shockMountLeft": 25,
+      "shockMountBottom": 10
+    },
+    "rearShock": {
+      "height": 130,
+      "angle": -25.725584829060196
+    },
+    "rearWheel": {
+      "radius": 99,
+      "hubRadius": 72,
+      "discRadius": 32.2
+    },
+    "defaults": {
+      "handlebarHeight": 100,
+      "handlebarAngle": 0,
+      "tripleClampAngle": 0,
+      "tripleClampDrop": 0,
+      "frontForkTravel": 365,
+      "frontWheelPosition": "中位",
+      "frontForkStyle": "正常",
+      "frontForkAirbag": "无",
+      "frontTireWidth": 80,
+      "frontTireRatio": 90,
+      "frontWheelDiameter": 12,
+      "frontWheelOffset": 0,
+      "frontBrakeDiscDiameter": 180,
+      "frontCaliperPosition": "前置",
+      "frontFender": "长",
+      "swingarmLength": 260,
+      "rearShockTravel": 290,
+      "rearShockAngle": 0,
+      "rearShockAirbag": "无",
+      "rearTireWidth": 90,
+      "rearTireRatio": 80,
+      "rearWheelDiameter": 12,
+      "rearWheelOffset": 0,
+      "rearBrakeDiscDiameter": 155,
+      "rearCaliperPosition": "后置",
+      "rearFender": "长"
+    }
+  },
+  "ninebot/F2z110Max": {
+    "sourceScale": 0.8077777777777778,
+    "pixelsPerMillimeter": 0.45852610441767067,
+    "handle": {
+      "height": 45,
+      "angle": 200
+    },
+    "frontFork": {
+      "height": 145,
+      "angle": 25,
+      "wheelOffset": -13
+    },
+    "frontWheel": {
+      "radius": 101,
+      "hubRadius": 75,
+      "discRadius": 45.3
+    },
+    "swingarm": {
+      "height": 130.5,
+      "angle": -82.79999999999758,
+      "shockMountLeft": 20,
+      "shockMountBottom": 5
+    },
+    "rearShock": {
+      "height": 130,
+      "angle": -26.988094049802065
+    },
+    "rearWheel": {
+      "radius": 92,
+      "hubRadius": 63,
+      "discRadius": 32
+    },
+    "defaults": {
+      "handlebarHeight": 100,
+      "handlebarAngle": 0,
+      "tripleClampAngle": 0,
+      "tripleClampDrop": 0,
+      "frontForkTravel": 340,
+      "frontWheelPosition": "中位",
+      "frontForkStyle": "正常",
+      "frontForkAirbag": "无",
+      "frontTireWidth": 80,
+      "frontTireRatio": 90,
+      "frontWheelDiameter": 12,
+      "frontWheelOffset": 0,
+      "frontBrakeDiscDiameter": 180,
+      "frontCaliperPosition": "前置",
+      "frontFender": "长",
+      "swingarmLength": 280,
+      "rearShockTravel": 280,
+      "rearShockAngle": 0,
+      "rearShockAirbag": "无",
+      "rearTireWidth": 80,
+      "rearTireRatio": 100,
+      "rearWheelDiameter": 10,
+      "rearWheelOffset": 0,
+      "rearBrakeDiscDiameter": 155,
+      "rearCaliperPosition": "后置",
+      "rearFender": "长"
+    }
+  },
+  "ninebot/F2z110": {
+    "sourceScale": 0.8077777777777778,
+    "pixelsPerMillimeter": 0.45852610441767067,
+    "handle": {
+      "height": 45,
+      "angle": 200
+    },
+    "frontFork": {
+      "height": 145,
+      "angle": 25,
+      "wheelOffset": -13
+    },
+    "frontWheel": {
+      "radius": 92,
+      "hubRadius": 63,
+      "discRadius": 37.1
+    },
+    "swingarm": {
+      "height": 130,
+      "angle": -80.89999999999769,
+      "shockMountLeft": 20,
+      "shockMountBottom": 5
+    },
+    "rearShock": {
+      "height": 130,
+      "angle": -27.778924115547184
+    },
+    "rearWheel": {
+      "radius": 92,
+      "hubRadius": 63,
+      "discRadius": 32
+    },
+    "defaults": {
+      "handlebarHeight": 100,
+      "handlebarAngle": 0,
+      "tripleClampAngle": 0,
+      "tripleClampDrop": 0,
+      "frontForkTravel": 340,
+      "frontWheelPosition": "中位",
+      "frontForkStyle": "正常",
+      "frontForkAirbag": "无",
+      "frontTireWidth": 80,
+      "frontTireRatio": 100,
+      "frontWheelDiameter": 10,
+      "frontWheelOffset": 0,
+      "frontBrakeDiscDiameter": 180,
+      "frontCaliperPosition": "前置",
+      "frontFender": "长",
+      "swingarmLength": 280,
+      "rearShockTravel": 280,
+      "rearShockAngle": 0,
+      "rearShockAirbag": "无",
+      "rearTireWidth": 80,
+      "rearTireRatio": 100,
+      "rearWheelDiameter": 10,
+      "rearWheelOffset": 0,
+      "rearBrakeDiscDiameter": 155,
+      "rearCaliperPosition": "后置",
+      "rearFender": "长"
+    }
+  },
+  "ninebot/F90": {
+    "sourceScale": 0.8077777777777778,
+    "pixelsPerMillimeter": 0.45852610441767067,
+    "handle": {
+      "height": 45,
+      "angle": 200
+    },
+    "frontFork": {
+      "height": 145,
+      "angle": 25,
+      "wheelOffset": -13
+    },
+    "frontWheel": {
+      "radius": 88,
+      "hubRadius": 60,
+      "discRadius": 37.2
+    },
+    "swingarm": {
+      "height": 128,
+      "angle": -79.59999999999776,
+      "shockMountLeft": 20,
+      "shockMountBottom": 30
+    },
+    "rearShock": {
+      "height": 125,
+      "angle": -16.257879515330742
+    },
+    "rearWheel": {
+      "radius": 88,
+      "hubRadius": 60,
+      "discRadius": 32
+    },
+    "defaults": {
+      "handlebarHeight": 100,
+      "handlebarAngle": 0,
+      "tripleClampAngle": 0,
+      "tripleClampDrop": 0,
+      "frontForkTravel": 330,
+      "frontWheelPosition": "中位",
+      "frontForkStyle": "正常",
+      "frontForkAirbag": "无",
+      "frontTireWidth": 80,
+      "frontTireRatio": 100,
+      "frontWheelDiameter": 10,
+      "frontWheelOffset": 0,
+      "frontBrakeDiscDiameter": 180,
+      "frontCaliperPosition": "前置",
+      "frontFender": "长",
+      "swingarmLength": 280,
+      "rearShockTravel": 275,
+      "rearShockAngle": 0,
+      "rearShockAirbag": "无",
+      "rearTireWidth": 80,
+      "rearTireRatio": 100,
+      "rearWheelDiameter": 10,
+      "rearWheelOffset": 0,
+      "rearBrakeDiscDiameter": 155,
+      "rearCaliperPosition": "后置",
+      "rearFender": "长"
+    }
+  },
+  "ninebot/Mzmax": {
+    "sourceScale": 0.8077777777777778,
+    "pixelsPerMillimeter": 0.45852610441767067,
+    "handle": {
+      "height": 45,
+      "angle": 200
+    },
+    "frontFork": {
+      "height": 165,
+      "angle": 25,
+      "wheelOffset": -13
+    },
+    "frontWheel": {
+      "radius": 100,
+      "hubRadius": 72,
+      "discRadius": 49.5
+    },
+    "swingarm": {
+      "height": 130.5,
+      "angle": -80.29999999999772,
+      "shockMountLeft": 30,
+      "shockMountBottom": 10
+    },
+    "rearShock": {
+      "height": 130,
+      "angle": -14.6346680393479
+    },
+    "rearWheel": {
+      "radius": 91,
+      "hubRadius": 60,
+      "discRadius": 41.2
+    },
+    "defaults": {
+      "handlebarHeight": 100,
+      "handlebarAngle": 0,
+      "tripleClampAngle": 0,
+      "tripleClampDrop": 0,
+      "frontForkTravel": 400,
+      "frontWheelPosition": "中位",
+      "frontForkStyle": "正常",
+      "frontForkAirbag": "无",
+      "frontTireWidth": 80,
+      "frontTireRatio": 90,
+      "frontWheelDiameter": 12,
+      "frontWheelOffset": 0,
+      "frontBrakeDiscDiameter": 220,
+      "frontCaliperPosition": "前置",
+      "frontFender": "长",
+      "swingarmLength": 285,
+      "rearShockTravel": 310,
+      "rearShockAngle": 0,
+      "rearShockAirbag": "无",
+      "rearTireWidth": 80,
+      "rearTireRatio": 100,
+      "rearWheelDiameter": 10,
+      "rearWheelOffset": 0,
+      "rearBrakeDiscDiameter": 180,
+      "rearCaliperPosition": "后置",
+      "rearFender": "长"
+    }
+  },
+  "ninebot/Mzmix": {
+    "sourceScale": 0.8077777777777778,
+    "pixelsPerMillimeter": 0.45852610441767067,
+    "handle": {
+      "height": 45,
+      "angle": 200
+    },
+    "frontFork": {
+      "height": 165,
+      "angle": 25,
+      "wheelOffset": -13
+    },
+    "frontWheel": {
+      "radius": 100,
+      "hubRadius": 72,
+      "discRadius": 45.3
+    },
+    "swingarm": {
+      "height": 130.5,
+      "angle": -80.29999999999772,
+      "shockMountLeft": 30,
+      "shockMountBottom": 10
+    },
+    "rearShock": {
+      "height": 130,
+      "angle": -14.6346680393479
+    },
+    "rearWheel": {
+      "radius": 91,
+      "hubRadius": 60,
+      "discRadius": 37.1
+    },
+    "defaults": {
+      "handlebarHeight": 100,
+      "handlebarAngle": 0,
+      "tripleClampAngle": 0,
+      "tripleClampDrop": 0,
+      "frontForkTravel": 400,
+      "frontWheelPosition": "中位",
+      "frontForkStyle": "正常",
+      "frontForkAirbag": "无",
+      "frontTireWidth": 80,
+      "frontTireRatio": 90,
+      "frontWheelDiameter": 12,
+      "frontWheelOffset": 0,
+      "frontBrakeDiscDiameter": 220,
+      "frontCaliperPosition": "前置",
+      "frontFender": "长",
+      "swingarmLength": 285,
+      "rearShockTravel": 310,
+      "rearShockAngle": 0,
+      "rearShockAirbag": "无",
+      "rearTireWidth": 80,
+      "rearTireRatio": 100,
+      "rearWheelDiameter": 10,
+      "rearWheelOffset": 0,
+      "rearBrakeDiscDiameter": 180,
+      "rearCaliperPosition": "后置",
+      "rearFender": "长"
+    }
+  },
+  "ninebot/Nzmix": {
+    "sourceScale": 0.8077777777777778,
+    "pixelsPerMillimeter": 0.45852610441767067,
+    "handle": {
+      "height": 45,
+      "angle": 200
+    },
+    "frontFork": {
+      "height": 165,
+      "angle": 25,
+      "wheelOffset": -13
+    },
+    "frontWheel": {
+      "radius": 100,
+      "hubRadius": 72,
+      "discRadius": 37.1
+    },
+    "swingarm": {
+      "height": 130.5,
+      "angle": -83.14999999999756,
+      "shockMountLeft": 20,
+      "shockMountBottom": 5
+    },
+    "rearShock": {
+      "height": 135,
+      "angle": -15.461773881672926
+    },
+    "rearWheel": {
+      "radius": 91,
+      "hubRadius": 60,
+      "discRadius": 32
+    },
+    "defaults": {
+      "handlebarHeight": 100,
+      "handlebarAngle": 0,
+      "tripleClampAngle": 0,
+      "tripleClampDrop": 0,
+      "frontForkTravel": 410,
+      "frontWheelPosition": "中位",
+      "frontForkStyle": "正常",
+      "frontForkAirbag": "无",
+      "frontTireWidth": 80,
+      "frontTireRatio": 90,
+      "frontWheelDiameter": 12,
+      "frontWheelOffset": 0,
+      "frontBrakeDiscDiameter": 180,
+      "frontCaliperPosition": "前置",
+      "frontFender": "长",
+      "swingarmLength": 285,
+      "rearShockTravel": 305,
+      "rearShockAngle": 0,
+      "rearShockAirbag": "无",
+      "rearTireWidth": 80,
+      "rearTireRatio": 100,
+      "rearWheelDiameter": 10,
+      "rearWheelOffset": 0,
+      "rearBrakeDiscDiameter": 0,
+      "rearCaliperPosition": "后置",
+      "rearFender": "长"
+    }
+  },
+  "ninebot/Fzmix": {
+    "sourceScale": 0.8077777777777778,
+    "pixelsPerMillimeter": 0.45969156626506025,
+    "handle": {
+      "height": 45,
+      "angle": 200
+    },
+    "frontFork": {
+      "height": 145,
+      "angle": 25,
+      "wheelOffset": -13
+    },
+    "frontWheel": {
+      "radius": 92,
+      "hubRadius": 63,
+      "discRadius": 37.3
+    },
+    "swingarm": {
+      "height": 129,
+      "angle": -85.04999999999745,
+      "shockMountLeft": 20,
+      "shockMountBottom": 5
+    },
+    "rearShock": {
+      "height": 128,
+      "angle": -19.286799647644088
+    },
+    "rearWheel": {
+      "radius": 92,
+      "hubRadius": 63,
+      "discRadius": 32
+    },
+    "defaults": {
+      "handlebarHeight": 100,
+      "handlebarAngle": 0,
+      "tripleClampAngle": 0,
+      "tripleClampDrop": 0,
+      "frontForkTravel": 335,
+      "frontWheelPosition": "中位",
+      "frontForkStyle": "正常",
+      "frontForkAirbag": "无",
+      "frontTireWidth": 80,
+      "frontTireRatio": 100,
+      "frontWheelDiameter": 10,
+      "frontWheelOffset": 0,
+      "frontBrakeDiscDiameter": 180,
+      "frontCaliperPosition": "前置",
+      "frontFender": "长",
+      "swingarmLength": 280,
+      "rearShockTravel": 280,
+      "rearShockAngle": 0,
+      "rearShockAirbag": "无",
+      "rearTireWidth": 80,
+      "rearTireRatio": 100,
+      "rearWheelDiameter": 10,
+      "rearWheelOffset": 0,
+      "rearBrakeDiscDiameter": 155,
+      "rearCaliperPosition": "后置",
+      "rearFender": "长"
+    }
+  },
+  "ninebot/Qzmix": {
+    "sourceScale": 0.8077777777777778,
+    "pixelsPerMillimeter": 0.5142927927927928,
+    "handle": {
+      "height": 45,
+      "angle": 200
+    },
+    "frontFork": {
+      "height": 130,
+      "angle": 25,
+      "wheelOffset": -13
+    },
+    "frontWheel": {
+      "radius": 84,
+      "hubRadius": 52,
+      "discRadius": 35.9
+    },
+    "swingarm": {
+      "height": 169,
+      "angle": -86.0499999999974,
+      "shockMountLeft": 30,
+      "shockMountBottom": 5
+    },
+    "rearShock": {
+      "height": 125,
+      "angle": -31.693154628848077
+    },
+    "rearWheel": {
+      "radius": 90,
+      "hubRadius": 65,
+      "discRadius": 35.9
+    },
+    "defaults": {
+      "handlebarHeight": 100,
+      "handlebarAngle": 0,
+      "tripleClampAngle": 0,
+      "tripleClampDrop": 0,
+      "frontForkTravel": 305,
+      "frontWheelPosition": "中位",
+      "frontForkStyle": "正常",
+      "frontForkAirbag": "无",
+      "frontTireWidth": 80,
+      "frontTireRatio": 100,
+      "frontWheelDiameter": 8,
+      "frontWheelOffset": 0,
+      "frontBrakeDiscDiameter": 0,
+      "frontCaliperPosition": "前置",
+      "frontFender": "长",
+      "swingarmLength": 370,
+      "rearShockTravel": 290,
+      "rearShockAngle": 0,
+      "rearShockAirbag": "无",
+      "rearTireWidth": 80,
+      "rearTireRatio": 80,
+      "rearWheelDiameter": 10,
+      "rearWheelOffset": 0,
+      "rearBrakeDiscDiameter": 0,
+      "rearCaliperPosition": "后置",
+      "rearFender": "长"
+    }
+  },
+  "ninebot/Vzmix": {
+    "sourceScale": 0.8077777777777778,
+    "pixelsPerMillimeter": 0.45852610441767067,
+    "handle": {
+      "height": 45,
+      "angle": 200
+    },
+    "frontFork": {
+      "height": 140,
+      "angle": 22,
+      "wheelOffset": -13
+    },
+    "frontWheel": {
+      "radius": 85,
+      "hubRadius": 52,
+      "discRadius": 35.9
+    },
+    "swingarm": {
+      "height": 134,
+      "angle": -83.04999999999757,
+      "shockMountLeft": 92,
+      "shockMountBottom": 75
+    },
+    "rearShock": {
+      "height": 86,
+      "angle": -26.738532050093262
+    },
+    "rearWheel": {
+      "radius": 91,
+      "hubRadius": 65,
+      "discRadius": 35.9
+    },
+    "defaults": {
+      "handlebarHeight": 100,
+      "handlebarAngle": 0,
+      "tripleClampAngle": 0,
+      "tripleClampDrop": 0,
+      "frontForkTravel": 320,
+      "frontWheelPosition": "中位",
+      "frontForkStyle": "正常",
+      "frontForkAirbag": "无",
+      "frontTireWidth": 80,
+      "frontTireRatio": 100,
+      "frontWheelDiameter": 8,
+      "frontWheelOffset": 0,
+      "frontBrakeDiscDiameter": 180,
+      "frontCaliperPosition": "前置",
+      "frontFender": "长",
+      "swingarmLength": 295,
+      "rearShockTravel": 235,
+      "rearShockAngle": 0,
+      "rearShockAirbag": "无",
+      "rearTireWidth": 80,
+      "rearTireRatio": 80,
+      "rearWheelDiameter": 10,
+      "rearWheelOffset": 0,
+      "rearBrakeDiscDiameter": 155,
+      "rearCaliperPosition": "后置",
+      "rearFender": "长"
+    }
+  },
+  "ninebot/C90": {
+    "sourceScale": 0.8077777777777778,
+    "pixelsPerMillimeter": 0.45852610441767067,
+    "handle": {
+      "height": 40,
+      "angle": 200
+    },
+    "frontFork": {
+      "height": 155,
+      "angle": 20,
+      "wheelOffset": -13
+    },
+    "frontWheel": {
+      "radius": 95,
+      "hubRadius": 69,
+      "discRadius": 37.5
+    },
+    "swingarm": {
+      "height": 135,
+      "angle": -83.94999999999752,
+      "shockMountLeft": 20,
+      "shockMountBottom": 40
+    },
+    "rearShock": {
+      "height": 110,
+      "angle": -24.476137332586248
+    },
+    "rearWheel": {
+      "radius": 95,
+      "hubRadius": 69,
+      "discRadius": 37.5
+    },
+    "defaults": {
+      "handlebarHeight": 100,
+      "handlebarAngle": 0,
+      "tripleClampAngle": 0,
+      "tripleClampDrop": 0,
+      "frontForkTravel": 345,
+      "frontWheelPosition": "中位",
+      "frontForkStyle": "正常",
+      "frontForkAirbag": "无",
+      "frontTireWidth": 60,
+      "frontTireRatio": 100,
+      "frontWheelDiameter": 12,
+      "frontWheelOffset": 0,
+      "frontBrakeDiscDiameter": 180,
+      "frontCaliperPosition": "前置",
+      "frontFender": "长",
+      "swingarmLength": 300,
+      "rearShockTravel": 275,
+      "rearShockAngle": 0,
+      "rearShockAirbag": "无",
+      "rearTireWidth": 60,
+      "rearTireRatio": 100,
+      "rearWheelDiameter": 12,
+      "rearWheelOffset": 0,
+      "rearBrakeDiscDiameter": 155,
+      "rearCaliperPosition": "后置",
+      "rearFender": "长"
+    }
+  },
+  "ninebot/Cz90": {
+    "sourceScale": 0.8077777777777778,
+    "pixelsPerMillimeter": 0.45969156626506025,
+    "handle": {
+      "height": 45,
+      "angle": 200
+    },
+    "frontFork": {
+      "height": 145,
+      "angle": 25,
+      "wheelOffset": 3
+    },
+    "frontWheel": {
+      "radius": 92,
+      "hubRadius": 63,
+      "discRadius": 37.3
+    },
+    "swingarm": {
+      "height": 164,
+      "angle": -85.09999999999745,
+      "shockMountLeft": 30,
+      "shockMountBottom": 5
+    },
+    "rearShock": {
+      "height": 120,
+      "angle": -25.128894515476105
+    },
+    "rearWheel": {
+      "radius": 92,
+      "hubRadius": 63,
+      "discRadius": 32
+    },
+    "defaults": {
+      "handlebarHeight": 100,
+      "handlebarAngle": 0,
+      "tripleClampAngle": 0,
+      "tripleClampDrop": 0,
+      "frontForkTravel": 340,
+      "frontWheelPosition": "中位",
+      "frontForkStyle": "正常",
+      "frontForkAirbag": "无",
+      "frontTireWidth": 80,
+      "frontTireRatio": 100,
+      "frontWheelDiameter": 10,
+      "frontWheelOffset": 0,
+      "frontBrakeDiscDiameter": 180,
+      "frontCaliperPosition": "前置",
+      "frontFender": "长",
+      "swingarmLength": 280,
+      "rearShockTravel": 280,
+      "rearShockAngle": 0,
+      "rearShockAirbag": "无",
+      "rearTireWidth": 80,
+      "rearTireRatio": 100,
+      "rearWheelDiameter": 10,
+      "rearWheelOffset": 0,
+      "rearBrakeDiscDiameter": 180,
+      "rearCaliperPosition": "后置",
+      "rearFender": "长"
+    }
+  },
+  "ninebot/Bmax90": {
+    "sourceScale": 0.8077777777777778,
+    "pixelsPerMillimeter": 0.45852610441767067,
+    "handle": {
+      "height": 45,
+      "angle": 200
+    },
+    "frontFork": {
+      "height": 145,
+      "angle": 25,
+      "wheelOffset": -13
+    },
+    "frontWheel": {
+      "radius": 88,
+      "hubRadius": 60,
+      "discRadius": 37.2
+    },
+    "swingarm": {
+      "height": 113,
+      "angle": -85.34999999999744,
+      "shockMountLeft": 20,
+      "shockMountBottom": 15
+    },
+    "rearShock": {
+      "height": 114,
+      "angle": -22.87249619393323
+    },
+    "rearWheel": {
+      "radius": 88,
+      "hubRadius": 60,
+      "discRadius": 32
+    },
+    "defaults": {
+      "handlebarHeight": 100,
+      "handlebarAngle": 0,
+      "tripleClampAngle": 0,
+      "tripleClampDrop": 0,
+      "frontForkTravel": 340,
+      "frontWheelPosition": "中位",
+      "frontForkStyle": "正常",
+      "frontForkAirbag": "无",
+      "frontTireWidth": 80,
+      "frontTireRatio": 100,
+      "frontWheelDiameter": 10,
+      "frontWheelOffset": 0,
+      "frontBrakeDiscDiameter": 180,
+      "frontCaliperPosition": "前置",
+      "frontFender": "长",
+      "swingarmLength": 250,
+      "rearShockTravel": 290,
+      "rearShockAngle": 0,
+      "rearShockAirbag": "无",
+      "rearTireWidth": 80,
+      "rearTireRatio": 100,
+      "rearWheelDiameter": 10,
+      "rearWheelOffset": 0,
+      "rearBrakeDiscDiameter": 64,
+      "rearCaliperPosition": "后置",
+      "rearFender": "长"
+    }
+  },
+  "ninebot/E300p MK2": {
+    "sourceScale": 0.8077777777777778,
+    "pixelsPerMillimeter": 0.45931235059760955,
+    "handle": {
+      "height": 45,
+      "angle": 200
+    },
+    "frontFork": {
+      "height": 165,
+      "angle": 25,
+      "wheelOffset": -13
+    },
+    "frontWheel": {
+      "radius": 100,
+      "hubRadius": 72,
+      "discRadius": 50.6
+    },
+    "swingarm": {
+      "height": 130.5,
+      "angle": -78.24999999999784,
+      "shockMountLeft": 20,
+      "shockMountBottom": 15
+    },
+    "rearShock": {
+      "height": 115,
+      "angle": -25.309240352134765
+    },
+    "rearWheel": {
+      "radius": 105,
+      "hubRadius": 72,
+      "discRadius": 41.4
+    },
+    "defaults": {
+      "handlebarHeight": 100,
+      "handlebarAngle": 0,
+      "tripleClampAngle": 0,
+      "tripleClampDrop": 0,
+      "frontForkTravel": 400,
+      "frontWheelPosition": "中位",
+      "frontForkStyle": "正常",
+      "frontForkAirbag": "无",
+      "frontTireWidth": 100,
+      "frontTireRatio": 70,
+      "frontWheelDiameter": 12,
+      "frontWheelOffset": 0,
+      "frontBrakeDiscDiameter": 220,
+      "frontCaliperPosition": "前置",
+      "frontFender": "长",
+      "swingarmLength": 290,
+      "rearShockTravel": 265,
+      "rearShockAngle": 0,
+      "rearShockAirbag": "无",
+      "rearTireWidth": 120,
+      "rearTireRatio": 70,
+      "rearWheelDiameter": 12,
+      "rearWheelOffset": 0,
+      "rearBrakeDiscDiameter": 200,
+      "rearCaliperPosition": "后置",
+      "rearFender": "长"
+    }
+  },
+  "ninebot/E200p MK2": {
+    "sourceScale": 0.8077777777777778,
+    "pixelsPerMillimeter": 0.45931235059760955,
+    "handle": {
+      "height": 45,
+      "angle": 190
+    },
+    "frontFork": {
+      "height": 165,
+      "angle": 25,
+      "wheelOffset": -13
+    },
+    "frontWheel": {
+      "radius": 100,
+      "hubRadius": 71,
+      "discRadius": 45.5
+    },
+    "swingarm": {
+      "height": 134,
+      "angle": -77.49999999999788,
+      "shockMountLeft": 20,
+      "shockMountBottom": 5
+    },
+    "rearShock": {
+      "height": 125,
+      "angle": -29.876640382769438
+    },
+    "rearWheel": {
+      "radius": 105,
+      "hubRadius": 71,
+      "discRadius": 41.4
+    },
+    "defaults": {
+      "handlebarHeight": 100,
+      "handlebarAngle": 0,
+      "tripleClampAngle": 0,
+      "tripleClampDrop": 0,
+      "frontForkTravel": 385,
+      "frontWheelPosition": "中位",
+      "frontForkStyle": "正常",
+      "frontForkAirbag": "无",
+      "frontTireWidth": 100,
+      "frontTireRatio": 70,
+      "frontWheelDiameter": 12,
+      "frontWheelOffset": 0,
+      "frontBrakeDiscDiameter": 220,
+      "frontCaliperPosition": "前置",
+      "frontFender": "长",
+      "swingarmLength": 290,
+      "rearShockTravel": 265,
+      "rearShockAngle": 0,
+      "rearShockAirbag": "无",
+      "rearTireWidth": 120,
+      "rearTireRatio": 70,
+      "rearWheelDiameter": 12,
+      "rearWheelOffset": 0,
+      "rearBrakeDiscDiameter": 200,
+      "rearCaliperPosition": "后置",
+      "rearFender": "长"
+    }
+  },
+  "ninebot/E150c MK2": {
+    "sourceScale": 0.8077777777777778,
+    "pixelsPerMillimeter": 0.45931235059760955,
+    "handle": {
+      "height": 45,
+      "angle": 190
+    },
+    "frontFork": {
+      "height": 165,
+      "angle": 28,
+      "wheelOffset": -13
+    },
+    "frontWheel": {
+      "radius": 98,
+      "hubRadius": 71,
+      "discRadius": 45.5
+    },
+    "swingarm": {
+      "height": 132,
+      "angle": -85.44999999999743,
+      "shockMountLeft": 20,
+      "shockMountBottom": 5
+    },
+    "rearShock": {
+      "height": 125,
+      "angle": -28.25288778324598
+    },
+    "rearWheel": {
+      "radius": 104,
+      "hubRadius": 71,
+      "discRadius": 41.4
+    },
+    "defaults": {
+      "handlebarHeight": 100,
+      "handlebarAngle": 0,
+      "tripleClampAngle": 0,
+      "tripleClampDrop": 0,
+      "frontForkTravel": 390,
+      "frontWheelPosition": "中位",
+      "frontForkStyle": "正常",
+      "frontForkAirbag": "无",
+      "frontTireWidth": 100,
+      "frontTireRatio": 70,
+      "frontWheelDiameter": 12,
+      "frontWheelOffset": 0,
+      "frontBrakeDiscDiameter": 220,
+      "frontCaliperPosition": "前置",
+      "frontFender": "长",
+      "swingarmLength": 290,
+      "rearShockTravel": 285,
+      "rearShockAngle": 0,
+      "rearShockAirbag": "无",
+      "rearTireWidth": 120,
+      "rearTireRatio": 70,
+      "rearWheelDiameter": 12,
+      "rearWheelOffset": 0,
+      "rearBrakeDiscDiameter": 200,
+      "rearCaliperPosition": "后置",
+      "rearFender": "长"
+    }
+  },
+  "ninebot/E100": {
+    "sourceScale": 0.8077777777777778,
+    "pixelsPerMillimeter": 0.4686479674796748,
+    "handle": {
+      "height": 45,
+      "angle": 190
+    },
+    "frontFork": {
+      "height": 165,
+      "angle": 30,
+      "wheelOffset": -13
+    },
+    "frontWheel": {
+      "radius": 99.5,
+      "hubRadius": 71,
+      "discRadius": 46.3
+    },
+    "swingarm": {
+      "height": 128,
+      "angle": -84.39999999999749,
+      "shockMountLeft": 20,
+      "shockMountBottom": 5
+    },
+    "rearShock": {
+      "height": 125,
+      "angle": -26.284500082358747
+    },
+    "rearWheel": {
+      "radius": 96,
+      "hubRadius": 59,
+      "discRadius": 37.9
+    },
+    "defaults": {
+      "handlebarHeight": 100,
+      "handlebarAngle": 0,
+      "tripleClampAngle": 0,
+      "tripleClampDrop": 0,
+      "frontForkTravel": 385,
+      "frontWheelPosition": "中位",
+      "frontForkStyle": "正常",
+      "frontForkAirbag": "无",
+      "frontTireWidth": 80,
+      "frontTireRatio": 90,
+      "frontWheelDiameter": 12,
+      "frontWheelOffset": 0,
+      "frontBrakeDiscDiameter": 220,
+      "frontCaliperPosition": "前置",
+      "frontFender": "长",
+      "swingarmLength": 280,
+      "rearShockTravel": 285,
+      "rearShockAngle": 0,
+      "rearShockAirbag": "无",
+      "rearTireWidth": 95,
+      "rearTireRatio": 100,
+      "rearWheelDiameter": 10,
+      "rearWheelOffset": 0,
+      "rearBrakeDiscDiameter": 180,
+      "rearCaliperPosition": "后置",
+      "rearFender": "长"
+    }
+  },
+  "ninebot/E80c MK2": {
+    "sourceScale": 0.8077777777777778,
+    "pixelsPerMillimeter": 0.4686479674796748,
+    "handle": {
+      "height": 45,
+      "angle": 190
+    },
+    "frontFork": {
+      "height": 165,
+      "angle": 30,
+      "wheelOffset": -13
+    },
+    "frontWheel": {
+      "radius": 99.5,
+      "hubRadius": 71,
+      "discRadius": 46.3
+    },
+    "swingarm": {
+      "height": 128,
+      "angle": -84.39999999999749,
+      "shockMountLeft": 20,
+      "shockMountBottom": 5
+    },
+    "rearShock": {
+      "height": 125,
+      "angle": -26.284500082358747
+    },
+    "rearWheel": {
+      "radius": 96,
+      "hubRadius": 59,
+      "discRadius": 37.9
+    },
+    "defaults": {
+      "handlebarHeight": 100,
+      "handlebarAngle": 0,
+      "tripleClampAngle": 0,
+      "tripleClampDrop": 0,
+      "frontForkTravel": 385,
+      "frontWheelPosition": "中位",
+      "frontForkStyle": "正常",
+      "frontForkAirbag": "无",
+      "frontTireWidth": 80,
+      "frontTireRatio": 90,
+      "frontWheelDiameter": 12,
+      "frontWheelOffset": 0,
+      "frontBrakeDiscDiameter": 220,
+      "frontCaliperPosition": "前置",
+      "frontFender": "长",
+      "swingarmLength": 280,
+      "rearShockTravel": 285,
+      "rearShockAngle": 0,
+      "rearShockAirbag": "无",
+      "rearTireWidth": 95,
+      "rearTireRatio": 100,
+      "rearWheelDiameter": 10,
+      "rearWheelOffset": 0,
+      "rearBrakeDiscDiameter": 180,
+      "rearCaliperPosition": "后置",
+      "rearFender": "长"
+    }
+  },
+  "ninebot/M5": {
+    "sourceScale": 0.8077777777777778,
+    "pixelsPerMillimeter": 0.45852610441767067,
+    "handle": {
+      "height": 45,
+      "angle": 200
+    },
+    "frontFork": {
+      "height": 180,
+      "angle": 24,
+      "wheelOffset": -13
+    },
+    "frontWheel": {
+      "radius": 102,
+      "hubRadius": 70,
+      "discRadius": 49.5
+    },
+    "swingarm": {
+      "height": 134,
+      "angle": -80.5999999999977,
+      "shockMountLeft": 20,
+      "shockMountBottom": 0
+    },
+    "rearShock": {
+      "height": 122,
+      "angle": -25.468768138885054
+    },
+    "rearWheel": {
+      "radius": 101,
+      "hubRadius": 70,
+      "discRadius": 41.2
+    },
+    "defaults": {
+      "handlebarHeight": 100,
+      "handlebarAngle": 0,
+      "tripleClampAngle": 0,
+      "tripleClampDrop": 0,
+      "frontForkTravel": 440,
+      "frontWheelPosition": "中位",
+      "frontForkStyle": "正常",
+      "frontForkAirbag": "无",
+      "frontTireWidth": 100,
+      "frontTireRatio": 80,
+      "frontWheelDiameter": 12,
+      "frontWheelOffset": 0,
+      "frontBrakeDiscDiameter": 245,
+      "frontCaliperPosition": "前置",
+      "frontFender": "长",
+      "swingarmLength": 300,
+      "rearShockTravel": 335,
+      "rearShockAngle": 0,
+      "rearShockAirbag": "无",
+      "rearTireWidth": 110,
+      "rearTireRatio": 70,
+      "rearWheelDiameter": 12,
+      "rearWheelOffset": 0,
+      "rearBrakeDiscDiameter": 200,
+      "rearCaliperPosition": "后置",
+      "rearFender": "长"
+    }
+  },
+  "ninebot/M3": {
+    "sourceScale": 0.8077777777777778,
+    "pixelsPerMillimeter": 0.45852610441767067,
+    "handle": {
+      "height": 45,
+      "angle": 200
+    },
+    "frontFork": {
+      "height": 180,
+      "angle": 24,
+      "wheelOffset": -13
+    },
+    "frontWheel": {
+      "radius": 102,
+      "hubRadius": 70,
+      "discRadius": 49.5
+    },
+    "swingarm": {
+      "height": 133.5,
+      "angle": -81.59999999999765,
+      "shockMountLeft": 35,
+      "shockMountBottom": 0
+    },
+    "rearShock": {
+      "height": 122,
+      "angle": -22.250581094285366
+    },
+    "rearWheel": {
+      "radius": 101,
+      "hubRadius": 70,
+      "discRadius": 41.2
+    },
+    "defaults": {
+      "handlebarHeight": 100,
+      "handlebarAngle": 0,
+      "tripleClampAngle": 0,
+      "tripleClampDrop": 0,
+      "frontForkTravel": 440,
+      "frontWheelPosition": "中位",
+      "frontForkStyle": "正常",
+      "frontForkAirbag": "无",
+      "frontTireWidth": 100,
+      "frontTireRatio": 80,
+      "frontWheelDiameter": 12,
+      "frontWheelOffset": 0,
+      "frontBrakeDiscDiameter": 245,
+      "frontCaliperPosition": "前置",
+      "frontFender": "长",
+      "swingarmLength": 300,
+      "rearShockTravel": 320,
+      "rearShockAngle": 0,
+      "rearShockAirbag": "无",
+      "rearTireWidth": 110,
+      "rearTireRatio": 70,
+      "rearWheelDiameter": 12,
+      "rearWheelOffset": 0,
+      "rearBrakeDiscDiameter": 200,
+      "rearCaliperPosition": "后置",
+      "rearFender": "长"
+    }
+  },
+  "ninebot/M3 95c Max": {
+    "sourceScale": 0.8077777777777778,
+    "pixelsPerMillimeter": 0.45852610441767067,
+    "handle": {
+      "height": 45,
+      "angle": 200
+    },
+    "frontFork": {
+      "height": 163,
+      "angle": 25,
+      "wheelOffset": -13
+    },
+    "frontWheel": {
+      "radius": 103,
+      "hubRadius": 72,
+      "discRadius": 45.4
+    },
+    "swingarm": {
+      "height": 131,
+      "angle": -79.09999999999779,
+      "shockMountLeft": 20,
+      "shockMountBottom": 5
+    },
+    "rearShock": {
+      "height": 122,
+      "angle": -26.529475065696097
+    },
+    "rearWheel": {
+      "radius": 101,
+      "hubRadius": 72,
+      "discRadius": 37.2
+    },
+    "defaults": {
+      "handlebarHeight": 100,
+      "handlebarAngle": 0,
+      "tripleClampAngle": 0,
+      "tripleClampDrop": 0,
+      "frontForkTravel": 405,
+      "frontWheelPosition": "中位",
+      "frontForkStyle": "正常",
+      "frontForkAirbag": "无",
+      "frontTireWidth": 90,
+      "frontTireRatio": 90,
+      "frontWheelDiameter": 12,
+      "frontWheelOffset": 0,
+      "frontBrakeDiscDiameter": 220,
+      "frontCaliperPosition": "前置",
+      "frontFender": "长",
+      "swingarmLength": 290,
+      "rearShockTravel": 290,
+      "rearShockAngle": 0,
+      "rearShockAirbag": "无",
+      "rearTireWidth": 110,
+      "rearTireRatio": 70,
+      "rearWheelDiameter": 12,
+      "rearWheelOffset": 0,
+      "rearBrakeDiscDiameter": 180,
+      "rearCaliperPosition": "后置",
+      "rearFender": "长"
+    }
+  },
+  "ninebot/M95c+": {
+    "sourceScale": 0.8077777777777778,
+    "pixelsPerMillimeter": 0.45852610441767067,
+    "handle": {
+      "height": 45,
+      "angle": 200
+    },
+    "frontFork": {
+      "height": 165,
+      "angle": 25,
+      "wheelOffset": -13
+    },
+    "frontWheel": {
+      "radius": 100,
+      "hubRadius": 72,
+      "discRadius": 45.4
+    },
+    "swingarm": {
+      "height": 128.5,
+      "angle": -78.69999999999781,
+      "shockMountLeft": 20,
+      "shockMountBottom": 5
+    },
+    "rearShock": {
+      "height": 125,
+      "angle": -23.58445412940685
+    },
+    "rearWheel": {
+      "radius": 96,
+      "hubRadius": 60,
+      "discRadius": 37.2
+    },
+    "defaults": {
+      "handlebarHeight": 100,
+      "handlebarAngle": 0,
+      "tripleClampAngle": 0,
+      "tripleClampDrop": 0,
+      "frontForkTravel": 400,
+      "frontWheelPosition": "中位",
+      "frontForkStyle": "正常",
+      "frontForkAirbag": "无",
+      "frontTireWidth": 90,
+      "frontTireRatio": 90,
+      "frontWheelDiameter": 12,
+      "frontWheelOffset": 0,
+      "frontBrakeDiscDiameter": 220,
+      "frontCaliperPosition": "前置",
+      "frontFender": "长",
+      "swingarmLength": 280,
+      "rearShockTravel": 295,
+      "rearShockAngle": 0,
+      "rearShockAirbag": "无",
+      "rearTireWidth": 95,
+      "rearTireRatio": 100,
+      "rearWheelDiameter": 10,
+      "rearWheelOffset": 0,
+      "rearBrakeDiscDiameter": 180,
+      "rearCaliperPosition": "后置",
+      "rearFender": "长"
+    }
+  },
+  "ninebot/N3 85c": {
+    "sourceScale": 0.8077777777777778,
+    "pixelsPerMillimeter": 0.45852610441767067,
+    "handle": {
+      "height": 45,
+      "angle": 200
+    },
+    "frontFork": {
+      "height": 165,
+      "angle": 25,
+      "wheelOffset": -13
+    },
+    "frontWheel": {
+      "radius": 106,
+      "hubRadius": 77,
+      "discRadius": 37.2
+    },
+    "swingarm": {
+      "height": 128.5,
+      "angle": -78.8499999999978,
+      "shockMountLeft": 20,
+      "shockMountBottom": 5
+    },
+    "rearShock": {
+      "height": 126,
+      "angle": -21.435075666401318
+    },
+    "rearWheel": {
+      "radius": 100,
+      "hubRadius": 64,
+      "discRadius": 37.2
+    },
+    "defaults": {
+      "handlebarHeight": 100,
+      "handlebarAngle": 0,
+      "tripleClampAngle": 0,
+      "tripleClampDrop": 0,
+      "frontForkTravel": 400,
+      "frontWheelPosition": "中位",
+      "frontForkStyle": "正常",
+      "frontForkAirbag": "无",
+      "frontTireWidth": 80,
+      "frontTireRatio": 90,
+      "frontWheelDiameter": 12,
+      "frontWheelOffset": 0,
+      "frontBrakeDiscDiameter": 220,
+      "frontCaliperPosition": "前置",
+      "frontFender": "长",
+      "swingarmLength": 280,
+      "rearShockTravel": 295,
+      "rearShockAngle": 0,
+      "rearShockAirbag": "无",
+      "rearTireWidth": 90,
+      "rearTireRatio": 100,
+      "rearWheelDiameter": 10,
+      "rearWheelOffset": 0,
+      "rearBrakeDiscDiameter": 180,
+      "rearCaliperPosition": "后置",
+      "rearFender": "长"
+    }
+  },
+  "ninebot/N85c": {
+    "sourceScale": 0.8077777777777778,
+    "pixelsPerMillimeter": 0.45852610441767067,
+    "handle": {
+      "height": 45,
+      "angle": 200
+    },
+    "frontFork": {
+      "height": 165,
+      "angle": 25,
+      "wheelOffset": -13
+    },
+    "frontWheel": {
+      "radius": 102,
+      "hubRadius": 72,
+      "discRadius": 37.2
+    },
+    "swingarm": {
+      "height": 128,
+      "angle": -76.94999999999791,
+      "shockMountLeft": 20,
+      "shockMountBottom": 5
+    },
+    "rearShock": {
+      "height": 126,
+      "angle": -20.121921809476447
+    },
+    "rearWheel": {
+      "radius": 98,
+      "hubRadius": 60,
+      "discRadius": 37.2
+    },
+    "defaults": {
+      "handlebarHeight": 100,
+      "handlebarAngle": 0,
+      "tripleClampAngle": 0,
+      "tripleClampDrop": 0,
+      "frontForkTravel": 385,
+      "frontWheelPosition": "中位",
+      "frontForkStyle": "正常",
+      "frontForkAirbag": "无",
+      "frontTireWidth": 70,
+      "frontTireRatio": 90,
+      "frontWheelDiameter": 12,
+      "frontWheelOffset": 0,
+      "frontBrakeDiscDiameter": 180,
+      "frontCaliperPosition": "前置",
+      "frontFender": "长",
+      "swingarmLength": 280,
+      "rearShockTravel": 290,
+      "rearShockAngle": 0,
+      "rearShockAirbag": "无",
+      "rearTireWidth": 80,
+      "rearTireRatio": 100,
+      "rearWheelDiameter": 10,
+      "rearWheelOffset": 0,
+      "rearBrakeDiscDiameter": 0,
+      "rearCaliperPosition": "后置",
+      "rearFender": "长"
+    }
+  },
+  "ninebot/Q3 85c": {
+    "sourceScale": 0.8077777777777778,
+    "pixelsPerMillimeter": 0.5142927927927928,
+    "handle": {
+      "height": 45,
+      "angle": 200
+    },
+    "frontFork": {
+      "height": 140,
+      "angle": 25,
+      "wheelOffset": -13
+    },
+    "frontWheel": {
+      "radius": 90,
+      "hubRadius": 65,
+      "discRadius": 35.9
+    },
+    "swingarm": {
+      "height": 156,
+      "angle": -88.19999999999727,
+      "shockMountLeft": 20,
+      "shockMountBottom": -5
+    },
+    "rearShock": {
+      "height": 125,
+      "angle": -16.052948858640335
+    },
+    "rearWheel": {
+      "radius": 90,
+      "hubRadius": 65,
+      "discRadius": 35.9
+    },
+    "defaults": {
+      "handlebarHeight": 100,
+      "handlebarAngle": 0,
+      "tripleClampAngle": 0,
+      "tripleClampDrop": 0,
+      "frontForkTravel": 310,
+      "frontWheelPosition": "中位",
+      "frontForkStyle": "正常",
+      "frontForkAirbag": "无",
+      "frontTireWidth": 90,
+      "frontTireRatio": 80,
+      "frontWheelDiameter": 10,
+      "frontWheelOffset": 0,
+      "frontBrakeDiscDiameter": 0,
+      "frontCaliperPosition": "前置",
+      "frontFender": "长",
+      "swingarmLength": 335,
+      "rearShockTravel": 290,
+      "rearShockAngle": 0,
+      "rearShockAirbag": "无",
+      "rearTireWidth": 90,
+      "rearTireRatio": 80,
+      "rearWheelDiameter": 10,
+      "rearWheelOffset": 0,
+      "rearBrakeDiscDiameter": 0,
+      "rearCaliperPosition": "后置",
+      "rearFender": "长"
+    }
+  },
+  "ninebot/Q85c": {
+    "sourceScale": 0.8077777777777778,
+    "pixelsPerMillimeter": 0.5142927927927928,
+    "handle": {
+      "height": 45,
+      "angle": 200
+    },
+    "frontFork": {
+      "height": 180,
+      "angle": 25,
+      "wheelOffset": -13
+    },
+    "frontWheel": {
+      "radius": 84,
+      "hubRadius": 52,
+      "discRadius": 35.9
+    },
+    "swingarm": {
+      "height": 135,
+      "angle": -84.04999999999751,
+      "shockMountLeft": 20,
+      "shockMountBottom": -5
+    },
+    "rearShock": {
+      "height": 125,
+      "angle": -16.88929632975831
+    },
+    "rearWheel": {
+      "radius": 90,
+      "hubRadius": 65,
+      "discRadius": 35.9
+    },
+    "defaults": {
+      "handlebarHeight": 100,
+      "handlebarAngle": 0,
+      "tripleClampAngle": 0,
+      "tripleClampDrop": 0,
+      "frontForkTravel": 395,
+      "frontWheelPosition": "中位",
+      "frontForkStyle": "正常",
+      "frontForkAirbag": "无",
+      "frontTireWidth": 80,
+      "frontTireRatio": 100,
+      "frontWheelDiameter": 8,
+      "frontWheelOffset": 0,
+      "frontBrakeDiscDiameter": 0,
+      "frontCaliperPosition": "前置",
+      "frontFender": "长",
+      "swingarmLength": 290,
+      "rearShockTravel": 290,
+      "rearShockAngle": 0,
+      "rearShockAirbag": "无",
+      "rearTireWidth": 80,
+      "rearTireRatio": 80,
+      "rearWheelDiameter": 10,
+      "rearWheelOffset": 0,
+      "rearBrakeDiscDiameter": 0,
+      "rearCaliperPosition": "后置",
+      "rearFender": "长"
+    }
+  },
+  "ninebot/C85c": {
+    "sourceScale": 0.8077777777777778,
+    "pixelsPerMillimeter": 0.45969156626506025,
+    "handle": {
+      "height": 45,
+      "angle": 200
+    },
+    "frontFork": {
+      "height": 145,
+      "angle": 25,
+      "wheelOffset": -13
+    },
+    "frontWheel": {
+      "radius": 92,
+      "hubRadius": 63,
+      "discRadius": 37.3
+    },
+    "swingarm": {
+      "height": 130,
+      "angle": -79.64999999999776,
+      "shockMountLeft": 20,
+      "shockMountBottom": 5
+    },
+    "rearShock": {
+      "height": 130,
+      "angle": -16.329683144324477
+    },
+    "rearWheel": {
+      "radius": 92,
+      "hubRadius": 63,
+      "discRadius": 32
+    },
+    "defaults": {
+      "handlebarHeight": 100,
+      "handlebarAngle": 0,
+      "tripleClampAngle": 0,
+      "tripleClampDrop": 0,
+      "frontForkTravel": 365,
+      "frontWheelPosition": "中位",
+      "frontForkStyle": "正常",
+      "frontForkAirbag": "无",
+      "frontTireWidth": 80,
+      "frontTireRatio": 100,
+      "frontWheelDiameter": 10,
+      "frontWheelOffset": 0,
+      "frontBrakeDiscDiameter": 180,
+      "frontCaliperPosition": "前置",
+      "frontFender": "长",
+      "swingarmLength": 280,
+      "rearShockTravel": 290,
+      "rearShockAngle": 0,
+      "rearShockAirbag": "无",
+      "rearTireWidth": 80,
+      "rearTireRatio": 100,
+      "rearWheelDiameter": 10,
+      "rearWheelOffset": 0,
+      "rearBrakeDiscDiameter": 180,
+      "rearCaliperPosition": "后置",
+      "rearFender": "长"
+    }
+  },
+  "skymotor/Y3 95c": {
+    "sourceScale": 0.8077777777777778,
+    "pixelsPerMillimeter": 0.45,
+    "handle": {
+      "height": 45,
+      "angle": 200
+    },
+    "frontFork": {
+      "height": 165,
+      "angle": 25,
+      "wheelOffset": -13
+    },
+    "frontWheel": {
+      "radius": 100,
+      "hubRadius": 72,
+      "discRadius": 45.4
+    },
+    "swingarm": {
+      "height": 137,
+      "angle": -85.34999999999744,
+      "shockMountLeft": 20,
+      "shockMountBottom": 10
+    },
+    "rearShock": {
+      "height": 125,
+      "angle": -22.677411451258692
+    },
+    "rearWheel": {
+      "radius": 96,
+      "hubRadius": 60,
+      "discRadius": 37.2
+    },
+    "defaults": {
+      "handlebarHeight": 100,
+      "handlebarAngle": 0,
+      "tripleClampAngle": 0,
+      "tripleClampDrop": 0,
+      "frontForkTravel": 430,
+      "frontWheelPosition": "中位",
+      "frontForkStyle": "正常",
+      "frontForkAirbag": "无",
+      "frontTireWidth": 80,
+      "frontTireRatio": 90,
+      "frontWheelDiameter": 12,
+      "frontWheelOffset": 0,
+      "frontBrakeDiscDiameter": 220,
+      "frontCaliperPosition": "前置",
+      "frontFender": "长",
+      "swingarmLength": 280,
+      "rearShockTravel": 310,
+      "rearShockAngle": 0,
+      "rearShockAirbag": "无",
+      "rearTireWidth": 95,
+      "rearTireRatio": 100,
+      "rearWheelDiameter": 10,
+      "rearWheelOffset": 0,
+      "rearBrakeDiscDiameter": 180,
+      "rearCaliperPosition": "后置",
+      "rearFender": "长"
+    }
+  }
+}
