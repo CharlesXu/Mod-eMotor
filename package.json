@@ -8,6 +8,7 @@
     "node": ">=24"
   },
   "scripts": {
+    "sync:accessories": "node scripts/download-motomate-accessories.mjs",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",

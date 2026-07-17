@@ -199,17 +199,19 @@ button {
   background: #fff;
   box-shadow: 0 24px 80px rgba(28, 49, 64, 0.28);
   grid-template-columns: 150px minmax(0, 1fr);
-  grid-template-rows: 64px minmax(0, 1fr);
+  grid-template-rows: 72px minmax(0, 1fr);
 }
 
 .motomate-accessory-header {
   z-index: 2;
-  display: flex;
+  display: grid;
   align-items: center;
+  min-width: 0;
   padding: 0 18px 0 24px;
   border-bottom: 1px solid var(--motomate-line);
   grid-column: 1 / -1;
-  justify-content: space-between;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  gap: 24px;
 }
 
 .motomate-accessory-header h2 {
@@ -220,6 +222,40 @@ button {
 .motomate-accessory-header-actions {
   display: flex;
   gap: 8px;
+}
+
+.motomate-accessory-gallery-nav {
+  display: flex;
+  min-width: 0;
+  overflow-x: auto;
+  justify-content: center;
+  scrollbar-width: none;
+}
+
+.motomate-accessory-gallery-nav::-webkit-scrollbar,
+.motomate-accessory-category-nav::-webkit-scrollbar {
+  display: none;
+}
+
+.motomate-accessory-gallery-nav button {
+  flex: 0 0 auto;
+  min-height: 40px;
+  padding: 0 16px;
+  border: 0;
+  border-bottom: 3px solid transparent;
+  background: transparent;
+  color: #667986;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.motomate-accessory-gallery-nav button:hover,
+.motomate-accessory-gallery-nav button:focus-visible,
+.motomate-accessory-gallery-nav button.is-active {
+  border-bottom-color: var(--motomate-accent);
+  color: var(--motomate-ink);
+  outline: 0;
+  font-weight: 700;
 }
 
 .motomate-accessory-header-actions button {
@@ -293,7 +329,7 @@ button {
 
 .motomate-accessory-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(167px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(205px, 1fr));
   gap: 14px;
 }
 
@@ -301,7 +337,7 @@ button {
   position: relative;
   display: grid;
   min-width: 0;
-  min-height: 276px;
+  min-height: 252px;
   overflow: hidden;
   padding: 0 12px 14px;
   border: 1px dashed rgba(65, 91, 117, 0.28);
@@ -309,7 +345,7 @@ button {
   background: #fff;
   text-align: left;
   cursor: pointer;
-  grid-template-rows: 148px 1fr;
+  grid-template-rows: 152px 1fr;
 }
 
 .motomate-accessory-card:hover,
@@ -320,14 +356,41 @@ button {
   box-shadow: 0 8px 24px rgba(28, 49, 64, 0.12);
 }
 
-.motomate-accessory-placeholder {
-  display: grid;
+.motomate-accessory-images {
+  display: flex;
+  min-width: 0;
+  min-height: 0;
   margin: 12px 0 8px;
+  overflow: hidden;
   border-radius: 8px;
-  background: linear-gradient(145deg, #f6f8f9, #e7ecef);
-  color: rgba(73, 92, 105, 0.45);
-  font-size: 25px;
-  font-weight: 700;
+  background: #f5f7f8;
+  gap: 4px;
+}
+
+.motomate-accessory-images img,
+.motomate-accessory-image-error {
+  width: 100%;
+  min-width: 0;
+  height: 100%;
+}
+
+.motomate-accessory-images img {
+  display: block;
+  object-fit: contain;
+}
+
+.motomate-accessory-images.has-two img,
+.motomate-accessory-images.has-two .motomate-accessory-image-error {
+  width: calc(50% - 2px);
+}
+
+.motomate-accessory-image-error {
+  display: grid;
+  padding: 10px;
+  background: #fff0f0;
+  color: #a43e3e;
+  font-size: 12px;
+  text-align: center;
   place-items: center;
 }
 
@@ -351,9 +414,13 @@ button {
 }
 
 .motomate-accessory-card-copy small {
+  display: -webkit-box;
+  overflow: hidden;
   color: #5f6e78;
   font-size: 12px;
   line-height: 1.4;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
 }
 
 .motomate-accessory-switch {
@@ -982,11 +1049,14 @@ button {
     height: 100dvh;
     border-radius: 0;
     grid-template-columns: minmax(0, 1fr);
-    grid-template-rows: 58px 54px minmax(0, 1fr);
+    grid-template-rows: 110px 54px minmax(0, 1fr);
   }
 
   .motomate-accessory-header {
-    padding: 0 10px 0 16px;
+    padding: 8px 10px 0 16px;
+    grid-template-columns: minmax(0, 1fr) auto;
+    grid-template-rows: 48px 53px;
+    gap: 0 8px;
   }
 
   .motomate-accessory-header h2 {
@@ -997,6 +1067,19 @@ button {
     min-width: 58px;
     min-height: 44px;
     padding: 0 10px;
+  }
+
+  .motomate-accessory-gallery-nav {
+    width: calc(100% + 26px);
+    margin-left: -16px;
+    padding: 0 8px;
+    grid-column: 1 / -1;
+    justify-content: flex-start;
+  }
+
+  .motomate-accessory-gallery-nav button {
+    min-height: 52px;
+    padding: 0 14px;
   }
 
   .motomate-accessory-category-nav {
@@ -1046,14 +1129,13 @@ button {
   }
 
   .motomate-accessory-card {
-    min-height: 232px;
+    min-height: 244px;
     padding: 0 9px 12px;
-    grid-template-rows: 116px 1fr;
+    grid-template-rows: 132px 1fr;
   }
 
-  .motomate-accessory-placeholder {
+  .motomate-accessory-images {
     margin-top: 9px;
-    font-size: 20px;
   }
 
   .motomate-accessory-card-copy {
@@ -1409,6 +1491,15 @@ button {
 }
 
 @media (max-width: 420px) {
+  .motomate-accessory-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .motomate-accessory-card {
+    min-height: 252px;
+    grid-template-rows: 138px 1fr;
+  }
+
   .motomate-model-list {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }

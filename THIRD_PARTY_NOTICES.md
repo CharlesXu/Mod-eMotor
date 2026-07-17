@@ -7,9 +7,9 @@
 - 作者主页：[SenZQ](https://space.bilibili.com/524313494)
 - 公开演示：[电鸡姿态模拟工具预览](https://www.bilibili.com/video/BV1pi421v7qM/)
 - 主要涉及目录：`public/motomate/**`、`src/data/**`
-- 配件目录中的名称、品牌和规格依据 SenZQ 网站公开运行数据整理；本项目未复制配件商品图片。
+- 配件目录中的名称、品牌、规格、实物图片和线条图同步自 SenZQ 网站公开运行资源，位于 `public/motomate/accessories/**`、`src/data/motomate-accessories.json` 及对应同步清单中。
 
-感谢 SenZQ 的原创工作和资源积累。上述资源的权利归 SenZQ、相关品牌或其他原权利人所有；其收录和致谢不构成本项目对这些资源的所有权或再许可声明，也不表示其适用 MIT License。
+感谢 SenZQ 的原创工作和资源积累。上述资源仅用于还原配件参考功能，其权利归 SenZQ、相关品牌或其他原权利人所有；其收录和致谢不构成本项目对这些资源的所有权或再许可声明，也不表示其适用 MIT License。复制、再分发或商业使用这些资源前，应另行确认并取得所需授权。
 
 ## 品牌与车型素材
 
