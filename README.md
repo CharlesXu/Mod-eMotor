@@ -23,6 +23,24 @@ npm run dev
 
 浏览器访问 [http://localhost:3000](http://localhost:3000)。
 
+### 手机通过局域网访问
+
+让电脑和手机连接同一个局域网，然后在项目目录启动可被局域网访问的开发服务器：
+
+```bash
+npm run dev -- --hostname 0.0.0.0
+```
+
+在手机浏览器中访问 `http://电脑的局域网IP:3000`。项目会自动把本机局域网 IPv4
+地址加入 Next.js 的 `allowedDevOrigins`，避免手机访问时 `/_next/webpack-hmr`
+被开发服务器拦截。
+
+如果通过自定义主机名或另一层代理访问，可追加允许的主机名/IP（不要填写协议和端口）：
+
+```bash
+NEXT_ALLOWED_DEV_ORIGINS=dev.example.test,192.168.1.20 npm run dev -- --hostname 0.0.0.0
+```
+
 Linux 或 macOS 使用 `nvm` 时，可以先执行：
 
 ```bash
@@ -173,7 +191,7 @@ npm run security
 ```text
 src/app/                    页面入口与全局样式
 src/components/motomate/    模拟器界面与几何计算
-src/data/                   车型和机械参数数据
+src/data/                   车型、机械参数与配件参考数据
 public/motomate/            车辆图片、线稿与控件素材
 ```
 
@@ -182,6 +200,7 @@ public/motomate/            车辆图片、线稿与控件素材
 - 本工具用于车辆姿态、尺寸和改装方案的可视化比较。
 - 对公网部署时，建议使用带 HTTPS 的反向代理。
 - 车型名称、品牌标识、车型参数及相关视觉素材的权利归原作者或各自权利人所有。
+- 配件目录中的名称、品牌和规格依据 SenZQ 网站公开运行数据整理，未复制配件商品图片。
 
 ## License
 
