@@ -1,5 +1,7 @@
 import assert from "node:assert/strict";
+import { existsSync } from "node:fs";
 import { createRequire } from "node:module";
+import path from "node:path";
 import test from "node:test";
 
 import {
@@ -13,12 +15,16 @@ import {
   clampNumericValue,
   resolveGeometryPair,
 } from "../src/components/motomate/simulatorDomain.ts";
+import { encodeLocalAssetPath } from "../src/components/motomate/vehicleSelectorDomain.ts";
 
 const require = createRequire(import.meta.url);
 const catalog = require("../src/data/motomate-catalog.json");
 const geometryProfiles = require("../src/data/motomate-geometry-profiles.json");
 const mechanicalProfiles = require("../src/data/motomate-mechanical-profiles.json");
+const lineAssets = require("../src/data/motomate-line-assets.json");
+const thumbnailAssets = require("../src/data/motomate-thumbnail-assets.json");
 const referenceInitialValues = require("./fixtures/motomate-reference-initial-values.json");
+const ROOT = path.resolve(import.meta.dirname, "..");
 
 const BASE_DEFAULTS = {
   handlebarHeight: 97,
@@ -96,6 +102,31 @@ test("covers every reference model with matching catalog and profile keys", () =
   assert.deepEqual(catalogKeys, referenceKeys);
   assert.deepEqual(Object.keys(mechanicalProfiles).sort(), referenceKeys);
   assert.deepEqual(Object.keys(geometryProfiles).sort(), referenceKeys);
+});
+
+test("encodes special characters in local vehicle asset URLs", () => {
+  assert.equal(
+    encodeLocalAssetPath("/motomate/NIU_UQI+ II.43ede9ce.png"),
+    "/motomate/NIU_UQI%2B%20II.43ede9ce.png",
+  );
+  assert.equal(
+    encodeLocalAssetPath("/motomate/NIU_UQI+ (U+A).35855365.png"),
+    "/motomate/NIU_UQI%2B%20(U%2BA).35855365.png",
+  );
+});
+
+test("provides an existing local artwork asset for every catalog model", () => {
+  for (const brand of catalog) {
+    for (const model of brand.models) {
+      const key = `${brand.brand}/${model.name}`;
+      const candidates = [model.image, thumbnailAssets[key], lineAssets[key]].filter(Boolean);
+      assert.ok(candidates.length > 0, `${key} must have an artwork source`);
+      assert.ok(candidates.some((source) => {
+        const decodedPath = decodeURIComponent(source).replace(/^\//, "");
+        return existsSync(path.join(ROOT, "public", decodedPath));
+      }), `${key} must resolve to an existing local artwork file`);
+    }
+  }
 });
 
 test("matches the audited initial values for all 114 reference models", () => {

@@ -8,6 +8,7 @@ import lineAssetData from "@/data/motomate-line-assets.json";
 import thumbnailAssetData from "@/data/motomate-thumbnail-assets.json";
 import { publicPath } from "@/lib/publicPath";
 import InfoToolbar from "./InfoToolbar";
+import { encodeLocalAssetPath } from "./vehicleSelectorDomain";
 
 export type VehicleModel = Readonly<{
   index: number;
@@ -42,29 +43,40 @@ const brandIcons: Readonly<Record<string, string>> = {
   OTHER: "/motomate/OTHER.560abe8f.png",
 };
 
-const defaultBrand = catalog.find(({ brand }) => brand === "ninebot") ?? catalog[0];
-const defaultModel =
-  defaultBrand.models.find(({ name }) => name === "Kz110") ?? defaultBrand.models[0];
-
 function VehicleArtwork({
   brand,
+  decorative = false,
   model,
   width,
-}: Readonly<{ brand: string; model: VehicleModel; width: number }>) {
+}: Readonly<{ brand: string; decorative?: boolean; model: VehicleModel; width: number }>) {
   const modelKey = `${brand}/${model.name}`;
-  const imagePath = model.image || thumbnailAssets[modelKey] || lineAssets[modelKey];
+  const candidates = useMemo(() => (
+    [...new Set([model.image, thumbnailAssets[modelKey], lineAssets[modelKey]].filter(Boolean))]
+  ), [model.image, modelKey]);
+  const [failedSources, setFailedSources] = useState<ReadonlySet<string>>(() => new Set());
+  const imagePath = candidates.find((candidate) => !failedSources.has(candidate));
 
-  if (imagePath) return <Image alt={model.name} fill sizes={`${width}px`} src={publicPath(imagePath)} unoptimized />;
+  if (imagePath) {
+    return (
+      <Image
+        alt={decorative ? "" : model.name}
+        fill
+        onError={() => setFailedSources((current) => new Set([...current, imagePath]))}
+        sizes={`${width}px`}
+        src={publicPath(encodeLocalAssetPath(imagePath))}
+        unoptimized
+      />
+    );
+  }
   return <span className="motomate-model-placeholder">NO IMAGE</span>;
 }
 
 export default function VehicleSelector({ onLoad }: VehicleSelectorProps) {
   const [activeBrand, setActiveBrand] = useState<string | null>(null);
-  const [selection, setSelection] = useState({
-    brand: defaultBrand.brand,
-    model: defaultModel,
-  });
-  const [ready, setReady] = useState(false);
+  const [selection, setSelection] = useState<Readonly<{
+    brand: string;
+    model: VehicleModel;
+  }> | null>(null);
 
   const currentBrand = catalog.find(({ brand }) => brand === activeBrand);
   const categoryGroups = useMemo(() => {
@@ -87,10 +99,11 @@ export default function VehicleSelector({ onLoad }: VehicleSelectorProps) {
         {catalog.map((brand) => (
           <button
             className={`motomate-brand-tab${brand.brand === activeBrand ? " is-active" : ""}`}
+            aria-pressed={brand.brand === activeBrand}
             key={brand.brand}
             onClick={() => {
               setActiveBrand(brand.brand);
-              setReady(false);
+              setSelection(null);
             }}
             type="button"
           >
@@ -113,19 +126,25 @@ export default function VehicleSelector({ onLoad }: VehicleSelectorProps) {
               <div className="motomate-model-list">
                 {models.map((model) => {
                   const selected =
-                    selection.brand === currentBrand.brand && selection.model.index === model.index;
+                    selection?.brand === currentBrand.brand && selection.model.index === model.index;
                   return (
                     <button
-                      className={`motomate-model-card${selected && ready ? " is-selected" : ""}`}
+                      className={`motomate-model-card${selected ? " is-selected" : ""}`}
+                      aria-pressed={selected}
                       key={`${category}-${model.index}-${model.name}`}
                       onClick={() => {
                         setSelection({ brand: currentBrand.brand, model });
-                        setReady(true);
                       }}
                       type="button"
                     >
                       <span className="motomate-model-image-wrap">
-                        <VehicleArtwork brand={currentBrand.brand} model={model} width={130} />
+                        <VehicleArtwork
+                          brand={currentBrand.brand}
+                          decorative
+                          key={`${currentBrand.brand}/${model.name}`}
+                          model={model}
+                          width={130}
+                        />
                       </span>
                       <span>{model.name}</span>
                     </button>
@@ -137,21 +156,31 @@ export default function VehicleSelector({ onLoad }: VehicleSelectorProps) {
         </section>
       ) : null}
 
-      <aside className="motomate-promoted-card">
-        <span className="motomate-promoted-image-wrap">
-          <VehicleArtwork brand={selection.brand} model={selection.model} width={120} />
-        </span>
-        <span>{selection.model.name}</span>
-      </aside>
+      <div className={`motomate-selection-dock${selection ? " is-ready" : ""}`}>
+        {selection ? (
+          <aside className="motomate-promoted-card" aria-label={`已选车型 ${selection.model.name}`}>
+            <span className="motomate-promoted-image-wrap">
+              <VehicleArtwork
+                brand={selection.brand}
+                key={`${selection.brand}/${selection.model.name}`}
+                model={selection.model}
+                width={120}
+              />
+            </span>
+            <span>{selection.model.name}</span>
+          </aside>
+        ) : null}
 
-      <button
-        className={`motomate-start-button${ready ? " is-ready" : ""}`}
-        onClick={() => ready && onLoad(selection.brand, selection.model.name)}
-        type="button"
-      >
-        <span className="motomate-start-icons">◉ <b>VS</b></span>
-        <span>{ready ? `载入 ${selection.model.name}` : "点击品牌，选择车型"}</span>
-      </button>
+        <button
+          className={`motomate-start-button${selection ? " is-ready" : ""}`}
+          disabled={!selection}
+          onClick={() => selection && onLoad(selection.brand, selection.model.name)}
+          type="button"
+        >
+          <span className="motomate-start-icons">◉ <b>VS</b></span>
+          <span>{selection ? `载入 ${selection.model.name}` : "点击品牌，选择车型"}</span>
+        </button>
+      </div>
 
       <div className="motomate-loading-rule" aria-hidden="true" />
     </main>
