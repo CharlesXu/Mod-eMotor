@@ -31,6 +31,158 @@ button {
   color: inherit;
 }
 
+.motomate-info-toolbar {
+  position: absolute;
+  z-index: 40;
+  top: 12px;
+  right: 18px;
+  display: flex;
+  overflow: hidden;
+  border: 1px solid rgba(73, 92, 105, 0.25);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.94);
+  box-shadow: 0 4px 16px rgba(28, 49, 64, 0.08);
+}
+
+.motomate-info-toolbar button {
+  min-width: 62px;
+  height: 34px;
+  padding: 0 15px;
+  border: 0;
+  border-left: 1px solid rgba(73, 92, 105, 0.18);
+  background: transparent;
+  color: var(--motomate-accent);
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.motomate-info-toolbar button:first-child {
+  border-left: 0;
+}
+
+.motomate-info-toolbar button:hover,
+.motomate-info-toolbar button:focus-visible {
+  background: var(--motomate-soft);
+  outline: 0;
+}
+
+.motomate-info-dialog {
+  width: min(560px, calc(100vw - 32px));
+  max-height: min(680px, calc(100dvh - 32px));
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  border-radius: 14px;
+  color: var(--motomate-ink);
+  box-shadow: 0 24px 80px rgba(28, 49, 64, 0.28);
+}
+
+.motomate-info-dialog::backdrop {
+  background: rgba(23, 35, 44, 0.42);
+  backdrop-filter: blur(2px);
+}
+
+.motomate-info-dialog-card {
+  max-height: min(680px, calc(100dvh - 32px));
+  overflow-y: auto;
+  background: #fff;
+}
+
+.motomate-info-dialog-card > header {
+  position: sticky;
+  z-index: 1;
+  top: 0;
+  display: flex;
+  align-items: center;
+  min-height: 66px;
+  padding: 12px 18px 12px 24px;
+  border-bottom: 1px solid var(--motomate-line);
+  background: rgba(255, 255, 255, 0.96);
+  justify-content: space-between;
+}
+
+.motomate-info-dialog-card h2 {
+  margin: 0;
+  font-size: 21px;
+}
+
+.motomate-info-dialog-card header button {
+  width: 38px;
+  height: 38px;
+  border: 0;
+  border-radius: 50%;
+  background: var(--motomate-soft);
+  color: var(--motomate-accent);
+  font-size: 26px;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.motomate-accessory-list,
+.motomate-credit-list {
+  padding: 22px 24px 26px;
+}
+
+.motomate-accessory-list > p,
+.motomate-credit-list p {
+  margin: 0;
+  color: #667986;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.motomate-accessory-list dl {
+  display: grid;
+  margin: 18px 0 0;
+  gap: 10px;
+}
+
+.motomate-accessory-list dl > div,
+.motomate-credit-list article {
+  padding: 14px 16px;
+  border: 1px solid #e4e9ed;
+  border-radius: 8px;
+  background: #fafbfc;
+}
+
+.motomate-accessory-list dt,
+.motomate-credit-list strong {
+  color: var(--motomate-accent);
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.motomate-accessory-list dd {
+  margin: 5px 0 0;
+  color: #667986;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.motomate-credit-list {
+  display: grid;
+  gap: 12px;
+}
+
+.motomate-credit-list article p {
+  margin-top: 6px;
+}
+
+.motomate-credit-list > a {
+  color: #267ba8;
+  font-size: 14px;
+  text-underline-offset: 3px;
+}
+
+.motomate-controls-panel,
+.motomate-controls-content {
+  display: contents;
+}
+
+.motomate-mobile-controls-toggle {
+  display: none;
+}
+
 .motomate-selector {
   position: relative;
   min-width: 1180px;
@@ -550,7 +702,7 @@ button {
   font-size: 14px;
 }
 
-@media (max-width: 1179px) {
+@media (min-width: 900px) and (max-width: 1179px) {
   body {
     overflow-x: auto;
   }
@@ -558,5 +710,380 @@ button {
   .motomate-selector,
   .motomate-editor-shell {
     transform-origin: top left;
+  }
+}
+
+@media (max-width: 899px) {
+  html,
+  body {
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  .motomate-info-toolbar {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+
+  .motomate-info-toolbar button {
+    min-width: 56px;
+    height: 36px;
+    padding: 0 12px;
+  }
+
+  .motomate-selector {
+    width: 100%;
+    min-width: 0;
+    height: 100dvh;
+    min-height: 580px;
+  }
+
+  .motomate-brand-bar {
+    top: 0;
+    bottom: 76px;
+    display: flex;
+    flex-flow: column nowrap;
+    width: 84px;
+    height: auto;
+    overflow-x: hidden;
+    overflow-y: auto;
+    border-right: 1px solid rgba(65, 91, 117, 0.14);
+    background: #fff;
+  }
+
+  .motomate-brand-tab {
+    flex: 0 0 68px;
+    flex-direction: column;
+    width: 83px;
+    height: 68px;
+    padding: 7px 4px 5px;
+    border-right: 0;
+    gap: 2px;
+    justify-content: center;
+  }
+
+  .motomate-brand-tab img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .motomate-brand-tab span {
+    max-width: 76px;
+    overflow: hidden;
+    font-size: 10px;
+    text-overflow: ellipsis;
+  }
+
+  .motomate-start-copy {
+    top: 31%;
+    right: 18px;
+    left: 102px;
+    width: auto;
+    text-align: left;
+  }
+
+  .motomate-start-copy h1 {
+    font-size: clamp(32px, 9vw, 54px);
+    line-height: 1.2;
+    letter-spacing: 0;
+  }
+
+  .motomate-start-copy p {
+    margin-top: 16px;
+    padding-right: 0;
+    font-size: 14px;
+    text-align: left;
+  }
+
+  .motomate-model-catalog {
+    top: 58px;
+    bottom: 76px;
+    left: 84px;
+    height: auto;
+    padding: 10px 10px 24px;
+  }
+
+  .motomate-model-group h2 {
+    height: 30px;
+    margin-bottom: 5px;
+    font-size: 18px;
+    line-height: 30px;
+  }
+
+  .motomate-model-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(132px, 1fr));
+    gap: 8px;
+    margin-bottom: 14px;
+  }
+
+  .motomate-model-card {
+    width: auto;
+    height: 132px;
+    border-radius: 0 0 14px;
+  }
+
+  .motomate-model-image-wrap {
+    top: 8px;
+    right: 8px;
+    left: 8px;
+    width: auto;
+    height: 88px;
+  }
+
+  .motomate-model-card > span:last-child {
+    bottom: 10px;
+    left: 10px;
+    max-width: calc(100% - 20px);
+    overflow: hidden;
+    font-size: 13px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .motomate-promoted-card,
+  .motomate-loading-rule {
+    display: none;
+  }
+
+  .motomate-start-button {
+    position: absolute;
+    z-index: 20;
+    top: auto;
+    right: 12px;
+    bottom: 13px;
+    left: 96px;
+    width: auto;
+    height: 50px;
+    padding: 0 16px;
+    border-width: 2px;
+    background: rgba(255, 255, 255, 0.96);
+    font-size: 14px;
+    gap: 14px;
+  }
+
+  .motomate-editor-shell {
+    display: flex;
+    width: 100%;
+    min-width: 0;
+    height: auto;
+    min-height: 100dvh;
+    overflow: visible;
+    flex-direction: column;
+  }
+
+  .motomate-canvas {
+    order: 1;
+    width: 100% !important;
+    min-width: 0 !important;
+    height: 100dvh !important;
+    min-height: 580px !important;
+    flex: none !important;
+  }
+
+  .motomate-canvas-title {
+    top: 62px !important;
+    right: 12px;
+    left: 12px !important;
+  }
+
+  .motomate-canvas-heading {
+    overflow: hidden;
+    font-size: clamp(24px, 7vw, 34px) !important;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .motomate-vehicle-stage {
+    top: 48% !important;
+    left: 50% !important;
+    width: 727px !important;
+    height: 547px !important;
+    transform: translate(-50%, -50%) scale(min(1, calc((100vw - 24px) / 727px)));
+    transform-origin: center;
+    overflow: visible;
+  }
+
+  .motomate-compare-table {
+    top: 108px !important;
+    left: 12px !important;
+    width: calc(100vw - 24px) !important;
+    font-size: 10px !important;
+  }
+
+  .motomate-compare-row {
+    padding: 6px !important;
+  }
+
+  .motomate-view-switcher {
+    right: 12px !important;
+    bottom: 76px !important;
+    left: 12px !important;
+    width: auto !important;
+    height: 46px !important;
+    transform: none !important;
+  }
+
+  .motomate-display-switcher {
+    right: 12px !important;
+    bottom: 18px !important;
+    left: 12px !important;
+    width: auto !important;
+    height: 46px !important;
+  }
+
+  .motomate-controls-panel {
+    display: block;
+    order: 2;
+    width: 100%;
+    border-top: 1px solid #dfe5e9;
+    background: #fff;
+  }
+
+  .motomate-controls-content {
+    display: block;
+  }
+
+  .motomate-controls-panel.is-collapsed .motomate-controls-content {
+    display: none;
+  }
+
+  .motomate-mobile-controls-toggle {
+    position: sticky;
+    z-index: 12;
+    top: 0;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 52px;
+    padding: 0 18px;
+    border: 0;
+    border-bottom: 1px solid #dfe5e9;
+    background: #f7f9fa;
+    color: var(--motomate-accent);
+    font-size: 15px;
+    font-weight: 600;
+    justify-content: space-between;
+    cursor: pointer;
+  }
+
+  .motomate-control-sidebar {
+    display: flex;
+    width: 100%;
+    height: auto;
+    min-height: 0;
+    flex-direction: column;
+  }
+
+  .motomate-icon-rail {
+    position: sticky;
+    z-index: 11;
+    top: 52px;
+    display: flex;
+    width: 100%;
+    height: 64px;
+    min-height: 64px;
+    border-right: 0;
+    border-bottom: 2px solid var(--motomate-ink);
+  }
+
+  .motomate-rail-scroll {
+    display: flex;
+    width: calc(100% - 104px);
+    height: 62px;
+    overflow-x: auto;
+    overflow-y: hidden;
+  }
+
+  .motomate-rail-item {
+    flex: 0 0 58px;
+    width: 58px;
+    height: 62px;
+    padding: 8px;
+    border-right: 1px dashed rgba(44, 62, 80, 0.35);
+    border-bottom: 0;
+  }
+
+  .motomate-rail-icon {
+    width: 34px;
+    height: 34px;
+  }
+
+  .motomate-rail-label {
+    left: 6px;
+  }
+
+  .motomate-rail-back,
+  .motomate-rail-save {
+    top: 8px;
+    bottom: auto;
+    left: auto;
+    width: 42px;
+    height: 42px;
+  }
+
+  .motomate-rail-back {
+    right: 52px;
+  }
+
+  .motomate-rail-save {
+    right: 7px;
+  }
+
+  .motomate-inspector {
+    width: 100%;
+    height: auto;
+    border-right: 0;
+  }
+
+  .motomate-inspector-content {
+    height: min(65dvh, 620px);
+    margin: 14px 10px 18px;
+    overflow-y: auto;
+    scrollbar-width: thin;
+  }
+
+  .motomate-control-section {
+    min-height: 0;
+  }
+
+  .motomate-number-row,
+  .motomate-choice-row {
+    align-items: flex-start;
+    gap: 8px;
+  }
+
+  .motomate-number-label,
+  .motomate-choice-label {
+    flex: 0 0 min(124px, 38vw);
+    width: min(124px, 38vw);
+    padding-top: 7px;
+  }
+
+  .motomate-choice-group {
+    flex-wrap: wrap;
+  }
+
+  .motomate-save-toast {
+    top: 58px;
+    right: 12px;
+  }
+}
+
+@media (max-width: 420px) {
+  .motomate-model-list {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .motomate-info-dialog-card > header,
+  .motomate-accessory-list,
+  .motomate-credit-list {
+    padding-right: 16px;
+    padding-left: 16px;
+  }
+
+  .motomate-number-control {
+    width: min(150px, 45vw);
   }
 }

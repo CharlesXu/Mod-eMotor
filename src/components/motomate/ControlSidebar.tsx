@@ -4,6 +4,12 @@ import Image from "next/image";
 import { useRef, useState } from "react";
 
 import { publicPath } from "@/lib/publicPath";
+import {
+  NUMERIC_CONSTRAINTS,
+  clampNumericValue,
+  clampNumericValues,
+  type NumericSimulatorKey,
+} from "./simulatorDomain";
 
 export type SimulatorValues = {
   handlebarHeight: number;
@@ -60,10 +66,6 @@ type SectionId =
   | "accessories"
   | "posture";
 
-type NumericKey = {
-  [Key in keyof SimulatorValues]: SimulatorValues[Key] extends number ? Key : never;
-}[keyof SimulatorValues];
-
 const sections: ReadonlyArray<{
   id: SectionId;
   title: string;
@@ -82,13 +84,14 @@ const sections: ReadonlyArray<{
 ];
 
 type NumberRowProps = {
+  constraintKey: NumericSimulatorKey;
   label: string;
   value: number;
-  step?: number;
   onChange: (value: number) => void;
 };
 
-function NumberRow({ label, value, step = 1, onChange }: NumberRowProps) {
+function NumberRow({ constraintKey, label, value, onChange }: NumberRowProps) {
+  const { min, max, step } = NUMERIC_CONSTRAINTS[constraintKey];
   return (
     <div className="motomate-number-row">
       <label className="motomate-number-label">
@@ -100,7 +103,7 @@ function NumberRow({ label, value, step = 1, onChange }: NumberRowProps) {
           className="motomate-number-step motomate-number-step-minus"
           type="button"
           aria-label={`${label}减小`}
-          onClick={() => onChange(value - step)}
+          onClick={() => onChange(clampNumericValue(constraintKey, value - step, value))}
         >
           −
         </button>
@@ -108,18 +111,22 @@ function NumberRow({ label, value, step = 1, onChange }: NumberRowProps) {
           className="motomate-number-input"
           type="number"
           aria-label={label}
+          min={min}
+          max={max}
           step={step}
           value={value}
           onChange={(event) => {
             const next = event.currentTarget.valueAsNumber;
-            if (Number.isFinite(next)) onChange(next);
+            if (Number.isFinite(next)) {
+              onChange(clampNumericValue(constraintKey, next, value));
+            }
           }}
         />
         <button
           className="motomate-number-step motomate-number-step-plus"
           type="button"
           aria-label={`${label}增大`}
-          onClick={() => onChange(value + step)}
+          onClick={() => onChange(clampNumericValue(constraintKey, value + step, value))}
         >
           +
         </button>
@@ -168,7 +175,9 @@ export function ControlSidebar({ values, defaultValues, onChange, onBack, onSave
     onChange({ ...values, [key]: value });
   };
 
-  const numeric = (key: NumericKey) => (value: number) => update(key, value);
+  const numeric = (key: NumericSimulatorKey) => (value: number) => {
+    update(key, clampNumericValue(key, value, values[key]));
+  };
 
   const resetSection = (id: SectionId) => {
     const sectionDefaults: Partial<SimulatorValues> = (() => {
@@ -236,7 +245,8 @@ export function ControlSidebar({ values, defaultValues, onChange, onBack, onSave
       }
     })();
 
-    onChange({ ...values, ...sectionDefaults });
+    const nextValues = { ...values, ...sectionDefaults };
+    onChange(clampNumericValues(nextValues, nextValues));
   };
 
   const scrollToSection = (id: SectionId) => {
@@ -306,17 +316,17 @@ export function ControlSidebar({ values, defaultValues, onChange, onBack, onSave
           {section(
             "handlebar",
             <>
-              <NumberRow label="车把高度" value={values.handlebarHeight} onChange={numeric("handlebarHeight")} />
-              <NumberRow label="车把角度" value={values.handlebarAngle} onChange={numeric("handlebarAngle")} />
+              <NumberRow constraintKey="handlebarHeight" label="车把高度" value={values.handlebarHeight} onChange={numeric("handlebarHeight")} />
+              <NumberRow constraintKey="handlebarAngle" label="车把角度" value={values.handlebarAngle} onChange={numeric("handlebarAngle")} />
             </>,
           )}
 
           {section(
             "frontSuspension",
             <>
-              <NumberRow label="三星柱角度" value={values.tripleClampAngle} onChange={numeric("tripleClampAngle")} />
-              <NumberRow label="三星柱下沉量" value={values.tripleClampDrop} onChange={numeric("tripleClampDrop")} />
-              <NumberRow label="减震孔距 / 行程" value={values.frontForkTravel} onChange={numeric("frontForkTravel")} />
+              <NumberRow constraintKey="tripleClampAngle" label="三星柱角度" value={values.tripleClampAngle} onChange={numeric("tripleClampAngle")} />
+              <NumberRow constraintKey="tripleClampDrop" label="三星柱下沉量" value={values.tripleClampDrop} onChange={numeric("tripleClampDrop")} />
+              <NumberRow constraintKey="frontForkTravel" label="减震孔距 / 行程" value={values.frontForkTravel} onChange={numeric("frontForkTravel")} />
               <ChoiceRow label="前轮安装位置" value={values.frontWheelPosition} options={["前位", "中位", "后位"]} onChange={(value) => update("frontWheelPosition", value)} />
               <ChoiceRow label="前减样式 | 形态" value={values.frontForkStyle} options={["正常", "倒置"]} onChange={(value) => update("frontForkStyle", value)} />
               <ChoiceRow label="前减样式 | 气瓶" value={values.frontForkAirbag} options={["无", "P1", "P2"]} onChange={(value) => update("frontForkAirbag", value)} />
@@ -326,17 +336,17 @@ export function ControlSidebar({ values, defaultValues, onChange, onBack, onSave
           {section(
             "frontWheel",
             <>
-              <NumberRow label="轮胎-宽度" value={values.frontTireWidth} onChange={numeric("frontTireWidth")} />
-              <NumberRow label="轮胎-扁平比" value={values.frontTireRatio} onChange={numeric("frontTireRatio")} />
-              <NumberRow label="轮毂-直径" value={values.frontWheelDiameter} onChange={numeric("frontWheelDiameter")} />
-              <NumberRow label="轮毂-偏距" value={values.frontWheelOffset} onChange={numeric("frontWheelOffset")} />
+              <NumberRow constraintKey="frontTireWidth" label="轮胎-宽度" value={values.frontTireWidth} onChange={numeric("frontTireWidth")} />
+              <NumberRow constraintKey="frontTireRatio" label="轮胎-扁平比" value={values.frontTireRatio} onChange={numeric("frontTireRatio")} />
+              <NumberRow constraintKey="frontWheelDiameter" label="轮毂-直径" value={values.frontWheelDiameter} onChange={numeric("frontWheelDiameter")} />
+              <NumberRow constraintKey="frontWheelOffset" label="轮毂-偏距" value={values.frontWheelOffset} onChange={numeric("frontWheelOffset")} />
             </>,
           )}
 
           {section(
             "frontBrake",
             <>
-              <NumberRow label="刹车盘直径" value={values.frontBrakeDiscDiameter} onChange={numeric("frontBrakeDiscDiameter")} />
+              <NumberRow constraintKey="frontBrakeDiscDiameter" label="刹车盘直径" value={values.frontBrakeDiscDiameter} onChange={numeric("frontBrakeDiscDiameter")} />
               <ChoiceRow label="卡钳安装位置" value={values.frontCaliperPosition} options={["前置", "后置"]} onChange={(value) => update("frontCaliperPosition", value)} />
               <ChoiceRow label="挡泥瓦" value={values.frontFender} options={["无", "短", "长"]} onChange={(value) => update("frontFender", value)} />
             </>,
@@ -345,9 +355,9 @@ export function ControlSidebar({ values, defaultValues, onChange, onBack, onSave
           {section(
             "rearSuspension",
             <>
-              <NumberRow label="后平叉长度" value={values.swingarmLength} onChange={numeric("swingarmLength")} />
-              <NumberRow label="后减震行程" value={values.rearShockTravel} onChange={numeric("rearShockTravel")} />
-              <NumberRow label="后减震角度" value={values.rearShockAngle} onChange={numeric("rearShockAngle")} />
+              <NumberRow constraintKey="swingarmLength" label="后平叉长度" value={values.swingarmLength} onChange={numeric("swingarmLength")} />
+              <NumberRow constraintKey="rearShockTravel" label="后减震行程" value={values.rearShockTravel} onChange={numeric("rearShockTravel")} />
+              <NumberRow constraintKey="rearShockAngle" label="后减震角度" value={values.rearShockAngle} onChange={numeric("rearShockAngle")} />
               <ChoiceRow label="后减气瓶" value={values.rearShockAirbag} options={["无", "P1", "P2", "P3"]} onChange={(value) => update("rearShockAirbag", value)} />
             </>,
           )}
@@ -355,17 +365,17 @@ export function ControlSidebar({ values, defaultValues, onChange, onBack, onSave
           {section(
             "rearWheel",
             <>
-              <NumberRow label="轮胎-宽度" value={values.rearTireWidth} onChange={numeric("rearTireWidth")} />
-              <NumberRow label="轮胎-扁平比" value={values.rearTireRatio} onChange={numeric("rearTireRatio")} />
-              <NumberRow label="轮毂-直径" value={values.rearWheelDiameter} onChange={numeric("rearWheelDiameter")} />
-              <NumberRow label="轮毂-偏距" value={values.rearWheelOffset} onChange={numeric("rearWheelOffset")} />
+              <NumberRow constraintKey="rearTireWidth" label="轮胎-宽度" value={values.rearTireWidth} onChange={numeric("rearTireWidth")} />
+              <NumberRow constraintKey="rearTireRatio" label="轮胎-扁平比" value={values.rearTireRatio} onChange={numeric("rearTireRatio")} />
+              <NumberRow constraintKey="rearWheelDiameter" label="轮毂-直径" value={values.rearWheelDiameter} onChange={numeric("rearWheelDiameter")} />
+              <NumberRow constraintKey="rearWheelOffset" label="轮毂-偏距" value={values.rearWheelOffset} onChange={numeric("rearWheelOffset")} />
             </>,
           )}
 
           {section(
             "rearBrake",
             <>
-              <NumberRow label="刹车盘直径" value={values.rearBrakeDiscDiameter} onChange={numeric("rearBrakeDiscDiameter")} />
+              <NumberRow constraintKey="rearBrakeDiscDiameter" label="刹车盘直径" value={values.rearBrakeDiscDiameter} onChange={numeric("rearBrakeDiscDiameter")} />
               <ChoiceRow label="卡钳安装位置" value={values.rearCaliperPosition} options={["前置", "后置"]} onChange={(value) => update("rearCaliperPosition", value)} />
               <ChoiceRow label="挡泥瓦" value={values.rearFender} options={["无", "短", "长"]} onChange={(value) => update("rearFender", value)} />
             </>,
@@ -382,10 +392,10 @@ export function ControlSidebar({ values, defaultValues, onChange, onBack, onSave
           {section(
             "posture",
             <>
-              <NumberRow label="坐垫高度" value={values.seatHeight} onChange={numeric("seatHeight")} />
-              <NumberRow label="坐垫前后" value={values.seatOffset} onChange={numeric("seatOffset")} />
-              <NumberRow label="脚踏前后" value={values.footrestOffset} onChange={numeric("footrestOffset")} />
-              <NumberRow label="身高调整 (cm)" value={values.riderHeight} onChange={numeric("riderHeight")} />
+              <NumberRow constraintKey="seatHeight" label="坐垫高度" value={values.seatHeight} onChange={numeric("seatHeight")} />
+              <NumberRow constraintKey="seatOffset" label="坐垫前后" value={values.seatOffset} onChange={numeric("seatOffset")} />
+              <NumberRow constraintKey="footrestOffset" label="脚踏前后" value={values.footrestOffset} onChange={numeric("footrestOffset")} />
+              <NumberRow constraintKey="riderHeight" label="身高调整 (cm)" value={values.riderHeight} onChange={numeric("riderHeight")} />
               <ChoiceRow label="坐姿模式" value={values.posture} options={["标准", "运动", "舒适"]} onChange={(value) => update("posture", value)} />
             </>,
           )}

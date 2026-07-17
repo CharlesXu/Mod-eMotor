@@ -4,20 +4,6 @@
 
 这是一个独立的网站源码仓库，不包含网站克隆技能、Agent 配置、抓取脚本或研究资料。运行时不需要激活码、账号、数据库或外部 API。
 
-在线版本：[https://charlesxu.github.io/Mod-eMotor/](https://charlesxu.github.io/Mod-eMotor/)
-
-## GitHub Pages 自动部署
-
-推送到 `main` 分支后，[Deploy GitHub Pages](.github/workflows/deploy-pages.yml) 会自动完成依赖安装、代码检查、静态构建和发布。
-
-部署地址：
-
-```text
-https://charlesxu.github.io/Mod-eMotor/
-```
-
-也可以在 GitHub 仓库的 **Actions → Deploy GitHub Pages → Run workflow** 手动重新部署。
-
 ## 环境要求
 
 - Git
@@ -166,7 +152,21 @@ node server.js
 npm run check
 ```
 
-该命令依次运行 ESLint、TypeScript 检查和生产构建。
+该命令依次运行脱敏与安全检查、自动化测试、ESLint、TypeScript 检查和生产构建。
+
+只运行自动化测试：
+
+```bash
+npm test
+```
+
+只运行脱敏与安全检查：
+
+```bash
+npm run security
+```
+
+该检查包含 Git 跟踪文件中的私钥、常见令牌、硬编码凭据和个人绝对路径检查，以及高危依赖漏洞审计。检查结果只报告文件、行号和规则，不输出疑似敏感值。
 
 ## 目录结构
 
@@ -181,4 +181,14 @@ public/motomate/            车辆图片、线稿与控件素材
 
 - 本工具用于车辆姿态、尺寸和改装方案的可视化比较。
 - 对公网部署时，建议使用带 HTTPS 的反向代理。
-- 车型名称、品牌标识及相关视觉素材的权利归各自权利人所有。
+- 车型名称、品牌标识、车型参数及相关视觉素材的权利归原作者或各自权利人所有。
+
+## License
+
+本项目中由 CharlesXu 原创并有权许可的代码采用 [MIT License](LICENSE)。`public/motomate/**`、`src/data/**` 以及其他第三方名称、商标、图片、线稿、控件素材和数据不在该 MIT 授权范围内，除非对应文件另有明确许可。详情见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。
+
+## 鸣谢
+
+1. [SenZQ](https://space.bilibili.com/524313494)：其电鸡模拟器网站是本项目最重要的功能与交互参考，也是车型图片、车辆线稿、控件素材和部分车型数据的重要资源来源。感谢 SenZQ 的原创工作与长期资源积累；可参阅其[电鸡姿态模拟工具公开演示](https://www.bilibili.com/video/BV1pi421v7qM/)。
+
+本项目参考上述网站的公开功能与交互，使用 TypeScript、React 与 Next.js（Node.js 工具链）重新实现应用代码，但不声明为 Clean room 实现。仓库包含来自或参考 SenZQ 工具及其他公开资料的资源与数据，且没有 Clean room 所需的人员隔离、独立规格和完整来源审计记录。致谢不构成所有权、授权或再许可声明；第三方资源不受本项目 MIT License 授权，详细边界见 [第三方资源说明](THIRD_PARTY_NOTICES.md)。

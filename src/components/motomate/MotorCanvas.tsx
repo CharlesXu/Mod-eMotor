@@ -9,6 +9,7 @@ import { publicPath } from "@/lib/publicPath";
 import type { SimulatorValues } from "./ControlSidebar";
 import DynamicVehicleLine from "./DynamicVehicleLine";
 import OriginalMechanicalLayer from "./OriginalMechanicalLayer";
+import { buildComparisonRows, resolveGeometryPair } from "./simulatorDomain";
 import {
   alignSimulationGeometry,
   computeSimulationGeometry,
@@ -38,14 +39,6 @@ const VIEW_MODES: ReadonlyArray<{ id: ViewMode; label: string }> = [
   { id: "triangle", label: "骑行三角" },
   { id: "pose", label: "姿势模拟" },
 ];
-
-const ORIGINAL = {
-  wheelbase: 1245,
-  seatHeight: 794,
-  groundClearance: 154,
-  forkAngle: 65,
-  rearShockAngle: 70,
-} as const;
 
 const BLUE = "#718ea7";
 const ACCENT = "#3999ce";
@@ -100,10 +93,13 @@ export default function MotorCanvas({ brand, model, values, defaultValues, image
   const modelKey = `${brand}/${model.name}`;
   const bodyLineHref = MODEL_LINE_ASSETS[modelKey] ? publicPath(MODEL_LINE_ASSETS[modelKey]) : undefined;
   const geometryProfile = MODEL_GEOMETRY_PROFILES[modelKey];
-  const geometry = useMemo(
-    () => geometryProfile
-      ? alignSimulationGeometry(rawGeometry, modelBaseline, geometryProfile)
-      : rawGeometry,
+  const { current: geometry, original: originalGeometry } = useMemo(
+    () => resolveGeometryPair(
+      rawGeometry,
+      modelBaseline,
+      geometryProfile,
+      alignSimulationGeometry,
+    ),
     [geometryProfile, modelBaseline, rawGeometry],
   );
 
@@ -131,13 +127,7 @@ export default function MotorCanvas({ brand, model, values, defaultValues, image
     fill: "none",
   } as const;
 
-  const comparisonRows = [
-    { label: "轴距", original: ORIGINAL.wheelbase, current: geometry.wheelbase, unit: "mm" },
-    { label: "座高", original: ORIGINAL.seatHeight, current: geometry.seatHeight, unit: "mm" },
-    { label: "离地间隙", original: ORIGINAL.groundClearance, current: geometry.groundClearance, unit: "mm" },
-    { label: "前叉角", original: ORIGINAL.forkAngle, current: geometry.forkAngle, unit: "°" },
-    { label: "后减角", original: ORIGINAL.rearShockAngle, current: geometry.rearShockAngle, unit: "°" },
-  ] as const;
+  const comparisonRows = buildComparisonRows(geometry, originalGeometry);
 
   const cyclePhotoOpacity = () => {
     setPhotoOpacity((current) => (current === 0.2 ? 0.6 : current === 0.6 ? 0 : 0.2));

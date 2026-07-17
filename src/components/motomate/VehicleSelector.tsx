@@ -7,6 +7,7 @@ import catalogData from "@/data/motomate-catalog.json";
 import lineAssetData from "@/data/motomate-line-assets.json";
 import thumbnailAssetData from "@/data/motomate-thumbnail-assets.json";
 import { publicPath } from "@/lib/publicPath";
+import InfoToolbar from "./InfoToolbar";
 
 export type VehicleModel = Readonly<{
   index: number;
@@ -81,6 +82,7 @@ export default function VehicleSelector({ onLoad }: VehicleSelectorProps) {
 
   return (
     <main className="motomate-selector">
+      <InfoToolbar />
       <nav className="motomate-brand-bar" aria-label="车辆品牌">
         {catalog.map((brand) => (
           <button
