@@ -165,7 +165,7 @@ function jointBetween(start: Point, end: Point, firstLength: number, secondLengt
 export function computeSimulationGeometry(values: SimulatorValues): SimulationGeometry {
   const frontRadiusMm = tireRadius(values.frontTireWidth, values.frontTireRatio, values.frontWheelDiameter);
   const rearRadiusMm = tireRadius(values.rearTireWidth, values.rearTireRatio, values.rearWheelDiameter);
-  const swingarmLength = clamp(values.swingarmLength, 280, 700, 440);
+  const swingarmLength = clamp(values.swingarmLength, 200, 700, 440);
   const frontPositionMm = values.frontWheelPosition === "前位" ? -30 : values.frontWheelPosition === "后位" ? 30 : 0;
   const baseWheelbase = clamp(1245 + (swingarmLength - 440) * 0.72, 850, 1750, 1245);
   const wheelbase = clamp(baseWheelbase - frontPositionMm, 850, 1750, 1245);

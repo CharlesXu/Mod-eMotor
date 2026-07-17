@@ -18,6 +18,7 @@ const require = createRequire(import.meta.url);
 const catalog = require("../src/data/motomate-catalog.json");
 const geometryProfiles = require("../src/data/motomate-geometry-profiles.json");
 const mechanicalProfiles = require("../src/data/motomate-mechanical-profiles.json");
+const referenceInitialValues = require("./fixtures/motomate-reference-initial-values.json");
 
 const BASE_DEFAULTS = {
   handlebarHeight: 97,
@@ -82,6 +83,35 @@ test("defines one numeric constraint for every simulator number", () => {
   ]);
   assert.deepEqual(NUMERIC_CONSTRAINTS.frontForkTravel, { min: 240, max: 700, step: 1 });
   assert.deepEqual(NUMERIC_CONSTRAINTS.rearShockAngle, { min: -45, max: 45, step: 1 });
+  assert.deepEqual(NUMERIC_CONSTRAINTS.swingarmLength, { min: 200, max: 700, step: 1 });
+});
+
+test("covers every reference model with matching catalog and profile keys", () => {
+  const catalogKeys = catalog.flatMap((brand) =>
+    brand.models.map((model) => `${brand.brand}/${model.name}`),
+  ).sort();
+  const referenceKeys = Object.keys(referenceInitialValues).sort();
+
+  assert.equal(referenceKeys.length, 114);
+  assert.deepEqual(catalogKeys, referenceKeys);
+  assert.deepEqual(Object.keys(mechanicalProfiles).sort(), referenceKeys);
+  assert.deepEqual(Object.keys(geometryProfiles).sort(), referenceKeys);
+});
+
+test("matches the audited initial values for all 114 reference models", () => {
+  for (const [key, expected] of Object.entries(referenceInitialValues)) {
+    const defaults = mechanicalProfiles[key]?.defaults;
+    assert.ok(defaults, `${key} must have mechanical defaults`);
+
+    for (const [field, value] of Object.entries(expected)) {
+      assert.equal(defaults[field], value, `${key} ${field} must match the reference site`);
+      const constraint = NUMERIC_CONSTRAINTS[field];
+      if (constraint) {
+        assert.ok(value >= constraint.min, `${key} ${field} must not be clipped below its minimum`);
+        assert.ok(value <= constraint.max, `${key} ${field} must not be clipped above its maximum`);
+      }
+    }
+  }
 });
 
 test("clamps numeric state writes and falls back for invalid values", () => {
@@ -155,12 +185,18 @@ test("aligns current and original geometry through the same model profile", () =
   });
 });
 
-test("switches comparison baselines across four brands and stays at zero on each model default", () => {
+test("switches comparison baselines across all ten brands and stays at zero on each model default", () => {
   const cases = [
+    ["ZEEKU", "EX85 pro"],
+    ["ZEEHO", "AE5i"],
     ["ninebot", "Kz110"],
     ["NIU", "NXT 2"],
     ["Honda", "Zoomer e"],
-    ["YADEA", "白鲨 I"],
+    ["YADEA", "白鲨 II"],
+    ["TAILG", "F1"],
+    ["SYUAN", "535t"],
+    ["skymotor", "Y3 95c"],
+    ["OTHER", "YAMAHA Cygnus"],
   ];
 
   const baselines = cases.map(([brand, model]) => {

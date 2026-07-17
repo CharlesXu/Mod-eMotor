@@ -39,7 +39,7 @@ export const NUMERIC_CONSTRAINTS: Readonly<Record<NumericSimulatorKey, NumericCo
   frontWheelDiameter: { min: 8, max: 24, step: 1 },
   frontWheelOffset: { min: -80, max: 80, step: 1 },
   frontBrakeDiscDiameter: { min: 80, max: 420, step: 1 },
-  swingarmLength: { min: 280, max: 700, step: 1 },
+  swingarmLength: { min: 200, max: 700, step: 1 },
   rearShockTravel: { min: 140, max: 500, step: 1 },
   rearShockAngle: { min: -45, max: 45, step: 1 },
   rearTireWidth: { min: 40, max: 220, step: 1 },

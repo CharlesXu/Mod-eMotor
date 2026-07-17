@@ -5987,5 +5987,58 @@
     "rearWheelRadius": 77.55,
     "frontDiscRadius": 36.67,
     "rearDiscRadius": 30.05
+  },
+  "YADEA/白鲨 II": {
+    "wheelbaseMm": 1245,
+    "pixelsPerMillimeter": 0.45852610441767067,
+    "forkAngleDegrees": 65,
+    "handlePivot": {
+      "x": 262.53,
+      "y": 113.09
+    },
+    "handle": {
+      "x": 274.96,
+      "y": 78.93
+    },
+    "forkTop": {
+      "x": 184.98,
+      "y": 278.68
+    },
+    "frontWheel": {
+      "x": 119.14,
+      "y": 395.04
+    },
+    "rearWheel": {
+      "x": 579.15,
+      "y": 404.25
+    },
+    "swingPivot": {
+      "x": 451.55,
+      "y": 383.69
+    },
+    "shockTop": {
+      "x": 537.17,
+      "y": 282.72
+    },
+    "shockBottom": {
+      "x": 567.45,
+      "y": 377.82
+    },
+    "seat": {
+      "x": 492.74,
+      "y": 193.87
+    },
+    "foot": {
+      "x": 323.11,
+      "y": 347.34
+    },
+    "chassis": {
+      "x": 351.38,
+      "y": 420.04
+    },
+    "frontWheelRadius": 80.78,
+    "rearWheelRadius": 73.51,
+    "frontDiscRadius": 36.59,
+    "rearDiscRadius": 29.97
   }
 }
