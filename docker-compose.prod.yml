@@ -1,0 +1,21 @@
+services:
+  app:
+    image: rdm-harbor.segway-ninebot.com/mod-emotor/frontend:latest
+    container_name: mod-emotor
+    restart: unless-stopped
+    ports:
+      - "3013:3000"
+    environment:
+      - NODE_ENV=production
+      - NEXT_TELEMETRY_DISABLED=1
+    healthcheck:
+      test: ["CMD", "wget", "--no-verbose", "--tries=1", "--spider", "http://localhost:3000"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 10s
+    deploy:
+      resources:
+        limits:
+          memory: 256M
+          cpus: "0.5"

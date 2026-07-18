@@ -1,17 +1,18 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useCallback, useEffect, useMemo, useState } from "react";
 
 import catalogData from "@/data/motomate-catalog.json";
 import mechanicalProfileData from "@/data/motomate-mechanical-profiles.json";
 import photoAssetData from "@/data/motomate-photo-assets.json";
+import { getCatalog, recviceMotorInfo } from "@/lib/api";
 import { ControlSidebar, type SimulatorValues } from "./ControlSidebar";
 import InfoToolbar from "./InfoToolbar";
 import MotorCanvas from "./MotorCanvas";
 import { clampNumericValues } from "./simulatorDomain";
 import VehicleSelector, { type VehicleModel } from "./VehicleSelector";
 
-const catalog = catalogData as readonly Readonly<{
+const staticCatalog = catalogData as readonly Readonly<{
   brand: string;
   models: readonly VehicleModel[];
 }>[];
@@ -127,6 +128,41 @@ export default function SimulatorShell() {
   const [saveNotice, setSaveNotice] = useState<string | null>(null);
   const [controlsOpen, setControlsOpen] = useState(false);
 
+  // Load catalog from API, fall back to static data
+  const [catalog, setCatalog] = useState<readonly Readonly<{
+    brand: string;
+    models: readonly VehicleModel[];
+  }>[]>(staticCatalog);
+  const [apiConnected, setApiConnected] = useState(false);
+
+  useEffect(() => {
+    let cancelled = false;
+    getCatalog()
+      .then((res) => {
+        if (!cancelled && res.stat === "success" && res.data.length > 0) {
+          setCatalog(res.data);
+          setApiConnected(true);
+        }
+      })
+      .catch(() => {
+        // API unavailable, use static data
+      });
+    return () => { cancelled = true; };
+  }, []);
+
+  const saveConfigToApi = useCallback(async (brand: string, model: string, vals: SimulatorValues) => {
+    if (!apiConnected) return;
+    try {
+      await recviceMotorInfo({
+        brand,
+        motor: model,
+        ...vals,
+      });
+    } catch {
+      // silently fail, localStorage is still used
+    }
+  }, [apiConnected]);
+
   const model = useMemo(() => {
     const brand = catalog.find((item) => item.brand === selection.brand) ?? catalog[0];
     return brand.models.find((item) => item.name === selection.model) ?? brand.models[0];
@@ -183,6 +219,7 @@ export default function SimulatorShell() {
               } catch {
                 setSaveNotice("保存失败，请检查浏览器存储权限");
               }
+              saveConfigToApi(selection.brand, selection.model, values);
               window.setTimeout(() => setSaveNotice(null), 1800);
             }}
             values={values}

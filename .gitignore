@@ -21,3 +21,12 @@ Thumbs.db
 
 # Deployment state
 .vercel/
+
+# Backend: large binary assets (not tracked in git)
+backend/app/downloads/
+backend/app/static/
+backend/app/uploads/
+backend/app/data/*.json
+backend/__pycache__/
+**/__pycache__/
+*.pyc

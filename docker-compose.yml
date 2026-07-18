@@ -1,10 +1,46 @@
 services:
-  app:
+  db:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_DB: emotor
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    ports:
+      - "3807:3807"
+    environment:
+      DATABASE_URL: "postgresql+asyncpg://postgres:postgres@db:5432/emotor"
+      SYNC_DATABASE_URL: "postgresql+psycopg2://postgres:postgres@db:5432/emotor"
+    depends_on:
+      db:
+        condition: service_healthy
+    restart: unless-stopped
+
+  frontend:
     build:
       context: .
       dockerfile: Dockerfile
-    image: mod-emotor:latest
-    container_name: mod-emotor
-    restart: unless-stopped
     ports:
       - "${PORT:-3000}:3000"
+    environment:
+      API_BASE_URL: "http://backend:3807"
+    depends_on:
+      - backend
+    restart: unless-stopped
+
+volumes:
+  pgdata:

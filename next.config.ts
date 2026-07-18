@@ -39,6 +39,44 @@ const nextConfig: NextConfig = {
   turbopack: {
     root: process.cwd(),
   },
+  // Proxy API calls to backend during development
+  async rewrites() {
+    const apiBase = process.env.NEXT_PUBLIC_API_BASE || "http://localhost:3807";
+    return [
+      {
+        source: "/getTools",
+        destination: `${apiBase}/getTools`,
+      },
+      {
+        source: "/getCatalog",
+        destination: `${apiBase}/getCatalog`,
+      },
+      {
+        source: "/getPartList",
+        destination: `${apiBase}/getPartList`,
+      },
+      {
+        source: "/loadPartInfo",
+        destination: `${apiBase}/loadPartInfo`,
+      },
+      {
+        source: "/getAddList",
+        destination: `${apiBase}/getAddList`,
+      },
+      {
+        source: "/loadAdditemInfo",
+        destination: `${apiBase}/loadAdditemInfo`,
+      },
+      {
+        source: "/recviceMotorInfo",
+        destination: `${apiBase}/recviceMotorInfo`,
+      },
+      {
+        source: "/systemControl",
+        destination: `${apiBase}/systemControl`,
+      },
+    ];
+  },
 };
 
 export default nextConfig;
