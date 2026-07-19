@@ -980,6 +980,59 @@ async def admin_upload_image(file: UploadFile = File(...)):
     return {"stat": "success", "data": {"path": path}}
 
 
+# ============================================================
+# Data API — serve static JSON manifests from src/data/
+# ============================================================
+
+_DATA_DIR = Path(__file__).parent.parent.parent / "src" / "data"
+_data_cache: dict[str, object] = {}
+
+
+def _load_data_file(name: str) -> object:
+    """Load a JSON file from src/data/ and cache it in memory."""
+    if name not in _data_cache:
+        path = _DATA_DIR / name
+        if not path.exists():
+            return None
+        _data_cache[name] = json.loads(path.read_text(encoding="utf-8"))
+    return _data_cache[name]
+
+
+@app.get("/api/data/catalog")
+async def data_catalog():
+    return _load_data_file("motomate-catalog.json") or []
+
+
+@app.get("/api/data/thumbnail-assets")
+async def data_thumbnail_assets():
+    return _load_data_file("motomate-thumbnail-assets.json") or {}
+
+
+@app.get("/api/data/line-assets")
+async def data_line_assets():
+    return _load_data_file("motomate-line-assets.json") or {}
+
+
+@app.get("/api/data/photo-assets")
+async def data_photo_assets():
+    return _load_data_file("motomate-photo-assets.json") or {}
+
+
+@app.get("/api/data/mechanical-profiles")
+async def data_mechanical_profiles():
+    return _load_data_file("motomate-mechanical-profiles.json") or {}
+
+
+@app.get("/api/data/geometry-profiles")
+async def data_geometry_profiles():
+    return _load_data_file("motomate-geometry-profiles.json") or {}
+
+
+@app.get("/api/data/accessories")
+async def data_accessories():
+    return _load_data_file("motomate-accessories.json") or {}
+
+
 if __name__ == "__main__":
     import uvicorn
     uvicorn.run(app, host="0.0.0.0", port=3807)

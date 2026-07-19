@@ -2,24 +2,22 @@
 
 import { useCallback, useEffect, useMemo, useState } from "react";
 
-import catalogData from "@/data/motomate-catalog.json";
-import mechanicalProfileData from "@/data/motomate-mechanical-profiles.json";
-import photoAssetData from "@/data/motomate-photo-assets.json";
-import { getCatalog, recviceMotorInfo } from "@/lib/api";
+import {
+  getCatalog,
+  recviceMotorInfo,
+  fetchMechanicalProfiles,
+  fetchPhotoAssets,
+  fetchThumbnailAssets,
+  fetchLineAssets,
+  fetchGeometryProfiles,
+  type CatalogBrand,
+} from "@/lib/api";
 import { ControlSidebar, type SimulatorValues } from "./ControlSidebar";
 import InfoToolbar from "./InfoToolbar";
 import MotorCanvas from "./MotorCanvas";
 import { clampNumericValues } from "./simulatorDomain";
 import VehicleSelector, { type VehicleModel } from "./VehicleSelector";
 
-const staticCatalog = catalogData as readonly Readonly<{
-  brand: string;
-  models: readonly VehicleModel[];
-}>[];
-const mechanicalProfiles = mechanicalProfileData as Readonly<Record<string, Readonly<{
-  defaults: Partial<SimulatorValues>;
-}>>>;
-const photoAssets: Readonly<Record<string, string>> = photoAssetData;
 const storageKeyPrefix = "mod-emotor:simulator:";
 
 const initialValues: SimulatorValues = {
@@ -73,8 +71,12 @@ const choiceValues: Readonly<Partial<Record<keyof SimulatorValues, readonly stri
   paint: ["原厂", "亮黑", "哑光"], posture: ["标准", "运动", "舒适"],
 };
 
-function modelDefaults(brand: string, modelName: string): SimulatorValues {
-  const extractedDefaults = mechanicalProfiles[`${brand}/${modelName}`]?.defaults;
+type MechanicalProfiles = Readonly<Record<string, Readonly<{
+  defaults: Partial<SimulatorValues>;
+}>>>;
+
+function modelDefaults(brand: string, modelName: string, profiles: MechanicalProfiles): SimulatorValues {
+  const extractedDefaults = profiles[`${brand}/${modelName}`]?.defaults;
   const defaults = { ...initialValues, ...extractedDefaults };
   return clampNumericValues(defaults, defaults);
 }
@@ -128,15 +130,23 @@ export default function SimulatorShell() {
   const [saveNotice, setSaveNotice] = useState<string | null>(null);
   const [controlsOpen, setControlsOpen] = useState(false);
 
-  // Load catalog from API, fall back to static data
+  // All data loaded from backend API
   const [catalog, setCatalog] = useState<readonly Readonly<{
     brand: string;
     models: readonly VehicleModel[];
-  }>[]>(staticCatalog);
+  }>[]>([]);
+  const [mechanicalProfiles, setMechanicalProfiles] = useState<MechanicalProfiles>({});
+  const [photoAssets, setPhotoAssets] = useState<Readonly<Record<string, string>>>({});
+  const [thumbnailAssets, setThumbnailAssets] = useState<Readonly<Record<string, string>>>({});
+  const [lineAssets, setLineAssets] = useState<Readonly<Record<string, string>>>({});
+  const [geometryProfiles, setGeometryProfiles] = useState<Readonly<Record<string, unknown>>>({});
+  const [dataReady, setDataReady] = useState(false);
   const [apiConnected, setApiConnected] = useState(false);
 
   useEffect(() => {
     let cancelled = false;
+
+    // Load catalog from DB-backed API
     getCatalog()
       .then((res) => {
         if (!cancelled && res.stat === "success" && res.data.length > 0) {
@@ -144,9 +154,30 @@ export default function SimulatorShell() {
           setApiConnected(true);
         }
       })
+      .catch(() => {});
+
+    // Load static data files from backend API
+    Promise.all([
+      fetchMechanicalProfiles(),
+      fetchPhotoAssets(),
+      fetchThumbnailAssets(),
+      fetchLineAssets(),
+      fetchGeometryProfiles(),
+    ])
+      .then(([mech, photo, thumb, line, geo]) => {
+        if (!cancelled) {
+          setMechanicalProfiles(mech as MechanicalProfiles);
+          setPhotoAssets(photo);
+          setThumbnailAssets(thumb);
+          setLineAssets(line);
+          setGeometryProfiles(geo);
+          setDataReady(true);
+        }
+      })
       .catch(() => {
-        // API unavailable, use static data
+        if (!cancelled) setDataReady(true); // proceed with empty data
       });
+
     return () => { cancelled = true; };
   }, []);
 
@@ -164,20 +195,31 @@ export default function SimulatorShell() {
   }, [apiConnected]);
 
   const model = useMemo(() => {
+    if (!catalog.length) return null;
     const brand = catalog.find((item) => item.brand === selection.brand) ?? catalog[0];
     return brand.models.find((item) => item.name === selection.model) ?? brand.models[0];
-  }, [selection]);
+  }, [selection, catalog]);
   const defaults = useMemo(
-    () => modelDefaults(selection.brand, selection.model),
-    [selection.brand, selection.model],
+    () => modelDefaults(selection.brand, selection.model, mechanicalProfiles),
+    [selection.brand, selection.model, mechanicalProfiles],
   );
+
+  if (!dataReady) {
+    return (
+      <main className="motomate-selector" style={{ display: "grid", placeItems: "center", minHeight: "60vh" }}>
+        <p style={{ color: "rgba(65,91,117,0.5)", fontSize: 14 }}>加载数据中…</p>
+      </main>
+    );
+  }
 
   if (screen === "selector") {
     return (
       <VehicleSelector
         catalog={catalog}
+        thumbnailAssets={thumbnailAssets}
+        lineAssets={lineAssets}
         onLoad={(brand, selectedModel) => {
-          const defaults = modelDefaults(brand, selectedModel);
+          const defaults = modelDefaults(brand, selectedModel, mechanicalProfiles);
           setSelection({ brand, model: selectedModel });
           setValues(loadSavedValues(brand, selectedModel, defaults));
           setScreen("editor");
@@ -230,7 +272,10 @@ export default function SimulatorShell() {
       <MotorCanvas
         brand={selection.brand}
         defaultValues={defaults}
-        imageSrc={model.image || photoAssets[`${selection.brand}/${selection.model}`] || undefined}
+        geometryProfiles={geometryProfiles}
+        imageSrc={model?.image || photoAssets[`${selection.brand}/${selection.model}`] || undefined}
+        lineAssets={lineAssets}
+        mechanicalProfiles={mechanicalProfiles}
         model={model}
         values={values}
       />

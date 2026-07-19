@@ -1,6 +1,5 @@
 import Image from "next/image";
 
-import mechanicalProfileData from "../../data/motomate-mechanical-profiles.json";
 import { publicPath } from "@/lib/publicPath";
 import type { SimulatorValues } from "./ControlSidebar";
 import type { Point, SimulationGeometry } from "./simulationGeometry";
@@ -29,13 +28,13 @@ export type OriginalMechanicalLayerProps = Readonly<{
   geometry: SimulationGeometry;
   values: SimulatorValues;
   bodyLineHref: string;
+  mechanicalProfiles: Readonly<Record<string, unknown>>;
 }>;
 
 type SourcePoint = Readonly<{ x: number; y: number }>;
 type WheelProfile = MechanicalProfile["frontWheel"];
 type WheelGeometry = SimulationGeometry["frontWheel"];
 
-const PROFILES = mechanicalProfileData as Readonly<Record<string, MechanicalProfile>>;
 const PARTS_ROOT = "/motomate/original-parts";
 const DISC_SRC = publicPath(`${PARTS_ROOT}/disc.bb55ca51.png`);
 const FRONT_FENDER_SRC = publicPath(`${PARTS_ROOT}/fender_front.1e9857a9.png`);
@@ -307,8 +306,9 @@ export default function OriginalMechanicalLayer({
   geometry,
   values,
   bodyLineHref,
+  mechanicalProfiles,
 }: OriginalMechanicalLayerProps) {
-  const profile = PROFILES[`${brand}/${modelName}`];
+  const profile = mechanicalProfiles[`${brand}/${modelName}`] as MechanicalProfile | undefined;
   const sourceScale = positive(profile?.sourceScale, 0);
   if (!profile || !bodyLineHref || sourceScale <= 0) return null;
 

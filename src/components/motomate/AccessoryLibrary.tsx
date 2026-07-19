@@ -6,11 +6,11 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import {
   ACCESSORY_CATEGORIES,
   ACCESSORY_GALLERIES,
-  MOTOMATE_ACCESSORIES,
   type AccessoryCategoryId,
   type AccessoryGalleryId,
   type AccessoryRecord,
 } from "@/data/motomate-accessories";
+import { fetchAccessories } from "@/lib/api";
 import { publicPath } from "@/lib/publicPath";
 
 const STORAGE_KEY = "mod-emotor-accessories-v2";
@@ -36,7 +36,7 @@ function localImagePath(source: string): string {
   return publicPath(encoded);
 }
 
-function loadSelections(): AccessorySelections {
+function loadSelections(accessories: readonly AccessoryRecord[]): AccessorySelections {
   if (typeof window === "undefined") return {};
   try {
     const parsed: unknown = JSON.parse(window.localStorage.getItem(STORAGE_KEY) ?? "{}");
@@ -44,7 +44,7 @@ function loadSelections(): AccessorySelections {
 
     return Object.fromEntries(Object.entries(parsed).flatMap(([key, value]) => {
       if (typeof value !== "string") return [];
-      const item = MOTOMATE_ACCESSORIES.find(({ id }) => id === value);
+      const item = accessories.find(({ id }) => id === value);
       return item && selectionKey(item.kind, item.type) === key ? [[key, value]] : [];
     }));
   } catch {
@@ -80,13 +80,28 @@ export default function AccessoryLibrary({ onClose }: AccessoryLibraryProps) {
   const [activeGallery, setActiveGallery] = useState<AccessoryGalleryId>("photo");
   const [activeCategory, setActiveCategory] = useState<AccessoryCategoryId>("frontSuspension");
   const [query, setQuery] = useState("");
-  const [selections, setSelections] = useState<AccessorySelections>(loadSelections);
+  const [accessories, setAccessories] = useState<readonly AccessoryRecord[]>([]);
+  const [selections, setSelections] = useState<AccessorySelections>({});
   const [toast, setToast] = useState<string | null>(null);
   const toastTimer = useRef<number | null>(null);
 
+  useEffect(() => {
+    let cancelled = false;
+    fetchAccessories()
+      .then((data) => {
+        if (cancelled) return;
+        const items = (data as { items?: AccessoryRecord[] })?.items ?? data as unknown as AccessoryRecord[];
+        const list = Array.isArray(items) ? items : [];
+        setAccessories(list);
+        setSelections(loadSelections(list));
+      })
+      .catch(() => {});
+    return () => { cancelled = true; };
+  }, []);
+
   const availableCategories = useMemo(() => ACCESSORY_CATEGORIES.filter((category) => (
-    MOTOMATE_ACCESSORIES.some((item) => item.kind === activeGallery && item.type === category.id)
-  )), [activeGallery]);
+    accessories.some((item) => item.kind === activeGallery && item.type === category.id)
+  )), [activeGallery, accessories]);
 
   useEffect(() => () => {
     if (toastTimer.current !== null) window.clearTimeout(toastTimer.current);
@@ -94,7 +109,7 @@ export default function AccessoryLibrary({ onClose }: AccessoryLibraryProps) {
 
   const filteredAccessories = useMemo(() => {
     const normalizedQuery = query.trim().toLocaleLowerCase();
-    return MOTOMATE_ACCESSORIES.filter((item) => {
+    return accessories.filter((item) => {
       if (item.kind !== activeGallery || item.type !== activeCategory) return false;
       if (!normalizedQuery) return true;
       return [item.name, item.brand, item.size, item.concise, item.describe]
@@ -132,7 +147,7 @@ export default function AccessoryLibrary({ onClose }: AccessoryLibraryProps) {
   const switchGallery = (gallery: AccessoryGalleryId) => {
     setActiveGallery(gallery);
     const categories = ACCESSORY_CATEGORIES.filter((category) => (
-      MOTOMATE_ACCESSORIES.some((item) => item.kind === gallery && item.type === category.id)
+      accessories.some((item) => item.kind === gallery && item.type === category.id)
     ));
     const fallbackCategory = categories[0]?.id;
     if (fallbackCategory && !categories.some(({ id }) => id === activeCategory)) {

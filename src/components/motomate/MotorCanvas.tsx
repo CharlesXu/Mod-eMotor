@@ -3,8 +3,6 @@
 import Image from "next/image";
 import { useMemo, useState } from "react";
 
-import modelGeometryProfiles from "../../data/motomate-geometry-profiles.json";
-import modelLineAssets from "../../data/motomate-line-assets.json";
 import { publicPath } from "@/lib/publicPath";
 import type { SimulatorValues } from "./ControlSidebar";
 import DynamicVehicleLine from "./DynamicVehicleLine";
@@ -24,9 +22,12 @@ export interface MotorCanvasModel {
 
 interface MotorCanvasProps {
   brand: string;
-  model: MotorCanvasModel;
+  model: MotorCanvasModel | null;
   values: SimulatorValues;
   defaultValues: SimulatorValues;
+  geometryProfiles: Readonly<Record<string, unknown>>;
+  lineAssets: Readonly<Record<string, string>>;
+  mechanicalProfiles: Readonly<Record<string, unknown>>;
   imageSrc?: string;
 }
 
@@ -42,8 +43,6 @@ const VIEW_MODES: ReadonlyArray<{ id: ViewMode; label: string }> = [
 
 const BLUE = "#718ea7";
 const ACCENT = "#3999ce";
-const MODEL_LINE_ASSETS = modelLineAssets as Readonly<Record<string, string>>;
-const MODEL_GEOMETRY_PROFILES = modelGeometryProfiles as Readonly<Record<string, GeometryProfile>>;
 
 function clamp(value: number, minimum: number, maximum: number): number {
   return Math.min(maximum, Math.max(minimum, value));
@@ -82,17 +81,26 @@ function paintFilter(paint: SimulatorValues["paint"]): string {
   return "none";
 }
 
-export default function MotorCanvas({ brand, model, values, defaultValues, imageSrc }: MotorCanvasProps) {
+export default function MotorCanvas({ brand, defaultValues, geometryProfiles, imageSrc, lineAssets, mechanicalProfiles, model, values }: MotorCanvasProps) {
   const [viewMode, setViewMode] = useState<ViewMode>("edit");
   const [showScale, setShowScale] = useState(true);
   const [showText, setShowText] = useState(true);
   const [photoOpacity, setPhotoOpacity] = useState<PhotoOpacity>(0.2);
   const rawGeometry = useMemo(() => computeSimulationGeometry(values), [values]);
   const modelBaseline = useMemo(() => computeSimulationGeometry(defaultValues), [defaultValues]);
-  const vehicleImage = useMemo(() => localImageFor(model, imageSrc), [imageSrc, model]);
-  const modelKey = `${brand}/${model.name}`;
-  const bodyLineHref = MODEL_LINE_ASSETS[modelKey] ? publicPath(MODEL_LINE_ASSETS[modelKey]) : undefined;
-  const geometryProfile = MODEL_GEOMETRY_PROFILES[modelKey];
+  const vehicleImage = useMemo(() => model ? localImageFor(model, imageSrc) : null, [imageSrc, model]);
+  const modelKey = model ? `${brand}/${model.name}` : "";
+  const typedGeometryProfiles = geometryProfiles as Readonly<Record<string, GeometryProfile>>;
+  const bodyLineHref = lineAssets[modelKey] ? publicPath(lineAssets[modelKey]) : undefined;
+  const geometryProfile = typedGeometryProfiles[modelKey];
+
+  if (!model) {
+    return (
+      <div className="motomate-canvas" style={{ display: "grid", placeItems: "center", minHeight: 300 }}>
+        <p style={{ color: "rgba(65,91,117,0.4)", fontSize: 13 }}>请选择车型</p>
+      </div>
+    );
+  }
   const { current: geometry, original: originalGeometry } = useMemo(
     () => resolveGeometryPair(
       rawGeometry,
@@ -236,6 +244,7 @@ export default function MotorCanvas({ brand, model, values, defaultValues, image
             bodyLineHref={bodyLineHref}
             brand={brand}
             geometry={geometry}
+            mechanicalProfiles={mechanicalProfiles}
             modelName={model.name}
             values={values}
           />

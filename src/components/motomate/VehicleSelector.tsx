@@ -3,8 +3,6 @@
 import Image from "next/image";
 import { useMemo, useState } from "react";
 
-import lineAssetData from "@/data/motomate-line-assets.json";
-import thumbnailAssetData from "@/data/motomate-thumbnail-assets.json";
 import { publicPath } from "@/lib/publicPath";
 import InfoToolbar from "./InfoToolbar";
 import { encodeLocalAssetPath } from "./vehicleSelectorDomain";
@@ -23,11 +21,10 @@ type VehicleBrand = Readonly<{
 
 type VehicleSelectorProps = Readonly<{
   catalog: readonly VehicleBrand[];
+  thumbnailAssets: Readonly<Record<string, string>>;
+  lineAssets: Readonly<Record<string, string>>;
   onLoad: (brand: string, model: string) => void;
 }>;
-
-const lineAssets: Readonly<Record<string, string>> = lineAssetData;
-const thumbnailAssets: Readonly<Record<string, string>> = thumbnailAssetData;
 
 const brandIcons: Readonly<Record<string, string>> = {
   ZEEKU: "/motomate/ZEEKU.82855666.png",
@@ -45,13 +42,22 @@ const brandIcons: Readonly<Record<string, string>> = {
 function VehicleArtwork({
   brand,
   decorative = false,
+  lineAssets,
   model,
+  thumbnailAssets,
   width,
-}: Readonly<{ brand: string; decorative?: boolean; model: VehicleModel; width: number }>) {
+}: Readonly<{
+  brand: string;
+  decorative?: boolean;
+  lineAssets: Readonly<Record<string, string>>;
+  model: VehicleModel;
+  thumbnailAssets: Readonly<Record<string, string>>;
+  width: number;
+}>) {
   const modelKey = `${brand}/${model.name}`;
   const candidates = useMemo(() => (
     [...new Set([model.image, thumbnailAssets[modelKey], lineAssets[modelKey]].filter(Boolean))]
-  ), [model.image, modelKey]);
+  ), [model.image, modelKey, thumbnailAssets, lineAssets]);
   const [failedSources, setFailedSources] = useState<ReadonlySet<string>>(() => new Set());
   const imagePath = candidates.find((candidate) => !failedSources.has(candidate));
 
@@ -70,7 +76,7 @@ function VehicleArtwork({
   return <span className="motomate-model-placeholder">NO IMAGE</span>;
 }
 
-export default function VehicleSelector({ catalog, onLoad }: VehicleSelectorProps) {
+export default function VehicleSelector({ catalog, lineAssets, onLoad, thumbnailAssets }: VehicleSelectorProps) {
   const [activeBrand, setActiveBrand] = useState<string | null>(null);
   const [selection, setSelection] = useState<Readonly<{
     brand: string;
@@ -147,7 +153,9 @@ export default function VehicleSelector({ catalog, onLoad }: VehicleSelectorProp
                           brand={currentBrand.brand}
                           decorative
                           key={`${currentBrand.brand}/${model.name}`}
+                          lineAssets={lineAssets}
                           model={model}
+                          thumbnailAssets={thumbnailAssets}
                           width={130}
                         />
                       </span>
@@ -168,7 +176,9 @@ export default function VehicleSelector({ catalog, onLoad }: VehicleSelectorProp
               <VehicleArtwork
                 brand={selection.brand}
                 key={`${selection.brand}/${selection.model.name}`}
+                lineAssets={lineAssets}
                 model={selection.model}
+                thumbnailAssets={thumbnailAssets}
                 width={120}
               />
             </span>

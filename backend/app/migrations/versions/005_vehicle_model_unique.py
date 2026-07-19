@@ -22,6 +22,16 @@ depends_on: Union[str, Sequence[str], None] = None
 
 
 def upgrade() -> None:
+    # Only dedupe + add constraint if vehicle_models table already exists.
+    # On a fresh DB the table is created later by Base.metadata.create_all().
+    conn = op.get_bind()
+    result = conn.execute(
+        "SELECT EXISTS (SELECT 1 FROM information_schema.tables "
+        "WHERE table_name = 'vehicle_models')"
+    )
+    if not result.scalar():
+        return
+
     # Dedupe existing rows: keep the lowest-id row per (brand, name, model_index),
     # delete the rest. Without this the unique constraint creation fails on
     # tables that already accumulated duplicates from the old plain-insert path.
@@ -32,10 +42,18 @@ def upgrade() -> None:
         "AND a.name IS NOT DISTINCT FROM b.name "
         "AND a.model_index IS NOT DISTINCT FROM b.model_index"
     )
-    op.create_unique_constraint(
-        'uq_vehicle_brand_name_index', 'vehicle_models',
-        ['brand', 'name', 'model_index']
+
+    # Check if constraint already exists before creating
+    result = conn.execute(
+        "SELECT EXISTS (SELECT 1 FROM information_schema.table_constraints "
+        "WHERE constraint_name = 'uq_vehicle_brand_name_index' "
+        "AND table_name = 'vehicle_models')"
     )
+    if not result.scalar():
+        op.create_unique_constraint(
+            'uq_vehicle_brand_name_index', 'vehicle_models',
+            ['brand', 'name', 'model_index']
+        )
 
 
 def downgrade() -> None:

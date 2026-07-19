@@ -81,6 +81,11 @@ const nextConfig: NextConfig = {
         source: "/admin/:path*",
         destination: `${apiBase}/admin/:path*`,
       },
+      // Static data API endpoints (catalog, assets, profiles)
+      {
+        source: "/api/data/:path*",
+        destination: `${apiBase}/api/data/:path*`,
+      },
     ];
   },
 };

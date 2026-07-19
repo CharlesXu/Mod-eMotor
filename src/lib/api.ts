@@ -161,3 +161,39 @@ export async function recviceMotorInfo(
     data: JSON.stringify(config),
   });
 }
+
+// ─── Static data endpoints (served from backend src/data/) ──
+
+async function fetchJson<T>(path: string): Promise<T> {
+  const res = await fetch(`${API_BASE}${path}`);
+  if (!res.ok) throw new Error(`fetch ${path} returned ${res.status}`);
+  return res.json() as Promise<T>;
+}
+
+export async function fetchCatalog(): Promise<CatalogBrand[]> {
+  return fetchJson<CatalogBrand[]>("/api/data/catalog");
+}
+
+export async function fetchThumbnailAssets(): Promise<Record<string, string>> {
+  return fetchJson<Record<string, string>>("/api/data/thumbnail-assets");
+}
+
+export async function fetchLineAssets(): Promise<Record<string, string>> {
+  return fetchJson<Record<string, string>>("/api/data/line-assets");
+}
+
+export async function fetchPhotoAssets(): Promise<Record<string, string>> {
+  return fetchJson<Record<string, string>>("/api/data/photo-assets");
+}
+
+export async function fetchMechanicalProfiles(): Promise<Record<string, { defaults: Record<string, unknown> }>> {
+  return fetchJson<Record<string, { defaults: Record<string, unknown> }>>("/api/data/mechanical-profiles");
+}
+
+export async function fetchGeometryProfiles(): Promise<Record<string, unknown>> {
+  return fetchJson<Record<string, unknown>>("/api/data/geometry-profiles");
+}
+
+export async function fetchAccessories(): Promise<unknown> {
+  return fetchJson<unknown>("/api/data/accessories");
+}
