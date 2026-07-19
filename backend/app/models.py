@@ -2,7 +2,7 @@
 SQLAlchemy ORM models for 电改模拟工具.
 """
 from datetime import datetime
-from sqlalchemy import Column, Integer, String, Text, BigInteger, DateTime, func
+from sqlalchemy import Column, Integer, String, Text, BigInteger, DateTime, func, UniqueConstraint
 from .database import Base
 
 
@@ -19,6 +19,9 @@ class ActivationCode(Base):
 
 class Motor(Base):
     __tablename__ = "motors"
+    __table_args__ = (
+        UniqueConstraint("brand", "name", name="uq_motor_brand_name"),
+    )
 
     id = Column(Integer, primary_key=True, autoincrement=True)
     brand = Column(String(128), nullable=False, index=True)
@@ -31,6 +34,9 @@ class Motor(Base):
     picsrc1 = Column(String(512), default="")
     picsrc2 = Column(String(512), default="")
     top_time = Column(String(32), default="0")
+    updated_at = Column(DateTime, onupdate=func.now())
+    last_synced_at = Column(DateTime)
+    raw_data = Column(Text, default="")
     created_at = Column(DateTime, server_default=func.now())
 
 
@@ -49,6 +55,9 @@ class Part(Base):
     position = Column(String(128), default="")
     describe = Column(Text, default="")
     top_time = Column(String(32), default="0")
+    updated_at = Column(DateTime, onupdate=func.now())
+    last_synced_at = Column(DateTime)
+    raw_data = Column(Text, default="")
     created_at = Column(DateTime, server_default=func.now())
 
 
@@ -60,10 +69,13 @@ class AddItem(Base):
     name = Column(String(128), nullable=False)
     type = Column(String(64), default="")
     car_name = Column(String(128), default="")
-    product_id = Column(String(128), default="")
+    product_id = Column(String(128), index=True)  # unique via migration 004 index
     picsrc = Column(String(512), default="")
     describe = Column(Text, default="")
     price = Column(String(64), default="")
+    updated_at = Column(DateTime, onupdate=func.now())
+    last_synced_at = Column(DateTime)
+    raw_data = Column(Text, default="")
     created_at = Column(DateTime, server_default=func.now())
 
 
@@ -83,6 +95,21 @@ class Config(Base):
     brake_back = Column(String(64), default="")
     message = Column(Text, default="")
     created_at = Column(DateTime, server_default=func.now())
+
+
+class SyncLog(Base):
+    __tablename__ = "sync_logs"
+
+    id = Column(Integer, primary_key=True, autoincrement=True)
+    sync_type = Column(String(64), nullable=False)
+    started_at = Column(DateTime, server_default=func.now())
+    finished_at = Column(DateTime, nullable=True)
+    status = Column(String(32), default="running")
+    motors_count = Column(Integer, default=0)
+    parts_count = Column(Integer, default=0)
+    additems_count = Column(Integer, default=0)
+    images_count = Column(Integer, default=0)
+    error_message = Column(Text, default="")
 
 
 class VehicleModel(Base):

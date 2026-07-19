@@ -175,6 +175,7 @@ export default function SimulatorShell() {
   if (screen === "selector") {
     return (
       <VehicleSelector
+        catalog={catalog}
         onLoad={(brand, selectedModel) => {
           const defaults = modelDefaults(brand, selectedModel);
           setSelection({ brand, model: selectedModel });

@@ -3,7 +3,6 @@
 import Image from "next/image";
 import { useMemo, useState } from "react";
 
-import catalogData from "@/data/motomate-catalog.json";
 import lineAssetData from "@/data/motomate-line-assets.json";
 import thumbnailAssetData from "@/data/motomate-thumbnail-assets.json";
 import { publicPath } from "@/lib/publicPath";
@@ -23,10 +22,10 @@ type VehicleBrand = Readonly<{
 }>;
 
 type VehicleSelectorProps = Readonly<{
+  catalog: readonly VehicleBrand[];
   onLoad: (brand: string, model: string) => void;
 }>;
 
-const catalog: readonly VehicleBrand[] = catalogData;
 const lineAssets: Readonly<Record<string, string>> = lineAssetData;
 const thumbnailAssets: Readonly<Record<string, string>> = thumbnailAssetData;
 
@@ -71,7 +70,7 @@ function VehicleArtwork({
   return <span className="motomate-model-placeholder">NO IMAGE</span>;
 }
 
-export default function VehicleSelector({ onLoad }: VehicleSelectorProps) {
+export default function VehicleSelector({ catalog, onLoad }: VehicleSelectorProps) {
   const [activeBrand, setActiveBrand] = useState<string | null>(null);
   const [selection, setSelection] = useState<Readonly<{
     brand: string;
