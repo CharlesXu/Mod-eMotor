@@ -75,6 +75,12 @@ const nextConfig: NextConfig = {
         source: "/systemControl",
         destination: `${apiBase}/systemControl`,
       },
+      // Admin management API (CRUD + sync). The /admin page itself is served
+      // by Next; only subpaths proxy to the backend.
+      {
+        source: "/admin/:path*",
+        destination: `${apiBase}/admin/:path*`,
+      },
     ];
   },
 };

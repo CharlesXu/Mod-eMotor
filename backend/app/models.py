@@ -115,6 +115,9 @@ class SyncLog(Base):
 class VehicleModel(Base):
     """Vehicle catalog for the Next.js frontend."""
     __tablename__ = "vehicle_models"
+    __table_args__ = (
+        UniqueConstraint("brand", "name", "model_index", name="uq_vehicle_brand_name_index"),
+    )
 
     id = Column(Integer, primary_key=True, autoincrement=True)
     brand = Column(String(128), nullable=False, index=True)
@@ -122,3 +125,24 @@ class VehicleModel(Base):
     category = Column(String(64), default="")
     image = Column(String(512), default="")
     model_index = Column(Integer, default=0)
+
+
+class Asset(Base):
+    """Resolved image paths for (brand, name) per kind.
+
+    Populated from the committed frontend asset manifests (thumbnail / line /
+    photo / catalog-car) via POST /admin/assets/reindex. The DB then holds
+    real, resolvable /motomate/... paths that the sync and import code uses
+    to normalize dead Vue-alias picsrc references (e.g. @/assets/car/X.png).
+    """
+    __tablename__ = "assets"
+    __table_args__ = (
+        UniqueConstraint("brand", "name", "kind", name="uq_asset_brand_name_kind"),
+    )
+
+    id = Column(Integer, primary_key=True, autoincrement=True)
+    brand = Column(String(128), nullable=False, index=True)
+    name = Column(String(128), nullable=False)
+    kind = Column(String(32), nullable=False)  # car | thumbnail | line | photo
+    path = Column(String(512), nullable=False)
+    created_at = Column(DateTime, server_default=func.now())

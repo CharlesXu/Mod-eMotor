@@ -7,25 +7,44 @@ site (same endpoints, multipart/form-data, AES-encrypted `data` field). Data
 is imported from the user's authorized original-site Chrome page via
 /admin/import/store-data — no original-site activation or binding bypass.
 """
-from fastapi import FastAPI, Form, Request, Depends, BackgroundTasks
+from fastapi import FastAPI, Form, Request, Depends, BackgroundTasks, Body, UploadFile, File
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
 from fastapi.staticfiles import StaticFiles
 from sqlalchemy import select, desc, text
+from sqlalchemy.dialects.postgresql import insert as pg_insert
 from sqlalchemy.ext.asyncio import AsyncSession
 from typing import Optional
 import json
 import time
 import logging
+import hashlib
 from pathlib import Path
 from datetime import datetime
 
+from contextlib import asynccontextmanager
+
 from .crypto_utils import encrypt, decrypt
-from .database import get_db, init_db, close_db, engine, Base
+from .database import get_db, init_db, close_db, engine, Base, async_session
 from .models import (
-    ActivationCode, Motor, Part, AddItem, Config, SyncLog, VehicleModel,
+    ActivationCode, Motor, Part, AddItem, Config, SyncLog, VehicleModel, Asset,
 )
+from . import crud
+from . import asset_index
 from .config import LOCAL_AUTH_DISABLED, SYNC_ENABLED, SYNC_INTERVAL_HOURS, SYNC_ON_STARTUP
+
+
+# ============================================================
+# Admin auth hook
+# ============================================================
+async def _require_admin():
+    """Auth gate for /admin/* endpoints.
+
+    Currently a no-op (LOCAL_AUTH_DISABLED defaults to true) — kept as a
+    hook so AD-domain auth can be wired in here later without touching
+    every route. Raise HTTPException(...) here to block a request.
+    """
+    return True
 
 logger = logging.getLogger("emotor")
 app = FastAPI(title="电改模拟工具 API")
@@ -42,8 +61,11 @@ app.add_middleware(
 # Paths
 DATA_DIR = Path(__file__).parent / "data"
 UPLOADS_DIR = Path(__file__).parent / "uploads"
+# public/motomate/ is served by Next.js as static files at /motomate/*
+MOTOMATE_DIR = Path(__file__).parent.parent.parent / "public" / "motomate"
 DATA_DIR.mkdir(parents=True, exist_ok=True)
 UPLOADS_DIR.mkdir(parents=True, exist_ok=True)
+MOTOMATE_DIR.mkdir(parents=True, exist_ok=True)
 
 # Lazy import for sync service (avoids circular imports)
 _sync_service = None
@@ -71,19 +93,30 @@ async def startup():
         from .sync_service import SyncService
         svc = SyncService()
         try:
-            async for session in _get_db_session():
+            async with _db_session() as session:
                 await svc.full_sync(session)
-                break
             logger.info("Startup sync completed")
         except Exception as e:
             logger.error(f"Startup sync failed: {e}")
 
 
-async def _get_db_session():
-    """Get a standalone DB session (not as a dependency)."""
-    from .database import async_session
+@asynccontextmanager
+async def _db_session():
+    """A standalone DB session as an async context manager.
+
+    Commits on clean exit, rolls back on exception — so SyncLog rows and
+    upserts written by the sync endpoints actually persist (the get_db
+    dependency already does this for normal endpoints). The previous
+    generator + `async for ... break` form skipped the commit because
+    `break` throws GeneratorExit before the commit line ran.
+    """
     async with async_session() as session:
-        yield session
+        try:
+            yield session
+            await session.commit()
+        except Exception:
+            await session.rollback()
+            raise
 
 
 @app.on_event("shutdown")
@@ -319,9 +352,8 @@ async def admin_sync_now(background_tasks: BackgroundTasks):
     """Trigger an immediate full sync."""
     svc = _get_sync_service()
     try:
-        async for session in _get_db_session():
+        async with _db_session() as session:
             result = await svc.full_sync(session)
-            break
         return {"stat": "success", "result": result}
     except Exception as e:
         return {"stat": "fail", "reason": str(e)}
@@ -365,6 +397,47 @@ async def admin_sync_history(db: AsyncSession = Depends(get_db), limit: int = 20
             "images_count": l.images_count, "error_message": l.error_message
         } for l in logs]
     }
+
+
+@app.post("/admin/sync/incremental", dependencies=[Depends(_require_admin)])
+async def admin_sync_incremental():
+    """Trigger an incremental sync.
+
+    Upstream exposes no 'since' filter, so this still fetches the full upstream
+    lists but only upserts rows whose raw_data differs from the local copy (plus
+    genuinely new rows). Saves DB writes and image downloads, not upstream
+    bandwidth.
+    """
+    svc = _get_sync_service()
+    try:
+        async with _db_session() as session:
+            result = await svc.incremental_sync(session)
+        return {"stat": "success", "result": result}
+    except Exception as e:
+        return {"stat": "fail", "reason": str(e)}
+
+
+@app.post("/admin/sync/selective", dependencies=[Depends(_require_admin)])
+async def admin_sync_selective(body: dict = Body(default={})):
+    """Trigger a selective sync. Caller picks what to pull.
+
+    Body shape (every block optional — omitting a block skips that resource):
+      {
+        "motors":   {"brands": [...], "types": [...]},
+        "parts":    {"brands": [...], "types": [...], "product_ids": [...]},
+        "additems": {"brands": [...], "types": [...], "product_ids": [...]},
+        "download_images": false
+      }
+    brands/types filter the full upstream lists client-side;
+    product_ids pulls single items via load_part_info / load_additem_info.
+    """
+    svc = _get_sync_service()
+    try:
+        async with _db_session() as session:
+            result = await svc.selective_sync(session, body)
+        return {"stat": "success", "result": result}
+    except Exception as e:
+        return {"stat": "fail", "reason": str(e)}
 
 
 # ============================================================
@@ -490,24 +563,41 @@ async def admin_import_additems(request: Request, db: AsyncSession = Depends(get
 
 @app.post("/admin/import/catalog")
 async def admin_import_catalog(request: Request, db: AsyncSession = Depends(get_db)):
-    """Import vehicle catalog data from JSON."""
+    """Import vehicle catalog data from JSON. Upserts by (brand, name, model_index)
+    so re-importing the same catalog is idempotent (requires migration 005).
+
+    If a catalog entry has an empty image field, we fill it from the asset
+    index (car -> thumbnail -> line -> photo fallback) so the DB ends up
+    with real /motomate/... paths for every vehicle that has any image."""
     try:
         form = await request.form()
         data_str = form.get("data", "[]")
         catalog = json.loads(data_str)
 
+        assets = await asset_index.load_index_from_db(db)
+
         count = 0
         for brand_entry in catalog:
             brand = brand_entry.get("brand", "")
             for model in brand_entry.get("models", []):
-                vehicle = VehicleModel(
-                    brand=brand,
-                    name=model.get("name", ""),
-                    category=model.get("category", ""),
-                    image=model.get("image", ""),
-                    model_index=model.get("index", 0),
+                name = model.get("name", "")
+                raw_image = model.get("image", "")
+                image = asset_index.normalize_image_path(assets, raw_image, brand, name)
+                row = {
+                    "brand": brand,
+                    "name": name,
+                    "category": model.get("category", ""),
+                    "image": image,
+                    "model_index": int(model.get("index", 0) or 0),
+                }
+                stmt = pg_insert(VehicleModel).values(**row).on_conflict_do_update(
+                    index_elements=["brand", "name", "model_index"],
+                    set_={
+                        "category": row["category"],
+                        "image": row["image"],
+                    },
                 )
-                db.add(vehicle)
+                await db.execute(stmt)
                 count += 1
 
         await db.flush()
@@ -566,6 +656,11 @@ async def admin_import_store_data(request: Request, db: AsyncSession = Depends(g
         parts_skipped = 0
         errors = []
 
+        # Load asset index once per request — used to resolve dead
+        # @/assets/... aliases on motors and additems into real /motomate/
+        # paths. Empty index (no reindex yet) is fine: normalize is a no-op.
+        assets = await asset_index.load_index_from_db(db)
+
         async def _upsert(stmt):
             """Run an upsert inside a nested savepoint so one bad row
             doesn't abort the whole batch."""
@@ -583,6 +678,8 @@ async def admin_import_store_data(request: Request, db: AsyncSession = Depends(g
             name = _dig(m, "name", default="")
             if not brand or not name:
                 continue
+            raw_picsrc1 = _dig(m, "picsrc", "picsrc1", default="")
+            raw_picsrc2 = _dig(m, "omitsrc", "picsrc2", default="")
             row = {
                 "brand": brand,
                 "name": name,
@@ -591,8 +688,8 @@ async def admin_import_store_data(request: Request, db: AsyncSession = Depends(g
                 "size": _dig(m, "info.overview.size", "size", default=""),
                 "concise": _dig(m, "concise", "info.concise", default=""),
                 "describe": _dig(m, "describe", "info.overview.describe", default=""),
-                "picsrc1": _dig(m, "picsrc", "picsrc1", default=""),
-                "picsrc2": _dig(m, "omitsrc", "picsrc2", default=""),
+                "picsrc1": asset_index.normalize_motor_picsrc(assets, raw_picsrc1, brand, name, 1),
+                "picsrc2": asset_index.normalize_motor_picsrc(assets, raw_picsrc2, brand, name, 2),
                 "top_time": str(_dig(m, "topTime", "top_time", default="0")),
                 "raw_data": json.dumps(m, ensure_ascii=False),
                 "last_synced_at": now,
@@ -713,6 +810,174 @@ async def admin_import_store_data(request: Request, db: AsyncSession = Depends(g
         logger.exception("store-data import failed")
         await db.rollback()
         return {"stat": "fail", "reason": str(e)}
+
+
+# ============================================================
+# Admin: CRUD (vehicles / motors / parts / additems)
+# Generic REST — list/create/get/update/delete per resource.
+# All JSON-body (distinct from the multipart /admin/import/* batch imports).
+# ============================================================
+
+_RESOURCE_MODELS = {
+    "vehicles": VehicleModel,
+    "motors": Motor,
+    "parts": Part,
+    "additems": AddItem,
+}
+
+
+def _filters_from_query(query_params: dict, model) -> dict:
+    allowed = crud.FILTERABLE.get(model, [])
+    return {k: v for k, v in query_params.items() if k in allowed}
+
+
+def _register_resource(slug: str, model):
+    """Register GET/POST/GET{id}/PATCH{id}/DELETE{id} for one resource."""
+
+    async def _list(request: Request, db: AsyncSession = Depends(get_db)):
+        qp = dict(request.query_params)
+        page = int(qp.pop("page", "1") or "1")
+        page_size = min(int(qp.pop("page_size", "100") or "100"), 500)
+        filters = _filters_from_query(qp, model)
+        return {"stat": "success", "data": await crud.list_rows(
+            db, model, page=page, page_size=page_size, filters=filters)}
+
+    async def _get_one(row_id: int, db: AsyncSession = Depends(get_db)):
+        row = await crud.get_row(db, model, row_id)
+        if row is None:
+            return {"stat": "fail", "reason": "not found"}
+        return {"stat": "success", "data": row}
+
+    async def _create(body: dict = Body(default={}), db: AsyncSession = Depends(get_db)):
+        try:
+            row = await crud.create_row(db, model, body)
+            return {"stat": "success", "data": row}
+        except ValueError as e:
+            return {"stat": "fail", "reason": str(e)}
+
+    async def _update(row_id: int, body: dict = Body(default={}), db: AsyncSession = Depends(get_db)):
+        try:
+            row = await crud.update_row(db, model, row_id, body)
+        except ValueError as e:
+            return {"stat": "fail", "reason": str(e)}
+        if row is None:
+            return {"stat": "fail", "reason": "not found"}
+        return {"stat": "success", "data": row}
+
+    async def _delete(row_id: int, db: AsyncSession = Depends(get_db)):
+        ok = await crud.delete_row(db, model, row_id)
+        return {"stat": "success"} if ok else {"stat": "fail", "reason": "not found"}
+
+    path = f"/admin/{slug}"
+    app.add_api_route(path, _list, methods=["GET"], dependencies=[Depends(_require_admin)])
+    app.add_api_route(path, _create, methods=["POST"], dependencies=[Depends(_require_admin)])
+    app.add_api_route(f"{path}/{{row_id}}", _get_one, methods=["GET"], dependencies=[Depends(_require_admin)])
+    app.add_api_route(f"{path}/{{row_id}}", _update, methods=["PATCH"], dependencies=[Depends(_require_admin)])
+    app.add_api_route(f"{path}/{{row_id}}", _delete, methods=["DELETE"], dependencies=[Depends(_require_admin)])
+
+
+for _slug, _model in _RESOURCE_MODELS.items():
+    _register_resource(_slug, _model)
+
+
+@app.get("/admin/meta", dependencies=[Depends(_require_admin)])
+async def admin_meta(db: AsyncSession = Depends(get_db)):
+    """Distinct brands/types per resource — feeds the selective-sync form
+    multi-selects and the CRUD filter dropdowns."""
+    return {
+        "stat": "success",
+        "data": {
+            "brands": {
+                "vehicles": await crud.distinct_values(db, VehicleModel, "brand"),
+                "motors": await crud.distinct_values(db, Motor, "brand"),
+                "parts": await crud.distinct_values(db, Part, "brand"),
+                "additems": await crud.distinct_values(db, AddItem, "brand"),
+            },
+            "types": {
+                "motors": await crud.distinct_values(db, Motor, "type"),
+                "parts": await crud.distinct_values(db, Part, "type"),
+                "additems": await crud.distinct_values(db, AddItem, "type"),
+            },
+        },
+    }
+
+
+# ============================================================
+# Admin: asset index (resolved image paths per brand/name/kind)
+# ============================================================
+
+@app.get("/admin/assets/summary", dependencies=[Depends(_require_admin)])
+async def admin_assets_summary(db: AsyncSession = Depends(get_db)):
+    """Counts per kind in the assets table. Empty result means the index
+    hasn't been seeded yet — hit POST /admin/assets/reindex first."""
+    from sqlalchemy import func as sa_func
+    stmt = select(Asset.kind, sa_func.count(Asset.id)).group_by(Asset.kind)
+    rows = (await db.execute(stmt)).all()
+    by_kind = {kind: count for (kind, count) in rows}
+    return {"stat": "success", "data": {"total": sum(by_kind.values()), "by_kind": by_kind}}
+
+
+@app.post("/admin/assets/reindex", dependencies=[Depends(_require_admin)])
+async def admin_assets_reindex(db: AsyncSession = Depends(get_db)):
+    """Rebuild the assets table from the committed frontend manifest JSONs
+    (src/data/motomate-{thumbnail,line,photo}-assets.json + motomate-catalog.json).
+
+    Idempotent upsert by (brand, name, kind). Stale rows not present in the
+    current manifests are LEFT alone — run DELETE FROM assets first if you
+    need a full rebuild.
+    """
+    try:
+        index = asset_index.build_index_from_files()
+        upserted = await asset_index.seed_db(db, index)
+        return {
+            "stat": "success",
+            "data": {"brand_name_pairs": len(index), "upserted": upserted},
+        }
+    except Exception as e:
+        return {"stat": "fail", "reason": str(e)}
+
+
+# ============================================================
+# Admin: image upload
+# ============================================================
+
+@app.post("/admin/upload", dependencies=[Depends(_require_admin)])
+async def admin_upload_image(file: UploadFile = File(...)):
+    """Upload an image to public/motomate/ and return its /motomate/... path.
+
+    The file is saved with a content-hash suffix so re-uploads of the same
+    bytes are deduplicated (same filename), while different files with the
+    same original name don't clobber each other.
+    """
+    content = await file.read()
+    if not content:
+        return {"stat": "fail", "reason": "empty file"}
+
+    # Limit: 10 MB (images only)
+    if len(content) > 10 * 1024 * 1024:
+        return {"stat": "fail", "reason": "file too large (max 10 MB)"}
+
+    original = file.filename or "upload.png"
+    ext = Path(original).suffix.lower() or ".png"
+    if ext not in (".png", ".jpg", ".jpeg", ".gif", ".webp", ".svg"):
+        return {"stat": "fail", "reason": f"unsupported extension: {ext}"}
+
+    stem = Path(original).stem
+    # Sanitize stem: keep alphanumeric, underscore, hyphen, space, CJK, +
+    safe_stem = "".join(
+        c for c in stem
+        if c.isalnum() or c in "_- +" or "一" <= c <= "鿿"
+    ).strip() or "upload"
+
+    digest = hashlib.md5(content).hexdigest()[:8]
+    filename = f"{safe_stem}.{digest}{ext}"
+
+    dest = MOTOMATE_DIR / filename
+    dest.write_bytes(content)
+
+    path = f"/motomate/{filename}"
+    logger.info(f"Uploaded image: {original} -> {path} ({len(content)} bytes)")
+    return {"stat": "success", "data": {"path": path}}
 
 
 if __name__ == "__main__":
