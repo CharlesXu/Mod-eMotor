@@ -1,21 +1,57 @@
 services:
-  app:
-    image: rdm-harbor.segway-ninebot.com/mod-emotor/frontend:latest
-    container_name: mod-emotor
-    restart: unless-stopped
-    ports:
-      - "3013:3000"
+  db:
+    image: postgres:16-alpine
+    container_name: emotor-db
     environment:
-      - NODE_ENV=production
-      - NEXT_TELEMETRY_DISABLED=1
+      POSTGRES_DB: emotor
+      POSTGRES_USER: emotor
+      POSTGRES_PASSWORD: emotor_secret
+    ports:
+      - "13432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    restart: unless-stopped
     healthcheck:
-      test: ["CMD", "wget", "--no-verbose", "--tries=1", "--spider", "http://localhost:3000"]
-      interval: 30s
+      test: ["CMD-SHELL", "pg_isready -U emotor"]
+      interval: 5s
       timeout: 5s
-      retries: 3
-      start_period: 10s
-    deploy:
-      resources:
-        limits:
-          memory: 256M
-          cpus: "0.5"
+      retries: 5
+
+  backend:
+    image: mod-emotor-backend:latest
+    container_name: emotor-backend
+    environment:
+      DATABASE_URL: "postgresql+asyncpg://emotor:emotor_secret@db:5432/emotor"
+      SYNC_DATABASE_URL: "postgresql+psycopg2://emotor:emotor_secret@db:5432/emotor"
+      LOCAL_AUTH_DISABLED: "true"
+      SYNC_ENABLED: "false"
+      ENV: "production"
+    depends_on:
+      db:
+        condition: service_healthy
+    restart: unless-stopped
+
+  frontend:
+    image: mod-emotor-frontend:latest
+    container_name: emotor-frontend
+    environment:
+      NODE_ENV: production
+      NEXT_TELEMETRY_DISABLED: 1
+    depends_on:
+      - backend
+    restart: unless-stopped
+
+  nginx:
+    image: nginx:alpine
+    container_name: emotor-nginx
+    ports:
+      - "3013:80"
+    volumes:
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf:ro
+    depends_on:
+      - frontend
+      - backend
+    restart: unless-stopped
+
+volumes:
+  pgdata:

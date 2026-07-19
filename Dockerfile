@@ -10,6 +10,9 @@ WORKDIR /app
 COPY --from=dependencies /app/node_modules ./node_modules
 COPY . .
 ENV NEXT_TELEMETRY_DISABLED=1
+# Backend URL for server-side rewrites (proxied through Next.js)
+ARG NEXT_PUBLIC_API_BASE=http://backend:3807
+ENV NEXT_PUBLIC_API_BASE=${NEXT_PUBLIC_API_BASE}
 RUN npm run build
 
 FROM node:${NODE_VERSION} AS runner
