@@ -106,7 +106,13 @@ export default function VehicleSelector({ catalog, onLoad }: VehicleSelectorProp
             }}
             type="button"
           >
-            <Image alt="" height={36} src={publicPath(brandIcons[brand.brand])} unoptimized width={36} />
+            {brandIcons[brand.brand] ? (
+              <Image alt="" height={36} src={publicPath(brandIcons[brand.brand])} unoptimized width={36} />
+            ) : (
+              <span className="motomate-brand-icon-fallback" aria-hidden="true">
+                {brand.brand.charAt(0)}
+              </span>
+            )}
             <span>{brand.brand}</span>
           </button>
         ))}

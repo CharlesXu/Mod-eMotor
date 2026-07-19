@@ -536,6 +536,19 @@ button {
   opacity: 0.55;
 }
 
+.motomate-brand-icon-fallback {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: rgba(65, 91, 117, 0.08);
+  font-size: 16px;
+  font-weight: 600;
+  color: inherit;
+}
+
 .motomate-brand-tab span {
   font-size: 16px;
   white-space: nowrap;
