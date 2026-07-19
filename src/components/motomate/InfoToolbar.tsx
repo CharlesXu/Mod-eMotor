@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useId, useRef, useState } from "react";
+import Link from "next/link";
 
 import AccessoryLibrary from "./AccessoryLibrary";
 
@@ -88,6 +89,7 @@ export default function InfoToolbar() {
         >
           配件
         </button>
+        <Link href="/admin">管理</Link>
         <button
           type="button"
           aria-haspopup="dialog"

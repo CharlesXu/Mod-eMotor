@@ -44,7 +44,8 @@ button {
   box-shadow: 0 4px 16px rgba(28, 49, 64, 0.08);
 }
 
-.motomate-info-toolbar button {
+.motomate-info-toolbar button,
+.motomate-info-toolbar > a {
   min-width: 62px;
   height: 34px;
   padding: 0 15px;
@@ -54,14 +55,21 @@ button {
   color: var(--motomate-accent);
   font-size: 13px;
   cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
 }
 
-.motomate-info-toolbar button:first-child {
+.motomate-info-toolbar button:first-child,
+.motomate-info-toolbar > a:first-child {
   border-left: 0;
 }
 
 .motomate-info-toolbar button:hover,
-.motomate-info-toolbar button:focus-visible {
+.motomate-info-toolbar button:focus-visible,
+.motomate-info-toolbar > a:hover,
+.motomate-info-toolbar > a:focus-visible {
   background: var(--motomate-soft);
   outline: 0;
 }
@@ -1039,7 +1047,8 @@ button {
     right: 10px;
   }
 
-  .motomate-info-toolbar button {
+  .motomate-info-toolbar button,
+  .motomate-info-toolbar > a {
     min-width: 56px;
     height: 36px;
     padding: 0 12px;
